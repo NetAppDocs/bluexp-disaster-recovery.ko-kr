@@ -1,0 +1,25 @@
+---
+sidebar: sidebar 
+permalink: use/replicate.html 
+keywords: disaster recovery, bluexp disaster recovery, failover, failback, replicate, fail over, fail back, vmware, vcenter 
+summary: NetApp BlueXP 재해 복구 서비스는 재해 복구 워크플로우를 자동화하는 클라우드 기반 재해 복구 서비스입니다. 
+---
+= 애플리케이션을 다른 사이트에 복제
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/use/
+
+
+[role="lead"]
+SnapMirror 복제를 사용하여 소스 사이트의 VMware 애플리케이션을 클라우드의 재해 복구 원격 사이트로 복제합니다.
+
+
+TIP: 재해 복구 계획을 생성한 후 마법사에서 반복을 식별하고 재해 복구 사이트로의 복제를 시작하면 BlueXP 재해 복구 30분마다 계획에 따라 복제가 실제로 수행되는지 확인합니다. 작업 모니터 페이지에서 검사를 모니터링할 수 있습니다.
+
+.단계
+. BlueXP 왼쪽 NAV에서 * Protection * > * Disaster Recovery * 를 선택합니다.
+. 상단 메뉴에서 * Replication Plans * 를 선택합니다.
+. 재해 복구 계획을 선택합니다.
+. 오른쪽에서 * Actions * 옵션을 선택합니다 image:../use/icon-horizontal-dots.png["BlueXP 재해 복구 서비스의 작업 메뉴 아이콘"] 복제 * 를 선택합니다.
+

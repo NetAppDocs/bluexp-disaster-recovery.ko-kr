@@ -1,0 +1,23 @@
+---
+sidebar: sidebar 
+permalink: use/monitor-jobs.html 
+keywords: disaster recovery, bluexp disaster recovery, failover, failback, replicate, fail over, fail back, vmware, vcenter 
+summary: NetApp BlueXP 재해 복구 서비스는 재해 복구 워크플로우를 자동화하는 클라우드 기반 재해 복구 서비스입니다. 
+---
+= 재해 복구 작업을 모니터링합니다
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/use/
+
+
+[role="lead"]
+모든 재해 복구 작업을 모니터링하고 진행 상황을 확인할 수 있습니다.
+
+.단계
+. BlueXP 왼쪽 NAV에서 * Protection * > * Disaster Recovery * 를 선택합니다.
+. 상단 메뉴에서 * 작업 모니터링 * 을 선택합니다.
+. 작업과 관련된 모든 작업을 탐색하고 해당 타임스탬프와 상태를 검토합니다.
+. 특정 작업의 세부 정보를 보려면 해당 행을 선택합니다.
+. 정보를 새로 고치려면 * 새로 고침 * 을 선택합니다.
+

@@ -1,0 +1,39 @@
+---
+sidebar: sidebar 
+permalink: release-notes/dr-limitations.html 
+keywords: disaster recovery, bluexp 
+summary: 알려진 제한 사항은 이 서비스 릴리스에서 지원하지 않거나 올바르게 상호 운용되지 않는 플랫폼, 장치 또는 기능을 식별합니다. 
+---
+= 제한 사항
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/use/
+
+
+[role="lead"]
+알려진 제한 사항은 이 서비스 릴리스에서 지원하지 않거나 올바르게 상호 운용되지 않는 플랫폼, 장치 또는 기능을 식별합니다.
+
+
+
+== BlueXP가 Amazon FSx for NetApp ONTAP을 발견하지 못할 수도 있습니다
+
+BlueXP가 Amazon FSx for NetApp ONTAP 클러스터를 검색하지 못하는 경우가 있습니다. FSx 자격 증명이 올바르지 않기 때문일 수 있습니다.
+
+* 해결 방법 *: BlueXP에 Amazon FSx for NetApp ONTAP 클러스터를 추가하고 주기적으로 클러스터를 업데이트하여 변경 사항을 표시합니다.
+
+BlueXP 재해 복구 서비스에서 ONTAP FSx 클러스터를 제거해야 하는 경우 다음 단계를 완료하십시오.
+
+. BlueXP Connector에서 클라우드 공급자의 연결 옵션을 사용하고, Connector가 실행되는 Linux VM에 연결하고, 를 사용하여 "occm" 서비스를 다시 시작합니다 `docker restart occm` 명령.
++
+을 참조하십시오 https://docs.netapp.com/us-en/bluexp-setup-admin/task-managing-connectors.html#connect-to-the-linux-vm["기존 커넥터 관리"^].
+
+. BlueXP Canvas에서 Amazon FSx for ONTAP 환경을 다시 추가하고 FSx 자격 증명을 제공합니다.
++
+을 참조하십시오 https://docs.aws.amazon.com/fsx/latest/ONTAPGuide/getting-started-step1.html["Amazon FSx for NetApp ONTAP 파일 시스템을 생성합니다"^].
+
+. BlueXP 재해 복구에서 * Sites * 를 선택하고 vCenter 행에서 * Actions * 옵션을 선택합니다 image:../use/icon-vertical-dots.png["BlueXP 재해 복구 서비스의 작업 메뉴 아이콘"]그리고 Actions 메뉴에서 * Refresh * 를 선택하여 BlueXP 재해 복구에서 FSx 검색을 업데이트합니다.
++
+그러면 데이터 저장소, 해당 가상 머신 및 대상 관계가 다시 검색됩니다.
+
+

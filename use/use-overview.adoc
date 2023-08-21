@@ -1,0 +1,24 @@
+---
+sidebar: sidebar 
+permalink: use/use-overview.html 
+keywords: disaster recovery remediate, disaster recovery, failover, failback, replication 
+summary: NetApp BlueXP 재해 복구 서비스는 재해 복구 워크플로우를 자동화하는 클라우드 기반 재해 복구 서비스입니다. 
+---
+= BlueXP 재해 복구 개요 사용
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/use/
+
+
+[role="lead"]
+BlueXP 재해 복구를 사용하면 다음과 같은 목표를 달성할 수 있습니다.
+
+* link:../use/sites-add.html["vCenter 사이트를 추가합니다"].
+* link:../use/drplan-create.html["재해 복구 계획을 수립합니다"].
+* link:../use/replicate.html["VMware 애플리케이션 복제"] SnapMirror 복제를 사용하여 클라우드의 재해 복구 원격 사이트에 연결합니다.
+* link:../use/failover.html["페일오버를 테스트합니다"] 기존 가상 머신을 중단하지 않습니다.
+* 재해 발생 시 link:../use/failover.html["기본 사이트를 페일오버합니다"] NetApp ONTAP를 지원하는 AWS 기반 VMware Cloud로 마이그레이션합니다.
+* 재해가 해결된 후 link:../use/failback.html["페일백"] 기본 사이트로 마이그레이션합니다.
+* link:../use/monitor.html["재해 복구 작업 모니터링"] 작업 모니터링 페이지
+

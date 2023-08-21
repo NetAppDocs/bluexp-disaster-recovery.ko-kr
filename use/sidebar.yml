@@ -1,0 +1,20 @@
+---
+section: use
+title: BlueXP 재해 복구 사용
+entries:
+- title: BlueXP 재해 복구 개요 사용
+  url: "/use/use-overview.html"
+- title: vCenter 사이트를 추가합니다
+  url: "/use/sites-add.html"
+- title: 재해 복구 계획을 수립합니다
+  url: "/use/drplan-create.html"
+- title: 다른 사이트로 복제
+  url: "/use/replicate.html"
+- title: 원격 사이트로 페일오버
+  url: "/use/failover.html"
+- title: 애플리케이션을 원래 소스 사이트로 페일백합니다
+  url: "/use/failback.html"
+- title: 사이트, 계획, 데이터 저장소 및 가상 머신 정보를 관리합니다
+  url: "/use/manage.html"
+- title: 재해 복구 작업을 모니터링합니다
+  url: "/use/monitor-jobs.html"

@@ -1,0 +1,82 @@
+---
+sidebar: sidebar 
+permalink: get-started/dr-setup.html 
+keywords: bluexp, disaster recovery, 
+summary: BlueXP 재해 복구를 사용하려면 몇 단계를 수행하여 설정하십시오. 
+---
+= BlueXP 재해 복구 설정
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/get-started/
+
+
+[role="lead"]
+BlueXP 재해 복구를 사용하려면 몇 단계를 수행하여 설정하십시오.
+
+* 검토 link:../get-started/dr-prerequisites.html["필수 구성 요소"] 환경을 준비합니다.
+* AWS의 경우:
++
+** AWS 기반 VMware Cloud를 구축하고 구성합니다.
+** Amazon FSx for ONTAP 파일 시스템을 생성합니다. FSx for ONTAP를 프로비저닝하고 구성합니다.
+** VMware 계정을 사용하여 SDDC(소프트웨어 정의 데이터 센터)를 프로비저닝합니다. SDDC가 FSx for ONTAP와 연결되어 있는지 확인합니다.
+
+
+* BlueXP의 경우:
++
+** ONTAP용 FSx에 SnapMirror를 구축하고 구성합니다
+** 온프레미스 ONTAP 스토리지 작업 환경을 BlueXP에 추가합니다. 이것이 소스 ONTAP 클러스터입니다.
+** BlueXP 계정을 추가하고, 작업 환경에 FSxN을 추가하고, FSx for ONTAP에 대한 AWS 자격 증명을 추가합니다.
+
+
+
+
+
+
+== AWS에서 설정
+
+AWS에서는 다음 단계를 수행해야 합니다.
+
+* VMware 클라우드를 구축합니다
+* Amazon FSx for ONTAP을 구성합니다
+
+
+
+
+=== VMware 클라우드를 구축합니다
+
+https://www.vmware.com/products/vmc-on-aws.html["AWS 기반 VMware 클라우드"^] AWS 에코시스템의 VMware 기반 워크로드에 클라우드 네이티브 경험을 제공합니다. 각 VMware SDDC(소프트웨어 정의 데이터 센터)는 Amazon VPC(Virtual Private Cloud)에서 실행되며 전체 VMware 스택(vCenter Server 포함), NSX-T 소프트웨어 정의 네트워킹, vSAN 소프트웨어 정의 스토리지 및 워크로드에 컴퓨팅 및 스토리지 리소스를 제공하는 하나 이상의 ESXi 호스트를 제공합니다.
+
+AWS에서 VMC 환경을 구성하려면 다음 단계를 수행하십시오 https://docs.netapp.com/us-en/netapp-solutions/ehc/aws/aws-setup.html["링크"^]. 파일럿 라이트 클러스터는 재해 복구 목적으로도 사용할 수 있습니다.
+
+
+
+=== Amazon FSx for NetApp ONTAP을 구성합니다
+
+NetApp ONTAP용 Amazon FSx는 널리 사용되는 NetApp ONTAP 파일 시스템에 구축된 매우 안정적이고 확장 가능하며 고성능의 풍부한 기능 파일 스토리지를 제공하는 완전 관리형 서비스입니다. 이 단계를 따릅니다 https://docs.netapp.com/us-en/netapp-solutions/ehc/aws/aws-native-overview.html["링크"^] FSx for NetApp ONTAP을 프로비저닝하고 구성하려면
+
+
+
+== BlueXP에서 설정
+
+다음 단계는 BlueXP에서 재해 복구를 설정하는 것입니다.
+
+
+
+=== BlueXP에서 커넥터를 만듭니다
+
+이 서비스를 이용하려면 베타에 가입하거나 NetApp 영업 담당자에게 문의하십시오. BlueXP Connector를 사용할 때 재해 복구 서비스에 대한 적절한 기능이 포함되어 있습니다.
+
+서비스를 사용하기 전에 BlueXP에서 커넥터를 만들려면 에 설명된 BlueXP 설명서를 참조하십시오 https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html["커넥터를 만드는 방법"^].
+
+
+
+=== Amazon FSx for NetApp ONTAP용 SnapMirror를 구성합니다
+
+다음 단계는 BlueXP에서 재해 복구를 설정하는 것입니다.
+
+. BlueXP에서 계정을 추가합니다. 을 참조하십시오 https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-netapp-accounts.html["계정 추가 방법에 대한 BlueXP 문서"^].
+. 작업 환경에 Amazon FSx for NetApp ONTAP 추가 ONTAP 클러스터와의 SnapMirror 관계가 형성되고 FSx for NetApp ONTAP 대상이 되는지 확인합니다. 을 참조하십시오 https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-creating-fsx-working-environment.html["FSx for ONTAP 작업 환경을 설정하는 방법"^].
+. BlueXP에서 SnapMirror를 FSx for NetApp ONTAP에 구축합니다.
+. BlueXP에서 AWS 인스턴스에서 프로비저닝된 FSx for NetApp ONTAP를 검색하고 지정된 데이터 저장소 볼륨을 적절한 빈도와 NetApp 스냅샷 복사본 보존을 통해 온프레미스 환경에서 FSx for NetApp ONTAP으로 복제합니다.
+

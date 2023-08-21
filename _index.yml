@@ -1,0 +1,42 @@
+---
+indexpage:
+  lead: '클라우드에 대한 재해 복구는 사이트 중단 및 데이터 손상 이벤트(예: 랜섬웨어)로부터 워크로드를 보호하는 복원력과 비용 효율적인 방법입니다.
+    VMware 베타에 대한 BlueXP 재해 복구를 사용하면 ONTAP 스토리지를 실행하는 온프레미스 VMware 워크로드를 퍼블릭 클라우드의
+    VMware 소프트웨어 정의 데이터 센터로 복제할 수 있습니다. NetApp 클라우드 스토리지를 사용하면 재해 복구 사이트로 복제할 수 있습니다.'
+  tiles:
+  - title: 시작하십시오
+    links:
+    - title: BlueXP 재해 복구에 대해 자세히 알아보십시오
+      url: "/get-started/dr-intro.html"
+    - title: BlueXP 재해 복구의 새로운 기능
+      url: "/release-notes/dr-whats-new.html"
+    - title: 빠른 시작
+      url: "/get-started/dr-quick-start.html"
+    - title: 필수 구성 요소
+      url: "/get-started/dr-prerequisites.html"
+    - title: BlueXP 재해 복구에 액세스합니다
+      url: "/get-started/dr-login.html"
+    - title: FAQ 를 참조하십시오
+      url: "/get-started/dr-faq.html"
+  - title: BlueXP 재해 복구 사용
+    links:
+    - title: vCenter 사이트를 추가합니다
+      url: "/use/sites-add.html"
+    - title: 재해 복구 계획을 수립합니다
+      url: "/use/drplan-create.html"
+    - title: 앱을 다른 사이트로 복제합니다
+      url: "/use/replicate.html"
+    - title: 앱을 원격 사이트로 페일오버합니다
+      url: "/use/failover.html"
+    - title: 앱을 원래 소스 사이트로 페일백합니다
+      url: "/use/failback.html"
+    - title: 사이트, 계획, 데이터 저장소 및 가상 머신 정보를 관리합니다
+      url: "/use/manage.html"
+    - title: 재해 복구 작업을 모니터링합니다
+      url: "/use/monitor-jobs.html"
+  - title: 블로그 및 커뮤니티
+    links:
+    - title: NetApp 커뮤니티
+      url: https://community.netapp.com/t5/BlueXP-and-Services/ct-p/CDS
+    - title: 클라우드 웨비나
+      url: https://bluexp.netapp.com/events
