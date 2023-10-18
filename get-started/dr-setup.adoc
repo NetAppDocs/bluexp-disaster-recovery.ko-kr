@@ -12,24 +12,10 @@ summary: BlueXP 재해 복구를 사용하려면 몇 단계를 수행하여 설�
 
 
 [role="lead"]
-BlueXP 재해 복구를 사용하려면 몇 단계를 수행하여 설정하십시오.
-
-* 검토 link:../get-started/dr-prerequisites.html["필수 구성 요소"] 환경을 준비합니다.
-* AWS의 경우:
-+
-** AWS 기반 VMware Cloud를 구축하고 구성합니다.
-** Amazon FSx for ONTAP 파일 시스템을 생성합니다. FSx for ONTAP를 프로비저닝하고 구성합니다.
-** VMware 계정을 사용하여 SDDC(소프트웨어 정의 데이터 센터)를 프로비저닝합니다. SDDC가 FSx for ONTAP와 연결되어 있는지 확인합니다.
+BlueXP 재해 복구를 사용하려면 몇 가지 단계를 수행하여 AWS와 BlueXP에서 모두 설정하십시오.
 
 
-* BlueXP의 경우:
-+
-** ONTAP용 FSx에 SnapMirror를 구축하고 구성합니다
-** 온프레미스 ONTAP 스토리지 작업 환경을 BlueXP에 추가합니다. 이것이 소스 ONTAP 클러스터입니다.
-** BlueXP 계정을 추가하고, 작업 환경에 FSxN을 추가하고, FSx for ONTAP에 대한 AWS 자격 증명을 추가합니다.
-
-
-
+TIP: 검토 link:../get-started/dr-prerequisites.html["필수 구성 요소"] 환경을 준비합니다.
 
 
 
@@ -37,8 +23,9 @@ BlueXP 재해 복구를 사용하려면 몇 단계를 수행하여 설정하십�
 
 AWS에서는 다음 단계를 수행해야 합니다.
 
-* VMware 클라우드를 구축합니다
-* Amazon FSx for ONTAP을 구성합니다
+* AWS 기반 VMware Cloud를 구축하고 구성합니다.
+* Amazon FSx for ONTAP 파일 시스템을 생성합니다. FSx for ONTAP를 프로비저닝하고 구성합니다.
+* VMware 계정을 사용하여 SDDC(소프트웨어 정의 데이터 센터)를 프로비저닝합니다. SDDC가 FSx for ONTAP와 연결되어 있는지 확인합니다.
 
 
 
@@ -61,13 +48,21 @@ NetApp ONTAP용 Amazon FSx는 널리 사용되는 NetApp ONTAP 파일 시스템�
 
 다음 단계는 BlueXP에서 재해 복구를 설정하는 것입니다.
 
+* BlueXP에서 커넥터를 만듭니다.
+* Amazon FSx for NetApp ONTAP용 SnapMirror를 구축하고 구성합니다.
+* 온프레미스 ONTAP 스토리지 작업 환경을 BlueXP에 추가합니다. 이것이 소스 ONTAP 클러스터입니다.
+* BlueXP 계정을 추가하고, 작업 환경에 FSxN을 추가하고, FSx for ONTAP에 대한 AWS 자격 증명을 추가합니다.
+
+
 
 
 === BlueXP에서 커넥터를 만듭니다
 
-이 서비스를 이용하려면 베타에 가입하거나 NetApp 영업 담당자에게 문의하십시오. BlueXP Connector를 사용할 때 재해 복구 서비스에 대한 적절한 기능이 포함되어 있습니다.
+미리 보기에 등록하거나 NetApp 영업 담당자에게 연락하여 이 서비스를 체험해 보십시오. BlueXP Connector를 사용할 때 재해 복구 서비스에 대한 적절한 기능이 포함되어 있습니다.
 
 서비스를 사용하기 전에 BlueXP에서 커넥터를 만들려면 에 설명된 BlueXP 설명서를 참조하십시오 https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html["커넥터를 만드는 방법"^].
+
+소스 온프레미스 vCenter 및 타겟 온프레미스 vCenter에 액세스할 수 있는 BlueXP 온프레미스 커넥터 또는 BlueXP AWS Connector를 사용하십시오.
 
 
 

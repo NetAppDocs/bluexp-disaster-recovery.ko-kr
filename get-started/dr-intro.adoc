@@ -4,7 +4,7 @@ permalink: get-started/dr-intro.html
 keywords: how bluexp disaster recovery works, what is disaster recovery, bluexp, vmware, vcenter, draas, replicate, failover, failback, fail over, fail back 
 summary: 클라우드 재해 복구는 사이트 정전 및 데이터 손상으로부터 워크로드를 보호하는 복원력과 비용 효율적인 방법입니다. VMware용 BlueXP 재해 복구를 사용하면 NetApp 클라우드 스토리지를 사용하여 ONTAP 스토리지를 실행하는 온프레미스 VMware 워크로드를 퍼블릭 클라우드의 VMware 소프트웨어 정의 데이터 센터로 복제하여 재해 복구 사이트로 복제할 수 있습니다. 
 ---
-= VMware 베타를 위한 BlueXP 재해 복구 에 관해 알아보십시오
+= VMware 미리보기를 위한 BlueXP 재해 복구 기능에 대해 알아보십시오
 :hardbreaks:
 :allow-uri-read: 
 :icons: font
@@ -12,21 +12,23 @@ summary: 클라우드 재해 복구는 사이트 정전 및 데이터 손상으�
 
 
 [role="lead"]
-클라우드 재해 복구는 사이트 정전 및 데이터 손상으로부터 워크로드를 보호하는 복원력과 비용 효율적인 방법입니다. VMware 베타에 대한 BlueXP 재해 복구를 사용하면 ONTAP 스토리지를 실행하는 온프레미스 VMware 워크로드를 퍼블릭 클라우드의 VMware 소프트웨어 정의 데이터 센터로 복제할 수 있습니다. NetApp 클라우드 스토리지를 사용하면 재해 복구 사이트로 복제할 수 있습니다.
+클라우드 재해 복구는 사이트 정전 및 데이터 손상으로부터 워크로드를 보호하는 복원력과 비용 효율적인 방법입니다. VMware용 BlueXP 재해 복구 미리 보기를 통해 ONTAP 스토리지를 실행하는 온프레미스 VMware 워크로드를 퍼블릭 클라우드의 VMware 소프트웨어 정의 데이터 센터로 복제하거나 NetApp ONTAP 스토리지를 재해 복구 사이트로 사용하는 다른 온프레미스 VMware 환경으로 복제할 수 있습니다.
 
-BlueXP 재해 복구 베타는 재해 복구 워크플로우를 자동화하는 클라우드 기반 재해 복구 서비스입니다. 처음에는 BlueXP 재해 복구 베타를 사용하면 NetApp 스토리지를 실행하는 온프레미스 NFS 기반 VMware 워크로드를 Amazon FSx for NetApp ONTAP를 통해 AWS의 VMware 클라우드(VMC)로 보호할 수 있습니다.
+BlueXP 재해 복구 사전 공개는 재해 복구 워크플로우를 자동화하는 클라우드 기반 재해 복구 서비스입니다. 처음에는 BlueXP 재해 복구 미리 보기를 통해 NetApp 스토리지를 실행하는 온프레미스, NFS 기반 VMware 워크로드를 다음 중 하나로 보호할 수 있습니다.
 
-BlueXP 재해 복구 베타는 ONTAP SnapMirror 기술을 클라우드로 복제하는 수단으로 사용합니다. 따라서 운영 사이트와 2차 사이트에서 업계 최고의 스토리지 효율성(압축 및 중복제거)을 실현할 수 있습니다.
-
-Beta는 온프레미스 워크로드의 재해 복구를 지원하여 클라우드에 데이터를 배포할 수 있습니다.
-
-image:draas-onprem-to-cloud.png["VMware용 BlueXP 재해 복구의 구성 요소를 보여주는 다이어그램"]
+* Amazon FSx for NetApp ONTAP 또는 을 사용하는 AWS 기반 VMware Cloud(VMC
+* ONTAP 스토리지를 갖춘 또 다른 온프레미스 NFS 기반 VMware 환경
 
 
+BlueXP 재해 복구 미리 보기에서는 ONTAP SnapMirror 기술을 재해 복구 사이트로 복제하는 방식으로 사용합니다. 따라서 운영 사이트와 2차 사이트에서 업계 최고의 스토리지 효율성(압축 및 중복제거)을 실현할 수 있습니다.
 
-== VMware 베타에 BlueXP 재해 복구를 사용할 때의 이점
+image:draas-onprem-to-cloud-onprem.png["VMware용 BlueXP 재해 복구의 구성 요소를 보여주는 다이어그램"]
 
-BlueXP 재해 복구 베타는 다음과 같은 이점을 제공합니다.
+
+
+== VMware 미리 보기에 BlueXP 재해 복구를 사용할 때의 이점
+
+BlueXP 재해 복구 사전 공개는 다음과 같은 이점을 제공합니다.
 
 * 여러 시점 복구 작업을 통해 vCenter 검색 및 애플리케이션 복구를 위한 간소화된 사용자 환경 
 * 운영 비용을 절감하고 최소한의 리소스로 재해 복구 계획을 생성 및 조정할 수 있는 기능을 통해 총 소유 비용을 절감합니다
@@ -36,16 +38,15 @@ BlueXP 재해 복구 베타는 다음과 같은 이점을 제공합니다.
 
 
 
-== VMware 베타용 BlueXP 재해 복구로 수행할 수 있는 작업
+== VMware 미리보기를 위한 BlueXP 재해 복구로 수행할 수 있는 작업
 
-BlueXP 재해 복구 베타에서는 여러 NetApp 기술을 최대한 활용하여 다음과 같은 목표를 달성할 수 있습니다.
+BlueXP 재해 복구 미리 보기에서는 몇 가지 NetApp 기술을 완벽하게 사용하여 다음과 같은 목표를 달성할 수 있습니다.
 
-* SnapMirror 복제를 사용하여 프로덕션 사이트의 VMware 애플리케이션을 클라우드의 재해 복구 원격 사이트로 복제합니다.
-* 재해가 발생하면 필요 시 운영 사이트를 VMware Cloud on AWS의 NetApp 클라우드 볼륨으로 페일오버합니다.
+* SnapMirror 복제를 사용하여 온프레미스 프로덕션 사이트의 VMware 애플리케이션을 클라우드의 재해 복구 원격 사이트로 복제합니다.
+* VMware 워크로드를 원래 사이트에서 다른 사이트로 마이그레이션합니다.
+* 재해가 발생하면 기본 사이트를 필요 시 FSx for NetApp ONTAP 기반 VMware Cloud 또는 ONTAP를 통해 온프레미스 VMware 환경과 같은 재해 복구 사이트로 페일오버합니다.
 * 재해가 해결되면 필요 시 재해 복구 사이트에서 운영 사이트로 장애 복구를 수행합니다.
 
-
-NetApp SnapMirror 기술을 사용하면 온프레미스 VMware 워크로드(NFS용)를 AWS에서 실행되는 FSx for NetApp ONTAP에 복제할 수 있습니다.
 
 
 NOTE: vSphere 서버 구성은 vSphere Server의 BlueXP 재해 복구 외부에서 수행됩니다.
@@ -54,21 +55,25 @@ NOTE: vSphere 서버 구성은 vSphere Server의 BlueXP 재해 복구 외부에�
 
 == 비용
 
-NetApp은 BlueXP 재해 복구 베타 버전을 사용하는 것에 대한 비용을 청구하지 않습니다.
+NetApp은 BlueXP 재해 복구의 미리보기 버전을 사용하는 것에 대한 비용을 청구하지 않습니다.
 
 BlueXP 재해 복구 서비스는 GA될 때 언제든지 사용할 수 있는 용량제 가격 또는 연간 구독 기반 계획을 제공할 수 있습니다.
 
 
 
-== BlueXP 재해 복구 베타의 작동 방식
+== BlueXP 재해 복구 미리 보기의 작동 방식
 
-BlueXP 재해 복구 베타는 온프레미스에서 Amazon FSx for ONTAP로 복제된 워크로드를 복구할 수 있습니다. 이 서비스는 SnapMirror 레벨에서 VMC(Virtual Machine Cloud)에 대한 가상 머신 등록을 통해, VMware 네트워크 가상화 및 보안 플랫폼 NSX-T에 대한 네트워크 매핑을 통해 복구를 자동화합니다 이 기능은 모든 Virtual Machine Cloud 환경에 포함되어 있습니다.
+BlueXP 재해 복구 사전 공개는 온프레미스 사이트에서 Amazon FSx for ONTAP 또는 다른 온프레미스 사이트로 복제된 워크로드를 복구할 수 있습니다. 이 서비스는 SnapMirror 레벨에서 VMC(Virtual Machine Cloud)에 대한 가상 머신 등록을 통해, VMware 네트워크 가상화 및 보안 플랫폼 NSX-T에 대한 네트워크 매핑을 통해 복구를 자동화합니다 이 기능은 모든 Virtual Machine Cloud 환경에 포함되어 있습니다.
 
-BlueXP 재해 복구 베타에서는 매우 효율적인 복제를 제공하고 ONTAP 증분식 영구 스냅샷 효율성을 유지하는 ONTAP SnapMirror 기술을 사용합니다. SnapMirror 복제를 통해 애플리케이션 정합성이 보장된 Snapshot 복사본이 항상 동기화되고 페일오버 후 즉시 데이터를 사용할 수 있습니다.
+BlueXP 재해 복구 사전 공개에서는 매우 효율적인 복제를 제공하고 ONTAP 영구 증분 스냅샷 효율성을 유지하는 ONTAP SnapMirror 기술을 사용합니다. SnapMirror 복제를 통해 애플리케이션 정합성이 보장된 Snapshot 복사본이 항상 동기화되고 페일오버 후 즉시 데이터를 사용할 수 있습니다.
 
 image:dr-architecture-diagram-70.png["VMware 서비스 인프라에 대한 BlueXP 재해 복구 아키텍처를 보여 주는 다이어그램"]
 
-재해가 있을 때 이 서비스는 SnapMirror 관계를 끊고 대상 사이트를 활성화함으로써 VMC에서 가상 머신을 복구하는 데 도움을 줍니다.
+다음 다이어그램은 온프레미스 간 재해 복구 계획의 아키텍처를 보여 줍니다.
+
+image:dr-architecture-diagram-onprem-to-onprem.png["VMware 서비스 인프라에 대한 BlueXP 재해 복구 아키텍처를 보여 주는 다이어그램"]
+
+재해가 있을 때 이 서비스는 SnapMirror 관계를 끊고 대상 사이트를 활성 상태로 만들어 다른 온프레미스 VMware 환경 또는 VMC에서 가상 머신을 복구하는 데 도움을 줍니다.
 
 * 또한 이 서비스를 통해 가상 머신을 원래 소스 위치로 페일백할 수 있습니다.
 * 원래 가상 시스템을 중단하지 않고 재해 복구 페일오버 프로세스를 테스트할 수 있습니다. 테스트는 볼륨의 FlexClone을 생성하여 격리된 네트워크로 가상 머신을 복구합니다.
