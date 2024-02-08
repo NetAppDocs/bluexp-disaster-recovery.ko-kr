@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar 
 permalink: release-notes/dr-whats-new.html 
-keywords: disaster recovery faq, bluexp, disaster recovery frequently asked questions, vmware, vcenter 
-summary: BlueXP 재해 복구는 재해 복구 워크플로우를 자동화하는 클라우드 기반 재해 복구 서비스입니다. 
+keywords: disaster recovery, bluexp, disaster recovery, vmware, vcenter 
+summary: BlueXP 재해 복구는 재해 복구 워크플로우를 자동화하는 클라우드 기반 재해 복구 서비스입니다. VMware용 BlueXP 재해 복구를 사용하면 NetApp 클라우드 스토리지를 사용하여 ONTAP 스토리지를 실행하는 온프레미스 VMware 워크로드를 퍼블릭 클라우드의 VMware 소프트웨어 정의 데이터 센터로 복제하여 재해 복구 사이트로 복제할 수 있습니다. 
 ---
 = 새로운 기능
 :hardbreaks:
@@ -13,6 +13,54 @@ summary: BlueXP 재해 복구는 재해 복구 워크플로우를 자동화하�
 
 [role="lead"]
 BlueXP 재해 복구 미리 보기에서 새로운 기능을 알아보십시오.
+
+
+
+== 2024년 2월 1일
+
+이 BlueXP 재해 복구 릴리즈에는 다음 업데이트가 포함됩니다.
+
+* * 네트워크 향상 * : 이 릴리스에서는 이제 VM CPU 및 RAM 값의 크기를 조정할 수 있습니다. 이제 VM에 대한 네트워크 DHCP 또는 정적 IP 주소를 선택할 수도 있습니다.
++
+** DHCP: 이 옵션을 선택하면 VM에 대한 자격 증명을 제공합니다.
+** 정적 IP: 소스 VM에서 동일하거나 다른 정보를 선택할 수 있습니다. 원본과 동일한 을 선택하면 자격 증명을 입력할 필요가 없습니다. 반면 원본과 다른 정보를 사용하도록 선택한 경우 자격 증명, IP 주소, 서브넷 마스크, DNS 및 게이트웨이 정보를 제공할 수 있습니다.
++
+자세한 내용은 을 참조하십시오 https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/drplan-create.html["복제 계획을 생성합니다"].
+
+
+
+* * 사용자 정의 스크립트 * 는 이제 사후 장애 조치 프로세스로 포함될 수 있습니다. 사용자 지정 스크립트를 사용하면 페일오버 프로세스 후에 BlueXP 재해 복구로 스크립트를 실행할 수 있습니다. 예를 들어, 페일오버가 완료된 후 사용자 지정 스크립트를 사용하여 모든 데이터베이스 트랜잭션을 재개할 수 있습니다.
++
+자세한 내용은 을 참조하십시오 https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/failover.html["원격 사이트로 페일오버"].
+
+* * SnapMirror 관계 *: 이제 복제 계획을 개발하는 동안 SnapMirror 관계를 생성할 수 있습니다. 이전에는 BlueXP 재해 복구 외부에 관계를 생성해야 했습니다.
++
+자세한 내용은 을 참조하십시오 https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/drplan-create.html["복제 계획을 생성합니다"].
+
+* * 정합성 보장 그룹 *: 복제 계획을 생성할 때 다른 볼륨과 다른 SVM의 VM을 포함할 수 있습니다. BlueXP 재해 복구를 통해 모든 볼륨을 포함하여 일관성 그룹 스냅샷을 생성하고 모든 2차 위치를 업데이트합니다.
++
+자세한 내용은 을 참조하십시오 https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/drplan-create.html["복제 계획을 생성합니다"].
+
+* * VM 전원 공급 지연 옵션 *: 복제 계획을 생성할 때 리소스 그룹에 VM을 추가할 수 있습니다. 리소스 그룹을 사용하면 각 VM에 지연 시간을 설정하여 지연된 시퀀스에서 전원을 켤 수 있습니다.
++
+자세한 내용은 을 참조하십시오 https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/drplan-create.html["복제 계획을 생성합니다"].
+
+* * 애플리케이션 정합성 보장 스냅샷 복사본 *: 애플리케이션 정합성이 보장된 스냅샷 복사본을 생성하도록 지정할 수 있습니다. 이 서비스는 응용 프로그램을 중지한 다음 스냅샷을 생성하여 응용 프로그램의 일관된 상태를 확보합니다.
++
+자세한 내용은 을 참조하십시오 https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/drplan-create.html["복제 계획을 생성합니다"].
+
+
+
+
+
+== 2024년 1월 11일
+
+이 BlueXP 재해 복구 릴리즈에는 다음 업데이트가 포함됩니다.
+
+* 이 릴리즈를 사용하면 대시보드에서 다른 페이지의 정보에 더 빠르게 액세스할 수 있습니다.
+
+
+https://docs.netapp.com/us-en/bluexp-disaster-recovery/get-started/dr-intro.html["BlueXP 재해 복구에 대해 자세히 알아보십시오"].
 
 
 

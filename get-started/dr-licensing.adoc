@@ -1,0 +1,430 @@
+---
+sidebar: sidebar 
+permalink: get-started/dr-licensing.html 
+keywords: bluexp license, disaster recovery licensing 
+summary: BlueXP 재해 복구를 통해 무료 평가판, 용량제 구독 또는 자체 라이센스 서비스를 비롯한 다양한 라이센스 계획을 사용할 수 있습니다. 
+---
+= BlueXP 재해 복구를 위한 라이센스 설정
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/get-started/
+
+
+[role="lead"]
+BlueXP 재해 복구를 통해 무료 평가판, 용량제 구독 또는 자체 라이센스 서비스를 비롯한 다양한 라이센스 계획을 사용할 수 있습니다.
+
+다음 라이센스 유형 중 하나를 사용할 수 있습니다.
+
+* 90일 무료 평가판을 신청하십시오.
+* AWS(Amazon Web Services) Marketplace를 통해 1, 2 또는 3년간 용량제(PAYGO) 구독을 구매합니다.
+* BYOL(Bring Your Own License): NetApp 세일즈 담당자 또는 NSS(NetApp Support 사이트)로부터 받는 NLF(NetApp 라이센스 파일) NLF를 BlueXP 디지털 지갑에 직접 업로드하거나 라이센스 일련 번호를 사용하여 BlueXP 디지털 지갑에서 BYOL을 활성화할 수 있습니다.
+
+
+
+NOTE: BlueXP 재해 복구 비용은 복제 계획이 있는 VM이 하나 이상 있을 때 소스 사이트에 프로비저닝된 데이터 저장소 용량을 기반으로 합니다. 페일오버된 데이터 저장소의 용량이 허용 용량에 포함되지 않습니다. BYOL의 경우 데이터가 허용된 용량을 초과하는 경우 추가 용량 라이센스를 취득하거나, BlueXP 디지털 지갑의 라이센스를 업그레이드하거나, AWS에서 구독을 구입할 때까지 서비스 작업이 제한됩니다. AWS 구독을 선택하는 경우 계약 한도 이상으로 사용된 용량은 AWS 마켓플레이스 계획을 기준으로 비용이 청구됩니다.
+
+AWS에서 BYOL을 설정하거나 구입한 후에는 BlueXP 디지털 전자지갑에서 * 데이터 서비스 라이센스 * 탭의 라이센스를 확인하거나 BlueXP 디지털 지갑 * 구독 * 탭에서 활성 구독의 내용을 확인할 수 있습니다.
+
+무료 평가판이 종료되거나 라이센스 또는 AWS 구독이 만료된 후에도 서비스에서 다음을 수행할 수 있습니다.
+
+* 워크로드 또는 복제 계획과 같은 모든 리소스를 봅니다.
+* 워크로드 또는 복제 계획과 같은 리소스를 삭제합니다.
+* 평가판 기간, 라이센스 또는 구독 기간 동안 생성된 모든 예약된 작업을 실행합니다.
+
+
+
+
+== 90일 무료 평가판을 사용해 보십시오
+
+90일 무료 평가판을 사용하여 BlueXP 재해 복구를 체험해 볼 수 있습니다.
+
+
+NOTE: 시험판 평가 중에는 용량 제한이 적용되지 않습니다.
+
+언제든지 라이선스를 받거나 가입할 수 있으며 90일 평가판이 종료될 때까지 비용이 청구되지 않습니다. 90일 평가판 사용 후에도 계속 사용하려면 BYOL 라이선스 또는 PAYGO AWS 구독을 구매해야 합니다.
+
+평가판 사용 중에는 모든 기능을 사용할 수 있습니다.
+
+.단계
+. 에 액세스합니다 https://console.bluexp.netapp.com/["BlueXP 콘솔"^].
+. BlueXP에 로그인합니다.
+. BlueXP 왼쪽 탐색 창에서 * Protection * > * Disaster Recovery * 를 선택합니다.
++
+이 서비스에 처음 로그인하는 경우 랜딩 페이지가 나타납니다.
+
++
+image:draas-landing.png["BlueXP 재해 복구의 랜딩 페이지 스크린샷"]
+
+. 다른 서비스에 대한 커넥터를 아직 추가하지 않은 경우 추가합니다.
++
+커넥터를 추가하려면 을 참조하십시오 https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["커넥터에 대해 자세히 알아보십시오"^].
+
+. 커넥터를 설정한 후 BlueXP 재해 복구 랜딩 페이지에서 * 무료 평가판 시작 * 을 선택합니다.
++
+image:draas-landing-trial.png["BlueXP 재해 복구의 랜딩 페이지 스크린샷"]
+
+. 무료 평가판 정보를 검토하고 * Let's Go * 를 선택합니다.
+
+
+
+
+=== 평가판이 끝난 후 AWS Marketplace를 통해 구독하십시오
+
+무료 평가판이 끝난 후 NetApp에서 라이센스를 구입하거나 AWS Marketplace를 통해 구독할 수 있습니다. 이 절차에서는 AWS Marketplace에서 직접 구독하는 방법에 대한 간략한 개요를 제공합니다.
+
+.단계
+. BlueXP 재해 복구에서 무료 평가판이 만료된다는 메시지가 표시됩니다. 메시지에서 * 가입 또는 라이센스 구매 * 를 선택합니다.
++
+image:draas-license-subscribe.png["BlueXP 재해 복구 구독 또는 구매 라이센스 페이지 를 확인하십시오"]
+
+. 구독 또는 구매 라이선스 페이지에서 * AWS Marketplace * 에서 구독 을 선택합니다.
+. AWS Marketplace에서 * 구매 옵션 보기 * 를 선택합니다.
+. AWS Marketplace를 사용하여 BlueXP 재해 복구를 구독하십시오.
+. BlueXP 재해 복구로 돌아가면 구독 중이라는 메시지가 표시됩니다. BlueXP 디지털 지갑에서 구독 세부 정보를 보려면 * 구독 세부 정보 보기 * 를 선택하고 * 구독 * 페이지에서 활성 구독을 확인하십시오.
++
+image:digital-wallet-subscriptions.png["BlueXP 디지털 지갑 구독 탭"]
+
+
+
+
+
+=== 시험판이 끝난 후 NetApp를 통해 BYOL 라이센스를 구입합니다
+
+평가판이 종료되면 NetApp 영업 담당자 또는 기술 지원을 통해 라이센스를 구입할 수 있습니다.
+
+.단계
+. 라이센스를 구입하려면 NetApp 영업 담당자 또는 NetApp 지원 부서에 문의하십시오.
+. 라이센스를 가져온 후 BlueXP 재해 복구 로 돌아가서 무료 평가판이 만료된다는 메시지에서 * 구독 또는 라이센스 구매 * 를 선택합니다.
++
+라이선스 구독 또는 구입 페이지가 나타납니다.
+
++
+image:draas-license-subscribe-NetApp-option.png["BlueXP 재해 복구 구독 또는 구매 라이센스 페이지 를 확인하십시오"]
+
+. BlueXP에 라이센스 추가 * 를 선택합니다. BlueXP 디지털 지갑으로 이동하게 됩니다.
++
+image:digital-wallet-data-services-licenses-tab.png["BlueXP 재해 복구 구독 또는 구매 라이센스 페이지 를 확인하십시오"]
+
+. BlueXP 디지털 지갑의 * 데이터 서비스 라이센스 * 탭에서 * 라이센스 추가 * 를 선택합니다.
+. 라이센스 추가 페이지에서 일련 번호를 입력하거나 NetApp 라이센스 파일(NLF)을 업로드합니다.
++
+image:byol-digital-wallet-license-add.png["BlueXP 디지털 지갑에 라이센스 추가 페이지 가 표시됩니다"]
+
+
+
+
+
+=== 무료 평가판을 종료합니다
+
+무료 평가판은 언제든지 중지하거나 만료될 때까지 기다릴 수 있습니다.
+
+.단계
+. BlueXP 재해 복구의 오른쪽 위에서 * 무료 평가판 - 세부 정보 보기 * 를 선택합니다.
+. 드롭다운 세부 정보에서 * 무료 평가판 종료 * 를 선택합니다.
++
+image:draas-trial-end.png["무료 평가판 종료 페이지"]
+
+. 모든 데이터를 삭제하려면 * 평가판이 종료될 때 모든 데이터 삭제 * 를 선택합니다.
++
+이렇게 하면 모든 스케줄, 복제 계획, 리소스 그룹, vCenter 및 사이트가 삭제됩니다. 감사 데이터, 작업 로그 및 작업 기록은 제품 수명이 끝날 때까지 유지됩니다.
+
++
+
+NOTE: 무료 평가판을 종료했지만 데이터를 삭제하지 않고 라이센스 또는 구독을 구입하지 않은 경우, 무료 평가판이 끝난 후 60일 후에 BlueXP 재해 복구에서 모든 데이터가 삭제됩니다.
+
+. 텍스트 상자에 "END TRIAL"을 입력합니다.
+. End * 를 선택합니다.
+
+
+
+
+== AWS 용량제(PAYGO) 구독 사용
+
+AWS Marketplace PAYGO 구독을 사용하려면 먼저 AWS에서 설정한 다음 BlueXP에서 이를 설정해야 합니다.
+
+AWS에서 PAYGO 구독을 설정하려면 다음 절차를 완료하십시오.
+
+* <<1부 AWS에서 PAYGO 구독을 구성합니다>>
+* <<2부 BlueXP에서 PAYGO 구독 구성>>
+* <<Part 3a Associate the new SaaS Marketplace subscription with AWS credentials>> 또는
++
+<<Part 3b Associate the new SaaS Marketplace subscription with AWS credentials for annual contracts>>.
+
+
+
+
+
+==== 1부 AWS에서 PAYGO 구독을 구성합니다
+
+다음은 AWS에서 PAYGO 구독을 구성하는 단계를 간략하게 요약한 것입니다.
+
+자세한 내용은 을 참조하십시오 https://docs.netapp.com/us-en/bluexp-setup-admin/task-adding-aws-accounts.html["BlueXP의 AWS 자격 증명 및 마켓플레이스 가입을 관리합니다"^].
+
+.시작하기 전에
+파트너는 이미 NetApp 영업 팀과 협력하여 오퍼링 링크를 획득했으며 에 설명된 대로 제안을 수락할 수 있는 권한이 있어야 합니다 https://docs.aws.amazon.com/marketplace/latest/buyerguide/buyer-iam-users-groups-policies.html["AWS Marketplace 구독에 대한 액세스 제어"^].
+
+.단계
+. AWS 콘솔에서 NetApp BlueXP에 대한 AWS 마켓플레이스 전용 혜택을 수락합니다.
++
+다음 정보를 참조하십시오.
+
++
+** https://aws.amazon.com/blogs/awsmarketplace/access-your-private-offers-aws-marketplace-console/["AWS Marketplace 콘솔을 통해 전용 혜택을 이용할 수 있습니다"^].
+** https://docs.aws.amazon.com/marketplace/latest/buyerguide/private-offers-page.html#private-offers-page-permissions["프라이빗 오퍼 페이지를 보려면 필요한 권한입니다"^].
+
+
+. 전용 오퍼 세부 정보를 검토하고 이 내용이 동의와 일치하는지 확인합니다.
++
+
+CAUTION: 구독하기 * 를 클릭하면 결제가 시작되므로, 정보가 올바르지 않으면 * 비공개 오퍼를 수락하지 말고 대신 NetApp 판매 담당자에게 문의하십시오.
+
+. 오퍼 정보가 올바른지 확인한 후 * 구독 * 을 선택합니다.
++
+오퍼가 계약 목록을 사용하는 경우 서비스당 단위 수도 입력합니다. 그런 다음 * 계약 생성 * 을 선택하여 전용 오퍼를 수락할 수 있습니다.
+
+. 팝업에서 * 계정 설정 * 을 선택하면 NetApp BlueXP 콘솔로 리디렉션하여 BlueXP 마켓플레이스 구독 구성을 완료합니다.
++
+오퍼가 계약 목록을 사용하는 경우 * 구매 옵션 보기 * 를 선택한 다음 * 계정 설정 * 을 선택합니다.
+
+
+
+
+
+==== 2부 BlueXP에서 PAYGO 구독 구성
+
+AWS 콘솔에서 전용 혜택을 수락하면 BlueXP 콘솔로 이동됩니다.
+
+.단계
+. BlueXP 콘솔에서 다음을 수행합니다.
++
+.. SaaS Marketplace 구독의 표시 이름을 입력합니다.
+.. 이 마켓플레이스 구독에 액세스할 수 있는 NetApp BlueXP 계정을 선택하십시오.
+.. 하나의 NetApp BlueXP 계정에 있는 기존 SaaS 마켓플레이스 구독을 새로 만든 구독으로 교체하려면 * 기존 구독 바꾸기 * 를 선택합니다. BlueXP는 이 새 구독으로 계정의 모든 클라우드 자격 증명에 대한 기존 구독을 대체합니다.
++
+
+NOTE: 교체 옵션은 단일 NetApp BlueXP 계정으로 제한됩니다. 동일한 SaaS Marketplace 구독에 연결할 BlueXP 계정이 여러 개 있는 경우 개별적으로 구성해야 합니다.
+
++
+
+NOTE: 클라우드 자격 증명 세트가 SaaS Marketplace 구독과 연결되지 않은 경우 이 절차의 다음 단계에 따라 구성해야 합니다.
+
+
+
+. 저장 * 및 * 완료 * 를 선택합니다.
+. 파트 3을 계속합니다. 다음:
++
+** <<파트 3a 새 마켓플레이스 구독을 AWS 자격 증명과 연결합니다>>
+** <<파트 3b 새 마켓플레이스 구독을 연간 계약에 대한 AWS 자격 증명과 연결합니다>>.
+
+
+
+
+
+
+==== 파트 3a 새 마켓플레이스 구독을 AWS 자격 증명과 연결합니다
+
+AWS에서 라이센스 설정 3부입니다.
+
+
+NOTE: 연간 계약을 맺은 경우 다음 절차를 계속 진행하십시오.
+<<Part 3b Associate the new SaaS Marketplace subscription with AWS credentials for annual contracts>>.
+
+.단계
+. 에 액세스합니다 https://console.bluexp.netapp.com["NetApp BlueXP 콘솔"].
+. 구독 세부 정보 확인:
++
+.. 왼쪽 창에서 * Governance * > * Digital Wallet * 를 선택합니다.
+.. 가입 * 탭을 선택합니다.
++
+image:paygo-digitalwallet-subscriptions.png["BlueXP 디지털 지갑 구독 페이지 를 참조하십시오"]
+
+.. 1부 중에 추가한 SaaS Marketplace 구독을 찾아 이 요금제가 사용하고자 하는 올바른 요금제인지 확인합니다.
+
+
+. AWS 구독의 행을 찾아 행을 확장하여 세부 정보를 확인하고, 전용 혜택이 BlueXP 계정과 성공적으로 연결되었는지 확인합니다.
++
+AWS 마켓플레이스에서의 제한 때문에 이 오퍼링 일부 세부 정보는 AWS 콘솔 외부에서 이용할 수 없습니다. 필드 중 하나에 "N/A"가 표시되면 AWS 콘솔에서 해당 정보를 검색할 수 없고 실수가 아니라는 의미입니다. AWS 콘솔에서 정보를 확인할 수 있습니다.
+
+. BlueXP 콘솔의 오른쪽 상단에 있는 * Settings * 장비를 선택하고 * Credentials * 를 선택합니다.
++
+image:paygo-digitalwallet-settings.png["BlueXP 디지털 지갑 설정 메뉴"]
+
+. 새 SaaS Marketplace 구독과 연결할 자격 증명 세트를 찾습니다.
++
+
+TIP: 작업 환경 위에 있는 * 보기 * 를 클릭하여 이러한 항목이 올바른지 확인할 수 있습니다.
+
+. 조치... * 옵션을 선택하고 * 가입 연계 * 를 선택합니다.
+. 마켓플레이스 구독 드롭다운 메뉴에서 전용 혜택을 선택하고 * Associate * 를 선택합니다.
++
+
+NOTE: 이제 이러한 AWS 자격 증명과 관련된 마켓플레이스 요금이 방금 연결한 SaaS 마켓플레이스 구독을 통해 청구됩니다. 연간 계약을 사용하는 경우, 이러한 AWS 자격 증명과 관련된 인프라 비용은 연간 계약에 대한 사용량에 따라 계산됩니다.
+
+. 이 SaaS Marketplace 구독과 연결하려는 BlueXP 계정의 다른 AWS 자격 증명에 대해 이 단계를 반복합니다.
++
+.. 다른 BlueXP 계정의 AWS 자격 증명에 대해서는 BlueXP 콘솔 상단에 있는 * Account * 옵션을 사용하여 계정을 전환하고 단계를 반복합니다.
+.. 다른 BlueXP 커넥터와 관련된 AWS 자격 증명의 경우 BlueXP 콘솔 상단에 있는 * Connector * 옵션을 사용하여 커넥터를 전환하고 단계를 반복합니다.
+
+
+
+
+
+
+==== 파트 3b 새 마켓플레이스 구독을 연간 계약에 대한 AWS 자격 증명과 연결합니다
+
+연간 계약을 사용하는 경우 BlueXP 디지털 지갑의 정보가 약간 다르게 표시됩니다.
+
+. 에 액세스합니다 https://console.bluexp.netapp.com["NetApp BlueXP 콘솔"].
+. 구독 세부 정보 확인:
++
+.. 왼쪽 창에서 * Governance * > * Digital Wallet * 를 선택합니다.
+.. 가입 * 탭을 선택합니다.
++
+image:paygo-digitalwallet-subscriptions-annualcontract.png["연간 계약이 표시된 BlueXP 디지털 지갑 구독 페이지"]
+
+.. 1부 중에 추가한 SaaS Marketplace 구독을 찾아 이 요금제가 사용하고자 하는 올바른 요금제인지 확인합니다.
+
+
+. AWS 연간 계약 구독의 행을 찾고, 행을 확장하여 자세한 내용을 보고, 전용 혜택이 BlueXP 계정과 성공적으로 연결되었는지 확인하십시오.
++
+image:paygo-digitalwallet-subscriptions-annualcontract-associate.png["연간 계약에 대한 BlueXP 디지털 지갑 구독 페이지 입니다"]
+
+. 해당 행에서 * Actions... * 옵션을 선택하고 * Associate Subscription * 을 선택합니다.
++
+image:paygo-digitalwallet-subscriptions-annualcontract-associate-dialog.png["연간 계약에 대한 BlueXP 디지털 지갑 구독 페이지 입니다"]
+
+. 구독과 연결할 계정을 선택하고 * 적용 * 을 선택합니다.
++
+
+NOTE: 이제 이러한 AWS 자격 증명과 관련된 마켓플레이스 요금이 방금 연결한 SaaS 마켓플레이스 구독을 통해 청구됩니다. 연간 계약을 사용하는 경우, 이러한 AWS 자격 증명과 관련된 인프라 비용은 연간 계약에 대한 사용량에 따라 계산됩니다.
+
+. 이 SaaS Marketplace 구독과 연결하려는 BlueXP 계정의 다른 AWS 자격 증명에 대해 이 단계를 반복합니다.
++
+.. 다른 BlueXP 계정의 AWS 자격 증명에 대해서는 BlueXP 콘솔 상단에 있는 * Account * 옵션을 사용하여 계정을 전환하고 단계를 반복합니다.
+.. 다른 BlueXP 커넥터와 관련된 AWS 자격 증명의 경우 BlueXP 콘솔 상단에 있는 * Connector * 옵션을 사용하여 커넥터를 전환하고 단계를 반복합니다.
+
+
+
+
+
+
+==== BlueXP 디지털 지갑 구독 보기에 표시되는 항목을 사용자 지정합니다
+
+구독 페이지에 표시되는 열을 사용자 지정할 수 있습니다. 예를 들어 용어 정보를 보기 위해 이 작업을 수행할 수 있습니다.
+
+.단계
+. BlueXP 디지털 지갑 구독 페이지에서 오른쪽의 표 아이콘을 선택합니다.
+. 나타나는 열 목록에서 표에 표시할 열을 선택합니다.
+. Apply * 를 선택합니다.
+
+
+
+
+== BYOL(Bring Your Own License)
+
+BYOL(Bring Your Own License) 방식으로 사용하는 경우 설정에 라이센스 구매, NetApp 라이센스 파일(NLF) 획득, BlueXP 디지털 지갑에 라이센스 추가가 포함됩니다.
+
+
+
+=== BlueXP 재해 복구 라이센스 구매
+
+BlueXP 재해 복구 라이센스가 없는 경우 NetApp에 문의하여 라이센스를 구입하십시오.
+
+. 다음 중 하나를 수행합니다.
++
+** 라이센스를 구입하려면 NetApp 영업 팀에 문의하십시오.
+** 라이센스를 요청하려면 BlueXP 오른쪽 하단의 채팅 아이콘을 클릭하십시오.
+
+
+
+
+
+
+=== BlueXP 재해 복구 라이센스 파일을 받습니다
+
+BlueXP 재해 복구 라이센스를 구입한 후에는 BlueXP 재해 복구 일련 번호 및 NSS(NetApp Support 사이트) 계정을 입력하거나 NetApp 라이센스 파일(NLF)을 업로드하여 라이센스를 활성화합니다.
+
+NLF는 NetApp 영업 담당자 또는 NetApp Support 사이트를 통해 받을 수 있습니다.
+
+.시작하기 전에
+시작하기 전에 다음 정보가 필요합니다.
+
+* BlueXP 재해 복구 일련 번호
++
+판매 주문에서 이 번호를 찾거나 계정 팀에 문의하여 이 정보를 확인하십시오.
+
+* BlueXP 계정 ID
++
+BlueXP의 상단에서 * 계정 * 드롭다운을 선택한 다음 계정 옆의 * 계정 관리 * 를 선택하면 BlueXP 계정 ID를 찾을 수 있습니다. 계정 ID는 개요 탭에 있습니다. 인터넷에 액세스할 수 없는 개인 모드 사이트의 경우 * ACCOUNT-DARKSITE1 * 을 사용하십시오.
+
+
+
+.지원 사이트에서 NLF 라이센스 파일을 가져오는 단계입니다
+. 에 로그인합니다 https://mysupport.netapp.com["NetApp Support 사이트"^]  를 선택하고 * Systems * > * Software Licenses * 를 선택합니다.
++
+image:byol-nss-licenses.png["NetApp Support 사이트 소프트웨어 라이센스 페이지 를 참조하십시오"]
+
+. BlueXP 재해 복구 라이센스의 일련 번호를 입력합니다.
+. 라이센스 키 열에서 * Get NetApp License File * 을 선택합니다.
++
+image:byol-nss-licenses-get.png["NetApp Support 사이트 소프트웨어 라이센스 페이지 를 참조하십시오"]
+
+. BlueXP 계정 ID(지원 사이트의 테넌트 ID라고 함)를 입력하고 * 제출 * 을 선택하여 라이센스 파일을 다운로드합니다.
+
+
+
+
+=== BlueXP 재해 복구 라이센스를 BlueXP 디지털 지갑에 추가하십시오
+
+BlueXP 계정에 사용할 BlueXP 재해 복구 라이센스를 구매한 후에는 BlueXP 디지털 지갑에 라이센스를 추가해야 합니다.
+
+.단계
+. BlueXP 메뉴에서 * Governance * > * Digital Wallet * > * Data Services Licenses * 를 선택합니다.
++
+image:byol-digital-wallet-dataserviceslicenses-tab.png["NetApp BlueXP Digital Wallet Data Services Licenses 탭"]
+
+. 라이센스 추가 * 를 선택합니다.
++
+image:byol-digital-wallet-license-add.png["NetApp BlueXP 디지털 지갑에 라이센스 추가 페이지"]
+
+. 라이센스 추가 페이지에서 라이센스 정보를 입력하고 * 라이센스 추가 * 를 선택합니다.
++
+** BlueXP 라이센스 일련 번호를 알고 있고 NSS 계정을 알고 있는 경우 * Enter Serial Number * 옵션을 선택하고 해당 정보를 입력합니다.
++
+드롭다운 목록에서 NetApp Support 사이트 계정을 사용할 수 없는 경우 https://docs.netapp.com/us-en/bluexp-setup-admin/task-adding-nss-accounts.html["NSS 계정을 BlueXP에 추가합니다"^].
+
+** BlueXP 라이센스 파일(다크 사이트에 설치 시 필요)이 있는 경우 * Upload License File * 옵션을 선택하고 화면의 지침에 따라 파일을 첨부합니다.
+
+
+
+
+.결과
+BlueXP 디지털 지갑에 라이센스로 재해 복구가 표시됩니다.
+
+image:byol-digital-wallet-licenses-added.png["NetApp BlueXP 디지털 지갑"]
+
+
+
+=== BlueXP 라이센스가 만료되면 업데이트하십시오
+
+라이센스 기간이 만료일이 가까워지거나 라이센스 용량이 제한에 도달한 경우 BlueXP 재해 복구 UI에 알림이 표시됩니다. BlueXP 재해 복구 라이센스가 만료되기 전에 라이센스를 업데이트하면 스캔한 데이터에 액세스하는 데 중단이 발생하지 않습니다.
+
+
+TIP: 이 메시지는 BlueXP 디지털 지갑과 에도 표시됩니다 https://docs.netapp.com/us-en/bluexp-setup-admin/task-monitor-cm-operations.html#monitoring-operations-status-using-the-notification-center["알림"].
+
+.단계
+. BlueXP 오른쪽 하단에 있는 채팅 아이콘을 선택하여 특정 일련 번호에 대한 라이센스의 추가 용량 또는 용어의 연장을 요청합니다. 라이센스 업데이트를 요청하는 전자 메일을 보낼 수도 있습니다.
++
+라이센스 비용을 지불하고 NetApp Support 사이트에 등록한 후 BlueXP는 BlueXP 디지털 지갑의 라이센스를 자동으로 업데이트하고 데이터 서비스 라이센스 페이지에 변경 내용이 5-10분 내에 반영됩니다.
+
+. BlueXP에서 라이센스를 자동으로 업데이트할 수 없는 경우(예: 어두운 사이트에 설치된 경우) 라이센스 파일을 수동으로 업로드해야 합니다.
++
+.. NetApp Support 사이트에서 라이센스 파일을 얻을 수 있습니다.
+.. BlueXP 디지털 지갑의 데이터 서비스 라이센스 탭에서 업데이트할 서비스 일련 번호에 해당하는 * Actions... * 아이콘을 선택하고 * Update License * 를 선택합니다.
++
+image:digital-wallet-licenses-expired.png["라이센스가 만료된 NetApp BlueXP 디지털 지갑입니다"]
+
+
+
+

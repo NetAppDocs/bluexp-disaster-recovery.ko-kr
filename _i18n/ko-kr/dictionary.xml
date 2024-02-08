@@ -13,8 +13,6 @@
   <block id="14526abd8bda5af347775025cd5342cf" category="inline-link">커뮤니티</block>
   <block id="410fdb9caa9c64da2ff3f88f4836960d" category="list-text"><block ref="410fdb9caa9c64da2ff3f88f4836960d" category="inline-link-rx"></block></block>
   <block id="00c5fef3bb9d593ae96bf5d2ee60354a" category="paragraph">BlueXP 커뮤니티에 가입하여 진행 중인 토론을 팔로우하거나 새 토론을 만드십시오.</block>
-  <block id="80b1b0d2b1ebf2b3cba2d25759801afd" category="list-text">mailto:ng-cloudmanager-feedback@netapp.com [피드백 이메일]</block>
-  <block id="6702efec14563f45f1ee2f8c613b8ad8" category="paragraph">저희는 귀하의 의견을 소중하게 생각합니다. BlueXP 개선에 도움이 되는 피드백을 제출하십시오.</block>
   <block id="d88bacf2a9fdcbbc844edcba97c34e30" category="section-title">NetApp Support로 케이스 생성</block>
   <block id="82812db645b6ff5e9c2a24ddfb66c8d6" category="paragraph">위의 자체 지원 옵션 외에도 NetApp 지원 전문가와 협력하여 지원을 활성화한 이후의 모든 문제를 해결할 수 있습니다.</block>
   <block id="8fece025a1a8fef7018449bf104a2527" category="list-title">시작하기 전에</block>
@@ -143,7 +141,6 @@
   <block id="e3cd99e4aa330ae6bdfb3754d83ae962" category="list-text">파트너 또는 리셀러 계정이 있는 경우 NSS 계정을 하나 이상 추가할 수 있지만 고객 수준 계정과 함께 추가할 수는 없습니다.</block>
   <block id="c0e0b7ff0de9558404e9b77ece42948a" category="list-text">NSS 관리 &gt; NSS 계정 추가 * 를 선택합니다.</block>
   <block id="85b9386ed443776127e099931d73448a" category="list-text">메시지가 표시되면 * 계속 * 을 선택하여 Microsoft 로그인 페이지로 리디렉션합니다.</block>
-  <block id="19d089db572ee6a1e154a0c9c9e57bfd" category="paragraph">NetApp은 Microsoft Azure Active Directory를 지원 및 라이선싱과 관련된 인증 서비스의 ID 공급자로 사용합니다.</block>
   <block id="465ec6d5eafa3524c948c99d8bfcd306" category="list-text">로그인 페이지에서 인증 프로세스를 수행할 수 있도록 NetApp Support 사이트의 등록 이메일 주소와 암호를 제공합니다.</block>
   <block id="cbc6cc3bb022583403171b447b2a962c" category="paragraph">이러한 작업을 통해 BlueXP는 NSS 계정을 사용하여 라이선스 다운로드, 소프트웨어 업그레이드 확인 및 향후 지원 등록과 같은 작업을 수행할 수 있습니다.</block>
   <block id="ec084bb25ed5b934c09b361069c246b2" category="list-text">NSS 계정은 고객 수준 계정이어야 합니다(게스트 또는 임시 계정이 아님). 여러 개의 고객 수준 NSS 계정을 가질 수 있습니다.</block>
@@ -170,7 +167,6 @@
   <block id="72c3ee7ae5024979fb220d6277567140" category="inline-image-macro">BlueXP 재해 복구 서비스의 작업 메뉴 아이콘</block>
   <block id="4d77d74745ed3cdc84af5ddf8b6f4a2e" category="list-text">BlueXP 재해 복구에서 * Sites * 를 선택하고 vCenter 행에서 * Actions * 옵션을 선택합니다 <block ref="e282bbe0f95615c6416d0f1c92efdcdd" category="inline-image-macro-rx" type="image"></block>그리고 Actions 메뉴에서 * Refresh * 를 선택하여 BlueXP 재해 복구에서 FSx 검색을 업데이트합니다.</block>
   <block id="97f038e2f4284e7bd85ce8986351f37a" category="paragraph">그러면 데이터 저장소, 해당 가상 머신 및 대상 관계가 다시 검색됩니다.</block>
-  <block id="c68e216470235d478b98ceeb7a364575" category="summary">BlueXP 재해 복구는 재해 복구 워크플로우를 자동화하는 클라우드 기반 재해 복구 서비스입니다.</block>
   <block id="490414e0366b091220802d406e52c076" category="doc">새로운 기능</block>
   <block id="ca8395d0f02816c74d48e7e263466096" category="section-title">2023년 8월 1일</block>
   <block id="08e4438284e48b3ad77e9a0d04037ea7" category="inline-link-macro">리소스 그룹을 복제하고 할당할 애플리케이션을 선택합니다</block>
@@ -182,7 +178,6 @@
   <block id="405e835e0544bb4cc8bbd26a2c840b54" category="section-title">2023년 5월 18일</block>
   <block id="acff175f1bababdb2baa1348412d501d" category="paragraph">BlueXP 재해 복구의 최초 릴리즈입니다.</block>
   <block id="49bd2ef4087967b81353d56e27be132a" category="summary">VMware용 BlueXP 재해 복구를 사용하면 NetApp 클라우드 스토리지를 사용하여 ONTAP 스토리지를 실행하는 온프레미스 VMware 워크로드를 퍼블릭 클라우드의 VMware 소프트웨어 정의 데이터 센터로 복제할 수 있습니다.</block>
-  <block id="c08885153d0680dab7349b930f5310c4" category="doc">BlueXP 재해 복구</block>
   <block id="02fce9b41a6b2efe9c45de00491f5b15" category="summary">클라우드 재해 복구는 사이트 정전 및 데이터 손상으로부터 워크로드를 보호하는 복원력과 비용 효율적인 방법입니다. VMware용 BlueXP 재해 복구를 사용하면 NetApp 클라우드 스토리지를 사용하여 ONTAP 스토리지를 실행하는 온프레미스 VMware 워크로드를 퍼블릭 클라우드의 VMware 소프트웨어 정의 데이터 센터로 복제하여 재해 복구 사이트로 복제할 수 있습니다.</block>
   <block id="a3c972b2a97e85a689b9fc36b1658dcf" category="inline-image-macro">VMware용 BlueXP 재해 복구의 구성 요소를 보여주는 다이어그램</block>
   <block id="3f3839e5200c4d2924e47db9048f7236" category="list-text">여러 시점 복구 작업을 통해 vCenter 검색 및 애플리케이션 복구를 위한 간소화된 사용자 환경 </block>
@@ -192,7 +187,6 @@
   <block id="665fccb70331e8dfa8afd40c0bbb51f0" category="list-text">재해가 해결되면 필요 시 재해 복구 사이트에서 운영 사이트로 장애 복구를 수행합니다.</block>
   <block id="da43ae6496f10d6bfd475400915e2865" category="admonition">vSphere 서버 구성은 vSphere Server의 BlueXP 재해 복구 외부에서 수행됩니다.</block>
   <block id="20b4f77bd00b4f63a49ec8e08f3bf6a6" category="section-title">비용</block>
-  <block id="abf704ad3ba19edbf79307f5913e6f37" category="paragraph">BlueXP 재해 복구 서비스는 GA될 때 언제든지 사용할 수 있는 용량제 가격 또는 연간 구독 기반 계획을 제공할 수 있습니다.</block>
   <block id="d244f191aaddadced4c31b2f67d06c9c" category="inline-image-macro">VMware 서비스 인프라에 대한 BlueXP 재해 복구 아키텍처를 보여 주는 다이어그램</block>
   <block id="a61fe2c95a03251717d7405c6bf53ede" category="paragraph"><block ref="a61fe2c95a03251717d7405c6bf53ede" category="inline-image-macro-rx" type="image"></block></block>
   <block id="7599cfdf730a164b0625ccc661508efa" category="list-text">또한 이 서비스를 통해 가상 머신을 원래 소스 위치로 페일백할 수 있습니다.</block>
@@ -203,8 +197,6 @@
   <block id="942a771213d3b59ba27960f61d97b1ac" category="inline-link"><block ref="942a771213d3b59ba27960f61d97b1ac" category="inline-link-rx"></block></block>
   <block id="6a203fd0003e1b252502653eca1a6c02" category="paragraph">* BlueXP 재해 복구 URL은 무엇입니까? *
 URL의 경우 브라우저에 다음을 입력합니다.<block ref="6db7b50bf17b27cbede9f07c4fbc973e" category="inline-link-rx"></block> 를 눌러 BlueXP 콘솔에 액세스합니다.</block>
-  <block id="0a84b21f10cd16b52678d96d8fc4c7f0" category="paragraph">* BlueXP 재해 복구를 사용하기 위해 라이센스가 필요하십니까? *
-NetApp 라이센스 파일(NLF)은 필요하지 않습니다.</block>
   <block id="1510b9c9694467bb88815a127c906757" category="paragraph">* BlueXP 재해 복구에 어떻게 액세스하십니까? *
 BlueXP 재해 복구에는 지원이 필요하지 않습니다. 재해 복구 옵션은 BlueXP 왼쪽 탐색에 자동으로 표시됩니다.</block>
   <block id="89f19c30a67510e64ff4f90eede35bff" category="summary">BlueXP 재해 복구를 사용하려면 몇 단계를 수행하여 설정하십시오.</block>
@@ -279,7 +271,6 @@ BlueXP 재해 복구에는 지원이 필요하지 않습니다. 재해 복구 �
   <block id="c6c7eb2270b5edb5f8ecf37392db8b4b" category="inline-image-macro">BlueXP 재해 복구의 랜딩 페이지 스크린샷</block>
   <block id="834a404d8022b5474595ce6643b8c962" category="paragraph"><block ref="834a404d8022b5474595ce6643b8c962" category="inline-image-macro-rx" type="image"></block></block>
   <block id="674a6bb0fdee8ed1d2d68faddc33d5e6" category="paragraph">그렇지 않으면 BlueXP 재해 복구 대시보드가 나타납니다.</block>
-  <block id="cb88a525f1086bff79e766f87b3b0dfb" category="list-text">기존 커넥터를 사용하는 BlueXP 사용자의 경우 "재해 복구"를 선택하면 등록 관련 메시지가 나타납니다.</block>
   <block id="e1d24b3118270d4224a54337f1f63f2c" category="summary">고객의 환경, 네트워크 액세스, 로그인 및 웹 브라우저에 대한 지원을 확인하여 BlueXP 재해 복구를 시작하십시오.</block>
   <block id="ccf3c2f4a4ab48adb4cc5352e480655c" category="doc">BlueXP 재해 복구의 사전 요구사항</block>
   <block id="84804abf3404a430e85ae3299587a6b0" category="paragraph">운영 환경, 로그인, 네트워크 액세스 및 웹 브라우저의 준비 상태를 확인하여 시작하십시오.</block>
@@ -395,7 +386,6 @@ BlueXP 재해 복구에는 지원이 필요하지 않습니다. 재해 복구 �
   <block id="466ea193e548e9ef8d853f2da4829a3e" category="list-text">복제 계획의 이름을 생성합니다.</block>
   <block id="ad05d9be76290e8ea731306ed4911c41" category="list-text">소스 및 타겟 vCenter 목록에서 소스 및 타겟 vCenter를 선택합니다.</block>
   <block id="e6cd86d61f4639c8a27006c6c29b3e9f" category="list-text">다음 * 을 선택합니다.</block>
-  <block id="ec5ceb0f96d45f8792e2d9b2adca8c1b" category="paragraph">다음 단계는 필요한 가상 머신을 기능적 리소스 그룹으로 그룹화하는 것입니다. 리소스 그룹을 사용하면 종속 가상 머신 세트를 요구 사항을 충족하는 논리적 그룹으로 그룹화할 수 있습니다. 예를 들어, 복구 시 실행할 수 있는 부팅 순서가 그룹에 포함될 수 있습니다.</block>
   <block id="e8116ba94e27bac1f555b5e19aa9832f" category="admonition">각 리소스 그룹에는 하나 이상의 가상 머신이 포함될 수 있습니다. 여기에 가상 시스템을 포함하는 순서에 따라 가상 시스템의 전원이 켜집니다.</block>
   <block id="c34daecc192d502d04e27e0d11bc8acd" category="list-text">애플리케이션 페이지의 왼쪽에서 복제하고 선택한 그룹에 할당할 가상 머신을 선택합니다.</block>
   <block id="deea58ba2c2a385f7b93c144b2d694e1" category="paragraph">선택한 가상 머신이 그룹 1에 자동으로 추가되고 새 그룹 2가 시작됩니다. 마지막 그룹에 가상 머신을 추가할 때마다 다른 그룹이 추가됩니다.</block>
@@ -415,8 +405,6 @@ BlueXP 재해 복구에는 지원이 필요하지 않습니다. 재해 복구 �
   <block id="d357213c083fae24ce4c1b0bdc92afd7" category="list-text">페일오버 매핑 탭에서 각 리소스의 오른쪽에 있는 아래쪽 화살표를 선택하고 각 리소스의 리소스를 매핑합니다.</block>
   <block id="137f19e6e2dc1219f33553b812627bc2" category="list-text">가상 머신</block>
   <block id="eff845e03ea7f765e5646b3de0aa3188" category="list-text">데이터 저장소</block>
-  <block id="25d70ddecf53895a1fc111c67a4c09d7" category="paragraph">이 기능은 대규모 환경을 소규모 대상 클러스터로 복구하거나 일대일 물리적 VMware 인프라를 프로비저닝하지 않고도 재해 복구 테스트를 수행할 때 매우 유용합니다. 또한 리소스 그룹에서 선택한 모든 가상 시스템의 부팅 순서를 수정할 수 있습니다.</block>
-  <block id="5970da62667d9139a1d44b52dc62066e" category="paragraph">기본적으로 리소스 그룹 선택 시 선택한 부팅 순서가 사용되지만 이 단계에서 변경할 수 있습니다.</block>
   <block id="4a09c644b8fb308e15cee7a781de0061" category="list-text">테스트 환경에 대해 다른 매핑을 설정하려면 확인란을 선택 취소하고 * 테스트 매핑 * 탭을 선택합니다. 이전과 같이 각 탭을 살펴보았지만 이번에는 테스트 환경에 대해 살펴보겠습니다.</block>
   <block id="0516742190fe9dfeaffe988ba6abe786" category="admonition">나중에 전체 계획을 테스트할 수 있습니다. 현재 테스트 환경에 대한 매핑을 설정하고 있습니다.</block>
   <block id="3f015374311e085394976bb9595d4f23" category="section-title">재발을 식별합니다</block>
@@ -475,7 +463,6 @@ BlueXP 재해 복구에는 지원이 필요하지 않습니다. 재해 복구 �
   <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp 커뮤니티</block>
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">클라우드 웨비나</block>
   <block id="c84c0f6820fdd01db35db56ad7a4fe6c" category="sidebar">BlueXP 재해 복구 문서</block>
-  <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">모든 BlueXP 설명서</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">지식 및 지원</block>
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">릴리스 정보</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">새로운 소식</block>
@@ -569,9 +556,7 @@ BlueXP 재해 복구에는 지원이 필요하지 않습니다. 재해 복구 �
   <block id="7948752d94dfb3ed0961783bc7bc602b" category="list-text">* 컴퓨팅 리소스 *</block>
   <block id="c23280c66e3d73c1458daffa54fd58a5" category="list-text">* 가상 네트워크 *</block>
   <block id="641e34badef58aff265ce33334217c13" category="list-text">* 가상 머신 *: 적절한 세그먼트에 대한 네트워크 매핑을 선택합니다. 세그먼트는 이미 프로비저닝되어야 하므로 가상 머신을 매핑할 적절한 세그먼트를 선택하십시오.</block>
-  <block id="1d668874fb07733089404308b6954c27" category="paragraph">가상 머신 세부 정보 아래에서 필요에 따라 VM CPU 및 RAM 매개 변수의 크기를 조정할 수 있습니다. 또한 VM에 대한 네트워크 정보를 구성하려면 IP 주소, 서브넷 마스크, DNS 및 게이트웨이를 선택할 수 있습니다. VM 게스트 OS 자격 증명은 글로벌 레벨 또는 각 VM 레벨에 제공해야 합니다.</block>
   <block id="69c0c55ea8cce1b3cc74ab21345b0989" category="list-text">* Datastores *: 가상 머신 선택에 따라 데이터 저장소 매핑이 자동으로 선택됩니다.</block>
-  <block id="aead2e3048f9bf891673479db4430843" category="paragraph">복구 시점 목표(RPO)를 입력하여 복구할 데이터의 양(시간 단위)을 표시합니다. 예를 들어 RPO를 2시간으로 입력하는 경우 항상 2시간보다 오래되지 않은 데이터가 복구에 있어야 합니다. 재해가 발생할 경우 최대 2시간의 데이터 손실이 허용됩니다. 또한 모든 데이터 저장소에 대해 유지할 스냅샷 복사본의 수를 입력합니다.</block>
   <block id="7fceed43db5d7f111f8ef8f9351ffecd" category="paragraph">데이터를 다른 타겟으로 마이그레이션할지, 아니면 SnapMirror 빈도로 복제할지를 선택합니다.</block>
   <block id="a6263fdec62a2bd89f463f2208f79331" category="paragraph">복제하려는 경우 데이터를 미러링해야 하는 빈도를 파악합니다.</block>
   <block id="774a603b6a7ee18d47215ca2f4362c80" category="admonition">이 사전 공개에서는 BlueXP 재해 복구 서비스 외의 빈도를 구성합니다.</block>
@@ -579,9 +564,6 @@ BlueXP 재해 복구에는 지원이 필요하지 않습니다. 재해 복구 �
   <block id="bc7f3cb185f48d451eb5ef976e8ad82d" category="list-text">* 대상 *:</block>
   <block id="d23a9d83c87c6eacef309f00a2beb5d3" category="inline-image-macro">사이트 페이지 스크린샷</block>
   <block id="28f8c0c78028f2e899f7af50ce138e1b" category="paragraph"><block ref="28f8c0c78028f2e899f7af50ce138e1b" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="5754de032cee05be622fc9e21ac41b10" category="list-text">BlueXP Connector가 없거나 이 사전 공개에 적합하지 않은 경우 NetApp Support에 문의하거나 메시지를 따라 이 미리 보기에 등록해야 할 수 있습니다.</block>
-  <block id="0e2a1608fe1e9ea4566fd582ff98499e" category="list-text">BlueXP를 처음 사용하는 경우 Connector를 사용하지 않은 경우 "재해 복구"를 선택하면 등록 관련 메시지가 나타납니다. 양식을 제출하십시오. 미리 보기 요청에 대해 NetApp에서 연락을 드릴 것입니다.</block>
-  <block id="9e592b156aee672581e10fa68a533e2c" category="list-text">미리 보기에 이미 참여하고 있는 경우 "재해 복구"를 선택하면 서비스를 계속 진행할 수 있습니다.</block>
   <block id="b3dbeaf2ef270574ab4299c7f3ca04fc" category="paragraph">BlueXP 재해 복구를 사용하려면 몇 가지 단계를 수행하여 AWS와 BlueXP에서 모두 설정하십시오.</block>
   <block id="1835d0517fe4ffa8b6a639fa95e369ad" category="list-text">BlueXP에서 커넥터를 만듭니다.</block>
   <block id="25cb0baf366c7202daaabd5e60c16293" category="list-text">Amazon FSx for NetApp ONTAP용 SnapMirror를 구축하고 구성합니다.</block>
@@ -589,22 +571,14 @@ BlueXP 재해 복구에는 지원이 필요하지 않습니다. 재해 복구 �
   <block id="2a1f2380d9e50746902517055340629f" category="paragraph">소스 온프레미스 vCenter 및 타겟 온프레미스 vCenter에 액세스할 수 있는 BlueXP 온프레미스 커넥터 또는 BlueXP AWS Connector를 사용하십시오.</block>
   <block id="3abca5fc9f26906e4b32323c7e019f0d" category="doc">VMware 미리보기를 위한 BlueXP 재해 복구 기능에 대해 알아보십시오</block>
   <block id="4589fa3716efb487281f1d798a3f1ba0" category="paragraph">클라우드 재해 복구는 사이트 정전 및 데이터 손상으로부터 워크로드를 보호하는 복원력과 비용 효율적인 방법입니다. VMware용 BlueXP 재해 복구 미리 보기를 통해 ONTAP 스토리지를 실행하는 온프레미스 VMware 워크로드를 퍼블릭 클라우드의 VMware 소프트웨어 정의 데이터 센터로 복제하거나 NetApp ONTAP 스토리지를 재해 복구 사이트로 사용하는 다른 온프레미스 VMware 환경으로 복제할 수 있습니다.</block>
-  <block id="7a83594e906464ba9cf2b308f19e0329" category="paragraph">BlueXP 재해 복구 사전 공개는 재해 복구 워크플로우를 자동화하는 클라우드 기반 재해 복구 서비스입니다. 처음에는 BlueXP 재해 복구 미리 보기를 통해 NetApp 스토리지를 실행하는 온프레미스, NFS 기반 VMware 워크로드를 다음 중 하나로 보호할 수 있습니다.</block>
   <block id="6f5e3fdfa73285ac2283ba492cf2d47b" category="list-text">Amazon FSx for NetApp ONTAP 또는 을 사용하는 AWS 기반 VMware Cloud(VMC</block>
   <block id="b374472b15e644f23d1e6b059b5216b9" category="list-text">ONTAP 스토리지를 갖춘 또 다른 온프레미스 NFS 기반 VMware 환경</block>
   <block id="6e59ee76c6f7c9c37b00ca09ba980203" category="paragraph">BlueXP 재해 복구 미리 보기에서는 ONTAP SnapMirror 기술을 재해 복구 사이트로 복제하는 방식으로 사용합니다. 따라서 운영 사이트와 2차 사이트에서 업계 최고의 스토리지 효율성(압축 및 중복제거)을 실현할 수 있습니다.</block>
   <block id="53c1c0c22e2a647591a0b52427852850" category="paragraph"><block ref="53c1c0c22e2a647591a0b52427852850" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="d8d185db9e96101efd8d6607227cfecb" category="section-title">VMware 미리 보기에 BlueXP 재해 복구를 사용할 때의 이점</block>
-  <block id="728b9d039163716d2d1bfab5dcf08d3a" category="paragraph">BlueXP 재해 복구 사전 공개는 다음과 같은 이점을 제공합니다.</block>
   <block id="382e6c225343455c11628109eb882e15" category="section-title">VMware 미리보기를 위한 BlueXP 재해 복구로 수행할 수 있는 작업</block>
-  <block id="3a1e08a4ac4c1b332589f7f1d9fa9f37" category="paragraph">BlueXP 재해 복구 미리 보기에서는 몇 가지 NetApp 기술을 완벽하게 사용하여 다음과 같은 목표를 달성할 수 있습니다.</block>
   <block id="add8d69a5f7975ffd43124657fc5030d" category="list-text">SnapMirror 복제를 사용하여 온프레미스 프로덕션 사이트의 VMware 애플리케이션을 클라우드의 재해 복구 원격 사이트로 복제합니다.</block>
   <block id="dcc9d99320099ed731ca2f05b3e501a7" category="list-text">VMware 워크로드를 원래 사이트에서 다른 사이트로 마이그레이션합니다.</block>
   <block id="2aefc74ac286c583100431f62049590d" category="list-text">재해가 발생하면 기본 사이트를 필요 시 FSx for NetApp ONTAP 기반 VMware Cloud 또는 ONTAP를 통해 온프레미스 VMware 환경과 같은 재해 복구 사이트로 페일오버합니다.</block>
-  <block id="e3ad256b74f97a2f1b959e72ab2412d1" category="paragraph">NetApp은 BlueXP 재해 복구의 미리보기 버전을 사용하는 것에 대한 비용을 청구하지 않습니다.</block>
-  <block id="ba50e719024134acbaa901944c051993" category="section-title">BlueXP 재해 복구 미리 보기의 작동 방식</block>
-  <block id="ecf60675f0b1073c22428f969eb07a5e" category="paragraph">BlueXP 재해 복구 사전 공개는 온프레미스 사이트에서 Amazon FSx for ONTAP 또는 다른 온프레미스 사이트로 복제된 워크로드를 복구할 수 있습니다. 이 서비스는 SnapMirror 레벨에서 VMC(Virtual Machine Cloud)에 대한 가상 머신 등록을 통해, VMware 네트워크 가상화 및 보안 플랫폼 NSX-T에 대한 네트워크 매핑을 통해 복구를 자동화합니다 이 기능은 모든 Virtual Machine Cloud 환경에 포함되어 있습니다.</block>
-  <block id="afc52e70269b5e30f5b7b0ac72a76737" category="paragraph">BlueXP 재해 복구 사전 공개에서는 매우 효율적인 복제를 제공하고 ONTAP 영구 증분 스냅샷 효율성을 유지하는 ONTAP SnapMirror 기술을 사용합니다. SnapMirror 복제를 통해 애플리케이션 정합성이 보장된 Snapshot 복사본이 항상 동기화되고 페일오버 후 즉시 데이터를 사용할 수 있습니다.</block>
   <block id="a6a42e8e3070730d19bfd86d6a1d66fe" category="paragraph">다음 다이어그램은 온프레미스 간 재해 복구 계획의 아키텍처를 보여 줍니다.</block>
   <block id="11ee533cc4ce7135332d0b64a9e82e51" category="paragraph"><block ref="11ee533cc4ce7135332d0b64a9e82e51" category="inline-image-macro-rx" type="image"></block></block>
   <block id="20099229ad21726312a6ff50740b0b57" category="paragraph">재해가 있을 때 이 서비스는 SnapMirror 관계를 끊고 대상 사이트를 활성 상태로 만들어 다른 온프레미스 VMware 환경 또는 VMC에서 가상 머신을 복구하는 데 도움을 줍니다.</block>
@@ -615,4 +589,248 @@ BlueXP 재해 복구에는 지원이 필요하지 않습니다. 재해 복구 �
   <block id="96ed64c294e585324853f8f980f9d78e" category="sidebar">앱을 다른 사이트로 마이그레이션합니다</block>
   <block id="36a7330c410600f4393af365b3d66e29" category="sidebar">BlueXP 재해 복구 블로그</block>
   <block id="ad80d6168dc288f4361413eeca80dc5f" category="sidebar">다른 사이트로 마이그레이션</block>
+  <block id="610937dc327c640656a75f6464a91433" category="summary">BlueXP 재해 복구는 재해 복구 워크플로우를 자동화하는 클라우드 기반 재해 복구 서비스입니다. VMware용 BlueXP 재해 복구를 사용하면 NetApp 클라우드 스토리지를 사용하여 ONTAP 스토리지를 실행하는 온프레미스 VMware 워크로드를 퍼블릭 클라우드의 VMware 소프트웨어 정의 데이터 센터로 복제하여 재해 복구 사이트로 복제할 수 있습니다.</block>
+  <block id="578e9059da07f7d858d4746bbf9af55a" category="section-title">2024년 2월 1일</block>
+  <block id="9df62cb4d6f151b560e84723841bd523" category="paragraph">이 BlueXP 재해 복구 릴리즈에는 다음 업데이트가 포함됩니다.</block>
+  <block id="c61970ed6417395a368e95032dbce932" category="list-text">* 네트워크 향상 * : 이 릴리스에서는 이제 VM CPU 및 RAM 값의 크기를 조정할 수 있습니다. 이제 VM에 대한 네트워크 DHCP 또는 정적 IP 주소를 선택할 수도 있습니다.</block>
+  <block id="bb3e5e687ab316872aaebfbeeb4a6605" category="list-text">DHCP: 이 옵션을 선택하면 VM에 대한 자격 증명을 제공합니다.</block>
+  <block id="302dd2d13eb7b51a95fccbe2fc1ba0b8" category="list-text">정적 IP: 소스 VM에서 동일하거나 다른 정보를 선택할 수 있습니다. 원본과 동일한 을 선택하면 자격 증명을 입력할 필요가 없습니다. 반면 원본과 다른 정보를 사용하도록 선택한 경우 자격 증명, IP 주소, 서브넷 마스크, DNS 및 게이트웨이 정보를 제공할 수 있습니다.</block>
+  <block id="1a390a4e18b059462c8f07ea2ea02106" category="paragraph">자세한 내용은 을 참조하십시오<block ref="5cf2140f2775e5f1ccc24bb836a069a3" category="inline-link-rx"></block>.</block>
+  <block id="18d156337647f6bf6b3408e6bf902c50" category="list-text">* 사용자 정의 스크립트 * 는 이제 사후 장애 조치 프로세스로 포함될 수 있습니다. 사용자 지정 스크립트를 사용하면 페일오버 프로세스 후에 BlueXP 재해 복구로 스크립트를 실행할 수 있습니다. 예를 들어, 페일오버가 완료된 후 사용자 지정 스크립트를 사용하여 모든 데이터베이스 트랜잭션을 재개할 수 있습니다.</block>
+  <block id="162522900f68ffca5220e53ec0e2c907" category="paragraph">자세한 내용은 을 참조하십시오<block ref="7cdfded96340b83fb1e5d3c286b13377" category="inline-link-rx"></block>.</block>
+  <block id="8d416397bb32c8298a01a75068b98f3c" category="list-text">* SnapMirror 관계 *: 이제 복제 계획을 개발하는 동안 SnapMirror 관계를 생성할 수 있습니다. 이전에는 BlueXP 재해 복구 외부에 관계를 생성해야 했습니다.</block>
+  <block id="1d73761c9dd4b9338f6974eee8d2a449" category="list-text">* 정합성 보장 그룹 *: 복제 계획을 생성할 때 다른 볼륨과 다른 SVM의 VM을 포함할 수 있습니다. BlueXP 재해 복구를 통해 모든 볼륨을 포함하여 일관성 그룹 스냅샷을 생성하고 모든 2차 위치를 업데이트합니다.</block>
+  <block id="ed38b69c5713d5b42f77e9c3ec5872a8" category="list-text">* VM 전원 공급 지연 옵션 *: 복제 계획을 생성할 때 리소스 그룹에 VM을 추가할 수 있습니다. 리소스 그룹을 사용하면 각 VM에 지연 시간을 설정하여 지연된 시퀀스에서 전원을 켤 수 있습니다.</block>
+  <block id="193634e2d37697e73e8a9d15d4dca73d" category="list-text">* 애플리케이션 정합성 보장 스냅샷 복사본 *: 애플리케이션 정합성이 보장된 스냅샷 복사본을 생성하도록 지정할 수 있습니다. 이 서비스는 응용 프로그램을 중지한 다음 스냅샷을 생성하여 응용 프로그램의 일관된 상태를 확보합니다.</block>
+  <block id="17c3c89f25f7684516a883f30f10b747" category="section-title">2024년 1월 11일</block>
+  <block id="498bbebab4456541af3524b2dbb2f6c9" category="paragraph">이 BlueXP 재해 복구 릴리즈에는 다음 업데이트가 포함됩니다.</block>
+  <block id="77a292951e2cd7ee0d1bc7d3db0020ec" category="list-text">이 릴리즈를 사용하면 대시보드에서 다른 페이지의 정보에 더 빠르게 액세스할 수 있습니다.</block>
+  <block id="0f354958858456370fa7b64c5f2a913c" category="paragraph"><block ref="929628a652068d14da23775529f8803b" category="inline-link-rx"></block>.</block>
+  <block id="2c1f345ff21d3c1b339c0919d325adfc" category="paragraph">다음 단계는 필요한 가상 머신을 기능적 리소스 그룹으로 그룹화하는 것입니다. 리소스 그룹을 사용하면 종속 가상 머신 세트를 요구 사항을 충족하는 논리적 그룹으로 그룹화할 수 있습니다. 예를 들어, 복구 시 실행할 수 있는 지연된 부팅 순서가 그룹에 포함될 수 있습니다.</block>
+  <block id="4c30b8942ce84d792af3c472e97627ee" category="list-text">페일오버 매핑 탭에서 각 리소스의 오른쪽에 있는 아래쪽 화살표를 선택합니다.</block>
+  <block id="f39dc72f994fcb8918317858e1a469cf" category="list-text">* VM CPU 및 RAM *: 가상 머신 세부 정보 아래에서 선택적으로 VM CPU 및 RAM 매개 변수의 크기를 조정할 수 있습니다.</block>
+  <block id="b1841dbb88afa1d16bef484ec95e7696" category="list-text">* 부팅 순서 지연 * : 또한 리소스 그룹에서 선택한 모든 가상 시스템의 부팅 순서를 수정할 수 있습니다. 기본적으로 리소스 그룹 선택 시 선택한 부팅 순서가 사용되지만 이 단계에서 변경할 수 있습니다.</block>
+  <block id="40789d19f18761ecc3b88cb1ea134619" category="list-text">* DHCP 또는 정적 IP *: 복제 계획의 가상 머신 섹션에서 소스 및 대상 위치 간의 네트워킹을 매핑할 때 BlueXP 재해 복구는 DHCP 또는 정적 IP의 두 가지 옵션을 제공합니다. 정적 IP의 경우 서브넷, 게이트웨이 및 DNS 서버를 구성합니다. 또한 가상 머신에 대한 자격 증명을 입력합니다.</block>
+  <block id="dc304d3d6524acb70870c5c55a21ebb9" category="list-text">* DHCP * : 이 옵션을 선택하면 VM에 대한 자격 증명만 제공합니다.</block>
+  <block id="13c796f8f63d49fc45ecbb42db3b6868" category="list-text">* 정적 IP *: 소스 VM에서 동일하거나 다른 정보를 선택할 수 있습니다. 원본과 동일한 을 선택하면 자격 증명을 입력할 필요가 없습니다. 반면 원본과 다른 정보를 사용하도록 선택한 경우 자격 증명, VM의 IP 주소, 서브넷 마스크, DNS 및 게이트웨이 정보를 제공할 수 있습니다. VM 게스트 OS 자격 증명은 글로벌 레벨 또는 각 VM 레벨에 제공해야 합니다.</block>
+  <block id="27469d5f3bff97989e2a320de315084a" category="inline-image-macro">복제 계획 추가 및 GT, 리소스 매핑 및 GT, 가상 머신을 보여 주는 스크린샷</block>
+  <block id="a185f33799a71b88cd6698b98b6a24ba" category="paragraph"><block ref="24a9c3a30da07f8741b28abb153be52b" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="13f51fa84ff64a1c633957d1dcf01637" category="paragraph">이 기능은 대규모 환경을 소규모 대상 클러스터로 복구하거나 일대일 물리적 VMware 인프라를 프로비저닝하지 않고도 재해 복구 테스트를 수행할 때 매우 유용합니다.</block>
+  <block id="968b5e826ff04540f18ce0baa3466400" category="list-text">* 애플리케이션 정합성이 보장되는 복제본 *: 애플리케이션 정합성이 보장되는 스냅샷 복제본을 생성할지 여부를 나타냅니다. 이 서비스는 응용 프로그램을 중지한 다음 스냅샷을 생성하여 응용 프로그램의 일관된 상태를 확보합니다.</block>
+  <block id="ec99466f38bdb41d26e8d8c41d59dcac" category="list-text">* RPO *: 복구 지점 목표(RPO)를 입력하여 복구할 데이터의 양(시간 단위)을 표시합니다. 예를 들어 RPO를 2시간으로 입력하는 경우 항상 2시간보다 오래되지 않은 데이터가 복구에 있어야 합니다. 재해가 발생할 경우 최대 2시간의 데이터 손실이 허용됩니다. 또한 모든 데이터 저장소에 대해 유지할 스냅샷 복사본의 수를 입력합니다.</block>
+  <block id="a0a39a6cc9b29c2c12820ee4ef86be49" category="list-text">* SnapMirror 관계 *: 볼륨에 SnapMirror 관계가 이미 설정된 경우 해당 소스 및 타겟 데이터 저장소를 선택할 수 있습니다. SnapMirror 관계가 없는 볼륨을 선택한 경우 작업 환경과 피어 SVM을 선택하여 지금 볼륨을 생성할 수 있습니다.</block>
+  <block id="4c77d41c045300d2cacb091f19b6d9a5" category="list-text">* 정합성 보장 그룹 *: 복제 계획을 생성할 때 다른 볼륨과 다른 SVM의 VM을 포함할 수 있습니다. BlueXP 재해 복구로 일관성 그룹 스냅샷이 생성됩니다.</block>
+  <block id="436f3832b32bfb2d3cb66d6298a71245" category="list-text">RPO(Recovery Point Objective)를 지정하면 서비스는 RPO를 기준으로 운영 백업을 예약하고 보조 대상을 업데이트합니다.</block>
+  <block id="db0b972911bb657f80d12b2f6b007b86" category="list-text">VM이 동일한 볼륨과 동일한 SVM에서 수행되는 경우 이 서비스는 표준 ONTAP 스냅샷을 수행하고 2차 대상을 업데이트합니다.</block>
+  <block id="e8363aaad82f774ed9651b7f7c17c5b4" category="list-text">VM이 다른 볼륨과 동일한 SVM의 경우 서비스에서 모든 볼륨을 포함하여 일관성 그룹 스냅샷을 생성하고 2차 대상을 업데이트합니다.</block>
+  <block id="d32ce27dcbfd9839065d47ddfb554762" category="list-text">VM이 다른 볼륨과 다른 SVM에서 생성된 경우, 서비스는 같거나 다른 클러스터에 있는 모든 볼륨을 포함하는 일관성 그룹 시작 단계를 수행하고 커밋 단계 스냅샷을 수행하며 2차 대상을 업데이트합니다.</block>
+  <block id="3b82d309bad3607f9368c1de90e8ea3c" category="list-text">페일오버 중에 임의의 스냅샷을 선택할 수 있습니다. 최신 스냅샷을 선택하면 주문형 백업이 생성되고 대상이 업데이트되며 해당 스냅샷이 페일오버에 사용됩니다.</block>
+  <block id="d59e0b46782e48a01966e5c7ccc38d17" category="paragraph">NetApp는 지원 및 라이센스와 관련된 인증 서비스의 ID 공급자로 Microsoft Entra ID를 사용합니다.</block>
+  <block id="7fda53563ff8ebfe855a3a79f568f396" category="summary">BlueXP 재해 복구를 통해 무료 평가판, 용량제 구독 또는 자체 라이센스 서비스를 비롯한 다양한 라이센스 계획을 사용할 수 있습니다.</block>
+  <block id="a7193edb26a4b1bca4b7b82254e6dd4b" category="doc">BlueXP 재해 복구를 위한 라이센스 설정</block>
+  <block id="487e188799d200e50a0b10ecfcf71c29" category="paragraph">다음 라이센스 유형 중 하나를 사용할 수 있습니다.</block>
+  <block id="06cda8527230b64a09b1c568fbd2a80e" category="list-text">90일 무료 평가판을 신청하십시오.</block>
+  <block id="562d634497091dd1cf780c100a3b407a" category="list-text">AWS(Amazon Web Services) Marketplace를 통해 1, 2 또는 3년간 용량제(PAYGO) 구독을 구매합니다.</block>
+  <block id="a70dde4c33e782ae5fe27d750ac67840" category="list-text">BYOL(Bring Your Own License): NetApp 세일즈 담당자 또는 NSS(NetApp Support 사이트)로부터 받는 NLF(NetApp 라이센스 파일) NLF를 BlueXP 디지털 지갑에 직접 업로드하거나 라이센스 일련 번호를 사용하여 BlueXP 디지털 지갑에서 BYOL을 활성화할 수 있습니다.</block>
+  <block id="64b0d9155985d2dd6eeb6028b95e61f9" category="admonition">BlueXP 재해 복구 비용은 복제 계획이 있는 VM이 하나 이상 있을 때 소스 사이트에 프로비저닝된 데이터 저장소 용량을 기반으로 합니다. 페일오버된 데이터 저장소의 용량이 허용 용량에 포함되지 않습니다. BYOL의 경우 데이터가 허용된 용량을 초과하는 경우 추가 용량 라이센스를 취득하거나, BlueXP 디지털 지갑의 라이센스를 업그레이드하거나, AWS에서 구독을 구입할 때까지 서비스 작업이 제한됩니다. AWS 구독을 선택하는 경우 계약 한도 이상으로 사용된 용량은 AWS 마켓플레이스 계획을 기준으로 비용이 청구됩니다.</block>
+  <block id="f162f6ba04d470090d59c95f43d89df4" category="paragraph">AWS에서 BYOL을 설정하거나 구입한 후에는 BlueXP 디지털 전자지갑에서 * 데이터 서비스 라이센스 * 탭의 라이센스를 확인하거나 BlueXP 디지털 지갑 * 구독 * 탭에서 활성 구독의 내용을 확인할 수 있습니다.</block>
+  <block id="038d93ce13a2896c1d35fb3fc2f5fd57" category="paragraph">무료 평가판이 종료되거나 라이센스 또는 AWS 구독이 만료된 후에도 서비스에서 다음을 수행할 수 있습니다.</block>
+  <block id="9a0514da0283645471837a7dd9cdd00a" category="list-text">워크로드 또는 복제 계획과 같은 모든 리소스를 봅니다.</block>
+  <block id="1868701c43ed8ccfa46dc8fe93f4252f" category="list-text">워크로드 또는 복제 계획과 같은 리소스를 삭제합니다.</block>
+  <block id="c07e8b2cbedb447cec03e974351874da" category="list-text">평가판 기간, 라이센스 또는 구독 기간 동안 생성된 모든 예약된 작업을 실행합니다.</block>
+  <block id="d687b9bb1fc0385150b07b1a9aaae7d3" category="section-title">90일 무료 평가판을 사용해 보십시오</block>
+  <block id="1863514dc4e2f913207e4b5eacc1a0a8" category="paragraph">90일 무료 평가판을 사용하여 BlueXP 재해 복구를 체험해 볼 수 있습니다.</block>
+  <block id="88c474e49a0cbbc7ef17d052040cd008" category="admonition">시험판 평가 중에는 용량 제한이 적용되지 않습니다.</block>
+  <block id="48147384453590f1039b45c52cc9eca5" category="paragraph">언제든지 라이선스를 받거나 가입할 수 있으며 90일 평가판이 종료될 때까지 비용이 청구되지 않습니다. 90일 평가판 사용 후에도 계속 사용하려면 BYOL 라이선스 또는 PAYGO AWS 구독을 구매해야 합니다.</block>
+  <block id="f37d436fdc8600ce24709a8f4435ec79" category="paragraph">평가판 사용 중에는 모든 기능을 사용할 수 있습니다.</block>
+  <block id="39c87728ab108f5ab751a40319f03bc8" category="list-text">에 액세스합니다<block ref="4d9841a08a6f1c082f5ba73c5d87fcc1" category="inline-link-rx"></block>.</block>
+  <block id="771e1ea643a8723d0d0dfad6c2b70ace" category="list-text">다른 서비스에 대한 커넥터를 아직 추가하지 않은 경우 추가합니다.</block>
+  <block id="e6e80588e9fe7cf89218fea44300f7ca" category="inline-link">커넥터에 대해 자세히 알아보십시오</block>
+  <block id="7530875db6f7eceea689fdfeb6a12778" category="paragraph">커넥터를 추가하려면 을 참조하십시오<block ref="d6df7dcc2fc3105e10967a9194806ce5" category="inline-link-rx"></block>.</block>
+  <block id="ac04f975264c50a52d2f6cc638afb39f" category="list-text">커넥터를 설정한 후 BlueXP 재해 복구 랜딩 페이지에서 * 무료 평가판 시작 * 을 선택합니다.</block>
+  <block id="be0511671b1a06d12a8abb3e1a528ddd" category="paragraph"><block ref="be0511671b1a06d12a8abb3e1a528ddd" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="9aac5cf8ab754f13e3926b6983853bec" category="list-text">무료 평가판 정보를 검토하고 * Let's Go * 를 선택합니다.</block>
+  <block id="ad7911fdd21ff5752d10300d0446de95" category="section-title">평가판이 끝난 후 AWS Marketplace를 통해 구독하십시오</block>
+  <block id="e1186eb5e41d3a9e96827c9ab4aef684" category="paragraph">무료 평가판이 끝난 후 NetApp에서 라이센스를 구입하거나 AWS Marketplace를 통해 구독할 수 있습니다. 이 절차에서는 AWS Marketplace에서 직접 구독하는 방법에 대한 간략한 개요를 제공합니다.</block>
+  <block id="acce4a6c25bc51b4930085d68e3cb0cd" category="list-text">BlueXP 재해 복구에서 무료 평가판이 만료된다는 메시지가 표시됩니다. 메시지에서 * 가입 또는 라이센스 구매 * 를 선택합니다.</block>
+  <block id="1584158e2068ac8b1f79bfc70eb2775d" category="inline-image-macro">BlueXP 재해 복구 구독 또는 구매 라이센스 페이지 를 확인하십시오</block>
+  <block id="3d4db8763fbd87ecc7a4f8101cbec83a" category="paragraph"><block ref="3d4db8763fbd87ecc7a4f8101cbec83a" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="115e74c3b43a13f1983597e5b4ae81a4" category="list-text">구독 또는 구매 라이선스 페이지에서 * AWS Marketplace * 에서 구독 을 선택합니다.</block>
+  <block id="a06442e94af0d31f4eee679c83de7779" category="list-text">AWS Marketplace에서 * 구매 옵션 보기 * 를 선택합니다.</block>
+  <block id="266c58f74740e96b35f10409d3036f8f" category="list-text">AWS Marketplace를 사용하여 BlueXP 재해 복구를 구독하십시오.</block>
+  <block id="44ff26969211cf5f760425e5016afa73" category="list-text">BlueXP 재해 복구로 돌아가면 구독 중이라는 메시지가 표시됩니다. BlueXP 디지털 지갑에서 구독 세부 정보를 보려면 * 구독 세부 정보 보기 * 를 선택하고 * 구독 * 페이지에서 활성 구독을 확인하십시오.</block>
+  <block id="0a504e78221db1ccaf51b7ad21bc16ce" category="inline-image-macro">BlueXP 디지털 지갑 구독 탭</block>
+  <block id="b8318893a2b8f639b74d86e371957c0e" category="paragraph"><block ref="b8318893a2b8f639b74d86e371957c0e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ee6d03e51dd7b0fc10c6b3c8fcab3718" category="section-title">시험판이 끝난 후 NetApp를 통해 BYOL 라이센스를 구입합니다</block>
+  <block id="09df6e80d7c4ba090cf66cd7701a1c4c" category="paragraph">평가판이 종료되면 NetApp 영업 담당자 또는 기술 지원을 통해 라이센스를 구입할 수 있습니다.</block>
+  <block id="d290f0e91ae809782a7b9ccd5dd8157a" category="list-text">라이센스를 구입하려면 NetApp 영업 담당자 또는 NetApp 지원 부서에 문의하십시오.</block>
+  <block id="597d0190b11ec0257a1f5198f97f9a2b" category="list-text">라이센스를 가져온 후 BlueXP 재해 복구 로 돌아가서 무료 평가판이 만료된다는 메시지에서 * 구독 또는 라이센스 구매 * 를 선택합니다.</block>
+  <block id="180dedb526e274f91d60858c5c4a3860" category="paragraph">라이선스 구독 또는 구입 페이지가 나타납니다.</block>
+  <block id="32bbb007372ce4b973626330548ca221" category="paragraph"><block ref="32bbb007372ce4b973626330548ca221" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="b11106bafac141be455d28549bfe177d" category="list-text">BlueXP에 라이센스 추가 * 를 선택합니다. BlueXP 디지털 지갑으로 이동하게 됩니다.</block>
+  <block id="1128484aa2dddb1a13c46430bcfc4f8c" category="paragraph"><block ref="1128484aa2dddb1a13c46430bcfc4f8c" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="5de6fcf96fdf4957fd1e6d3fb44caf43" category="list-text">BlueXP 디지털 지갑의 * 데이터 서비스 라이센스 * 탭에서 * 라이센스 추가 * 를 선택합니다.</block>
+  <block id="9dda386ae07131acd9cdd775b4c604fb" category="list-text">라이센스 추가 페이지에서 일련 번호를 입력하거나 NetApp 라이센스 파일(NLF)을 업로드합니다.</block>
+  <block id="d2ec998008b95e1189b9d8f3dbc6ed64" category="inline-image-macro">BlueXP 디지털 지갑에 라이센스 추가 페이지 가 표시됩니다</block>
+  <block id="57aee2bea99630804d4ce4577e4d3848" category="paragraph"><block ref="57aee2bea99630804d4ce4577e4d3848" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="8d4d6551ee286317b2a4f297766952f5" category="section-title">무료 평가판을 종료합니다</block>
+  <block id="859b0ef2563ddd8c6712d419656bde38" category="paragraph">무료 평가판은 언제든지 중지하거나 만료될 때까지 기다릴 수 있습니다.</block>
+  <block id="d940bc2868fa1d10a5c804aa0df8fd1b" category="list-text">BlueXP 재해 복구의 오른쪽 위에서 * 무료 평가판 - 세부 정보 보기 * 를 선택합니다.</block>
+  <block id="2c6b9011807f7d1e8a37a31be26bb7c0" category="list-text">드롭다운 세부 정보에서 * 무료 평가판 종료 * 를 선택합니다.</block>
+  <block id="fc145d0284ba4e60c3b5f315355ac505" category="inline-image-macro">무료 평가판 종료 페이지</block>
+  <block id="587e300d205e423949127c7c6e81f5c0" category="paragraph"><block ref="587e300d205e423949127c7c6e81f5c0" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="3c90e08e219b34e50a8fec5640b6f2e8" category="list-text">모든 데이터를 삭제하려면 * 평가판이 종료될 때 모든 데이터 삭제 * 를 선택합니다.</block>
+  <block id="cb4cbd8ce32849060814e41e57e5db7f" category="paragraph">이렇게 하면 모든 스케줄, 복제 계획, 리소스 그룹, vCenter 및 사이트가 삭제됩니다. 감사 데이터, 작업 로그 및 작업 기록은 제품 수명이 끝날 때까지 유지됩니다.</block>
+  <block id="fd4452ba53d2010757fb183f23851efd" category="admonition">무료 평가판을 종료했지만 데이터를 삭제하지 않고 라이센스 또는 구독을 구입하지 않은 경우, 무료 평가판이 끝난 후 60일 후에 BlueXP 재해 복구에서 모든 데이터가 삭제됩니다.</block>
+  <block id="c3964fe08c9dd95815cc67d8aaee9323" category="list-text">텍스트 상자에 "END TRIAL"을 입력합니다.</block>
+  <block id="44a320573c319d1f30b840c2d11a4e26" category="list-text">End * 를 선택합니다.</block>
+  <block id="03d76a2a858f58b49cbf5318ea7fae89" category="section-title">AWS 용량제(PAYGO) 구독 사용</block>
+  <block id="b54118937870b2a29883c827835c5d7b" category="paragraph">AWS Marketplace PAYGO 구독을 사용하려면 먼저 AWS에서 설정한 다음 BlueXP에서 이를 설정해야 합니다.</block>
+  <block id="7ea992af35479c98a59ce5b5bbf5b467" category="paragraph">AWS에서 PAYGO 구독을 설정하려면 다음 절차를 완료하십시오.</block>
+  <block id="7958e0b07aaf6b218402641474a31396" category="list-text"><block ref="e121033f1b5893d6baef892ad6791e78" category="inline-xref-macro-rx"></block></block>
+  <block id="142c7a85b86d51aacb13711eace86b8f" category="list-text"><block ref="b008b5211c1dc1b9e62320810ea2d12b" category="inline-xref-macro-rx"></block></block>
+  <block id="9e9f62e3e7a076cd3479b52d57adc152" category="list-text"><block ref="070345c883c9e12d8d07a6bc3199fa56" category="inline-xref-macro-rx"></block> 또는</block>
+  <block id="36597d70ec9bb901e3556096167fab19" category="paragraph"><block ref="3951058806656057a6e70b7ce0e7db12" category="inline-xref-macro-rx"></block>.</block>
+  <block id="1797a05f2f9f21102c18c5d694c4c787" category="section-title">1부 AWS에서 PAYGO 구독을 구성합니다</block>
+  <block id="71059c267704f257a71846b38b2d3c27" category="paragraph">다음은 AWS에서 PAYGO 구독을 구성하는 단계를 간략하게 요약한 것입니다.</block>
+  <block id="a0b5de080d56bb71b1a6a7c72fd88757" category="inline-link">BlueXP의 AWS 자격 증명 및 마켓플레이스 가입을 관리합니다</block>
+  <block id="2d3ab30e64f116127b23613f3890a941" category="paragraph">자세한 내용은 을 참조하십시오<block ref="19fe580609a1e652d0ab66d2ddde6588" category="inline-link-rx"></block>.</block>
+  <block id="fe9a83cc653d523afe5e4eba7ef3505d" category="inline-link">AWS Marketplace 구독에 대한 액세스 제어</block>
+  <block id="fa7c2a10a866e331284ef3e62fc62f7f" category="paragraph">파트너는 이미 NetApp 영업 팀과 협력하여 오퍼링 링크를 획득했으며 에 설명된 대로 제안을 수락할 수 있는 권한이 있어야 합니다<block ref="b3e8332268f9a285ff69c1a6128887eb" category="inline-link-rx"></block>.</block>
+  <block id="1a6212b88cf9173f8b160dac03acb2f8" category="list-text">AWS 콘솔에서 NetApp BlueXP에 대한 AWS 마켓플레이스 전용 혜택을 수락합니다.</block>
+  <block id="940a5318d59fd0b8397886ae775c7a24" category="paragraph">다음 정보를 참조하십시오.</block>
+  <block id="254b97c87fecf1c94b73d6fa9984f5d2" category="inline-link">AWS Marketplace 콘솔을 통해 전용 혜택을 이용할 수 있습니다</block>
+  <block id="38ca94fa97df0771a81ddfa231152ffc" category="list-text"><block ref="97696286d6c4c1feb27501e7ae44ea4f" category="inline-link-rx"></block>.</block>
+  <block id="f1683b33b8337beb2e1a264bdf05fe3e" category="inline-link">프라이빗 오퍼 페이지를 보려면 필요한 권한입니다</block>
+  <block id="90d08fd4b2b506e276b88ea2f0f11c6a" category="list-text"><block ref="0fba40e968c99d0904b96353ca748fd5" category="inline-link-rx"></block>.</block>
+  <block id="be778ac8ea4459f3690f40ef2999cc37" category="list-text">전용 오퍼 세부 정보를 검토하고 이 내용이 동의와 일치하는지 확인합니다.</block>
+  <block id="604384a772b2e87a191f5b771dfb5a48" category="admonition">구독하기 * 를 클릭하면 결제가 시작되므로, 정보가 올바르지 않으면 * 비공개 오퍼를 수락하지 말고 대신 NetApp 판매 담당자에게 문의하십시오.</block>
+  <block id="bb19155ccaa161e1a06c7624d967c788" category="list-text">오퍼 정보가 올바른지 확인한 후 * 구독 * 을 선택합니다.</block>
+  <block id="4550f447d5f279d11a5ab35c44ad8931" category="paragraph">오퍼가 계약 목록을 사용하는 경우 서비스당 단위 수도 입력합니다. 그런 다음 * 계약 생성 * 을 선택하여 전용 오퍼를 수락할 수 있습니다.</block>
+  <block id="c4eed6864e856fcf16af8951b7d5d928" category="list-text">팝업에서 * 계정 설정 * 을 선택하면 NetApp BlueXP 콘솔로 리디렉션하여 BlueXP 마켓플레이스 구독 구성을 완료합니다.</block>
+  <block id="830afba629e1306d5d9562520239014c" category="paragraph">오퍼가 계약 목록을 사용하는 경우 * 구매 옵션 보기 * 를 선택한 다음 * 계정 설정 * 을 선택합니다.</block>
+  <block id="008faa9bf02793ec80dd22802324e7a8" category="section-title">2부 BlueXP에서 PAYGO 구독 구성</block>
+  <block id="3cf4897c65d7180a2547df31556faf36" category="paragraph">AWS 콘솔에서 전용 혜택을 수락하면 BlueXP 콘솔로 이동됩니다.</block>
+  <block id="a34c709a45984bcd5ef80347d96295f3" category="list-text">BlueXP 콘솔에서 다음을 수행합니다.</block>
+  <block id="0cfdbbeff2c2c1a3b7cc8f03c29d3ed8" category="list-text">SaaS Marketplace 구독의 표시 이름을 입력합니다.</block>
+  <block id="63828798bd1230f9846eb53c0f428075" category="list-text">이 마켓플레이스 구독에 액세스할 수 있는 NetApp BlueXP 계정을 선택하십시오.</block>
+  <block id="01db4744f6def2fba5458cd9649a04c6" category="list-text">하나의 NetApp BlueXP 계정에 있는 기존 SaaS 마켓플레이스 구독을 새로 만든 구독으로 교체하려면 * 기존 구독 바꾸기 * 를 선택합니다. BlueXP는 이 새 구독으로 계정의 모든 클라우드 자격 증명에 대한 기존 구독을 대체합니다.</block>
+  <block id="1f1c5e7358dc4b8dd0f0e08d305922f0" category="admonition">교체 옵션은 단일 NetApp BlueXP 계정으로 제한됩니다. 동일한 SaaS Marketplace 구독에 연결할 BlueXP 계정이 여러 개 있는 경우 개별적으로 구성해야 합니다.</block>
+  <block id="7d07a551e8dd304b958fbc6981b73339" category="admonition">클라우드 자격 증명 세트가 SaaS Marketplace 구독과 연결되지 않은 경우 이 절차의 다음 단계에 따라 구성해야 합니다.</block>
+  <block id="ce2f1b02050aa24eb599cd0ed025ebaf" category="list-text">저장 * 및 * 완료 * 를 선택합니다.</block>
+  <block id="c2ae9406b3d9ee82ed8df853c5d603f0" category="list-text">파트 3을 계속합니다. 다음:</block>
+  <block id="bba06a422953f8a83263cf0521437723" category="list-text"><block ref="e53fbcd40f298359a8d18f7c77c07e73" category="inline-xref-macro-rx"></block></block>
+  <block id="379d8532291451fe1d148068b1d24ef5" category="list-text"><block ref="78411b4f0b47e9549f1651901a1acb65" category="inline-xref-macro-rx"></block>.</block>
+  <block id="9d59028ce6f4747a18b6838a6f09a117" category="section-title">파트 3a 새 마켓플레이스 구독을 AWS 자격 증명과 연결합니다</block>
+  <block id="ebb3379e145480ac6ca3d8e4029db7b1" category="paragraph">AWS에서 라이센스 설정 3부입니다.</block>
+  <block id="d3cde1b881639a665a90ac695ae575a0" category="admonition">연간 계약을 맺은 경우 다음 절차를 계속 진행하십시오.
+<block ref="3951058806656057a6e70b7ce0e7db12" category="inline-xref-macro-rx"></block>.</block>
+  <block id="52aadb7994c5f362fa0f7a83f87dc86c" category="inline-link">NetApp BlueXP 콘솔</block>
+  <block id="9f1c8017d556a2aef8e6075190b62192" category="list-text">에 액세스합니다<block ref="64efe90ec09bb66157eb6145101787fe" category="inline-link-rx"></block>.</block>
+  <block id="b341a3d298535291adc28f4788d6bda4" category="list-text">구독 세부 정보 확인:</block>
+  <block id="4e5427e3b406d2b0de29fb0b8534c769" category="list-text">왼쪽 창에서 * Governance * &gt; * Digital Wallet * 를 선택합니다.</block>
+  <block id="beb9eb3a3d65f3bfd740e1118980f58f" category="list-text">가입 * 탭을 선택합니다.</block>
+  <block id="f64e9c342f1c729967c3dc578f118af5" category="inline-image-macro">BlueXP 디지털 지갑 구독 페이지 를 참조하십시오</block>
+  <block id="80b5fc2e9b9ec77d4259fcb518114912" category="paragraph"><block ref="80b5fc2e9b9ec77d4259fcb518114912" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0ee383b8371095886935f57cc0efb405" category="list-text">1부 중에 추가한 SaaS Marketplace 구독을 찾아 이 요금제가 사용하고자 하는 올바른 요금제인지 확인합니다.</block>
+  <block id="5b1d7a2b43ecc604d05b4893ae87b59a" category="list-text">AWS 구독의 행을 찾아 행을 확장하여 세부 정보를 확인하고, 전용 혜택이 BlueXP 계정과 성공적으로 연결되었는지 확인합니다.</block>
+  <block id="5c5e2e0499bc7f7fecdde6f95f40c1e3" category="paragraph">AWS 마켓플레이스에서의 제한 때문에 이 오퍼링 일부 세부 정보는 AWS 콘솔 외부에서 이용할 수 없습니다. 필드 중 하나에 "N/A"가 표시되면 AWS 콘솔에서 해당 정보를 검색할 수 없고 실수가 아니라는 의미입니다. AWS 콘솔에서 정보를 확인할 수 있습니다.</block>
+  <block id="a0f95a743b2775b8fba7b5a924f76baa" category="list-text">BlueXP 콘솔의 오른쪽 상단에 있는 * Settings * 장비를 선택하고 * Credentials * 를 선택합니다.</block>
+  <block id="90645583b7cd588fe3443deb803837ac" category="inline-image-macro">BlueXP 디지털 지갑 설정 메뉴</block>
+  <block id="0668ffb1c899644153199c5f324aa49a" category="paragraph"><block ref="0668ffb1c899644153199c5f324aa49a" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="26dbffa561c5a4edb53660827d7e7706" category="list-text">새 SaaS Marketplace 구독과 연결할 자격 증명 세트를 찾습니다.</block>
+  <block id="7a8b6ea04d251b8c4b172d2d023344b3" category="admonition">작업 환경 위에 있는 * 보기 * 를 클릭하여 이러한 항목이 올바른지 확인할 수 있습니다.</block>
+  <block id="edec357d0d2cfaa2150bcb333c1fd2ef" category="list-text">조치... * 옵션을 선택하고 * 가입 연계 * 를 선택합니다.</block>
+  <block id="5d8e98d15a078287f83c7b70eba894b0" category="list-text">마켓플레이스 구독 드롭다운 메뉴에서 전용 혜택을 선택하고 * Associate * 를 선택합니다.</block>
+  <block id="3182f5d22d492f786e8fcab91fd9feb9" category="admonition">이제 이러한 AWS 자격 증명과 관련된 마켓플레이스 요금이 방금 연결한 SaaS 마켓플레이스 구독을 통해 청구됩니다. 연간 계약을 사용하는 경우, 이러한 AWS 자격 증명과 관련된 인프라 비용은 연간 계약에 대한 사용량에 따라 계산됩니다.</block>
+  <block id="f540d742161049a0c3808e1dd7df679d" category="list-text">이 SaaS Marketplace 구독과 연결하려는 BlueXP 계정의 다른 AWS 자격 증명에 대해 이 단계를 반복합니다.</block>
+  <block id="184ea8133c93c8c6b9959e07a778d612" category="list-text">다른 BlueXP 계정의 AWS 자격 증명에 대해서는 BlueXP 콘솔 상단에 있는 * Account * 옵션을 사용하여 계정을 전환하고 단계를 반복합니다.</block>
+  <block id="e7ecf0e2187417bb80965e261f3d687a" category="list-text">다른 BlueXP 커넥터와 관련된 AWS 자격 증명의 경우 BlueXP 콘솔 상단에 있는 * Connector * 옵션을 사용하여 커넥터를 전환하고 단계를 반복합니다.</block>
+  <block id="37ba0d00ba7eb6590dc502a31b233ba0" category="section-title">파트 3b 새 마켓플레이스 구독을 연간 계약에 대한 AWS 자격 증명과 연결합니다</block>
+  <block id="ea336ec3d892f674d934a8abce41005d" category="paragraph">연간 계약을 사용하는 경우 BlueXP 디지털 지갑의 정보가 약간 다르게 표시됩니다.</block>
+  <block id="fccce5e3f1af2f8b7ad561e91d4b23dc" category="inline-image-macro">연간 계약이 표시된 BlueXP 디지털 지갑 구독 페이지</block>
+  <block id="b55cf2fdb4bb0ed0219814859edac78e" category="paragraph"><block ref="b55cf2fdb4bb0ed0219814859edac78e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="47df556c07e34b92767e15124f334364" category="list-text">AWS 연간 계약 구독의 행을 찾고, 행을 확장하여 자세한 내용을 보고, 전용 혜택이 BlueXP 계정과 성공적으로 연결되었는지 확인하십시오.</block>
+  <block id="882b24b1c144518d9b63aa336fd80830" category="inline-image-macro">연간 계약에 대한 BlueXP 디지털 지갑 구독 페이지 입니다</block>
+  <block id="7199274914d6d189e642a1bc776a6ece" category="paragraph"><block ref="7199274914d6d189e642a1bc776a6ece" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="a59b15d69a0a5639add7b662e566f795" category="list-text">해당 행에서 * Actions... * 옵션을 선택하고 * Associate Subscription * 을 선택합니다.</block>
+  <block id="92385d728bb39452ba6c20c6ad1d1c89" category="paragraph"><block ref="92385d728bb39452ba6c20c6ad1d1c89" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0c3c921710f2b76a43243e9ec50c48ed" category="list-text">구독과 연결할 계정을 선택하고 * 적용 * 을 선택합니다.</block>
+  <block id="b695d8dfb120f12e55e72fcb3ab0b334" category="section-title">BlueXP 디지털 지갑 구독 보기에 표시되는 항목을 사용자 지정합니다</block>
+  <block id="4b78ade7feb11b930c6c73c65e8b8fab" category="paragraph">구독 페이지에 표시되는 열을 사용자 지정할 수 있습니다. 예를 들어 용어 정보를 보기 위해 이 작업을 수행할 수 있습니다.</block>
+  <block id="ffe4097399bcf2ccd6ce57a75a5e95cc" category="list-text">BlueXP 디지털 지갑 구독 페이지에서 오른쪽의 표 아이콘을 선택합니다.</block>
+  <block id="c12ac0fd20f9e6821f1832580cecfeb1" category="list-text">나타나는 열 목록에서 표에 표시할 열을 선택합니다.</block>
+  <block id="24347b3ddf5a25cc9c27e54ae285ade1" category="list-text">Apply * 를 선택합니다.</block>
+  <block id="c584f4f2a6193ac47ece196c84d506a1" category="section-title">BYOL(Bring Your Own License)</block>
+  <block id="3906249fde1cef9339402436007bb4f7" category="paragraph">BYOL(Bring Your Own License) 방식으로 사용하는 경우 설정에 라이센스 구매, NetApp 라이센스 파일(NLF) 획득, BlueXP 디지털 지갑에 라이센스 추가가 포함됩니다.</block>
+  <block id="4eb472761579fcb29aec7dae0dedc791" category="section-title">BlueXP 재해 복구 라이센스 구매</block>
+  <block id="4ad29e095044e3e5ac3a8f5bdd094504" category="paragraph">BlueXP 재해 복구 라이센스가 없는 경우 NetApp에 문의하여 라이센스를 구입하십시오.</block>
+  <block id="365d382b2d9ecca9b0d40171c69b38ff" category="list-text">다음 중 하나를 수행합니다.</block>
+  <block id="14149621358a55a2bcbcb304322f2bdd" category="list-text">라이센스를 구입하려면 NetApp 영업 팀에 문의하십시오.</block>
+  <block id="6193e62acb4a86204633b2d093e49546" category="list-text">라이센스를 요청하려면 BlueXP 오른쪽 하단의 채팅 아이콘을 클릭하십시오.</block>
+  <block id="bb5400afe237282fdad364a407fc147b" category="section-title">BlueXP 재해 복구 라이센스 파일을 받습니다</block>
+  <block id="b8d2cd6868dbe77b895c0b303b84e606" category="paragraph">BlueXP 재해 복구 라이센스를 구입한 후에는 BlueXP 재해 복구 일련 번호 및 NSS(NetApp Support 사이트) 계정을 입력하거나 NetApp 라이센스 파일(NLF)을 업로드하여 라이센스를 활성화합니다.</block>
+  <block id="c282acfcc5cf6fe87597852e0ff14861" category="paragraph">NLF는 NetApp 영업 담당자 또는 NetApp Support 사이트를 통해 받을 수 있습니다.</block>
+  <block id="e3286b69a705d4ed944e904722ab7c8f" category="paragraph">시작하기 전에 다음 정보가 필요합니다.</block>
+  <block id="43ae1d792e09f6126441ea0d91d847c7" category="list-text">BlueXP 재해 복구 일련 번호</block>
+  <block id="079aeecf06b109e4316b0a68ea943f2b" category="paragraph">판매 주문에서 이 번호를 찾거나 계정 팀에 문의하여 이 정보를 확인하십시오.</block>
+  <block id="bcbbd9a155e07caa8b31001adc835c79" category="list-text">BlueXP 계정 ID</block>
+  <block id="98d8dec8ea6912e160aa222c8e6f76c7" category="paragraph">BlueXP의 상단에서 * 계정 * 드롭다운을 선택한 다음 계정 옆의 * 계정 관리 * 를 선택하면 BlueXP 계정 ID를 찾을 수 있습니다. 계정 ID는 개요 탭에 있습니다. 인터넷에 액세스할 수 없는 개인 모드 사이트의 경우 * ACCOUNT-DARKSITE1 * 을 사용하십시오.</block>
+  <block id="9bc0fb5986e9fa8a78b9b7288116f843" category="list-title">지원 사이트에서 NLF 라이센스 파일을 가져오는 단계입니다</block>
+  <block id="9d2169c1c2855b78a7aeaa4f42d27dc7" category="inline-link">NetApp Support 사이트</block>
+  <block id="01673ca951af19981bd5d3822934694b" category="list-text">에 로그인합니다<block ref="fcc52edac3ce57829c48ee35d97a295d" category="inline-link-rx"></block>  를 선택하고 * Systems * &gt; * Software Licenses * 를 선택합니다.</block>
+  <block id="3e2174d13b7a4d1ca02e9d5b0d5a3d1b" category="inline-image-macro">NetApp Support 사이트 소프트웨어 라이센스 페이지 를 참조하십시오</block>
+  <block id="a67b5312cf5e01964e72479ba84c4a4d" category="paragraph"><block ref="a67b5312cf5e01964e72479ba84c4a4d" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0d4d3fc0b07c5afe649f868f4fc4ee2d" category="list-text">BlueXP 재해 복구 라이센스의 일련 번호를 입력합니다.</block>
+  <block id="a4627bae6c374481d2758f672760e92c" category="list-text">라이센스 키 열에서 * Get NetApp License File * 을 선택합니다.</block>
+  <block id="0dc88bd9e39309759dc3141ddbf53109" category="paragraph"><block ref="0dc88bd9e39309759dc3141ddbf53109" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="3a9ab049ef9711b68ac94e0bc034cb30" category="list-text">BlueXP 계정 ID(지원 사이트의 테넌트 ID라고 함)를 입력하고 * 제출 * 을 선택하여 라이센스 파일을 다운로드합니다.</block>
+  <block id="4642741ba5bc33f3309c8ec5bab06682" category="section-title">BlueXP 재해 복구 라이센스를 BlueXP 디지털 지갑에 추가하십시오</block>
+  <block id="ba8afb5484c287f1ace20840bc94d916" category="paragraph">BlueXP 계정에 사용할 BlueXP 재해 복구 라이센스를 구매한 후에는 BlueXP 디지털 지갑에 라이센스를 추가해야 합니다.</block>
+  <block id="7caa9eb74f44350c8dde29c8267cdf24" category="list-text">BlueXP 메뉴에서 * Governance * &gt; * Digital Wallet * &gt; * Data Services Licenses * 를 선택합니다.</block>
+  <block id="f26c55f7e4c7acaff40b2d001a526d9c" category="inline-image-macro">NetApp BlueXP Digital Wallet Data Services Licenses 탭</block>
+  <block id="bc3b77b089ceea19e1301877f60f58ff" category="paragraph"><block ref="bc3b77b089ceea19e1301877f60f58ff" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c8508c0ce4da6dc634b7c66b1df15681" category="list-text">라이센스 추가 * 를 선택합니다.</block>
+  <block id="021d7e94275fbce0d19f7cf686aabd40" category="inline-image-macro">NetApp BlueXP 디지털 지갑에 라이센스 추가 페이지</block>
+  <block id="3542d90d77f3ae0f9bc8997ba29978b3" category="paragraph"><block ref="3542d90d77f3ae0f9bc8997ba29978b3" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="5fe793b25da4bb065137c8c34e98d41f" category="list-text">라이센스 추가 페이지에서 라이센스 정보를 입력하고 * 라이센스 추가 * 를 선택합니다.</block>
+  <block id="b628341a05a2d315b4789aadc3fd8caa" category="list-text">BlueXP 라이센스 일련 번호를 알고 있고 NSS 계정을 알고 있는 경우 * Enter Serial Number * 옵션을 선택하고 해당 정보를 입력합니다.</block>
+  <block id="bae190eec3db4a0dd635ae72756acde8" category="inline-link">NSS 계정을 BlueXP에 추가합니다</block>
+  <block id="30fc689a9c3cd4222329fe3a4c818a33" category="paragraph">드롭다운 목록에서 NetApp Support 사이트 계정을 사용할 수 없는 경우<block ref="06a3bc9d474b5d4e44d1a2733cac785a" category="inline-link-rx"></block>.</block>
+  <block id="751ab53fef561de80df12e1944c11ba2" category="list-text">BlueXP 라이센스 파일(다크 사이트에 설치 시 필요)이 있는 경우 * Upload License File * 옵션을 선택하고 화면의 지침에 따라 파일을 첨부합니다.</block>
+  <block id="8eea62084ca7e541d918e823422bd82e" category="paragraph-title">결과</block>
+  <block id="7c8c5dfa7e1cbe0ce55b88149d634d69" category="paragraph">BlueXP 디지털 지갑에 라이센스로 재해 복구가 표시됩니다.</block>
+  <block id="72e3dbb78819e204c1d67c9aaba1d190" category="inline-image-macro">NetApp BlueXP 디지털 지갑</block>
+  <block id="0cc39117ac352982de03de8143c8e3f5" category="paragraph"><block ref="0cc39117ac352982de03de8143c8e3f5" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="53ea2f641b462d658be2f78d3070c4e8" category="section-title">BlueXP 라이센스가 만료되면 업데이트하십시오</block>
+  <block id="847676092f852cc523c768a478d757f1" category="paragraph">라이센스 기간이 만료일이 가까워지거나 라이센스 용량이 제한에 도달한 경우 BlueXP 재해 복구 UI에 알림이 표시됩니다. BlueXP 재해 복구 라이센스가 만료되기 전에 라이센스를 업데이트하면 스캔한 데이터에 액세스하는 데 중단이 발생하지 않습니다.</block>
+  <block id="a274f4d4670213a9045ce258c6c56b80" category="inline-link">알림</block>
+  <block id="9cb535dcfcda2b04cab5b48ce4b5044b" category="admonition">이 메시지는 BlueXP 디지털 지갑과 에도 표시됩니다<block ref="b553b83f4f3ab8ad7adf12f36cefd6a6" category="inline-link-rx"></block>.</block>
+  <block id="2f3cc4968532c87cc8b40e840f800717" category="list-text">BlueXP 오른쪽 하단에 있는 채팅 아이콘을 선택하여 특정 일련 번호에 대한 라이센스의 추가 용량 또는 용어의 연장을 요청합니다. 라이센스 업데이트를 요청하는 전자 메일을 보낼 수도 있습니다.</block>
+  <block id="b23b97d3c26b0f7e2265329756cea9ca" category="paragraph">라이센스 비용을 지불하고 NetApp Support 사이트에 등록한 후 BlueXP는 BlueXP 디지털 지갑의 라이센스를 자동으로 업데이트하고 데이터 서비스 라이센스 페이지에 변경 내용이 5-10분 내에 반영됩니다.</block>
+  <block id="5810a6765696da7b12979cf90b9b287c" category="list-text">BlueXP에서 라이센스를 자동으로 업데이트할 수 없는 경우(예: 어두운 사이트에 설치된 경우) 라이센스 파일을 수동으로 업로드해야 합니다.</block>
+  <block id="147b35ab5352426bba38d99d810db4ed" category="list-text">NetApp Support 사이트에서 라이센스 파일을 얻을 수 있습니다.</block>
+  <block id="5fa1887d1557b966123ae9233170a0be" category="list-text">BlueXP 디지털 지갑의 데이터 서비스 라이센스 탭에서 업데이트할 서비스 일련 번호에 해당하는 * Actions... * 아이콘을 선택하고 * Update License * 를 선택합니다.</block>
+  <block id="4e6cb11bb43a7c0a0a5afccdbed4bdc7" category="inline-image-macro">라이센스가 만료된 NetApp BlueXP 디지털 지갑입니다</block>
+  <block id="baae92f53a7bd68d60019afb4c90ff25" category="paragraph"><block ref="baae92f53a7bd68d60019afb4c90ff25" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="fa2b0a8f4c50ac4f17fe89c0def5dd7a" category="paragraph">BlueXP 재해 복구 사전 공개는 재해 복구 워크플로우를 자동화하는 클라우드 기반 재해 복구 서비스입니다. 처음에는 BlueXP 재해 복구 서비스를 통해 NetApp 스토리지를 실행하는 온프레미스, NFS 기반 VMware 워크로드를 다음 중 하나로 보호할 수 있습니다.</block>
+  <block id="3a46f989d3db91bd2030de32947cd608" category="section-title">VMware에 BlueXP 재해 복구를 사용할 때의 이점</block>
+  <block id="cce8630c08ede8fc88504929ae963b37" category="paragraph">BlueXP 재해 복구는 다음과 같은 이점을 제공합니다.</block>
+  <block id="c9ddf88e1cb9859bd6aa2d140746ddb6" category="paragraph">BlueXP 재해 복구 미리 보기에서는 몇 가지 NetApp 기술을 완벽하게 사용하여 다음과 같은 목표를 달성할 수 있습니다.</block>
+  <block id="208ae1835c38717d827d78f2184f1eb8" category="paragraph">NetApp은 BlueXP 재해 복구의 평가판 버전을 사용하는 것에 대한 비용을 청구하지 않습니다.</block>
+  <block id="81a21047304ceb1b7bc762627cb29998" category="section-title">90일 무료 평가판</block>
+  <block id="c26aa1f4734bee87e527e8b6fd399ff1" category="paragraph">90일 무료 평가판을 사용하여 BlueXP 재해 복구를 체험해 볼 수 있습니다.</block>
+  <block id="49cc6e59fe89d60aa8a69d475908ad17" category="section-title">BlueXP 재해 복구의 작동 방식</block>
+  <block id="53bb415fa5ffe0063bff5bf128aceea8" category="paragraph">BlueXP 재해 복구를 통해 온프레미스 사이트에서 Amazon FSx for ONTAP 또는 다른 온프레미스 사이트로 복제된 워크로드를 복구할 수 있습니다. 이 서비스는 SnapMirror 레벨에서 VMC(Virtual Machine Cloud)에 대한 가상 머신 등록을 통해, VMware 네트워크 가상화 및 보안 플랫폼 NSX-T에 대한 네트워크 매핑을 통해 복구를 자동화합니다 이 기능은 모든 Virtual Machine Cloud 환경에 포함되어 있습니다.</block>
+  <block id="79121a92993faaa181b6eb7b104f73ea" category="paragraph">BlueXP 재해 복구는 ONTAP SnapMirror 기술을 사용하여 매우 효율적인 복제를 제공하고 ONTAP 영구 증분 스냅샷 효율성을 유지합니다. SnapMirror 복제를 통해 애플리케이션 정합성이 보장된 Snapshot 복사본이 항상 동기화되고 페일오버 후 즉시 데이터를 사용할 수 있습니다.</block>
+  <block id="e907b41f5f3d7332bee5a43fbbf78a08" category="section-title">라이센스를 설정합니다</block>
+  <block id="64f8f55f5eb85f10374cb9251379aa7d" category="paragraph">BlueXP 재해 복구를 통해 90일 무료 평가판에 등록할 수 있습니다.</block>
+  <block id="db9425c5e893fb09212aa796b71ab4ff" category="paragraph"><block ref="db9425c5e893fb09212aa796b71ab4ff" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0fb78a41f977493934dee1c46062309c" category="list-text">BlueXP 커넥터가 없거나 이 서비스의 커넥터가 아닌 경우 NetApp 지원에 문의하거나 메시지에 따라 이 서비스에 등록해야 할 수 있습니다.</block>
+  <block id="665470c666558171488159c6aa3dd98a" category="list-text">BlueXP를 처음 사용하는 경우 Connector를 사용하지 않은 경우 "재해 복구"를 선택하면 등록 관련 메시지가 나타납니다. 양식을 제출하십시오. 귀하의 요청에 대해 NetApp에서 연락을 드릴 것입니다.</block>
+  <block id="9aea41391b3a188365a351addd6cf6fc" category="list-text">기존 커넥터를 사용하는 BlueXP 사용자의 경우 "재해 복구"를 선택하면 등록 관련 메시지가 나타납니다.</block>
+  <block id="8f333bfde48f31b2cfcf04c153782963" category="list-text">이미 서비스를 사용 중인 경우 "재해 복구"를 선택하면 계속 진행할 수 있습니다.</block>
+  <block id="cbef5af23561d0ec620e5d275e7c8eb5" category="inline-image-macro">BlueXP 재해 복구 대시보드</block>
+  <block id="20846f04d592426362d2217701aadcc0" category="paragraph"><block ref="20846f04d592426362d2217701aadcc0" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="b044111e167403664c9e3432eca1f25a" category="sidebar">BlueXP 재해 복구 설명서</block>
 </blocks>

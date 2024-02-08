@@ -1,5 +1,9 @@
 ---
 indexpage:
+  title: BlueXP 재해 복구 설명서
+  summary: VMware용 BlueXP 재해 복구를 사용하면 NetApp 클라우드 스토리지를 사용하여 ONTAP 스토리지를 실행하는 온프레미스
+    VMware 워크로드를 퍼블릭 클라우드의 VMware 소프트웨어 정의 데이터 센터로 복제할 수 있습니다.
+  keywords: disaster, disaster recovery, bluexp, replicate, replication, cloud storage
   lead: '클라우드에 대한 재해 복구는 사이트 중단 및 데이터 손상 이벤트(예: 랜섬웨어)로부터 워크로드를 보호하는 복원력과 비용 효율적인 방법입니다.
     VMware용 BlueXP 재해 복구 미리 보기를 사용하면 ONTAP 스토리지를 실행하는 온프레미스 VMware 워크로드를 퍼블릭 클라우드의
     VMware 소프트웨어 정의 데이터 센터 또는 다른 온프레미스 사이트로 복제하여 재해 복구 사이트로 복제할 수 있습니다.'

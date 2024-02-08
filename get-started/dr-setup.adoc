@@ -75,3 +75,9 @@ NetApp ONTAP용 Amazon FSx는 널리 사용되는 NetApp ONTAP 파일 시스템�
 . BlueXP에서 SnapMirror를 FSx for NetApp ONTAP에 구축합니다.
 . BlueXP에서 AWS 인스턴스에서 프로비저닝된 FSx for NetApp ONTAP를 검색하고 지정된 데이터 저장소 볼륨을 적절한 빈도와 NetApp 스냅샷 복사본 보존을 통해 온프레미스 환경에서 FSx for NetApp ONTAP으로 복제합니다.
 
+
+
+
+=== 라이센스를 설정합니다
+
+BlueXP 재해 복구를 통해 90일 무료 평가판에 등록할 수 있습니다.
