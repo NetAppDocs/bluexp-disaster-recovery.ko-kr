@@ -43,6 +43,6 @@ image:draas-landing2.png["BlueXP 재해 복구의 랜딩 페이지 스크린샷"
 
 
 +
-image:dr-dashboard-preview.png["BlueXP 재해 복구 대시보드"]
+image:dr-dashboard.png["BlueXP 재해 복구 대시보드"]
 
 

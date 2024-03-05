@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: get-started/dr-setup.html 
-keywords: bluexp, disaster recovery, 
+keywords: bluexp, disaster recovery, aws, amazon web services 
 summary: BlueXP 재해 복구를 사용하려면 몇 단계를 수행하여 설정하십시오. 
 ---
 = BlueXP 재해 복구 설정
@@ -12,14 +12,14 @@ summary: BlueXP 재해 복구를 사용하려면 몇 단계를 수행하여 설�
 
 
 [role="lead"]
-BlueXP 재해 복구를 사용하려면 몇 가지 단계를 수행하여 AWS와 BlueXP에서 모두 설정하십시오.
+BlueXP 재해 복구를 사용하려면 몇 가지 단계를 수행하여 AWS(Amazon Web Services)와 BlueXP에서 모두 설정하십시오.
 
 
 TIP: 검토 link:../get-started/dr-prerequisites.html["필수 구성 요소"] 환경을 준비합니다.
 
 
 
-== AWS에서 설정
+== AWS 설정
 
 AWS에서는 다음 단계를 수행해야 합니다.
 
@@ -44,7 +44,7 @@ NetApp ONTAP용 Amazon FSx는 널리 사용되는 NetApp ONTAP 파일 시스템�
 
 
 
-== BlueXP에서 설정
+== BlueXP 재해 복구 설정
 
 다음 단계는 BlueXP에서 재해 복구를 설정하는 것입니다.
 
@@ -58,7 +58,7 @@ NetApp ONTAP용 Amazon FSx는 널리 사용되는 NetApp ONTAP 파일 시스템�
 
 === BlueXP에서 커넥터를 만듭니다
 
-미리 보기에 등록하거나 NetApp 영업 담당자에게 연락하여 이 서비스를 체험해 보십시오. BlueXP Connector를 사용할 때 재해 복구 서비스에 대한 적절한 기능이 포함되어 있습니다.
+이 서비스를 사용해 보려면 NetApp 영업 담당자에게 문의하십시오. BlueXP Connector를 사용할 때 재해 복구 서비스에 대한 적절한 기능이 포함되어 있습니다.
 
 서비스를 사용하기 전에 BlueXP에서 커넥터를 만들려면 에 설명된 BlueXP 설명서를 참조하십시오 https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html["커넥터를 만드는 방법"^].
 
@@ -81,3 +81,7 @@ NetApp ONTAP용 Amazon FSx는 널리 사용되는 NetApp ONTAP 파일 시스템�
 === 라이센스를 설정합니다
 
 BlueXP 재해 복구를 통해 90일 무료 평가판에 등록할 수 있습니다.
+
+NLF(NetApp 라이센스 파일)인 BYOL(Bring Your Own License)을 사용할 수 있습니다.
+
+BlueXP 재해 복구의 라이센스 설정에 대한 자세한 내용은 을 참조하십시오 link:../get-started/dr-licensing.html["BlueXP 재해 복구 라이센스 설정"].

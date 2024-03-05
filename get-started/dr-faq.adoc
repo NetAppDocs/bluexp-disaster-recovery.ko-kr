@@ -17,5 +17,10 @@ summary: 이 FAQ는 질문에 대한 간단한 답변을 찾는 경우에 도움
 * BlueXP 재해 복구 URL은 무엇입니까? *
 URL의 경우 브라우저에 다음을 입력합니다. https://console.bluexp.netapp.com/["https://console.bluexp.netapp.com/"^] 를 눌러 BlueXP 콘솔에 액세스합니다.
 
+* BlueXP 재해 복구를 사용하기 위해 라이센스가 필요하십니까? *
+완전한 액세스를 위해서는 BlueXP 재해 복구 라이센스가 필요합니다. 그러나 무료 평가판으로 시험해 볼 수 있습니다.
+
+BlueXP 재해 복구의 라이센스 설정에 대한 자세한 내용은 을 참조하십시오 link:../get-started/dr-licensing.html["BlueXP 재해 복구 라이센스 설정"].
+
 * BlueXP 재해 복구에 어떻게 액세스하십니까? *
 BlueXP 재해 복구에는 지원이 필요하지 않습니다. 재해 복구 옵션은 BlueXP 왼쪽 탐색에 자동으로 표시됩니다.

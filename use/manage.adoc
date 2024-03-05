@@ -29,7 +29,7 @@ vCenter 사이트 이름과 사이트 유형(온-프레미스 또는 AWS)을 편
 
 .단계
 . 상단 메뉴에서 * 사이트 * 를 선택합니다.
-. 작업 * 옵션을 선택합니다 image:../use/icon-horizontal-dots.png["BlueXP 재해 복구 서비스의 작업 메뉴 아이콘"]  vCenter 이름 오른쪽에서 * Edit * 를 선택합니다.
+. 작업 * 옵션을 선택합니다 image:../use/icon-vertical-dots.png["BlueXP 재해 복구 서비스의 작업 메뉴 아이콘"]  vCenter 이름 오른쪽에서 * Edit * 를 선택합니다.
 . vCenter 사이트 이름 및 위치를 편집합니다.
 
 
@@ -45,6 +45,9 @@ vCenter 사이트 이름과 사이트 유형(온-프레미스 또는 AWS)을 편
 
 .단계
 . 상단 메뉴에서 * Replication Plans * 를 선택합니다.
++
+image:../use/dr-plan-list2.png["복제 계획 목록입니다"]
+
 . 계획 세부 정보를 보려면 * 작업 * 옵션을 선택합니다 image:../use/icon-horizontal-dots.png["BlueXP 재해 복구 서비스의 작업 메뉴 아이콘"] 를 선택하고 * 계획 세부 정보 보기 * 를 선택합니다.
 . 다음 중 하나를 수행합니다.
 +

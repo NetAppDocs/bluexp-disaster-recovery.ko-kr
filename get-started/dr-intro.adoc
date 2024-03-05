@@ -4,7 +4,7 @@ permalink: get-started/dr-intro.html
 keywords: how bluexp disaster recovery works, what is disaster recovery, bluexp, vmware, vcenter, draas, replicate, failover, failback, fail over, fail back 
 summary: 클라우드 재해 복구는 사이트 정전 및 데이터 손상으로부터 워크로드를 보호하는 복원력과 비용 효율적인 방법입니다. VMware용 BlueXP 재해 복구를 사용하면 NetApp 클라우드 스토리지를 사용하여 ONTAP 스토리지를 실행하는 온프레미스 VMware 워크로드를 퍼블릭 클라우드의 VMware 소프트웨어 정의 데이터 센터로 복제하여 재해 복구 사이트로 복제할 수 있습니다. 
 ---
-= VMware 미리보기를 위한 BlueXP 재해 복구 기능에 대해 알아보십시오
+= VMware를 위한 BlueXP 재해 복구에 대해 알아보십시오
 :hardbreaks:
 :allow-uri-read: 
 :icons: font
@@ -12,15 +12,15 @@ summary: 클라우드 재해 복구는 사이트 정전 및 데이터 손상으�
 
 
 [role="lead"]
-클라우드 재해 복구는 사이트 정전 및 데이터 손상으로부터 워크로드를 보호하는 복원력과 비용 효율적인 방법입니다. VMware용 BlueXP 재해 복구 미리 보기를 통해 ONTAP 스토리지를 실행하는 온프레미스 VMware 워크로드를 퍼블릭 클라우드의 VMware 소프트웨어 정의 데이터 센터로 복제하거나 NetApp ONTAP 스토리지를 재해 복구 사이트로 사용하는 다른 온프레미스 VMware 환경으로 복제할 수 있습니다.
+클라우드 재해 복구는 사이트 정전 및 데이터 손상으로부터 워크로드를 보호하는 복원력과 비용 효율적인 방법입니다. VMware용 BlueXP 재해 복구를 사용하면 ONTAP NetApp 스토리지를 실행하는 온프레미스 VMware 워크로드를 퍼블릭 클라우드의 VMware 소프트웨어 정의 데이터 센터로 복제하거나 ONTAP 스토리지를 재해 복구 사이트로 사용하는 다른 온프레미스 VMware 환경으로 복제할 수 있습니다.
 
-BlueXP 재해 복구 사전 공개는 재해 복구 워크플로우를 자동화하는 클라우드 기반 재해 복구 서비스입니다. 처음에는 BlueXP 재해 복구 서비스를 통해 NetApp 스토리지를 실행하는 온프레미스, NFS 기반 VMware 워크로드를 다음 중 하나로 보호할 수 있습니다.
+BlueXP 재해 복구는 재해 복구 워크플로우를 자동화하는 클라우드 기반 재해 복구 서비스입니다. 처음에는 BlueXP 재해 복구 서비스를 통해 NetApp 스토리지를 실행하는 온프레미스, NFS 기반 VMware 워크로드를 다음 중 하나로 보호할 수 있습니다.
 
 * Amazon FSx for NetApp ONTAP 또는 을 사용하는 AWS 기반 VMware Cloud(VMC
 * ONTAP 스토리지를 갖춘 또 다른 온프레미스 NFS 기반 VMware 환경
 
 
-BlueXP 재해 복구 미리 보기에서는 ONTAP SnapMirror 기술을 재해 복구 사이트로 복제하는 방식으로 사용합니다. 따라서 운영 사이트와 2차 사이트에서 업계 최고의 스토리지 효율성(압축 및 중복제거)을 실현할 수 있습니다.
+BlueXP 재해 복구는 ONTAP SnapMirror 기술을 재해 복구 사이트로 이동하는 복제 전송으로 사용합니다. 따라서 운영 사이트와 2차 사이트에서 업계 최고의 스토리지 효율성(압축 및 중복제거)을 실현할 수 있습니다.
 
 image:draas-onprem-to-cloud-onprem.png["VMware용 BlueXP 재해 복구의 구성 요소를 보여주는 다이어그램"]
 
@@ -38,9 +38,9 @@ BlueXP 재해 복구는 다음과 같은 이점을 제공합니다.
 
 
 
-== VMware 미리보기를 위한 BlueXP 재해 복구로 수행할 수 있는 작업
+== VMware용 BlueXP 재해 복구로 수행할 수 있는 작업
 
-BlueXP 재해 복구 미리 보기에서는 몇 가지 NetApp 기술을 완벽하게 사용하여 다음과 같은 목표를 달성할 수 있습니다.
+BlueXP 재해 복구를 통해 여러 NetApp 기술을 최대한 활용하여 다음과 같은 목표를 달성할 수 있습니다.
 
 * SnapMirror 복제를 사용하여 온프레미스 프로덕션 사이트의 VMware 애플리케이션을 클라우드의 재해 복구 원격 사이트로 복제합니다.
 * VMware 워크로드를 원래 사이트에서 다른 사이트로 마이그레이션합니다.
@@ -57,11 +57,34 @@ NOTE: vSphere 서버 구성은 vSphere Server의 BlueXP 재해 복구 외부에�
 
 NetApp은 BlueXP 재해 복구의 평가판 버전을 사용하는 것에 대한 비용을 청구하지 않습니다.
 
+BlueXP 재해 복구 서비스의 전체 버전을 NetApp 라이센스와 함께 사용할 수 있습니다.
+
+
+
+== 라이센싱
+
+다음과 같은 라이센스 유형을 사용할 수 있습니다.
+
+* 90일 무료 평가판을 신청하십시오.
+* BYOL(Bring Your Own License) - NetApp 영업 담당자로부터 얻은 NLF(NetApp 라이센스 파일 라이센스 일련 번호를 사용하여 BlueXP 디지털 지갑에서 BYOL을 활성화할 수 있습니다.
+
+
+모든 BlueXP 서비스의 라이센스는 BlueXP 디지털 지갑 서비스에서 관리합니다. BYOL을 설정하면 BlueXP 디지털 지갑에서 서비스에 대한 활성 라이센스를 확인할 수 있습니다.
+
+
+NOTE: BlueXP 재해 복구 비용은 복제 계획이 있는 VM이 하나 이상 있을 때 소스 사이트에 프로비저닝된 데이터 저장소 용량을 기반으로 합니다. 페일오버된 데이터 저장소의 용량이 허용 용량에 포함되지 않습니다. BYOL의 경우 데이터가 허용된 용량을 초과하는 경우, 추가 용량 라이센스를 취득하거나 BlueXP 디지털 지갑에서 라이센스를 업그레이드할 때까지 서비스 작업이 제한됩니다.
+
+BlueXP 재해 복구의 라이센스 설정에 대한 자세한 내용은 을 참조하십시오 link:../get-started/dr-licensing.html["BlueXP 재해 복구 라이센스 설정"].
+
 
 
 == 90일 무료 평가판
 
 90일 무료 평가판을 사용하여 BlueXP 재해 복구를 체험해 볼 수 있습니다.
+
+90일 평가판 사용 후에도 계속 진행하려면 NetApp에서 BYOL 라이센스를 구매해야 합니다.
+
+언제든지 라이선스를 구입할 수 있으며 90일 평가판이 만료될 때까지 비용이 청구되지 않습니다.
 
 
 

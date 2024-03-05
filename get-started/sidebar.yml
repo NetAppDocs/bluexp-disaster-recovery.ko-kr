@@ -12,5 +12,7 @@ entries:
   url: "/get-started/dr-login.html"
 - title: BlueXP 재해 복구 설정
   url: "/get-started/dr-setup.html"
+- title: 라이센스를 설정합니다
+  url: "/get-started/dr-licensing.html"
 - title: FAQ 를 참조하십시오
   url: "/get-started/dr-faq.html"
