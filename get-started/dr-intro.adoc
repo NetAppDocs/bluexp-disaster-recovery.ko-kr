@@ -98,7 +98,7 @@ image:dr-architecture-diagram-70.png["VMware 서비스 인프라에 대한 BlueX
 
 다음 다이어그램은 온프레미스 간 재해 복구 계획의 아키텍처를 보여 줍니다.
 
-image:dr-architecture-diagram-onprem-to-onprem.png["VMware 서비스 인프라에 대한 BlueXP 재해 복구 아키텍처를 보여 주는 다이어그램"]
+image:dr-architecture-diagram-onprem-to-onprem2.png["VMware 서비스 인프라에 대한 BlueXP 재해 복구 아키텍처를 보여 주는 다이어그램"]
 
 재해가 있을 때 이 서비스는 SnapMirror 관계를 끊고 대상 사이트를 활성 상태로 만들어 다른 온프레미스 VMware 환경 또는 VMC에서 가상 머신을 복구하는 데 도움을 줍니다.
 
