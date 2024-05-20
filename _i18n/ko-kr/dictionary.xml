@@ -188,7 +188,6 @@
   <block id="da43ae6496f10d6bfd475400915e2865" category="admonition">vSphere 서버 구성은 vSphere Server의 BlueXP 재해 복구 외부에서 수행됩니다.</block>
   <block id="20b4f77bd00b4f63a49ec8e08f3bf6a6" category="section-title">비용</block>
   <block id="d244f191aaddadced4c31b2f67d06c9c" category="inline-image-macro">VMware 서비스 인프라에 대한 BlueXP 재해 복구 아키텍처를 보여 주는 다이어그램</block>
-  <block id="a61fe2c95a03251717d7405c6bf53ede" category="paragraph"><block ref="a61fe2c95a03251717d7405c6bf53ede" category="inline-image-macro-rx" type="image"></block></block>
   <block id="7599cfdf730a164b0625ccc661508efa" category="list-text">또한 이 서비스를 통해 가상 머신을 원래 소스 위치로 페일백할 수 있습니다.</block>
   <block id="a6d3ce8aba8914f5380d164c99d7dab0" category="list-text">원래 가상 시스템을 중단하지 않고 재해 복구 페일오버 프로세스를 테스트할 수 있습니다. 테스트는 볼륨의 FlexClone을 생성하여 격리된 네트워크로 가상 머신을 복구합니다.</block>
   <block id="b5a43a585d1a40908cfd5ee656c8579c" category="list-text">페일오버 또는 테스트 페일오버 프로세스의 경우 가상 머신을 복구할 최신 스냅샷(기본값) 또는 선택한 스냅샷을 선택할 수 있습니다.</block>
@@ -614,8 +613,6 @@ BlueXP 재해 복구에는 지원이 필요하지 않습니다. 재해 복구 �
   <block id="771e1ea643a8723d0d0dfad6c2b70ace" category="list-text">다른 서비스에 대한 커넥터를 아직 추가하지 않은 경우 추가합니다.</block>
   <block id="e6e80588e9fe7cf89218fea44300f7ca" category="inline-link">커넥터에 대해 자세히 알아보십시오</block>
   <block id="7530875db6f7eceea689fdfeb6a12778" category="paragraph">커넥터를 추가하려면 을 참조하십시오<block ref="d6df7dcc2fc3105e10967a9194806ce5" category="inline-link-rx"></block>.</block>
-  <block id="9aac5cf8ab754f13e3926b6983853bec" category="list-text">무료 평가판 정보를 검토하고 * Let's Go * 를 선택합니다.</block>
-  <block id="1584158e2068ac8b1f79bfc70eb2775d" category="inline-image-macro">BlueXP 재해 복구 구독 또는 구매 라이센스 페이지 를 확인하십시오</block>
   <block id="ee6d03e51dd7b0fc10c6b3c8fcab3718" category="section-title">시험판이 끝난 후 NetApp를 통해 BYOL 라이센스를 구입합니다</block>
   <block id="b11106bafac141be455d28549bfe177d" category="list-text">BlueXP에 라이센스 추가 * 를 선택합니다. BlueXP 디지털 지갑으로 이동하게 됩니다.</block>
   <block id="d2ec998008b95e1189b9d8f3dbc6ed64" category="inline-image-macro">BlueXP 디지털 지갑에 라이센스 추가 페이지 가 표시됩니다</block>
@@ -629,29 +626,12 @@ BlueXP 재해 복구에는 지원이 필요하지 않습니다. 재해 복구 �
   <block id="fd4452ba53d2010757fb183f23851efd" category="admonition">무료 평가판을 종료했지만 데이터를 삭제하지 않고 라이센스 또는 구독을 구입하지 않은 경우, 무료 평가판이 끝난 후 60일 후에 BlueXP 재해 복구에서 모든 데이터가 삭제됩니다.</block>
   <block id="c3964fe08c9dd95815cc67d8aaee9323" category="list-text">텍스트 상자에 "END TRIAL"을 입력합니다.</block>
   <block id="44a320573c319d1f30b840c2d11a4e26" category="list-text">End * 를 선택합니다.</block>
-  <block id="c584f4f2a6193ac47ece196c84d506a1" category="section-title">BYOL(Bring Your Own License)</block>
   <block id="3906249fde1cef9339402436007bb4f7" category="paragraph">BYOL(Bring Your Own License) 방식으로 사용하는 경우 설정에 라이센스 구매, NetApp 라이센스 파일(NLF) 획득, BlueXP 디지털 지갑에 라이센스 추가가 포함됩니다.</block>
-  <block id="4eb472761579fcb29aec7dae0dedc791" category="section-title">BlueXP 재해 복구 라이센스 구매</block>
-  <block id="4ad29e095044e3e5ac3a8f5bdd094504" category="paragraph">BlueXP 재해 복구 라이센스가 없는 경우 NetApp에 문의하여 라이센스를 구입하십시오.</block>
-  <block id="365d382b2d9ecca9b0d40171c69b38ff" category="list-text">다음 중 하나를 수행합니다.</block>
-  <block id="14149621358a55a2bcbcb304322f2bdd" category="list-text">라이센스를 구입하려면 NetApp 영업 팀에 문의하십시오.</block>
-  <block id="6193e62acb4a86204633b2d093e49546" category="list-text">라이센스를 요청하려면 BlueXP 오른쪽 하단의 채팅 아이콘을 클릭하십시오.</block>
-  <block id="bb5400afe237282fdad364a407fc147b" category="section-title">BlueXP 재해 복구 라이센스 파일을 받습니다</block>
   <block id="e3286b69a705d4ed944e904722ab7c8f" category="paragraph">시작하기 전에 다음 정보가 필요합니다.</block>
   <block id="43ae1d792e09f6126441ea0d91d847c7" category="list-text">BlueXP 재해 복구 일련 번호</block>
   <block id="079aeecf06b109e4316b0a68ea943f2b" category="paragraph">판매 주문에서 이 번호를 찾거나 계정 팀에 문의하여 이 정보를 확인하십시오.</block>
   <block id="bcbbd9a155e07caa8b31001adc835c79" category="list-text">BlueXP 계정 ID</block>
-  <block id="98d8dec8ea6912e160aa222c8e6f76c7" category="paragraph">BlueXP의 상단에서 * 계정 * 드롭다운을 선택한 다음 계정 옆의 * 계정 관리 * 를 선택하면 BlueXP 계정 ID를 찾을 수 있습니다. 계정 ID는 개요 탭에 있습니다. 인터넷에 액세스할 수 없는 개인 모드 사이트의 경우 * ACCOUNT-DARKSITE1 * 을 사용하십시오.</block>
-  <block id="4642741ba5bc33f3309c8ec5bab06682" category="section-title">BlueXP 재해 복구 라이센스를 BlueXP 디지털 지갑에 추가하십시오</block>
-  <block id="ba8afb5484c287f1ace20840bc94d916" category="paragraph">BlueXP 계정에 사용할 BlueXP 재해 복구 라이센스를 구매한 후에는 BlueXP 디지털 지갑에 라이센스를 추가해야 합니다.</block>
-  <block id="7caa9eb74f44350c8dde29c8267cdf24" category="list-text">BlueXP 메뉴에서 * Governance * &gt; * Digital Wallet * &gt; * Data Services Licenses * 를 선택합니다.</block>
   <block id="c8508c0ce4da6dc634b7c66b1df15681" category="list-text">라이센스 추가 * 를 선택합니다.</block>
-  <block id="021d7e94275fbce0d19f7cf686aabd40" category="inline-image-macro">NetApp BlueXP 디지털 지갑에 라이센스 추가 페이지</block>
-  <block id="5fe793b25da4bb065137c8c34e98d41f" category="list-text">라이센스 추가 페이지에서 라이센스 정보를 입력하고 * 라이센스 추가 * 를 선택합니다.</block>
-  <block id="b628341a05a2d315b4789aadc3fd8caa" category="list-text">BlueXP 라이센스 일련 번호를 알고 있고 NSS 계정을 알고 있는 경우 * Enter Serial Number * 옵션을 선택하고 해당 정보를 입력합니다.</block>
-  <block id="bae190eec3db4a0dd635ae72756acde8" category="inline-link">NSS 계정을 BlueXP에 추가합니다</block>
-  <block id="30fc689a9c3cd4222329fe3a4c818a33" category="paragraph">드롭다운 목록에서 NetApp Support 사이트 계정을 사용할 수 없는 경우<block ref="06a3bc9d474b5d4e44d1a2733cac785a" category="inline-link-rx"></block>.</block>
-  <block id="751ab53fef561de80df12e1944c11ba2" category="list-text">BlueXP 라이센스 파일(다크 사이트에 설치 시 필요)이 있는 경우 * Upload License File * 옵션을 선택하고 화면의 지침에 따라 파일을 첨부합니다.</block>
   <block id="8eea62084ca7e541d918e823422bd82e" category="paragraph-title">결과</block>
   <block id="7c8c5dfa7e1cbe0ce55b88149d634d69" category="paragraph">BlueXP 디지털 지갑에 라이센스로 재해 복구가 표시됩니다.</block>
   <block id="72e3dbb78819e204c1d67c9aaba1d190" category="inline-image-macro">NetApp BlueXP 디지털 지갑</block>
@@ -675,10 +655,7 @@ BlueXP 재해 복구에는 지원이 필요하지 않습니다. 재해 복구 �
   <block id="e907b41f5f3d7332bee5a43fbbf78a08" category="section-title">라이센스를 설정합니다</block>
   <block id="64f8f55f5eb85f10374cb9251379aa7d" category="paragraph">BlueXP 재해 복구를 통해 90일 무료 평가판에 등록할 수 있습니다.</block>
   <block id="db9425c5e893fb09212aa796b71ab4ff" category="paragraph"><block ref="db9425c5e893fb09212aa796b71ab4ff" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="0fb78a41f977493934dee1c46062309c" category="list-text">BlueXP 커넥터가 없거나 이 서비스의 커넥터가 아닌 경우 NetApp 지원에 문의하거나 메시지에 따라 이 서비스에 등록해야 할 수 있습니다.</block>
-  <block id="665470c666558171488159c6aa3dd98a" category="list-text">BlueXP를 처음 사용하는 경우 Connector를 사용하지 않은 경우 "재해 복구"를 선택하면 등록 관련 메시지가 나타납니다. 양식을 제출하십시오. 귀하의 요청에 대해 NetApp에서 연락을 드릴 것입니다.</block>
   <block id="9aea41391b3a188365a351addd6cf6fc" category="list-text">기존 커넥터를 사용하는 BlueXP 사용자의 경우 "재해 복구"를 선택하면 등록 관련 메시지가 나타납니다.</block>
-  <block id="8f333bfde48f31b2cfcf04c153782963" category="list-text">이미 서비스를 사용 중인 경우 "재해 복구"를 선택하면 계속 진행할 수 있습니다.</block>
   <block id="cbef5af23561d0ec620e5d275e7c8eb5" category="inline-image-macro">BlueXP 재해 복구 대시보드</block>
   <block id="b044111e167403664c9e3432eca1f25a" category="sidebar">BlueXP 재해 복구 설명서</block>
   <block id="4aca0b59a2fa7d9e86368a58f1e869c9" category="list-text">작업 * 옵션을 선택합니다 <block ref="e282bbe0f95615c6416d0f1c92efdcdd" category="inline-image-macro-rx" type="image"></block>  vCenter 이름 오른쪽에서 * Edit * 를 선택합니다.</block>
@@ -751,20 +728,17 @@ BlueXP 재해 복구에는 지원이 필요하지 않습니다. 재해 복구 �
   <block id="78a065b9fb649a31c2037ac8b6adf208" category="paragraph">BlueXP 재해 복구를 사용하려면 몇 가지 단계를 수행하여 AWS(Amazon Web Services)와 BlueXP에서 모두 설정하십시오.</block>
   <block id="456948be6cc17bd9f797492f175ff847" category="section-title">AWS 설정</block>
   <block id="724c7536b89d0d851109ea9f7868da08" category="paragraph">이 서비스를 사용해 보려면 NetApp 영업 담당자에게 문의하십시오. BlueXP Connector를 사용할 때 재해 복구 서비스에 대한 적절한 기능이 포함되어 있습니다.</block>
-  <block id="0bf14c9d518db90372ef9c78dc9638b2" category="paragraph">NLF(NetApp 라이센스 파일)인 BYOL(Bring Your Own License)을 사용할 수 있습니다.</block>
   <block id="878214f294066da0bab8a3693a1f802a" category="doc">VMware를 위한 BlueXP 재해 복구에 대해 알아보십시오</block>
   <block id="e04cb1e00b4f2d764efe09d0b22a6b43" category="paragraph">클라우드 재해 복구는 사이트 정전 및 데이터 손상으로부터 워크로드를 보호하는 복원력과 비용 효율적인 방법입니다. VMware용 BlueXP 재해 복구를 사용하면 ONTAP NetApp 스토리지를 실행하는 온프레미스 VMware 워크로드를 퍼블릭 클라우드의 VMware 소프트웨어 정의 데이터 센터로 복제하거나 ONTAP 스토리지를 재해 복구 사이트로 사용하는 다른 온프레미스 VMware 환경으로 복제할 수 있습니다.</block>
   <block id="81cd6d5889a00f3187d6e30af0f9838e" category="paragraph">BlueXP 재해 복구는 재해 복구 워크플로우를 자동화하는 클라우드 기반 재해 복구 서비스입니다. 처음에는 BlueXP 재해 복구 서비스를 통해 NetApp 스토리지를 실행하는 온프레미스, NFS 기반 VMware 워크로드를 다음 중 하나로 보호할 수 있습니다.</block>
   <block id="fbec25bffbcdefa11c9ca28adb0b824c" category="paragraph">BlueXP 재해 복구는 ONTAP SnapMirror 기술을 재해 복구 사이트로 이동하는 복제 전송으로 사용합니다. 따라서 운영 사이트와 2차 사이트에서 업계 최고의 스토리지 효율성(압축 및 중복제거)을 실현할 수 있습니다.</block>
   <block id="3c524eb32d863a57c821ef5ffecb96ee" category="section-title">VMware용 BlueXP 재해 복구로 수행할 수 있는 작업</block>
   <block id="0ad83d5f52e2b8f6dfc6ec26ef91aa38" category="paragraph">BlueXP 재해 복구를 통해 여러 NetApp 기술을 최대한 활용하여 다음과 같은 목표를 달성할 수 있습니다.</block>
-  <block id="2020a15d2254ab61244fd58956ac0150" category="paragraph">BlueXP 재해 복구 서비스의 전체 버전을 NetApp 라이센스와 함께 사용할 수 있습니다.</block>
   <block id="0b9c6eef4e3d3a222eb04e910d252339" category="section-title">라이센싱</block>
   <block id="924cc6eaf82618251de609e2689ed733" category="paragraph">다음과 같은 라이센스 유형을 사용할 수 있습니다.</block>
   <block id="2caf85d76a31b7bef7132937ff28e9dc" category="list-text">BYOL(Bring Your Own License) - NetApp 영업 담당자로부터 얻은 NLF(NetApp 라이센스 파일 라이센스 일련 번호를 사용하여 BlueXP 디지털 지갑에서 BYOL을 활성화할 수 있습니다.</block>
   <block id="c809a23426c6fb72cef75816c461ade9" category="paragraph">모든 BlueXP 서비스의 라이센스는 BlueXP 디지털 지갑 서비스에서 관리합니다. BYOL을 설정하면 BlueXP 디지털 지갑에서 서비스에 대한 활성 라이센스를 확인할 수 있습니다.</block>
   <block id="8eb586b1b79ddd3ae7c3123b39d4420e" category="admonition">BlueXP 재해 복구 비용은 복제 계획이 있는 VM이 하나 이상 있을 때 소스 사이트에 프로비저닝된 데이터 저장소 용량을 기반으로 합니다. 페일오버된 데이터 저장소의 용량이 허용 용량에 포함되지 않습니다. BYOL의 경우 데이터가 허용된 용량을 초과하는 경우, 추가 용량 라이센스를 취득하거나 BlueXP 디지털 지갑에서 라이센스를 업그레이드할 때까지 서비스 작업이 제한됩니다.</block>
-  <block id="5ae84730ec695b46a67c1692274ccaf3" category="paragraph">90일 평가판 사용 후에도 계속 진행하려면 NetApp에서 BYOL 라이센스를 구매해야 합니다.</block>
   <block id="27be91c80d5e97799bb6e73e37370e5d" category="paragraph">언제든지 라이선스를 구입할 수 있으며 90일 평가판이 만료될 때까지 비용이 청구되지 않습니다.</block>
   <block id="da329ee75f8833283c259789372600f6" category="list-text">NetApp 스토리지가 있는 온프레미스 VMware 작업 환경</block>
   <block id="0f5757c2302ddb1a6b48cf01d0fe295d" category="list-text">AWS에 SDDC(소프트웨어 정의 데이터 센터)가 있는 VMware 계정(Virtual Machines Cloud라고도 함) VMware Cloud Console에서 Administrator 및 NSX Cloud Administrator의 서비스 역할을 사용합니다. 조직 역할에도 조직 소유자를 사용합니다. 을 참조하십시오<block ref="e0529c1c92608a25886bf41835abea27" category="inline-link-rx"></block>.</block>
@@ -775,26 +749,57 @@ BlueXP 재해 복구에는 지원이 필요하지 않습니다. 재해 복구 �
   <block id="7033a5d3e074f0c7401499ee4e48f38a" category="list-text">보호할 VM에서 VMware 툴(또는 Open VM 툴)이 실행되고 있는지 확인합니다.</block>
   <block id="7c480d19e9a60d89cc5b027f95938aa8" category="list-text">SQL 또는 Oracle 또는 둘 다를 실행하는 Windows VM의 경우 데이터베이스에 VSS writer가 활성화되어 있어야 하며 데이터베이스가 안정적인 상태여야 합니다.</block>
   <block id="af77ac64a97a80925dee7dc916344004" category="list-text">Linux 운영 체제에서 실행되는 Oracle 데이터베이스에는 Oracle 데이터베이스 SYSDBA 역할에 대해 운영 체제 사용자 인증이 설정되어 있어야 합니다.</block>
-  <block id="952d5792e20104bd51e61d359faac899" category="paragraph">BlueXP 재해 복구를 통해 무료 평가판에서 서비스를 사용하거나 자체 라이센스를 사용할 수 있습니다.</block>
-  <block id="dd6dd33362dbc70a36edb35890647f3c" category="paragraph">BYOL을 설정한 후 BlueXP 디지털 지갑에서 * 데이터 서비스 라이센스 * 탭에서 라이센스를 확인할 수 있습니다.</block>
   <block id="e23539b066371b4dcfdd50b7d80417d8" category="paragraph">무료 평가판이 종료되거나 라이센스가 만료된 후에도 서비스에서 다음을 수행할 수 있습니다.</block>
   <block id="1594f78ebbb281f7b5359eb6d2b89912" category="list-text">평가판 기간 동안 또는 라이센스에 따라 생성된 모든 예약된 작업을 실행합니다.</block>
   <block id="a14b332e4d6b9ee17b484a7fb805179f" category="paragraph">언제든지 라이선스를 받을 수 있으며 90일 평가판이 만료될 때까지 비용이 청구되지 않습니다. 90일 평가판 사용 후에도 계속 진행하려면 BYOL 라이센스를 구매해야 합니다.</block>
   <block id="01c014f2e37e5bf6d3ce893bea0197cb" category="list-text">커넥터를 설정한 후 BlueXP 재해 복구 랜딩 페이지에서 커넥터를 추가하는 버튼이 무료 평가판을 시작하기 위한 버튼으로 변경됩니다. 무료 평가판 시작 * 을 선택합니다.</block>
   <block id="b9ef842238fa8d82db6b7559f33adc6c" category="paragraph">평가판이 종료되면 NetApp 영업 담당자를 통해 라이선스를 구입할 수 있습니다</block>
-  <block id="ecfbb42aa9e2f3b94bd289d87aaf5ea3" category="list-text">라이선스를 구입하려면 NetApp 영업 담당자에게 문의하십시오.</block>
   <block id="9bdfa376bcb2fa79aff92c39d0b24fcd" category="list-text">라이센스를 얻은 후 BlueXP 재해 복구로 돌아갑니다. 오른쪽 상단의 * 결제 방법 보기 * 옵션을 선택합니다. 또는 무료 평가판이 만료된다는 메시지에서 * 라이센스 가입 또는 구매 * 를 선택합니다.</block>
-  <block id="97bcf0f36d751871efb4e9140f54f17d" category="paragraph"><block ref="97bcf0f36d751871efb4e9140f54f17d" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d2a39678e393e2b473354681a2c1e5f4" category="inline-image-macro">BlueXP Digital Wallet Data Services Licenses 탭</block>
-  <block id="e220d51686433f8f5a05d755bc58c162" category="paragraph"><block ref="e220d51686433f8f5a05d755bc58c162" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="e3585ef220efaa70fe392bb8e133b54e" category="list-text">BlueXP 디지털 지갑의 * Data Services Licenses * 탭에서 * Add license * 를 선택합니다.</block>
   <block id="7578ebad24c71aee2f2992e5efe1118d" category="list-text">라이센스 추가 페이지에서 일련 번호와 NetApp Support 사이트 계정 정보를 입력합니다.</block>
   <block id="c6711fc66daa9915490ca9f9bdc7f08f" category="paragraph"><block ref="c6711fc66daa9915490ca9f9bdc7f08f" category="inline-image-macro-rx" type="image"></block></block>
   <block id="be94b7e6fbf892064754b145ecdeb994" category="paragraph"><block ref="be94b7e6fbf892064754b145ecdeb994" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="17456408ade135981b9345bc87881dc3" category="paragraph">NetApp 세일즈 담당자로부터 BlueXP 재해 복구 라이센스를 구입한 후에는 BlueXP 재해 복구 일련 번호 및 NSS(NetApp Support 사이트) 계정 정보를 입력하여 라이센스를 활성화합니다.</block>
-  <block id="c9b34ae6e6872c8ec153a41cea722706" category="paragraph"><block ref="c9b34ae6e6872c8ec153a41cea722706" category="inline-image-macro-rx" type="image"></block></block>
   <block id="9fc7e8cb24850b1f0912cebc8da32620" category="list-text">BlueXP 디지털 지갑에 액세스합니다.</block>
-  <block id="7b6dca09bf0ef612bac047a313d66cbf" category="list-text">데이터 서비스 라이센스 * 탭을 선택하고 업데이트할 서비스 일련 번호에 해당하는 * 작업... * 아이콘을 선택한 다음 * 라이센스 업데이트 * 를 선택합니다.</block>
   <block id="be976ba4e18c887ae57e14f6ebfbbab3" category="sidebar">클라우드에 대한 재해 복구는 사이트 중단 및 데이터 손상 이벤트(예: 랜섬웨어)로부터 워크로드를 보호하는 복원력과 비용 효율적인 방법입니다. VMware용 BlueXP 재해 복구를 사용하면 ONTAP 스토리지를 실행하는 온프레미스 VMware 워크로드를 퍼블릭 클라우드의 VMware 소프트웨어 정의 데이터 센터 또는 다른 온프레미스 사이트로 복제하여 재해 복구 사이트로 복제할 수 있습니다.</block>
-  <block id="67d87f62e2f6294a12829113edfa11b8" category="paragraph"><block ref="67d87f62e2f6294a12829113edfa11b8" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="93716955add4f66b2af685a33bac4789" category="section-title">2024년 5월 15일</block>
+  <block id="9df62cb4d6f151b560e84723841bd523" category="paragraph">이 BlueXP 재해 복구 릴리즈에는 다음 업데이트가 포함됩니다.</block>
+  <block id="7f1d1e9df7ef6953a6e373e29826ca55" category="list-text">* 온프레미스에서 온프레미스로 VMware 워크로드 복제 * 는 이제 일반적인 가용성 기능으로 출시되었습니다. 이전에는 기능이 제한된 기술 미리 보기였습니다.</block>
+  <block id="b7005516f0c1f875afae2146a2fb3617" category="list-text">* 라이센스 업데이트 *: BlueXP 재해 복구를 사용하면 90일 무료 평가판에 등록하거나, Amazon Marketplace에서 PAYGO(Pay-as-you-Go) 구독 요금을 구매하거나, NetApp 세일즈 담당자 또는 NSS(NetApp Support 사이트)로부터 얻은 NLF(NetApp 라이센스 파일)인 BYOL(Bring Your Own License File)을 받을 수 있습니다.</block>
+  <block id="eb9506998f4dca4bcb82fe962448b79b" category="paragraph">BlueXP 재해 복구의 라이센스 설정에 대한 자세한 내용은 을 참조하십시오 <block ref="eaa54a57026891d12cbf928afd176564" category="inline-link-macro-rx"></block>.</block>
+  <block id="8deb19747c06e3643bab5716cb645635" category="paragraph">이 서비스에 처음 로그인하는 경우 랜딩 페이지가 나타나고 무료 평가판을 등록할 수 있습니다.</block>
+  <block id="ac3c6e071ee2b6acd7920433ae08c475" category="paragraph"><block ref="ac3c6e071ee2b6acd7920433ae08c475" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="dd1ef091f49695b9c14e0e34da748ab7" category="list-text">BlueXP Connector를 아직 추가하지 않았다면 Connector를 추가해야 합니다. 커넥터를 추가하려면 을 참조하십시오<block ref="d6df7dcc2fc3105e10967a9194806ce5" category="inline-link-rx"></block>.</block>
+  <block id="e2066cd1f4f96874fad4da9c48f8715b" category="list-text">이미 서비스를 사용 중인 경우 "재해 복구"를 선택하면 대시보드가 나타납니다.</block>
+  <block id="7cc1b1d71d565ea421a16ed9422fe6c2" category="list-text">AWS(Amazon Web Services) Marketplace에서 용량제(PAYGO) 구독을 구매합니다.</block>
+  <block id="23c019f17394a366e5bf51ef8a23b0a8" category="paragraph">BYOL을 설정한 후 BlueXP 디지털 지갑에서 * 데이터 서비스 라이센스 * 탭에서 라이센스를 확인할 수 있습니다.</block>
+  <block id="4701248bbe25ed364a5f0c79467e9f29" category="list-text">먼저 vCenter를 추가합니다.</block>
+  <block id="d780b26d8f0dcbe5b2593febbaacdb60" category="paragraph">자세한 내용은 을 참조하십시오 <block ref="84d66f7662bc8a91a68e93706653efe2" category="inline-link-macro-rx"></block>.</block>
+  <block id="ad7911fdd21ff5752d10300d0446de95" category="section-title">평가판이 끝난 후 AWS Marketplace를 통해 구독하십시오</block>
+  <block id="e1186eb5e41d3a9e96827c9ab4aef684" category="paragraph">무료 평가판이 끝난 후 NetApp에서 라이센스를 구입하거나 AWS Marketplace를 통해 구독할 수 있습니다. 이 절차에서는 AWS Marketplace에서 직접 구독하는 방법에 대한 간략한 개요를 제공합니다.</block>
+  <block id="acce4a6c25bc51b4930085d68e3cb0cd" category="list-text">BlueXP 재해 복구에서 무료 평가판이 만료된다는 메시지가 표시됩니다. 메시지에서 * 가입 또는 라이센스 구매 * 를 선택합니다.</block>
+  <block id="89642db6eeb3c89414135d980b0f379c" category="inline-image-macro">BlueXP 재해 복구 지불 방법 페이지</block>
+  <block id="cd54cee81e627d252868fbc3cfc5731c" category="paragraph"><block ref="cd54cee81e627d252868fbc3cfc5731c" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="584a50ae29d097d233ebd86ad952d305" category="list-text">AWS Marketplace * 에서 구독 을 선택합니다.</block>
+  <block id="a06442e94af0d31f4eee679c83de7779" category="list-text">AWS Marketplace에서 * 구매 옵션 보기 * 를 선택합니다.</block>
+  <block id="266c58f74740e96b35f10409d3036f8f" category="list-text">AWS Marketplace를 사용하여 BlueXP 재해 복구를 구독하십시오.</block>
+  <block id="717132172ed170ccb94cc8674c35dfbd" category="list-text">BlueXP 재해 복구로 돌아가면 구독 중이라는 메시지가 표시됩니다.</block>
+  <block id="6678054c83157276d9287735dd3e1d92" category="paragraph">BlueXP 디지털 지갑에서 구독 세부 정보를 보려면 * 구독 세부 정보 보기 * 를 선택하고 * 구독 * 페이지에서 활성 구독을 확인하십시오.</block>
+  <block id="0a504e78221db1ccaf51b7ad21bc16ce" category="inline-image-macro">BlueXP 디지털 지갑 구독 탭</block>
+  <block id="f3688cd67baeb83949d8b3d8688cda8b" category="paragraph"><block ref="f3688cd67baeb83949d8b3d8688cda8b" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="4052ab6997dacca028b4d726754818d5" category="paragraph">* 라이센스 활성화 *
+NetApp 세일즈 담당자로부터 BlueXP 재해 복구 라이센스를 구입한 후에는 BlueXP 재해 복구 일련 번호 및 NSS(NetApp Support 사이트) 계정 정보를 입력하여 라이센스를 활성화합니다.</block>
+  <block id="19a9d224e357593876fd44c3faede4ab" category="paragraph">BlueXP의 상단에서 * 계정 * 드롭다운을 선택한 다음 계정 옆의 * 계정 관리 * 를 선택하면 BlueXP 계정 ID를 찾을 수 있습니다. 계정 ID는 개요 탭에 있습니다.</block>
+  <block id="3a00897c7ffb183a2673af94c243c5fd" category="paragraph">* BlueXP 디지털 지갑에 라이센스를 추가합니다 *
+BlueXP 계정에 사용할 BlueXP 재해 복구 라이센스를 구매한 후에는 BlueXP 디지털 지갑에 라이센스를 추가해야 합니다.</block>
+  <block id="e4822c1e77f0d7746ffdde4c031a2109" category="inline-image-macro">BlueXP 재해 복구 지불 metnods 페이지</block>
+  <block id="5646d601e859bd392516de29f6a97047" category="paragraph"><block ref="5646d601e859bd392516de29f6a97047" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="595da0c0edf936a84fa3d6a69bbbb4e5" category="paragraph"><block ref="595da0c0edf936a84fa3d6a69bbbb4e5" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="5d50de45dd75ac0ea74e9c427687d113" category="list-text">BlueXP 디지털 지갑의 * 데이터 서비스 라이센스 * 탭에서 * Add License * 를 선택합니다.</block>
+  <block id="7744384d0e7b78819bc53ca36ef36369" category="list-text">Data dervices licenses * 탭을 선택하고 업데이트할 서비스 일련 번호에 대한 * Actions... * 아이콘을 선택한 다음 * Update License * 를 선택합니다.</block>
+  <block id="fe16d01759ec350f7a6eaad418e37316" category="paragraph">BlueXP 재해 복구 서비스는 NetApp 라이센스 또는 Amazon Web Services 마켓플레이스를 통해 연간 구독 기반 계획에 사용할 수 있습니다.</block>
+  <block id="577219605d1e6146de9dc5b1e218ce65" category="paragraph">90일 평가판 사용 후에도 계속 사용하려면 클라우드 공급자로부터 PAYGO(Pay-as-you-go) 구독을 받거나 NetApp에서 BYOL 라이센스를 구입해야 합니다.</block>
+  <block id="d66d706cd022ab39ed6479a713135515" category="paragraph"><block ref="d66d706cd022ab39ed6479a713135515" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="991e816286764c3a5ea9b023c35e1d77" category="paragraph"><block ref="991e816286764c3a5ea9b023c35e1d77" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="f356176c4e01ac702abad1ad2e11449a" category="paragraph">AWS Marketplace에서 PAYGO(Pay-as-you-go) 구독을 구매하거나 NLF(NetApp 라이센스 파일)인 BYOL(Bring Your Own License) 라이센스를 구매할 수 있습니다.</block>
+  <block id="b45dfe874eaba6a97e58e0436eba2402" category="sidebar">주문형 BlueXP 재해 복구 as a Service Lab을 시작하기</block>
 </blocks>

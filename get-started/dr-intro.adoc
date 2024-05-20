@@ -57,7 +57,7 @@ NOTE: vSphere 서버 구성은 vSphere Server의 BlueXP 재해 복구 외부에�
 
 NetApp은 BlueXP 재해 복구의 평가판 버전을 사용하는 것에 대한 비용을 청구하지 않습니다.
 
-BlueXP 재해 복구 서비스의 전체 버전을 NetApp 라이센스와 함께 사용할 수 있습니다.
+BlueXP 재해 복구 서비스는 NetApp 라이센스 또는 Amazon Web Services 마켓플레이스를 통해 연간 구독 기반 계획에 사용할 수 있습니다.
 
 
 
@@ -66,6 +66,7 @@ BlueXP 재해 복구 서비스의 전체 버전을 NetApp 라이센스와 함께
 다음과 같은 라이센스 유형을 사용할 수 있습니다.
 
 * 90일 무료 평가판을 신청하십시오.
+* AWS(Amazon Web Services) Marketplace에서 용량제(PAYGO) 구독을 구매합니다.
 * BYOL(Bring Your Own License) - NetApp 영업 담당자로부터 얻은 NLF(NetApp 라이센스 파일 라이센스 일련 번호를 사용하여 BlueXP 디지털 지갑에서 BYOL을 활성화할 수 있습니다.
 
 
@@ -82,7 +83,7 @@ BlueXP 재해 복구의 라이센스 설정에 대한 자세한 내용은 을 �
 
 90일 무료 평가판을 사용하여 BlueXP 재해 복구를 체험해 볼 수 있습니다.
 
-90일 평가판 사용 후에도 계속 진행하려면 NetApp에서 BYOL 라이센스를 구매해야 합니다.
+90일 평가판 사용 후에도 계속 사용하려면 클라우드 공급자로부터 PAYGO(Pay-as-you-go) 구독을 받거나 NetApp에서 BYOL 라이센스를 구입해야 합니다.
 
 언제든지 라이선스를 구입할 수 있으며 90일 평가판이 만료될 때까지 비용이 청구되지 않습니다.
 
@@ -94,11 +95,11 @@ BlueXP 재해 복구를 통해 온프레미스 사이트에서 Amazon FSx for ON
 
 BlueXP 재해 복구는 ONTAP SnapMirror 기술을 사용하여 매우 효율적인 복제를 제공하고 ONTAP 영구 증분 스냅샷 효율성을 유지합니다. SnapMirror 복제를 통해 애플리케이션 정합성이 보장된 Snapshot 복사본이 항상 동기화되고 페일오버 후 즉시 데이터를 사용할 수 있습니다.
 
-image:dr-architecture-diagram-70.png["VMware 서비스 인프라에 대한 BlueXP 재해 복구 아키텍처를 보여 주는 다이어그램"]
+image:dr-architecture-diagram-70-2.png["VMware 서비스 인프라에 대한 BlueXP 재해 복구 아키텍처를 보여 주는 다이어그램"]
 
 다음 다이어그램은 온프레미스 간 재해 복구 계획의 아키텍처를 보여 줍니다.
 
-image:dr-architecture-diagram-onprem-to-onprem2.png["VMware 서비스 인프라에 대한 BlueXP 재해 복구 아키텍처를 보여 주는 다이어그램"]
+image:dr-architecture-diagram-onprem-to-onprem3.png["VMware 서비스 인프라에 대한 BlueXP 재해 복구 아키텍처를 보여 주는 다이어그램"]
 
 재해가 있을 때 이 서비스는 SnapMirror 관계를 끊고 대상 사이트를 활성 상태로 만들어 다른 온프레미스 VMware 환경 또는 VMC에서 가상 머신을 복구하는 데 도움을 줍니다.
 

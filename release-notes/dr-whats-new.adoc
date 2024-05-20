@@ -16,6 +16,21 @@ BlueXP 재해 복구의 새로운 기능에 대해 알아보십시오.
 
 
 
+== 2024년 5월 15일
+
+이 BlueXP 재해 복구 릴리즈에는 다음 업데이트가 포함됩니다.
+
+* * 온프레미스에서 온프레미스로 VMware 워크로드 복제 * 는 이제 일반적인 가용성 기능으로 출시되었습니다. 이전에는 기능이 제한된 기술 미리 보기였습니다.
+* * 라이센스 업데이트 *: BlueXP 재해 복구를 사용하면 90일 무료 평가판에 등록하거나, Amazon Marketplace에서 PAYGO(Pay-as-you-Go) 구독 요금을 구매하거나, NetApp 세일즈 담당자 또는 NSS(NetApp Support 사이트)로부터 얻은 NLF(NetApp 라이센스 파일)인 BYOL(Bring Your Own License File)을 받을 수 있습니다.
++
+BlueXP 재해 복구의 라이센스 설정에 대한 자세한 내용은 을 참조하십시오 link:../get-started/dr-licensing.html["라이센스를 설정합니다"].
+
+
+
+https://docs.netapp.com/us-en/bluexp-disaster-recovery/get-started/dr-intro.html["BlueXP 재해 복구에 대해 자세히 알아보십시오"].
+
+
+
 == 2024년 3월 5일
 
 BlueXP 재해 복구의 일반 가용성 릴리즈로, 다음 업데이트가 포함됩니다.
