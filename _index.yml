@@ -50,3 +50,5 @@ indexpage:
       url: https://community.netapp.com/t5/Tech-ONTAP-Blogs/BlueXP-disaster-recovery-service-for-BC-with-VMware-Cloud-on-AWS-and-FSx-for/ba-p/447066
     - title: 주문형 BlueXP 재해 복구 as a Service Lab을 시작하기
       url: https://labondemand.netapp.com/lab/draas
+    - title: 비디오
+      url: https://www.youtube.com/@netapp/videos

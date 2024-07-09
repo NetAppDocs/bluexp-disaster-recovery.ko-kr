@@ -75,12 +75,8 @@ image:draas-landing2.png["BlueXP 재해 복구의 랜딩 페이지 스크린샷"
 
 .단계
 . BlueXP 재해 복구에서 무료 평가판이 만료된다는 메시지가 표시됩니다. 메시지에서 * 가입 또는 라이센스 구매 * 를 선택합니다.
-+
-image:draas-license-subscribe2.png["BlueXP 재해 복구 지불 방법 페이지"]
-
 . AWS Marketplace * 에서 구독 을 선택합니다.
-. AWS Marketplace에서 * 구매 옵션 보기 * 를 선택합니다.
-. AWS Marketplace를 사용하여 BlueXP 재해 복구를 구독하십시오.
+. AWS Marketplace에서 * 구매 옵션 보기 * 를 선택합니다. AWS Marketplace를 사용하여 BlueXP 재해 복구를 구독하십시오.
 . BlueXP 재해 복구로 돌아가면 구독 중이라는 메시지가 표시됩니다.
 +
 BlueXP 디지털 지갑에서 구독 세부 정보를 보려면 * 구독 세부 정보 보기 * 를 선택하고 * 구독 * 페이지에서 활성 구독을 확인하십시오.
