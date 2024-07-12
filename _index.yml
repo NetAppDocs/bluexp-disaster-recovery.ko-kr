@@ -36,10 +36,6 @@ indexpage:
       url: "/use/failover.html"
     - title: 앱을 원래 소스 사이트로 페일백합니다
       url: "/use/failback.html"
-    - title: 사이트, 계획, 데이터 저장소 및 가상 머신 정보를 관리합니다
-      url: "/use/manage.html"
-    - title: 재해 복구 작업을 모니터링합니다
-      url: "/use/monitor-jobs.html"
   - title: 블로그 및 커뮤니티
     links:
     - title: NetApp 커뮤니티
