@@ -904,4 +904,24 @@ BlueXP 계정에 사용할 BlueXP 재해 복구 라이센스를 구매한 후에
   <block id="554cfab3938e21d9270bd6b75931f96f" category="sidebar">비디오</block>
   <block id="63d5049791d9d79d86e9a108b0a999ca" category="sidebar">참조하십시오</block>
   <block id="b80f9ccd1ed052ae2d1a95c50bd37d8b" category="sidebar">BlueXP 재해 복구에 필요한 vCenter 권한</block>
+  <block id="f4c84d2d214fb7f3e3cae921398c8e4a" category="section-title">2024년 7월 17일</block>
+  <block id="e96e73e43a84335e9de1d02f80f7d655" category="list-text">* 장애 조치 테스트 일정 *: 이 릴리스에는 매일 및 매주 일정을 지원하는 데 필요한 장애 조치 테스트 일정 구조에 대한 업데이트가 포함되어 있습니다. 이 업데이트를 수행하려면 새로운 일별 및 주별 페일오버 테스트 일정을 사용할 수 있도록 모든 기존 복제 계획을 비활성화했다가 다시 활성화해야 합니다. 이는 일회성 요구 사항입니다.</block>
+  <block id="7043d4fb27c94bc9a206c106cef9d80c" category="paragraph">방법은 다음과 같습니다.</block>
+  <block id="2ae04d8f24d0c8f552b0d3857c0953b3" category="list-text">계획을 선택하고 조치 아이콘을 선택하여 드롭다운 메뉴를 표시합니다.</block>
+  <block id="dbf8ea65a71d9e2042b03a97a0da4095" category="list-text">비활성화 * 를 선택합니다.</block>
+  <block id="9ffe587f372d96c9b0db66cfe333c0cf" category="list-text">몇 분 후 * 활성화 * 를 선택합니다.</block>
+  <block id="dc6efda4f2a86706d886df508f873039" category="list-text">* 복제 계획 업데이트 *: 이 릴리스에는 "스냅샷을 찾을 수 없음" 문제를 해결하는 복제 계획 데이터에 대한 업데이트가 포함되어 있습니다. 이렇게 하려면 모든 복제 계획의 보존 수를 1로 변경하고 필요 시 스냅샷을 시작해야 합니다. 이 프로세스는 새 백업을 생성하고 이전 백업을 모두 제거합니다.</block>
+  <block id="3d3e2652059a9417e7a9b8801e83b99d" category="list-text">복제 계획을 선택하고 * Failover mapping * 탭을 클릭한 다음 * Edit * 연필 아이콘을 클릭합니다.</block>
+  <block id="f05351f8a712da4ff1e724d342c4670b" category="list-text">Datastores * 화살표를 클릭하여 확장합니다.</block>
+  <block id="ee9e0fb0a09a468f33fa6f2dabc4ff49" category="inline-image-macro">페일오버 매핑 페이지를 편집합니다</block>
+  <block id="7cbc4647aa042fa4dbc711ee9aa94612" category="paragraph"><block ref="7cbc4647aa042fa4dbc711ee9aa94612" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0d59b78804ed5feec9399254629a60f1" category="list-text">복제 계획에서 보존 횟수의 값을 확인합니다. 이 단계를 완료하면 이 원래 값을 복원해야 합니다.</block>
+  <block id="e9c686cd7f0fc0f9a24375142cf2639b" category="list-text">카운트를 1로 줄입니다.</block>
+  <block id="94eec0eecc897e0613b4dca05f1db3b5" category="list-text">주문형 스냅샷을 시작합니다. 이렇게 하려면 복제 계획 페이지에서 계획을 선택하고 작업 아이콘을 클릭한 다음 * 지금 스냅샷 생성 * 을 선택합니다.</block>
+  <block id="4be920e5d3a5c6a1a13e6a9ed1ea0d96" category="list-text">스냅샷 작업이 성공적으로 완료되면 첫 번째 단계에서 기록한 원래 값으로 복제 계획의 개수를 증가시킵니다.</block>
+  <block id="fcf0bc475de9e6576c18ef6dcf5d7506" category="list-text">모든 기존 복제 계획에 대해 이 단계를 반복합니다.</block>
+  <block id="f51ae48fcef0eb66752ca677561d408c" category="section-title">페일오버 스케줄에 대한 보존 수를 변경합니다</block>
+  <block id="b138bbcc2a9cc6e505caed49815b326b" category="paragraph">유지할 데이터 저장소 수를 변경할 수 있습니다.</block>
+  <block id="2aef38b97efb9369d3e496e8d062d8fd" category="paragraph"><block ref="2aef38b97efb9369d3e496e8d062d8fd" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="51c600bec26d8fec2fcc4cb42728fd01" category="list-text">복제 계획에서 보존 횟수 값을 변경합니다.</block>
 </blocks>
