@@ -20,7 +20,7 @@ BlueXP 재해 복구의 새로운 기능에 대해 알아보십시오.
 
 이 BlueXP 재해 복구 릴리즈에는 다음 업데이트가 포함됩니다.
 
-* * FC용 온-프레미스 VMware VMFS 데이터 저장소 지원 *: 이 릴리스에는 온-프레미스 스토리지로 보호되는 FC용 VMware vSphere VMFS(Virtual Machine File System) 데이터 저장소에 마운트된 VM에 대한 기술 미리 보기 _ 가 포함되어 있습니다. 이전에는 이 서비스가 ISCI용 VMFS 데이터 저장소를 지원하는 기술 미리 보기를 제공했습니다. 이 릴리즈에서 BlueXP 재해 복구는 FC용 VMFS 데이터 저장소를 사용하여 온프레미스 VMware 워크로드를 사내 VMware 환경으로 전환하기 위한 기술 미리보기를 지원합니다.
+* * FC용 온-프레미스 VMware VMFS 데이터 저장소 지원 *: 이 릴리스에는 온-프레미스 스토리지로 보호되는 FC용 VMware vSphere VMFS(Virtual Machine File System) 데이터 저장소에 마운트된 VM에 대한 기술 미리 보기 _ 가 포함되어 있습니다. 이전에는 iSCSI용 VMFS 데이터 저장소를 지원하는 기술 미리 보기를 제공했습니다.
 +
 
 NOTE: NetApp는 사전 검토된 워크로드 용량에 대해 비용을 청구하지 않습니다.

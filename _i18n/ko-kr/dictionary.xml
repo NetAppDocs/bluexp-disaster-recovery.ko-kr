@@ -924,7 +924,6 @@ BlueXP 계정에 사용할 BlueXP 재해 복구 라이센스를 구매한 후에
   <block id="2aef38b97efb9369d3e496e8d062d8fd" category="paragraph"><block ref="2aef38b97efb9369d3e496e8d062d8fd" category="inline-image-macro-rx" type="image"></block></block>
   <block id="51c600bec26d8fec2fcc4cb42728fd01" category="list-text">복제 계획에서 보존 횟수 값을 변경합니다.</block>
   <block id="895b67d31a903fc743f186c56aeecff6" category="section-title">2024년 8월 2일</block>
-  <block id="8bf3903af15d79402b4af83735a56d33" category="list-text">* FC용 온-프레미스 VMware VMFS 데이터 저장소 지원 *: 이 릴리스에는 온-프레미스 스토리지로 보호되는 FC용 VMware vSphere VMFS(Virtual Machine File System) 데이터 저장소에 마운트된 VM에 대한 기술 미리 보기 _ 가 포함되어 있습니다. 이전에는 이 서비스가 ISCI용 VMFS 데이터 저장소를 지원하는 기술 미리 보기를 제공했습니다. 이 릴리즈에서 BlueXP 재해 복구는 FC용 VMFS 데이터 저장소를 사용하여 온프레미스 VMware 워크로드를 사내 VMware 환경으로 전환하기 위한 기술 미리보기를 지원합니다.</block>
   <block id="b9dbe1e85847c069664ebe888e76d35c" category="list-text">* Job cancel *: 이 릴리스로 Job Monitor UI에서 작업을 취소할 수 있습니다.</block>
   <block id="4639d0e2e2909a747265c2f704128bca" category="inline-link">작업을 모니터링합니다</block>
   <block id="5ef55533619d84d0298304b37a76eeff" category="paragraph">을<block ref="786959fe8223b685d5c08f8e62246672" category="inline-link-rx"></block>참조하십시오.</block>
@@ -933,5 +932,6 @@ BlueXP 계정에 사용할 BlueXP 재해 복구 라이센스를 구매한 후에
   <block id="eead8518396b0c1b849be084fbe4f31a" category="paragraph">작업이 진행 중이거나 대기 중 상태에 있는 경우 작업을 계속하지 않으려면 작업을 취소할 수 있습니다. 작업이 동일한 상태로 고정되어 있고 대기열에서 다음 작업을 해제하려는 경우 작업을 취소할 수 있습니다. 시간이 초과되기 전에 작업을 취소해야 할 수 있습니다.</block>
   <block id="26abc41be60bda806b144bd6ecedad10" category="list-text">작업 모니터 페이지에서 취소할 작업의 ID를 기록합니다.</block>
   <block id="49e474835558193a9bed54c7dadf777e" category="paragraph">작업은 "진행 중" 또는 "대기 중" 상태여야 합니다.</block>
-  <block id="98d5e6f769dc6d114da618f41d9ba70d" category="list-text">작업 열에서 * 취소 * 를 선택합니다.</block>
+  <block id="1ff3f27272f2855394e8e2cf0abfa836" category="list-text">* FC용 온-프레미스 VMware VMFS 데이터 저장소 지원 *: 이 릴리스에는 온-프레미스 스토리지로 보호되는 FC용 VMware vSphere VMFS(Virtual Machine File System) 데이터 저장소에 마운트된 VM에 대한 기술 미리 보기 _ 가 포함되어 있습니다. 이전에는 iSCSI용 VMFS 데이터 저장소를 지원하는 기술 미리 보기를 제공했습니다.</block>
+  <block id="fa463eaf10ea5f2243e402c5c574ce96" category="list-text">Actions 열에서 * Cancel job * 을 선택합니다.</block>
 </blocks>
