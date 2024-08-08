@@ -339,7 +339,6 @@ BlueXP 재해 복구에는 지원이 필요하지 않습니다. 재해 복구 �
   <block id="8b89ed4b8e4a4b16d551a86114a0c361" category="list-text">복제할 VM을 선택하고 그룹을 할당합니다</block>
   <block id="0ee5515fd7a8d972a5df4c4eb08b18f2" category="list-text">재발 파악</block>
   <block id="febc3cdab40dc222679ce1e42cce7011" category="list-text">계획을 검토합니다</block>
-  <block id="1ed9388eb507de32764aea359f844a89" category="list-text">BlueXP 재해 복구 상단 메뉴에서 * Replication plans * 를 선택합니다. 또는 서비스를 사용하기 시작한 경우 대시보드에서 * 복제 계획 추가 * 를 선택합니다.</block>
   <block id="d72f4a94d857178ae5cb1420995137e4" category="inline-image-macro">복제 계획 추가 및 GT, 계획 추가 페이지를 보여 주는 스크린샷</block>
   <block id="6961a5b80d0429840ea8a9232c79ec6f" category="paragraph"><block ref="b3b324f474892662518dcbec32158ea5" category="inline-image-macro-rx" type="image"></block></block>
   <block id="466ea193e548e9ef8d853f2da4829a3e" category="list-text">복제 계획의 이름을 생성합니다.</block>
@@ -350,7 +349,6 @@ BlueXP 재해 복구에는 지원이 필요하지 않습니다. 재해 복구 �
   <block id="deea58ba2c2a385f7b93c144b2d694e1" category="paragraph">선택한 가상 머신이 그룹 1에 자동으로 추가되고 새 그룹 2가 시작됩니다. 마지막 그룹에 가상 머신을 추가할 때마다 다른 그룹이 추가됩니다.</block>
   <block id="4039eb9aa82f9a49f8096e652825e9c9" category="inline-image-macro">복제 계획 및 GT, 복제할 애플리케이션 추가 페이지를 보여 주는 스크린샷</block>
   <block id="f60de6a7e37982bbcf6e675308bbbeb8" category="list-text">필요에 따라 다음 중 하나를 실행합니다.</block>
-  <block id="8702576026497ff97614ecf3a246c6e5" category="list-text">그룹을 변경하려면 그룹 * 편집 * 아이콘을 클릭합니다.</block>
   <block id="20b76027356378e48612a50cf35cca8a" category="list-text">그룹에서 가상 머신을 제거하려면 * X * 를 선택합니다.</block>
   <block id="d2423d65cf9bb1427253eab5f5a436be" category="list-text">가상 머신을 다른 그룹으로 이동하려면 새 그룹에 끌어다 놓습니다.</block>
   <block id="84ffccfa6f5368695a086e51333e6494" category="list-text">리소스 그룹이 여러 개인 경우 그룹 순서가 발생할 작업 순서와 일치하는지 확인합니다.</block>
@@ -360,7 +358,6 @@ BlueXP 재해 복구에는 지원이 필요하지 않습니다. 재해 복구 �
   <block id="3fcacb0423fe728907bf295cee2250ca" category="paragraph">리소스 매핑 단계에서 소스 환경의 리소스가 타겟에 매핑되는 방법을 지정합니다.</block>
   <block id="cb095b2d36014cd7a8ae2363f8694981" category="admonition">SnapMirror가 볼륨 레벨에 있습니다. 따라서 모든 가상 시스템이 복제 대상에 복제됩니다. 데이터 저장소에 포함된 모든 가상 머신을 선택해야 합니다. 이 옵션을 선택하지 않으면 복제 계획의 일부인 가상 머신만 처리됩니다.</block>
   <block id="15be2bc9d482c70a11a63e89eada5ce4" category="list-text">리소스 매핑 페이지에서 페일오버 및 테스트 작업 모두에 동일한 매핑을 사용하려면 확인란을 선택합니다.</block>
-  <block id="d357213c083fae24ce4c1b0bdc92afd7" category="list-text">페일오버 매핑 탭에서 각 리소스의 오른쪽에 있는 아래쪽 화살표를 선택하고 각 리소스의 리소스를 매핑합니다.</block>
   <block id="137f19e6e2dc1219f33553b812627bc2" category="list-text">가상 머신</block>
   <block id="eff845e03ea7f765e5646b3de0aa3188" category="list-text">데이터 저장소</block>
   <block id="4a09c644b8fb308e15cee7a781de0061" category="list-text">테스트 환경에 대해 다른 매핑을 설정하려면 확인란을 선택 취소하고 * 테스트 매핑 * 탭을 선택합니다. 이전과 같이 각 탭을 살펴보았지만 이번에는 테스트 환경에 대해 살펴보겠습니다.</block>
@@ -485,7 +482,6 @@ BlueXP 재해 복구에는 지원이 필요하지 않습니다. 재해 복구 �
   <block id="42ad006ef72ab8b86610109a75d3073b" category="list-text">* 리소스 그룹 *: 리소스 그룹의 상태를 봅니다. 리소스 그룹은 다음 상태 중 하나일 수 있습니다.</block>
   <block id="44cd3c457f12a5322db95c67eb00d629" category="list-text">* 보호된 VM *: VM은 리소스 그룹의 일부입니다.</block>
   <block id="8a5ac28d6ec264c5863fb5328c2943db" category="list-text">* 보호되지 않은 VM *: VM은 리소스 그룹에 속하지 않습니다.</block>
-  <block id="8d881e857baa3c81765ffd77e05bfc52" category="paragraph">자원 그룹 세부 정보를 검토하려면 상태를 보려면 * 모두 보기 * 를 선택하고 모든 자원 그룹을 보려면 * 자원 그룹 보기 * 를 선택합니다.</block>
   <block id="2ce874f5717134aa8a63e219f05d39f9" category="list-text">페일오버, 테스트 페일오버 및 마이그레이션의 수입니다. 예를 들어, 두 개의 플랜을 생성하여 대상으로 마이그레이션한 경우 마이그레이션 횟수는 "2"로 표시됩니다.</block>
   <block id="d26cf1f0512a50b32d5a10b931f5fbe0" category="list-text">활동 창의 모든 작업을 검토합니다. 작업 모니터에서 모든 작업을 보려면 * 모든 작업 보기 * 를 선택합니다.</block>
   <block id="6bc8dd7bb67f1165364943cf065cadcf" category="summary">BlueXP 재해 복구를 사용하여 소스 사이트의 VMware 애플리케이션을 다른 사이트로 마이그레이션할 수 있습니다.</block>
@@ -504,10 +500,6 @@ BlueXP 재해 복구에는 지원이 필요하지 않습니다. 재해 복구 �
   <block id="e1328bf0fb353d2296414458d7dbcdf0" category="paragraph">복제 계획을 생성하는 동안 다음 구성 중 하나에서 소스 볼륨과 타겟 볼륨 간의 SnapMirror 관계를 정의할 수 있습니다.</block>
   <block id="b946e483d79abae55d4acfcf242d2034" category="list-text">정합성 보장 그룹에서 다대일 수</block>
   <block id="c456b58190fd5c21d84750f126197baf" category="paragraph">먼저 소스 vCenter를 선택한 다음 대상 vCenter를 선택합니다.</block>
-  <block id="7948752d94dfb3ed0961783bc7bc602b" category="list-text">* 컴퓨팅 리소스 *</block>
-  <block id="c23280c66e3d73c1458daffa54fd58a5" category="list-text">* 가상 네트워크 *</block>
-  <block id="641e34badef58aff265ce33334217c13" category="list-text">* 가상 머신 *: 적절한 세그먼트에 대한 네트워크 매핑을 선택합니다. 세그먼트는 이미 프로비저닝되어야 하므로 가상 머신을 매핑할 적절한 세그먼트를 선택하십시오.</block>
-  <block id="69c0c55ea8cce1b3cc74ab21345b0989" category="list-text">* Datastores *: 가상 머신 선택에 따라 데이터 저장소 매핑이 자동으로 선택됩니다.</block>
   <block id="7fceed43db5d7f111f8ef8f9351ffecd" category="paragraph">데이터를 다른 타겟으로 마이그레이션할지, 아니면 SnapMirror 빈도로 복제할지를 선택합니다.</block>
   <block id="a6263fdec62a2bd89f463f2208f79331" category="paragraph">복제하려는 경우 데이터를 미러링해야 하는 빈도를 파악합니다.</block>
   <block id="901540dd7e45eaf2226327527c8d78b4" category="list-text">* 소스 *: * vCenter 서버 검색 * 을 선택하여 소스 vCenter 사이트에 대한 정보를 입력합니다.</block>
@@ -541,17 +533,10 @@ BlueXP 재해 복구에는 지원이 필요하지 않습니다. 재해 복구 �
   <block id="77a292951e2cd7ee0d1bc7d3db0020ec" category="list-text">이 릴리즈를 사용하면 대시보드에서 다른 페이지의 정보에 더 빠르게 액세스할 수 있습니다.</block>
   <block id="0f354958858456370fa7b64c5f2a913c" category="paragraph"><block ref="929628a652068d14da23775529f8803b" category="inline-link-rx"></block>.</block>
   <block id="2c1f345ff21d3c1b339c0919d325adfc" category="paragraph">다음 단계는 필요한 가상 머신을 기능적 리소스 그룹으로 그룹화하는 것입니다. 리소스 그룹을 사용하면 종속 가상 머신 세트를 요구 사항을 충족하는 논리적 그룹으로 그룹화할 수 있습니다. 예를 들어, 복구 시 실행할 수 있는 지연된 부팅 순서가 그룹에 포함될 수 있습니다.</block>
-  <block id="4c30b8942ce84d792af3c472e97627ee" category="list-text">페일오버 매핑 탭에서 각 리소스의 오른쪽에 있는 아래쪽 화살표를 선택합니다.</block>
-  <block id="f39dc72f994fcb8918317858e1a469cf" category="list-text">* VM CPU 및 RAM *: 가상 머신 세부 정보 아래에서 선택적으로 VM CPU 및 RAM 매개 변수의 크기를 조정할 수 있습니다.</block>
-  <block id="b1841dbb88afa1d16bef484ec95e7696" category="list-text">* 부팅 순서 지연 * : 또한 리소스 그룹에서 선택한 모든 가상 시스템의 부팅 순서를 수정할 수 있습니다. 기본적으로 리소스 그룹 선택 시 선택한 부팅 순서가 사용되지만 이 단계에서 변경할 수 있습니다.</block>
-  <block id="40789d19f18761ecc3b88cb1ea134619" category="list-text">* DHCP 또는 정적 IP *: 복제 계획의 가상 머신 섹션에서 소스 및 대상 위치 간의 네트워킹을 매핑할 때 BlueXP 재해 복구는 DHCP 또는 정적 IP의 두 가지 옵션을 제공합니다. 정적 IP의 경우 서브넷, 게이트웨이 및 DNS 서버를 구성합니다. 또한 가상 머신에 대한 자격 증명을 입력합니다.</block>
   <block id="dc304d3d6524acb70870c5c55a21ebb9" category="list-text">* DHCP * : 이 옵션을 선택하면 VM에 대한 자격 증명만 제공합니다.</block>
   <block id="13c796f8f63d49fc45ecbb42db3b6868" category="list-text">* 정적 IP *: 소스 VM에서 동일하거나 다른 정보를 선택할 수 있습니다. 원본과 동일한 을 선택하면 자격 증명을 입력할 필요가 없습니다. 반면 원본과 다른 정보를 사용하도록 선택한 경우 자격 증명, VM의 IP 주소, 서브넷 마스크, DNS 및 게이트웨이 정보를 제공할 수 있습니다. VM 게스트 OS 자격 증명은 글로벌 레벨 또는 각 VM 레벨에 제공해야 합니다.</block>
   <block id="27469d5f3bff97989e2a320de315084a" category="inline-image-macro">복제 계획 추가 및 GT, 리소스 매핑 및 GT, 가상 머신을 보여 주는 스크린샷</block>
-  <block id="a185f33799a71b88cd6698b98b6a24ba" category="paragraph"><block ref="24a9c3a30da07f8741b28abb153be52b" category="inline-image-macro-rx" type="image"></block></block>
   <block id="13f51fa84ff64a1c633957d1dcf01637" category="paragraph">이 기능은 대규모 환경을 소규모 대상 클러스터로 복구하거나 일대일 물리적 VMware 인프라를 프로비저닝하지 않고도 재해 복구 테스트를 수행할 때 매우 유용합니다.</block>
-  <block id="968b5e826ff04540f18ce0baa3466400" category="list-text">* 애플리케이션 정합성이 보장되는 복제본 *: 애플리케이션 정합성이 보장되는 스냅샷 복제본을 생성할지 여부를 나타냅니다. 이 서비스는 응용 프로그램을 중지한 다음 스냅샷을 생성하여 응용 프로그램의 일관된 상태를 확보합니다.</block>
-  <block id="a0a39a6cc9b29c2c12820ee4ef86be49" category="list-text">* SnapMirror 관계 *: 볼륨에 SnapMirror 관계가 이미 설정된 경우 해당 소스 및 타겟 데이터 저장소를 선택할 수 있습니다. SnapMirror 관계가 없는 볼륨을 선택한 경우 작업 환경과 피어 SVM을 선택하여 지금 볼륨을 생성할 수 있습니다.</block>
   <block id="4c77d41c045300d2cacb091f19b6d9a5" category="list-text">* 정합성 보장 그룹 *: 복제 계획을 생성할 때 다른 볼륨과 다른 SVM의 VM을 포함할 수 있습니다. BlueXP 재해 복구로 일관성 그룹 스냅샷이 생성됩니다.</block>
   <block id="436f3832b32bfb2d3cb66d6298a71245" category="list-text">RPO(Recovery Point Objective)를 지정하면 서비스는 RPO를 기준으로 운영 백업을 예약하고 보조 대상을 업데이트합니다.</block>
   <block id="db0b972911bb657f80d12b2f6b007b86" category="list-text">VM이 동일한 볼륨과 동일한 SVM에서 수행되는 경우 이 서비스는 표준 ONTAP 스냅샷을 수행하고 2차 대상을 업데이트합니다.</block>
@@ -874,18 +859,11 @@ BlueXP 계정에 사용할 BlueXP 재해 복구 라이센스를 구매한 후에
   <block id="42b40c3ce2e25adae8327795c655116d" category="list-text">*필수 구성 요소 정보 업데이트 *: BlueXP 재해 복구 사전 요구 사항 정보가 업데이트되었습니다.</block>
   <block id="8a62eb7f743049ce2523fe7eb67fb48f" category="paragraph">을<block ref="dfd63f4ad4adb15a66b44e212e2488b7" category="inline-link-rx"></block>참조하십시오.</block>
   <block id="2e57ab34890abd985ae5cff7c16db6f6" category="list-text">Applications(애플리케이션) 페이지의 왼쪽에서 필요한 경우 데이터 저장소를 검색합니다.</block>
-  <block id="9d84acdf93849adb3b0acbaaf1af7071" category="paragraph"><block ref="0a9d2462a8c27f9a697547bddae93987" category="inline-image-macro-rx" type="image"></block></block>
   <block id="8020af4fa709c3156161baa6bf00e88a" category="inline-image-macro">복제 계획, 리소스 매핑 탭</block>
-  <block id="0d5dff4bbd2c70484d25c822afa80986" category="paragraph"><block ref="0d5dff4bbd2c70484d25c822afa80986" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="da06c5c1d28e308403236438dda209dc" category="list-text">* 소스 및 타겟 데이터 센터 *</block>
-  <block id="bf0db130eb2746cb5707eb7ebd4e997b" category="list-text">* 대상 호스트 * (선택 사항)</block>
-  <block id="228db5aff5c10fb4007bcfc106b96eac" category="list-text">* 타겟 클러스터 * (선택 사항)</block>
-  <block id="396f79fd09d35663fad706f8d93d48ba" category="list-text">* 대상 VM 폴더 * (선택 사항): 선택한 VM을 저장할 새 루트 폴더를 만들려면 이 옵션을 사용합니다.</block>
   <block id="210dfd955522333f74e13d0843ab02ff" category="paragraph">이 섹션은 선택에 따라 활성화 또는 비활성화될 수 있습니다.</block>
   <block id="30cb4638cdd1e514eba27473e745afb4" category="paragraph">테스트 매핑 탭에서 가상 머신 및 데이터 저장소 매핑이 해제됩니다.</block>
   <block id="ebcc6bc6ad0c177b30c661fc23c0f951" category="list-text">계획 세부 정보, 페일오버 매핑, VM 등 각 탭의 정보를 검토합니다.</block>
   <block id="711c35de4b0430b043159f5d91f6752f" category="inline-image-macro">페일오버 페이지입니다</block>
-  <block id="c29c6e0ccfc363d2f29bc8ad4397f5bb" category="paragraph"><block ref="c29c6e0ccfc363d2f29bc8ad4397f5bb" category="inline-image-macro-rx" type="image"></block></block>
   <block id="418818fc05931805b481fbdf48b3a075" category="list-text">페일오버 페이지에서 지금 스냅샷을 시작하거나 복구할 데이터 저장소의 스냅샷을 선택합니다. 기본값은 Latest 입니다.</block>
   <block id="51d5fa513676d68f3e574487650b021d" category="paragraph">페일오버가 발생하기 전에 현재 소스의 스냅샷이 생성되어 현재 대상으로 복제됩니다.</block>
   <block id="7d0da89e5c4df500c537ba4145ed8fae" category="list-text">필요에 따라 장애 조치가 발생하지 않는 오류가 감지되더라도 장애 조치가 발생하도록 하려면 * 대체 작동 강제 실행 * 을 선택합니다.</block>
@@ -934,4 +912,26 @@ BlueXP 계정에 사용할 BlueXP 재해 복구 라이센스를 구매한 후에
   <block id="49e474835558193a9bed54c7dadf777e" category="paragraph">작업은 "진행 중" 또는 "대기 중" 상태여야 합니다.</block>
   <block id="1ff3f27272f2855394e8e2cf0abfa836" category="list-text">* FC용 온-프레미스 VMware VMFS 데이터 저장소 지원 *: 이 릴리스에는 온-프레미스 스토리지로 보호되는 FC용 VMware vSphere VMFS(Virtual Machine File System) 데이터 저장소에 마운트된 VM에 대한 기술 미리 보기 _ 가 포함되어 있습니다. 이전에는 iSCSI용 VMFS 데이터 저장소를 지원하는 기술 미리 보기를 제공했습니다.</block>
   <block id="fa463eaf10ea5f2243e402c5c574ce96" category="list-text">Actions 열에서 * Cancel job * 을 선택합니다.</block>
+  <block id="348a99edae23b1f4e21c5ce75d209a50" category="paragraph">세부 정보를 검토하려면 각 항목 아래의 * 보기 * 링크를 선택하십시오.</block>
+  <block id="116910f73246efc93a920caaa2ef1743" category="list-text">BlueXP  재해 복구 상단 메뉴에서 * 복제 계획 * 을 선택하고 * 추가 * 를 선택합니다. 또는 서비스를 사용하기 시작한 경우 대시보드에서 * 복제 계획 추가 * 를 선택합니다.</block>
+  <block id="eb77d8ecba8e316a4e630e7bf375a3a8" category="paragraph"><block ref="5e75e554f1dcac67727f8f9c18b64267" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="caa1e25984e775c1ab44cfd42620d720" category="inline-image-macro">연필 아이콘</block>
+  <block id="5b7027891924f15fc8ce9c7972c44183" category="list-text">그룹을 변경하려면 그룹 * 편집 * 아이콘을 클릭합니다 <block ref="8254d7ced29032ec76a59e7648759881" category="inline-image-macro-rx" type="image"></block> .</block>
+  <block id="7906e2e007c3bad108fcd7ed7311a131" category="paragraph"><block ref="7906e2e007c3bad108fcd7ed7311a131" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="6dbc81f47f4a822cd11ce7c8403756ed" category="list-text">페일오버 매핑 탭에서 각 리소스의 오른쪽에 있는 아래쪽 화살표를 선택하고 각 리소스의 리소스를 매핑합니다.</block>
+  <block id="022ab008c31f5588f9d15da4dc3439fb" category="list-text">* Compute resources *: * Compute resources * 옆에 있는 아래쪽 화살표를 선택합니다.</block>
+  <block id="023cde6974e67dee3aff7c64e3290e80" category="list-text">소스 클러스터</block>
+  <block id="221533a77747ed01c409141d8985b5fe" category="list-text">타겟 클러스터(옵션)</block>
+  <block id="5bfe17be68350c18dc777bcfabdd7a8f" category="list-text">* 가상 네트워크 *: 장애 조치 매핑 탭에서 * 가상 네트워크 * 옆에 있는 아래쪽 화살표를 선택합니다. 소스 가상 LAN 및 타겟 세그먼트를 입력하거나 선택합니다.</block>
+  <block id="a358a5c755a9f869690207e2a0726737" category="list-text">* 가상 머신 *: 페일오버 매핑 탭에서 * 가상 머신 * 옆에 있는 아래쪽 화살표를 선택합니다.</block>
+  <block id="909f84e264f0200a692127b28fbdbaaf" category="paragraph">적절한 세그먼트에 대한 네트워크 매핑을 선택합니다. 세그먼트는 이미 프로비저닝되어야 하므로 가상 머신을 매핑할 적절한 세그먼트를 선택하십시오.</block>
+  <block id="298abc17ab4bb709de80b68dc38dde2a" category="list-text">* IP 주소 유형 *: 복제 계획의 가상 머신 섹션에서 소스 및 대상 위치 간의 네트워킹을 매핑할 때 BlueXP  재해 복구는 DHCP 또는 정적 IP의 두 가지 옵션을 제공합니다. 정적 IP의 경우 서브넷, 게이트웨이 및 DNS 서버를 구성합니다. 또한 가상 머신에 대한 자격 증명을 입력합니다.</block>
+  <block id="c28e8a3b83f3f2cce376fe3daa7ad95d" category="paragraph"><block ref="64eb1ec301597178e47fa7deed0121dc" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="3512b090e0a9611bcc510311033bd346" category="list-text">* 소스 VM CPU 및 RAM *: 가상 머신 세부 정보 아래에서 선택적으로 VM CPU 및 RAM 매개 변수의 크기를 조정할 수 있습니다.</block>
+  <block id="f11e7e84949ffa34e841d9d0b17d1d5d" category="list-text">* 부팅 지연 * : 리소스 그룹에서 선택한 모든 가상 시스템의 부팅 순서를 수정할 수 있습니다. 기본적으로 리소스 그룹 선택 시 선택한 부팅 순서가 사용되지만 이 단계에서 변경할 수 있습니다. 이 필드에서는 부팅 작업의 지연 시간(분)을 조정할 수 있습니다.</block>
+  <block id="c9d8e0d238ab275582f95ccf81088af0" category="list-text">* 애플리케이션 정합성이 보장되는 복제본 생성 *: 애플리케이션 정합성이 보장되는 스냅샷 복제본을 생성할지 여부를 나타냅니다. 이 서비스는 응용 프로그램을 중지한 다음 스냅샷을 생성하여 응용 프로그램의 일관된 상태를 확보합니다.</block>
+  <block id="453e68e2eb0de34242ac9895a818d82a" category="list-text">* Datastores *: Failover Mappings 탭에서 * Datastores * 옆에 있는 아래쪽 화살표를 선택합니다. 선택한 가상 머신에 따라 데이터 저장소 매핑이 자동으로 선택됩니다.</block>
+  <block id="10936c8535aaede0ed75f5d8d4fa6aaf" category="list-text">* 보존 횟수 *: 보존할 스냅샷 수를 입력합니다.</block>
+  <block id="b23c862689b973964a4b79af3d87b2de" category="list-text">* 소스 및 타겟 데이터 저장소 *: 볼륨에 SnapMirror 관계가 이미 설정된 경우 해당 소스 및 타겟 데이터 저장소를 선택할 수 있습니다. SnapMirror 관계가 없는 볼륨을 선택한 경우 작업 환경과 피어 SVM을 선택하여 지금 볼륨을 생성할 수 있습니다.</block>
+  <block id="8772d236d3c62b688c3b57224d982ee1" category="paragraph"><block ref="8772d236d3c62b688c3b57224d982ee1" category="inline-image-macro-rx" type="image"></block></block>
 </blocks>
