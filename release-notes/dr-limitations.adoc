@@ -16,6 +16,12 @@ summary: 알려진 제한 사항은 이 서비스 릴리스에서 지원하지 �
 
 
 
+== 검색을 실행하기 전에 페일백이 완료될 때까지 기다립니다
+
+페일오버가 완료된 후에는 소스 vCenter에서 수동으로 검색을 시작하지 않습니다. 페일백이 완료될 때까지 기다린 다음 소스 vCenter에서 검색을 시작합니다.
+
+
+
 == BlueXP가 Amazon FSx for NetApp ONTAP을 발견하지 못할 수도 있습니다
 
 BlueXP가 Amazon FSx for NetApp ONTAP 클러스터를 검색하지 못하는 경우가 있습니다. FSx 자격 증명이 올바르지 않기 때문일 수 있습니다.

@@ -336,9 +336,6 @@ BlueXP 재해 복구에는 지원이 필요하지 않습니다. 재해 복구 �
   <block id="b2f702d4d241c0d53726eedc499ac784" category="paragraph">이러한 계획은 _bluetprints_라고도 합니다.</block>
   <block id="4f27ef77939e5393adc6b44aec83a6b7" category="paragraph">마법사는 다음 단계를 안내합니다.</block>
   <block id="8705d6076cb452e919a6e22862427440" category="list-text">vCenter Server 를 선택합니다</block>
-  <block id="8b89ed4b8e4a4b16d551a86114a0c361" category="list-text">복제할 VM을 선택하고 그룹을 할당합니다</block>
-  <block id="0ee5515fd7a8d972a5df4c4eb08b18f2" category="list-text">재발 파악</block>
-  <block id="febc3cdab40dc222679ce1e42cce7011" category="list-text">계획을 검토합니다</block>
   <block id="d72f4a94d857178ae5cb1420995137e4" category="inline-image-macro">복제 계획 추가 및 GT, 계획 추가 페이지를 보여 주는 스크린샷</block>
   <block id="6961a5b80d0429840ea8a9232c79ec6f" category="paragraph"><block ref="b3b324f474892662518dcbec32158ea5" category="inline-image-macro-rx" type="image"></block></block>
   <block id="466ea193e548e9ef8d853f2da4829a3e" category="list-text">복제 계획의 이름을 생성합니다.</block>
@@ -920,8 +917,6 @@ BlueXP 계정에 사용할 BlueXP 재해 복구 라이센스를 구매한 후에
   <block id="7906e2e007c3bad108fcd7ed7311a131" category="paragraph"><block ref="7906e2e007c3bad108fcd7ed7311a131" category="inline-image-macro-rx" type="image"></block></block>
   <block id="6dbc81f47f4a822cd11ce7c8403756ed" category="list-text">페일오버 매핑 탭에서 각 리소스의 오른쪽에 있는 아래쪽 화살표를 선택하고 각 리소스의 리소스를 매핑합니다.</block>
   <block id="022ab008c31f5588f9d15da4dc3439fb" category="list-text">* Compute resources *: * Compute resources * 옆에 있는 아래쪽 화살표를 선택합니다.</block>
-  <block id="023cde6974e67dee3aff7c64e3290e80" category="list-text">소스 클러스터</block>
-  <block id="221533a77747ed01c409141d8985b5fe" category="list-text">타겟 클러스터(옵션)</block>
   <block id="5bfe17be68350c18dc777bcfabdd7a8f" category="list-text">* 가상 네트워크 *: 장애 조치 매핑 탭에서 * 가상 네트워크 * 옆에 있는 아래쪽 화살표를 선택합니다. 소스 가상 LAN 및 타겟 세그먼트를 입력하거나 선택합니다.</block>
   <block id="a358a5c755a9f869690207e2a0726737" category="list-text">* 가상 머신 *: 페일오버 매핑 탭에서 * 가상 머신 * 옆에 있는 아래쪽 화살표를 선택합니다.</block>
   <block id="909f84e264f0200a692127b28fbdbaaf" category="paragraph">적절한 세그먼트에 대한 네트워크 매핑을 선택합니다. 세그먼트는 이미 프로비저닝되어야 하므로 가상 머신을 매핑할 적절한 세그먼트를 선택하십시오.</block>
@@ -934,4 +929,47 @@ BlueXP 계정에 사용할 BlueXP 재해 복구 라이센스를 구매한 후에
   <block id="10936c8535aaede0ed75f5d8d4fa6aaf" category="list-text">* 보존 횟수 *: 보존할 스냅샷 수를 입력합니다.</block>
   <block id="b23c862689b973964a4b79af3d87b2de" category="list-text">* 소스 및 타겟 데이터 저장소 *: 볼륨에 SnapMirror 관계가 이미 설정된 경우 해당 소스 및 타겟 데이터 저장소를 선택할 수 있습니다. SnapMirror 관계가 없는 볼륨을 선택한 경우 작업 환경과 피어 SVM을 선택하여 지금 볼륨을 생성할 수 있습니다.</block>
   <block id="8772d236d3c62b688c3b57224d982ee1" category="paragraph"><block ref="8772d236d3c62b688c3b57224d982ee1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1267d6fc2aff2a3372b02b4d25a9f397" category="list-text">페일오버 테스트를 수행합니다. 가상 머신이 일시적으로 생성됩니다. BlueXP  재해 복구는 선택한 스냅샷에서 새 FlexClone 볼륨을 만들고 FlexClone 볼륨을 지원하는 임시 데이터 저장소가 ESXi 호스트에 매핑됩니다. 이 프로세스는 온프레미스 ONTAP 스토리지 또는 AWS의 FSx for NetApp ONTAP 스토리지에서 추가 물리적 용량을 사용하지 않습니다. 원본 소스 볼륨은 수정되지 않으며 재해 복구 중에도 복제 작업을 계속할 수 있습니다.</block>
+  <block id="76e4d72594030fca0b96279d0f8392dc" category="section-title">BlueXP  재해 복구에 도움이 되는 용어를 사용합니다</block>
+  <block id="b7b26d16c3d1d84d3872afa1f04c92d6" category="paragraph">재해 복구와 관련된 몇 가지 용어를 이해하면 도움이 될 수 있습니다.</block>
+  <block id="7f800e59a5bd3f98ce900fa6e543f67d" category="list-text">* 사이트 *: 일반적으로 물리적 데이터 센터 또는 클라우드 공급자와 관련된 논리적 컨테이너입니다.</block>
+  <block id="1060a69dfe06a51ad97fdd63bb36b6c6" category="list-text">* 리소스 그룹 * : 여러 VM을 하나의 단위로 관리할 수 있는 논리적 컨테이너입니다.</block>
+  <block id="01f306e8e2e64b0a1d39d18d7594ecf5" category="list-text">* 복제 계획 *: 백업이 발생하는 빈도와 장애 조치 이벤트를 처리하는 방법에 대한 일련의 규칙입니다. 계획이 하나 이상의 자원 그룹에 배정되었습니다.</block>
+  <block id="84c20a0b7ce2eb1001004d644d0ca57e" category="section-title">검색을 실행하기 전에 페일백이 완료될 때까지 기다립니다</block>
+  <block id="a59aaedc864081e6c1a7bd46bcdf9813" category="paragraph">페일오버가 완료된 후에는 소스 vCenter에서 수동으로 검색을 시작하지 않습니다. 페일백이 완료될 때까지 기다린 다음 소스 vCenter에서 검색을 시작합니다.</block>
+  <block id="eaecda6db64f5346d5c63bfe0094e040" category="section-title">2024년 9월 20일</block>
+  <block id="ee811bd919a27bd2eb705f65ed45e4f6" category="paragraph">이 BlueXP  재해 복구 릴리스에는 다음 업데이트가 포함되어 있습니다.</block>
+  <block id="b077aa4f9a421cc2e2782608fb5caf4f" category="list-text">* 온-프레미스 VMware VMFS 데이터 저장소 지원 *: 이 릴리스에는 온-프레미스 스토리지로 보호되는 iSCSI 및 FC용 VMware vSphere VMFS(Virtual Machine File System) 데이터 저장소에 마운트된 VM에 대한 지원이 포함됩니다. 이전에는 iSCSI 및 FC용 VMFS 데이터 저장소를 지원하는 _technology preview_를 제공했습니다.</block>
+  <block id="0eb65976c0b0c5ffa90b07d4a062e509" category="paragraph">다음은 iSCSI 및 FC 프로토콜 모두에 대한 몇 가지 추가 고려 사항입니다.</block>
+  <block id="d671bd2f503deef1e03581ce8d516507" category="list-text">FC는 클라이언트 프런트 엔드 프로토콜에 대한 지원이며 복제용이 아닙니다.</block>
+  <block id="cf1967c6d778937fae37b9e43582b1b6" category="list-text">BlueXP  재해 복구는 ONTAP 볼륨당 하나의 LUN만 지원합니다. 볼륨에 여러 개의 LUN이 있어서는 안 됩니다.</block>
+  <block id="f3a37c3560d0027bc0f49abfab4ab0e3" category="list-text">모든 복제 계획의 경우 대상 ONTAP 볼륨은 보호된 VM을 호스팅하는 소스 ONTAP 볼륨과 동일한 프로토콜을 사용해야 합니다. 예를 들어, 소스에서 FC 프로토콜을 사용하는 경우 타겟도 FC를 사용해야 합니다.</block>
+  <block id="3baff38a392d31950fc8d4d62ea2adc0" category="list-text">vCenter Server 를 선택합니다.</block>
+  <block id="cfb3b856fe141dd537038393a8052d33" category="list-text">복제할 VM을 선택하고 그룹을 할당합니다.</block>
+  <block id="8e635b1aadad234871ba0e012309361f" category="list-text">재발을 식별하고, 게스트 호스팅 스크립트를 실행하고, 부팅 순서를 설정하고, 복구 지점 목표를 선택합니다.</block>
+  <block id="1c10305a999dce53cb52dd4f6b8d89ff" category="list-text">계획을 검토합니다.</block>
+  <block id="054b753af44fc4eeee43c9ba6037caaa" category="doc">재해 복구 보고서를 생성합니다</block>
+  <block id="282dfbc5927b79619ad76e7f3cbfe3c6" category="paragraph">재해 복구 보고서를 검토하면 재해 복구 대비 상태를 분석하는 데 도움이 됩니다. 사전 설계된 보고서에는 페일오버 및 페일백 요약, 모든 사이트에 대한 복제 세부 정보, 작년 작업 세부 정보가 포함됩니다. 사용자 지정 보고서를 만들 수도 있습니다.</block>
+  <block id="08efd64e87408e4769275d6a11482ddf" category="paragraph">보고서를 PDF 형식으로 다운로드할 수 있습니다.</block>
+  <block id="b775ae7fb34855ffeede56666da9a15c" category="list-text">상단 메뉴에서 * Reports * 를 선택합니다.</block>
+  <block id="44f0d43cd92781ec793d9ba50c2d422e" category="inline-image-macro">보고서 페이지</block>
+  <block id="a73757daae33bff01ded292e39f3ddaf" category="paragraph"><block ref="a73757daae33bff01ded292e39f3ddaf" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="3ccbbafbdd477e2f028bfd34e03f436b" category="list-text">보고서를 만들거나 다운로드하기 전에 * 새로 고침 * 옵션을 클릭하여 데이터를 새로 고칩니다.</block>
+  <block id="c83e2a522238e98593e337bd5a7311b5" category="list-text">준비된 * 탭에서 보고서를 선택하거나 * 사용자 정의 * 탭에서 고유한 보고서를 생성합니다.</block>
+  <block id="70db9063910acf1265d5a518168c69cd" category="list-text">다운로드 * 를 클릭하여 보고서를 다운로드하십시오.</block>
+  <block id="0656a1b7f286656b2fc85b91fe54f0dd" category="section-title">고유한 재해 복구 보고서를 생성합니다</block>
+  <block id="8eaafa07b3ff6e9aa5dbe62e7cc8c77c" category="paragraph">사이트, 복제 계획 및 데이터를 지정할 수 있는 사용자 지정 보고서를 만들 수 있습니다. 지난 연도의 페일오버 및 페일백 요약 정보, 각 복제 계획의 VM 세부 정보 및 지난 연도의 각 복제 계획에 대한 작업 세부 정보를 포함할지 여부를 지정할 수 있습니다.</block>
+  <block id="036f7e4b10d318ae312cdfbb79a225fe" category="list-text">보고서를 만들기 전에 * 새로 고침 * 옵션을 클릭하여 데이터를 새로 고칩니다.</block>
+  <block id="27c38bec0a8c0321e9a3236a8a9d4e76" category="list-text">사용자 정의 * 탭을 선택합니다.</block>
+  <block id="c3c616a8c2970d4d1156559952705700" category="list-text">새 보고서를 추가하려면 * 추가 * 를 선택하십시오.</block>
+  <block id="402199b58c216d8c9be526288150639b" category="inline-image-macro">사용자 지정 보고서 추가 대화 상자</block>
+  <block id="8224443416aacfdb9c8d006355a8489a" category="paragraph"><block ref="8224443416aacfdb9c8d006355a8489a" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="4d6c444c23609646be63340436709d5f" category="list-text">보고서를 사용자 정의하는 옵션을 선택합니다.</block>
+  <block id="f6068daa29dbb05a7ead1e3b5a48bbee" category="list-text">데이터</block>
+  <block id="478109b22c544f0e3bed80d9622cc572" category="list-text">지난 연도의 페일오버 및 장애 조치에 대한 요약입니다</block>
+  <block id="d9848020098abdd6a6adf5b664e0a02c" category="list-text">각 복제 계획에 대한 VM 세부 정보입니다</block>
+  <block id="2eac16c021d7f4e2d342be672e454649" category="list-text">지난 연도의 각 복제 계획에 대한 작업 세부 정보입니다</block>
+  <block id="65db0a5300ccaa6099d24aaf16150200" category="paragraph">사용자 정의 보고서가 사용자 정의 보고서 목록에 나타납니다.</block>
+  <block id="b7a41431aa1eee1607db390ac47d2a65" category="admonition">보고서에 포함된 모든 사이트 또는 계획을 보려면 보고서 이름 또는 계획 이름 오른쪽에 있는 번호를 클릭합니다.</block>
+  <block id="a99780537c030fe162f59c129be8e471" category="list-text">다운로드 * 를 클릭하여 사용자 지정 보고서를 다운로드하십시오.</block>
 </blocks>
