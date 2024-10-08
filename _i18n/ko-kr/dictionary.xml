@@ -185,8 +185,6 @@
   <block id="942a771213d3b59ba27960f61d97b1ac" category="inline-link"><block ref="942a771213d3b59ba27960f61d97b1ac" category="inline-link-rx"></block></block>
   <block id="6a203fd0003e1b252502653eca1a6c02" category="paragraph">* BlueXP 재해 복구 URL은 무엇입니까? *
 URL의 경우 브라우저에 다음을 입력합니다.<block ref="6db7b50bf17b27cbede9f07c4fbc973e" category="inline-link-rx"></block> 를 눌러 BlueXP 콘솔에 액세스합니다.</block>
-  <block id="1510b9c9694467bb88815a127c906757" category="paragraph">* BlueXP 재해 복구에 어떻게 액세스하십니까? *
-BlueXP 재해 복구에는 지원이 필요하지 않습니다. 재해 복구 옵션은 BlueXP 왼쪽 탐색에 자동으로 표시됩니다.</block>
   <block id="89f19c30a67510e64ff4f90eede35bff" category="summary">BlueXP 재해 복구를 사용하려면 몇 단계를 수행하여 설정하십시오.</block>
   <block id="7b6761de8fbe584a66fa50ad6fa3dd19" category="doc">BlueXP 재해 복구 설정</block>
   <block id="b5b8e67d6a37d24ad73c89e4c7ac8c9e" category="inline-link-macro">필수 구성 요소</block>
@@ -690,7 +688,6 @@ NetApp 세일즈 담당자로부터 BlueXP 재해 복구 라이센스를 구입�
   <block id="d66d706cd022ab39ed6479a713135515" category="paragraph"><block ref="d66d706cd022ab39ed6479a713135515" category="inline-image-macro-rx" type="image"></block></block>
   <block id="991e816286764c3a5ea9b023c35e1d77" category="paragraph"><block ref="991e816286764c3a5ea9b023c35e1d77" category="inline-image-macro-rx" type="image"></block></block>
   <block id="b45dfe874eaba6a97e58e0436eba2402" category="sidebar">주문형 BlueXP 재해 복구 as a Service Lab을 시작하기</block>
-  <block id="439704735653d5132727cb9c21bc97c8" category="paragraph">BlueXP 재해 복구는 재해 복구 워크플로우를 자동화하는 클라우드 기반 재해 복구 서비스입니다. 처음에 BlueXP 재해 복구 서비스를 사용하면 온프레미스, NFS 기반 워크로드를 보호하고 기술 미리보기에서 NetApp 스토리지를 실행하는 VMware vSphere VMFS(Virtual Machine File System) 데이터 저장소를 다음 중 하나로 보호할 수 있습니다.</block>
   <block id="d5368fed025a9875e8a424b419508bef" category="admonition">이번 릴리즈에서는 VMware vSphere VMFS(Virtual Machine File System) 데이터 저장소를 사용하는 온프레미스 VMware 환경에서 온프레미스 VMware 워크로드를 대상으로 하는 기술 미리보기에서 재해 복구가 지원됩니다. NetApp는 사전 검토된 워크로드 용량에 대해 비용을 청구하지 않습니다.</block>
   <block id="0dc4a26bb39078be4974284a72d54f64" category="paragraph">BlueXP 재해 복구 서비스는 NetApp 라이센스 또는 Amazon Web Services를 통한 연간 구독 기반 계획과 함께 사용할 수 있습니다.</block>
   <block id="66a7384fcc7d6c71e8da6dc152b82593" category="admonition">일부 릴리스에는 기술 미리 보기가 포함되어 있습니다. NetApp는 사전 검토된 워크로드 용량에 대해 비용을 청구하지 않습니다. 최신 기술 미리 보기에 대한 자세한 내용은 을 <block ref="431ce6b88c6d5399033553c1891688aa" category="inline-link-macro-rx"></block> 참조하십시오.</block>
@@ -709,7 +706,6 @@ NetApp 세일즈 담당자로부터 BlueXP 재해 복구 라이센스를 구입�
   <block id="f5091f12fda6dcb8b160780e3352bbd5" category="list-text">BlueXP 재해 복구를 관리하려는 모든 VMware 클러스터를 ONTAP 볼륨에서 호스팅해야 합니다.</block>
   <block id="a103c229873d833279c49def9ebe9fc3" category="list-text">BlueXP 재해 복구로 관리할 모든 VMware 데이터 저장소는 다음 프로토콜 중 하나를 사용해야 합니다.</block>
   <block id="1d1a594959ec615f56516f5d0f5e8ddb" category="list-text">NFS 를 참조하십시오</block>
-  <block id="47e0fa80d3fa1add35dfaada74c496e9" category="list-text">iSCSI 프로토콜을 사용하는 VMFS(현재 기술 미리 보기)</block>
   <block id="b48bd09b37dbbe2233bba9ccc258e634" category="list-text">VMware Cloud SDDC를 사용하는 경우 다음과 같은 사전 요구 사항이 적용됩니다.</block>
   <block id="7fc6ed2196514db323edb5f8ee464448" category="inline-link">VMware Cloud Foundations와 AWS FSx for NetApp ONTAP 설명서 사용</block>
   <block id="f2fc5fa158eeee58eae505a362a866b3" category="list-text">VMware Cloud Console에서 Administrator 및 NSX Cloud Administrator의 서비스 역할을 사용합니다. 조직 역할에도 조직 소유자를 사용합니다. 을<block ref="87df9e87408172a2291d5738f3ae5f4f" category="inline-link-rx"></block>참조하십시오.</block>
@@ -967,4 +963,7 @@ NetApp 세일즈 담당자로부터 BlueXP 재해 복구 라이센스를 구입�
   <block id="0ca08a23718c0a91743dd6c0146ca353" category="paragraph">Cloud Volumes ONTAP에서 다음과 같은 주요 워크플로우를 사용하려면 NetApp 지원 사이트 자격 증명을 BlueXP  조직과 연결해야 합니다.</block>
   <block id="c81c8e01f5d906ae1ab0c5c606f06b05" category="paragraph">NSS 자격 증명을 BlueXP  조직과 연결하는 것은 BlueXP  사용자 로그인과 연결된 NSS 계정과 다릅니다.</block>
   <block id="8166996cb4a59c147200d89a061bb49c" category="paragraph">이러한 NSS 자격 증명은 특정 BlueXP  조직 ID와 연결됩니다. BlueXP  조직에 속한 사용자는 * 지원 &gt; NSS 관리 * 에서 이러한 자격 증명에 액세스할 수 있습니다.</block>
+  <block id="d4f0533448e4984685ae016d36dba83a" category="paragraph">* BlueXP  재해 복구에 어떻게 액세스합니까? * BlueXP 재해 복구에는 지원이 필요하지 않습니다. 재해 복구 옵션은 BlueXP 왼쪽 탐색에 자동으로 표시됩니다.</block>
+  <block id="bc483ba843f73e5d609495aa94d035b9" category="paragraph">BlueXP 재해 복구는 재해 복구 워크플로우를 자동화하는 클라우드 기반 재해 복구 서비스입니다. BlueXP  재해 복구 서비스를 사용하면 NetApp 스토리지를 실행하는 iSCSI 및 FC용 온프레미스, NFS 기반 워크로드 및 VMware vSphere VMFS(Virtual Machine File System) 데이터 저장소를 다음 중 하나로 보호할 수 있습니다.</block>
+  <block id="412e382a6d6d3bd8a3bfd94b856f9f4e" category="list-text">iSCSI 또는 FC 프로토콜을 사용하는 VMFS</block>
 </blocks>
