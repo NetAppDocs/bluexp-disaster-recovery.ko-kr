@@ -22,3 +22,5 @@ entries:
   url: "/use/manage.html"
 - title: 재해 복구 작업을 모니터링합니다
   url: "/use/monitor-jobs.html"
+- title: 재해 복구 보고서를 생성합니다
+  url: "/use/reports.html"

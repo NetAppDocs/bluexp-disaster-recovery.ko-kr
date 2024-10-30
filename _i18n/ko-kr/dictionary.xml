@@ -157,7 +157,6 @@
   <block id="72c3ee7ae5024979fb220d6277567140" category="inline-image-macro">BlueXP 재해 복구 서비스의 작업 메뉴 아이콘</block>
   <block id="4d77d74745ed3cdc84af5ddf8b6f4a2e" category="list-text">BlueXP 재해 복구에서 * Sites * 를 선택하고 vCenter 행에서 * Actions * 옵션을 선택합니다 <block ref="e282bbe0f95615c6416d0f1c92efdcdd" category="inline-image-macro-rx" type="image"></block>그리고 Actions 메뉴에서 * Refresh * 를 선택하여 BlueXP 재해 복구에서 FSx 검색을 업데이트합니다.</block>
   <block id="97f038e2f4284e7bd85ce8986351f37a" category="paragraph">그러면 데이터 저장소, 해당 가상 머신 및 대상 관계가 다시 검색됩니다.</block>
-  <block id="490414e0366b091220802d406e52c076" category="doc">새로운 기능</block>
   <block id="ca8395d0f02816c74d48e7e263466096" category="section-title">2023년 8월 1일</block>
   <block id="08e4438284e48b3ad77e9a0d04037ea7" category="inline-link-macro">리소스 그룹을 복제하고 할당할 애플리케이션을 선택합니다</block>
   <block id="847c11e2bf47a2c63ba2cf24f4cfa928" category="inline-link-macro">애플리케이션을 다른 사이트에 복제</block>
@@ -186,7 +185,6 @@
   <block id="6a203fd0003e1b252502653eca1a6c02" category="paragraph">* BlueXP 재해 복구 URL은 무엇입니까? *
 URL의 경우 브라우저에 다음을 입력합니다.<block ref="6db7b50bf17b27cbede9f07c4fbc973e" category="inline-link-rx"></block> 를 눌러 BlueXP 콘솔에 액세스합니다.</block>
   <block id="89f19c30a67510e64ff4f90eede35bff" category="summary">BlueXP 재해 복구를 사용하려면 몇 단계를 수행하여 설정하십시오.</block>
-  <block id="7b6761de8fbe584a66fa50ad6fa3dd19" category="doc">BlueXP 재해 복구 설정</block>
   <block id="b5b8e67d6a37d24ad73c89e4c7ac8c9e" category="inline-link-macro">필수 구성 요소</block>
   <block id="12e2dc5fcef627451410583ca25001f8" category="list-text">검토 <block ref="92ab8b24e9e19913fbd62d38b5e3558b" category="inline-link-macro-rx"></block> 환경을 준비합니다.</block>
   <block id="5ca24c4b6c87e148e5e8719ec8dd13ee" category="list-text">AWS 기반 VMware Cloud를 구축하고 구성합니다.</block>
@@ -328,19 +326,10 @@ URL의 경우 브라우저에 다음을 입력합니다.<block ref="6db7b50bf17b
   <block id="466ea193e548e9ef8d853f2da4829a3e" category="list-text">복제 계획의 이름을 생성합니다.</block>
   <block id="ad05d9be76290e8ea731306ed4911c41" category="list-text">소스 및 타겟 vCenter 목록에서 소스 및 타겟 vCenter를 선택합니다.</block>
   <block id="e6cd86d61f4639c8a27006c6c29b3e9f" category="list-text">다음 * 을 선택합니다.</block>
-  <block id="e8116ba94e27bac1f555b5e19aa9832f" category="admonition">각 리소스 그룹에는 하나 이상의 가상 머신이 포함될 수 있습니다. 여기에 가상 시스템을 포함하는 순서에 따라 가상 시스템의 전원이 켜집니다.</block>
-  <block id="c34daecc192d502d04e27e0d11bc8acd" category="list-text">애플리케이션 페이지의 왼쪽에서 복제하고 선택한 그룹에 할당할 가상 머신을 선택합니다.</block>
-  <block id="deea58ba2c2a385f7b93c144b2d694e1" category="paragraph">선택한 가상 머신이 그룹 1에 자동으로 추가되고 새 그룹 2가 시작됩니다. 마지막 그룹에 가상 머신을 추가할 때마다 다른 그룹이 추가됩니다.</block>
   <block id="4039eb9aa82f9a49f8096e652825e9c9" category="inline-image-macro">복제 계획 및 GT, 복제할 애플리케이션 추가 페이지를 보여 주는 스크린샷</block>
   <block id="f60de6a7e37982bbcf6e675308bbbeb8" category="list-text">필요에 따라 다음 중 하나를 실행합니다.</block>
-  <block id="20b76027356378e48612a50cf35cca8a" category="list-text">그룹에서 가상 머신을 제거하려면 * X * 를 선택합니다.</block>
-  <block id="d2423d65cf9bb1427253eab5f5a436be" category="list-text">가상 머신을 다른 그룹으로 이동하려면 새 그룹에 끌어다 놓습니다.</block>
   <block id="84ffccfa6f5368695a086e51333e6494" category="list-text">리소스 그룹이 여러 개인 경우 그룹 순서가 발생할 작업 순서와 일치하는지 확인합니다.</block>
-  <block id="878f58d3a7fbed70b83e44701e315e44" category="paragraph">그룹 내의 각 가상 머신은 여기에 있는 순서에 따라 순서대로 시작됩니다. 두 그룹이 동시에 시작됩니다.</block>
-  <block id="6dbf7ac6599ff616bd2b944224978963" category="list-text">필요에 따라 * 편집 * 아이콘을 클릭하여 그룹 이름을 변경합니다.</block>
   <block id="94884044f731a17cf6d266f3acc71d30" category="section-title">소스 리소스를 대상에 매핑합니다</block>
-  <block id="3fcacb0423fe728907bf295cee2250ca" category="paragraph">리소스 매핑 단계에서 소스 환경의 리소스가 타겟에 매핑되는 방법을 지정합니다.</block>
-  <block id="cb095b2d36014cd7a8ae2363f8694981" category="admonition">SnapMirror가 볼륨 레벨에 있습니다. 따라서 모든 가상 시스템이 복제 대상에 복제됩니다. 데이터 저장소에 포함된 모든 가상 머신을 선택해야 합니다. 이 옵션을 선택하지 않으면 복제 계획의 일부인 가상 머신만 처리됩니다.</block>
   <block id="15be2bc9d482c70a11a63e89eada5ce4" category="list-text">리소스 매핑 페이지에서 페일오버 및 테스트 작업 모두에 동일한 매핑을 사용하려면 확인란을 선택합니다.</block>
   <block id="137f19e6e2dc1219f33553b812627bc2" category="list-text">가상 머신</block>
   <block id="eff845e03ea7f765e5646b3de0aa3188" category="list-text">데이터 저장소</block>
@@ -352,8 +341,6 @@ URL의 경우 브라우저에 다음을 입력합니다.<block ref="6db7b50bf17b
   <block id="061664c141fcaa8d32bae574640392e5" category="list-text">* Replicate *: 반복 복제에서 소스 복제본의 변경 내용을 사용하여 타겟 복제본을 최신 상태로 유지합니다.</block>
   <block id="a807f56da9b717d84bb632ebfde49e6e" category="inline-image-macro">복제 계획 추가 및 GT, 되풀이를 보여 주는 스크린샷</block>
   <block id="b6b37c618f509f4cd72b3116ce0f0a69" category="paragraph"><block ref="b647bf0b099c797a2c2c6a3a40882045" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="e0623856c2a2db53c0560ff5b20115df" category="section-title">복제 계획을 확인합니다</block>
-  <block id="a879d1d71a73bdb6127bcb571303177d" category="paragraph">마지막으로, 잠시 시간을 내어 복제 계획을 확인합니다.</block>
   <block id="26ff2655fb5643a3e76370d9248a31df" category="admonition">나중에 복제 계획을 해제하거나 삭제할 수 있습니다.</block>
   <block id="47324a4e5509aeccc192aa7b07cbcac7" category="list-text">계획 추가 * 를 선택합니다.</block>
   <block id="a9980df200522b9bbaa257521bc396fe" category="paragraph">계획이 계획 목록에 추가됩니다.</block>
@@ -452,7 +439,6 @@ URL의 경우 브라우저에 다음을 입력합니다.<block ref="6db7b50bf17b
   <block id="fc3e06260a2d82cbcdc61d0edfe814f2" category="paragraph">재해가 발생하면 필요 시 운영 온프레미스 VMware 사이트를 다른 온프레미스 VMware 사이트 또는 FSx for NetApp ONTAP를 사용하는 AWS 기반 VMware Cloud로 페일오버합니다.</block>
   <block id="0e4406e2f319d2b24ab99a69613fbf47" category="list-text">복제 계획에서 캡처한 정보를 기반으로 데이터 저장소가 생성되어 VMware 또는 VMC 클러스터 또는 호스트에 마운트됩니다.</block>
   <block id="48b7a229446624a8bba6bae8e801d0ab" category="list-text">왼쪽 상단의 이동 경로에서 "복제 계획"을 선택하여 계획 목록으로 돌아갑니다.</block>
-  <block id="2ebea8fe68e78bc0ff591a0dfab2033d" category="list-text">계획으로 작업을 수행하려면 복제 계획 목록에서 * Actions * 옵션을 선택합니다 <block ref="2fddd650b01c7f9674be856867aae05d" category="inline-image-macro-rx" type="image"></block>  계획 오른쪽에서 * 스케줄 편집 *, * 페일오버 테스트 *, * 페일오버 *, * 페일백 *, * 비활성화 *, * 비활성화 * 등의 옵션을 선택합니다. * 활성화 * 또는 * 삭제 *.</block>
   <block id="8fcc9f88ea38569445e7602709323556" category="summary">NetApp BlueXP 재해 복구 기능은 재해 복구 워크플로우를 자동화하는 클라우드 기반 재해 복구 서비스입니다.</block>
   <block id="6c7035d9b69fd476492cd72377f29453" category="paragraph">BlueXP 재해 복구 대시보드를 사용하여 재해 복구 사이트 및 복제 계획의 상태를 확인할 수 있습니다. 어떤 사이트와 계획이 정상 상태, 연결 끊김 또는 성능 저하인지 빠르게 확인할 수 있습니다.</block>
   <block id="deddd86c6a5897bccccb85b43b4b28da" category="list-text">BlueXP 재해 복구 상단 메뉴에서 * Dashboard * 를 선택합니다.</block>
@@ -516,9 +502,6 @@ URL의 경우 브라우저에 다음을 입력합니다.<block ref="6db7b50bf17b
   <block id="17c3c89f25f7684516a883f30f10b747" category="section-title">2024년 1월 11일</block>
   <block id="77a292951e2cd7ee0d1bc7d3db0020ec" category="list-text">이 릴리즈를 사용하면 대시보드에서 다른 페이지의 정보에 더 빠르게 액세스할 수 있습니다.</block>
   <block id="0f354958858456370fa7b64c5f2a913c" category="paragraph"><block ref="929628a652068d14da23775529f8803b" category="inline-link-rx"></block>.</block>
-  <block id="2c1f345ff21d3c1b339c0919d325adfc" category="paragraph">다음 단계는 필요한 가상 머신을 기능적 리소스 그룹으로 그룹화하는 것입니다. 리소스 그룹을 사용하면 종속 가상 머신 세트를 요구 사항을 충족하는 논리적 그룹으로 그룹화할 수 있습니다. 예를 들어, 복구 시 실행할 수 있는 지연된 부팅 순서가 그룹에 포함될 수 있습니다.</block>
-  <block id="dc304d3d6524acb70870c5c55a21ebb9" category="list-text">* DHCP * : 이 옵션을 선택하면 VM에 대한 자격 증명만 제공합니다.</block>
-  <block id="13c796f8f63d49fc45ecbb42db3b6868" category="list-text">* 정적 IP *: 소스 VM에서 동일하거나 다른 정보를 선택할 수 있습니다. 원본과 동일한 을 선택하면 자격 증명을 입력할 필요가 없습니다. 반면 원본과 다른 정보를 사용하도록 선택한 경우 자격 증명, VM의 IP 주소, 서브넷 마스크, DNS 및 게이트웨이 정보를 제공할 수 있습니다. VM 게스트 OS 자격 증명은 글로벌 레벨 또는 각 VM 레벨에 제공해야 합니다.</block>
   <block id="27469d5f3bff97989e2a320de315084a" category="inline-image-macro">복제 계획 추가 및 GT, 리소스 매핑 및 GT, 가상 머신을 보여 주는 스크린샷</block>
   <block id="13f51fa84ff64a1c633957d1dcf01637" category="paragraph">이 기능은 대규모 환경을 소규모 대상 클러스터로 복구하거나 일대일 물리적 VMware 인프라를 프로비저닝하지 않고도 재해 복구 테스트를 수행할 때 매우 유용합니다.</block>
   <block id="4c77d41c045300d2cacb091f19b6d9a5" category="list-text">* 정합성 보장 그룹 *: 복제 계획을 생성할 때 다른 볼륨과 다른 SVM의 VM을 포함할 수 있습니다. BlueXP 재해 복구로 일관성 그룹 스냅샷이 생성됩니다.</block>
@@ -530,11 +513,8 @@ URL의 경우 브라우저에 다음을 입력합니다.<block ref="6db7b50bf17b
   <block id="d59e0b46782e48a01966e5c7ccc38d17" category="paragraph">NetApp는 지원 및 라이센스와 관련된 인증 서비스의 ID 공급자로 Microsoft Entra ID를 사용합니다.</block>
   <block id="7fda53563ff8ebfe855a3a79f568f396" category="summary">BlueXP 재해 복구를 통해 무료 평가판, 용량제 구독 또는 자체 라이센스 서비스를 비롯한 다양한 라이센스 계획을 사용할 수 있습니다.</block>
   <block id="a7193edb26a4b1bca4b7b82254e6dd4b" category="doc">BlueXP 재해 복구를 위한 라이센스 설정</block>
-  <block id="06cda8527230b64a09b1c568fbd2a80e" category="list-text">90일 무료 평가판을 신청하십시오.</block>
   <block id="9a0514da0283645471837a7dd9cdd00a" category="list-text">워크로드 또는 복제 계획과 같은 모든 리소스를 봅니다.</block>
   <block id="1868701c43ed8ccfa46dc8fe93f4252f" category="list-text">워크로드 또는 복제 계획과 같은 리소스를 삭제합니다.</block>
-  <block id="d687b9bb1fc0385150b07b1a9aaae7d3" category="section-title">90일 무료 평가판을 사용해 보십시오</block>
-  <block id="1863514dc4e2f913207e4b5eacc1a0a8" category="paragraph">90일 무료 평가판을 사용하여 BlueXP 재해 복구를 체험해 볼 수 있습니다.</block>
   <block id="88c474e49a0cbbc7ef17d052040cd008" category="admonition">시험판 평가 중에는 용량 제한이 적용되지 않습니다.</block>
   <block id="f37d436fdc8600ce24709a8f4435ec79" category="paragraph">평가판 사용 중에는 모든 기능을 사용할 수 있습니다.</block>
   <block id="39c87728ab108f5ab751a40319f03bc8" category="list-text">에 액세스합니다<block ref="4d9841a08a6f1c082f5ba73c5d87fcc1" category="inline-link-rx"></block>.</block>
@@ -571,13 +551,10 @@ URL의 경우 브라우저에 다음을 입력합니다.<block ref="6db7b50bf17b
   <block id="3a46f989d3db91bd2030de32947cd608" category="section-title">VMware에 BlueXP 재해 복구를 사용할 때의 이점</block>
   <block id="cce8630c08ede8fc88504929ae963b37" category="paragraph">BlueXP 재해 복구는 다음과 같은 이점을 제공합니다.</block>
   <block id="208ae1835c38717d827d78f2184f1eb8" category="paragraph">NetApp은 BlueXP 재해 복구의 평가판 버전을 사용하는 것에 대한 비용을 청구하지 않습니다.</block>
-  <block id="81a21047304ceb1b7bc762627cb29998" category="section-title">90일 무료 평가판</block>
-  <block id="c26aa1f4734bee87e527e8b6fd399ff1" category="paragraph">90일 무료 평가판을 사용하여 BlueXP 재해 복구를 체험해 볼 수 있습니다.</block>
   <block id="49cc6e59fe89d60aa8a69d475908ad17" category="section-title">BlueXP 재해 복구의 작동 방식</block>
   <block id="53bb415fa5ffe0063bff5bf128aceea8" category="paragraph">BlueXP 재해 복구를 통해 온프레미스 사이트에서 Amazon FSx for ONTAP 또는 다른 온프레미스 사이트로 복제된 워크로드를 복구할 수 있습니다. 이 서비스는 SnapMirror 레벨에서 VMC(Virtual Machine Cloud)에 대한 가상 머신 등록을 통해, VMware 네트워크 가상화 및 보안 플랫폼 NSX-T에 대한 네트워크 매핑을 통해 복구를 자동화합니다 이 기능은 모든 Virtual Machine Cloud 환경에 포함되어 있습니다.</block>
   <block id="79121a92993faaa181b6eb7b104f73ea" category="paragraph">BlueXP 재해 복구는 ONTAP SnapMirror 기술을 사용하여 매우 효율적인 복제를 제공하고 ONTAP 영구 증분 스냅샷 효율성을 유지합니다. SnapMirror 복제를 통해 애플리케이션 정합성이 보장된 Snapshot 복사본이 항상 동기화되고 페일오버 후 즉시 데이터를 사용할 수 있습니다.</block>
   <block id="e907b41f5f3d7332bee5a43fbbf78a08" category="section-title">라이센스를 설정합니다</block>
-  <block id="64f8f55f5eb85f10374cb9251379aa7d" category="paragraph">BlueXP 재해 복구를 통해 90일 무료 평가판에 등록할 수 있습니다.</block>
   <block id="db9425c5e893fb09212aa796b71ab4ff" category="paragraph"><block ref="db9425c5e893fb09212aa796b71ab4ff" category="inline-image-macro-rx" type="image"></block></block>
   <block id="9aea41391b3a188365a351addd6cf6fc" category="list-text">기존 커넥터를 사용하는 BlueXP 사용자의 경우 "재해 복구"를 선택하면 등록 관련 메시지가 나타납니다.</block>
   <block id="cbef5af23561d0ec620e5d275e7c8eb5" category="inline-image-macro">BlueXP 재해 복구 대시보드</block>
@@ -641,12 +618,10 @@ URL의 경우 브라우저에 다음을 입력합니다.<block ref="6db7b50bf17b
   <block id="2caf85d76a31b7bef7132937ff28e9dc" category="list-text">BYOL(Bring Your Own License) - NetApp 영업 담당자로부터 얻은 NLF(NetApp 라이센스 파일 라이센스 일련 번호를 사용하여 BlueXP 디지털 지갑에서 BYOL을 활성화할 수 있습니다.</block>
   <block id="c809a23426c6fb72cef75816c461ade9" category="paragraph">모든 BlueXP 서비스의 라이센스는 BlueXP 디지털 지갑 서비스에서 관리합니다. BYOL을 설정하면 BlueXP 디지털 지갑에서 서비스에 대한 활성 라이센스를 확인할 수 있습니다.</block>
   <block id="8eb586b1b79ddd3ae7c3123b39d4420e" category="admonition">BlueXP 재해 복구 비용은 복제 계획이 있는 VM이 하나 이상 있을 때 소스 사이트에 프로비저닝된 데이터 저장소 용량을 기반으로 합니다. 페일오버된 데이터 저장소의 용량이 허용 용량에 포함되지 않습니다. BYOL의 경우 데이터가 허용된 용량을 초과하는 경우, 추가 용량 라이센스를 취득하거나 BlueXP 디지털 지갑에서 라이센스를 업그레이드할 때까지 서비스 작업이 제한됩니다.</block>
-  <block id="27be91c80d5e97799bb6e73e37370e5d" category="paragraph">언제든지 라이선스를 구입할 수 있으며 90일 평가판이 만료될 때까지 비용이 청구되지 않습니다.</block>
   <block id="7033a5d3e074f0c7401499ee4e48f38a" category="list-text">보호할 VM에서 VMware 툴(또는 Open VM 툴)이 실행되고 있는지 확인합니다.</block>
   <block id="af77ac64a97a80925dee7dc916344004" category="list-text">Linux 운영 체제에서 실행되는 Oracle 데이터베이스에는 Oracle 데이터베이스 SYSDBA 역할에 대해 운영 체제 사용자 인증이 설정되어 있어야 합니다.</block>
   <block id="e23539b066371b4dcfdd50b7d80417d8" category="paragraph">무료 평가판이 종료되거나 라이센스가 만료된 후에도 서비스에서 다음을 수행할 수 있습니다.</block>
   <block id="1594f78ebbb281f7b5359eb6d2b89912" category="list-text">평가판 기간 동안 또는 라이센스에 따라 생성된 모든 예약된 작업을 실행합니다.</block>
-  <block id="a14b332e4d6b9ee17b484a7fb805179f" category="paragraph">언제든지 라이선스를 받을 수 있으며 90일 평가판이 만료될 때까지 비용이 청구되지 않습니다. 90일 평가판 사용 후에도 계속 진행하려면 BYOL 라이센스를 구매해야 합니다.</block>
   <block id="01c014f2e37e5bf6d3ce893bea0197cb" category="list-text">커넥터를 설정한 후 BlueXP 재해 복구 랜딩 페이지에서 커넥터를 추가하는 버튼이 무료 평가판을 시작하기 위한 버튼으로 변경됩니다. 무료 평가판 시작 * 을 선택합니다.</block>
   <block id="b9ef842238fa8d82db6b7559f33adc6c" category="paragraph">평가판이 종료되면 NetApp 영업 담당자를 통해 라이선스를 구입할 수 있습니다</block>
   <block id="9bdfa376bcb2fa79aff92c39d0b24fcd" category="list-text">라이센스를 얻은 후 BlueXP 재해 복구로 돌아갑니다. 오른쪽 상단의 * 결제 방법 보기 * 옵션을 선택합니다. 또는 무료 평가판이 만료된다는 메시지에서 * 라이센스 가입 또는 구매 * 를 선택합니다.</block>
@@ -662,7 +637,6 @@ URL의 경우 브라우저에 다음을 입력합니다.<block ref="6db7b50bf17b
   <block id="b7005516f0c1f875afae2146a2fb3617" category="list-text">* 라이센스 업데이트 *: BlueXP 재해 복구를 사용하면 90일 무료 평가판에 등록하거나, Amazon Marketplace에서 PAYGO(Pay-as-you-Go) 구독 요금을 구매하거나, NetApp 세일즈 담당자 또는 NSS(NetApp Support 사이트)로부터 얻은 NLF(NetApp 라이센스 파일)인 BYOL(Bring Your Own License File)을 받을 수 있습니다.</block>
   <block id="eb9506998f4dca4bcb82fe962448b79b" category="paragraph">BlueXP 재해 복구의 라이센스 설정에 대한 자세한 내용은 을 참조하십시오 <block ref="eaa54a57026891d12cbf928afd176564" category="inline-link-macro-rx"></block>.</block>
   <block id="8deb19747c06e3643bab5716cb645635" category="paragraph">이 서비스에 처음 로그인하는 경우 랜딩 페이지가 나타나고 무료 평가판을 등록할 수 있습니다.</block>
-  <block id="ac3c6e071ee2b6acd7920433ae08c475" category="paragraph"><block ref="ac3c6e071ee2b6acd7920433ae08c475" category="inline-image-macro-rx" type="image"></block></block>
   <block id="dd1ef091f49695b9c14e0e34da748ab7" category="list-text">BlueXP Connector를 아직 추가하지 않았다면 Connector를 추가해야 합니다. 커넥터를 추가하려면 을 참조하십시오<block ref="d6df7dcc2fc3105e10967a9194806ce5" category="inline-link-rx"></block>.</block>
   <block id="e2066cd1f4f96874fad4da9c48f8715b" category="list-text">이미 서비스를 사용 중인 경우 "재해 복구"를 선택하면 대시보드가 나타납니다.</block>
   <block id="7cc1b1d71d565ea421a16ed9422fe6c2" category="list-text">AWS(Amazon Web Services) Marketplace에서 용량제(PAYGO) 구독을 구매합니다.</block>
@@ -684,7 +658,6 @@ NetApp 세일즈 담당자로부터 BlueXP 재해 복구 라이센스를 구입�
   <block id="595da0c0edf936a84fa3d6a69bbbb4e5" category="paragraph"><block ref="595da0c0edf936a84fa3d6a69bbbb4e5" category="inline-image-macro-rx" type="image"></block></block>
   <block id="5d50de45dd75ac0ea74e9c427687d113" category="list-text">BlueXP 디지털 지갑의 * 데이터 서비스 라이센스 * 탭에서 * Add License * 를 선택합니다.</block>
   <block id="7744384d0e7b78819bc53ca36ef36369" category="list-text">Data dervices licenses * 탭을 선택하고 업데이트할 서비스 일련 번호에 대한 * Actions... * 아이콘을 선택한 다음 * Update License * 를 선택합니다.</block>
-  <block id="577219605d1e6146de9dc5b1e218ce65" category="paragraph">90일 평가판 사용 후에도 계속 사용하려면 클라우드 공급자로부터 PAYGO(Pay-as-you-go) 구독을 받거나 NetApp에서 BYOL 라이센스를 구입해야 합니다.</block>
   <block id="d66d706cd022ab39ed6479a713135515" category="paragraph"><block ref="d66d706cd022ab39ed6479a713135515" category="inline-image-macro-rx" type="image"></block></block>
   <block id="991e816286764c3a5ea9b023c35e1d77" category="paragraph"><block ref="991e816286764c3a5ea9b023c35e1d77" category="inline-image-macro-rx" type="image"></block></block>
   <block id="b45dfe874eaba6a97e58e0436eba2402" category="sidebar">주문형 BlueXP 재해 복구 as a Service Lab을 시작하기</block>
@@ -760,10 +733,6 @@ NetApp 세일즈 담당자로부터 BlueXP 재해 복구 라이센스를 구입�
   <block id="ef30511465fed8e5a5b5c3a9aae4795a" category="list-text">이 단계와 여기 단계에 따라<block ref="551566e1b64bc66251dbfe6d546a4bef" category="inline-link-rx"></block><block ref="594efabf60d7236eeecf072ead1cf02b" category="inline-link-rx"></block> FSx for NetApp ONTAP를 프로비저닝하고 구성합니다.</block>
   <block id="e65c19fddc907d69ae5172a0084b710b" category="list-text">Amazon FSx for NetApp ONTAP을 작업 환경에 추가하고 FSx for ONTAP에 대한 AWS 자격 증명을 추가합니다.</block>
   <block id="95e1164f78d2b6799a19e13081137cbd" category="list-text">VMware 계정을 사용하여 SDDC를 프로비저닝합니다. SDDC가 FSx for ONTAP와 연결되어 있는지 확인합니다.</block>
-  <block id="23b186d0b29dfdb5e0e175ad6de4147e" category="paragraph">다음 중 하나를 구입할 수 있습니다.</block>
-  <block id="e5cadf619f38981c2b6059a9e6577ec3" category="list-text">AWS Marketplace의 용량제(PAYGO) 구독</block>
-  <block id="90d5e71753c6b7ee358df340daa5fe4c" category="list-text">NLF(NetApp 라이센스 파일)인 BYOL(Bring Your Own License)</block>
-  <block id="8e794011cc1f1c5c04b70473672767c4" category="paragraph">을 <block ref="0ba47d7cccc1dc28f47670d48274167c" category="inline-link-macro-rx"></block>참조하십시오.</block>
   <block id="b63b041aeb212763ffab8f16313f009d" category="inline-link-macro">BlueXP 재해 복구 공지</block>
   <block id="54ad6e999d021c5f10d0b688267e8d17" category="paragraph"><block ref="54ad6e999d021c5f10d0b688267e8d17" category="inline-link-macro-rx"></block></block>
   <block id="30bc3f8ec3b5e171c9e8c063eec0ebce" category="summary">vCenter 계정에는 BlueXP 재해 복구가 데이터 저장소 등록 및 등록 취소, VM 시작 및 중지, 가상 머신(VM) 재구성 등의 서비스를 수행할 수 있도록 최소 vCenter 권한 세트가 있어야 합니다. 다음 표에는 vCenter 클러스터와 인터페이스하기 위해 BlueXP 재해 복구에 필요한 모든 권한이 나와 있습니다.</block>
@@ -829,11 +798,9 @@ NetApp 세일즈 담당자로부터 BlueXP 재해 복구 라이센스를 구입�
   <block id="66dacd6d538323484187ed3f8c9ef650" category="list-text">* 장애 조치 테스트 일정 * : 이제 장애 조치 테스트를 편집하고 장애 조치 테스트의 일일, 주별 및 월별 일정을 설정할 수 있습니다.</block>
   <block id="42b40c3ce2e25adae8327795c655116d" category="list-text">*필수 구성 요소 정보 업데이트 *: BlueXP 재해 복구 사전 요구 사항 정보가 업데이트되었습니다.</block>
   <block id="8a62eb7f743049ce2523fe7eb67fb48f" category="paragraph">을<block ref="dfd63f4ad4adb15a66b44e212e2488b7" category="inline-link-rx"></block>참조하십시오.</block>
-  <block id="2e57ab34890abd985ae5cff7c16db6f6" category="list-text">Applications(애플리케이션) 페이지의 왼쪽에서 필요한 경우 데이터 저장소를 검색합니다.</block>
   <block id="8020af4fa709c3156161baa6bf00e88a" category="inline-image-macro">복제 계획, 리소스 매핑 탭</block>
   <block id="210dfd955522333f74e13d0843ab02ff" category="paragraph">이 섹션은 선택에 따라 활성화 또는 비활성화될 수 있습니다.</block>
   <block id="30cb4638cdd1e514eba27473e745afb4" category="paragraph">테스트 매핑 탭에서 가상 머신 및 데이터 저장소 매핑이 해제됩니다.</block>
-  <block id="ebcc6bc6ad0c177b30c661fc23c0f951" category="list-text">계획 세부 정보, 페일오버 매핑, VM 등 각 탭의 정보를 검토합니다.</block>
   <block id="711c35de4b0430b043159f5d91f6752f" category="inline-image-macro">페일오버 페이지입니다</block>
   <block id="418818fc05931805b481fbdf48b3a075" category="list-text">페일오버 페이지에서 지금 스냅샷을 시작하거나 복구할 데이터 저장소의 스냅샷을 선택합니다. 기본값은 Latest 입니다.</block>
   <block id="51d5fa513676d68f3e574487650b021d" category="paragraph">페일오버가 발생하기 전에 현재 소스의 스냅샷이 생성되어 현재 대상으로 복제됩니다.</block>
@@ -862,7 +829,6 @@ NetApp 세일즈 담당자로부터 BlueXP 재해 복구 라이센스를 구입�
   <block id="3d3e2652059a9417e7a9b8801e83b99d" category="list-text">복제 계획을 선택하고 * Failover mapping * 탭을 클릭한 다음 * Edit * 연필 아이콘을 클릭합니다.</block>
   <block id="f05351f8a712da4ff1e724d342c4670b" category="list-text">Datastores * 화살표를 클릭하여 확장합니다.</block>
   <block id="ee9e0fb0a09a468f33fa6f2dabc4ff49" category="inline-image-macro">페일오버 매핑 페이지를 편집합니다</block>
-  <block id="7cbc4647aa042fa4dbc711ee9aa94612" category="paragraph"><block ref="7cbc4647aa042fa4dbc711ee9aa94612" category="inline-image-macro-rx" type="image"></block></block>
   <block id="0d59b78804ed5feec9399254629a60f1" category="list-text">복제 계획에서 보존 횟수의 값을 확인합니다. 이 단계를 완료하면 이 원래 값을 복원해야 합니다.</block>
   <block id="e9c686cd7f0fc0f9a24375142cf2639b" category="list-text">카운트를 1로 줄입니다.</block>
   <block id="94eec0eecc897e0613b4dca05f1db3b5" category="list-text">주문형 스냅샷을 시작합니다. 이렇게 하려면 복제 계획 페이지에서 계획을 선택하고 작업 아이콘을 클릭한 다음 * 지금 스냅샷 생성 * 을 선택합니다.</block>
@@ -885,20 +851,14 @@ NetApp 세일즈 담당자로부터 BlueXP 재해 복구 라이센스를 구입�
   <block id="fa463eaf10ea5f2243e402c5c574ce96" category="list-text">Actions 열에서 * Cancel job * 을 선택합니다.</block>
   <block id="348a99edae23b1f4e21c5ce75d209a50" category="paragraph">세부 정보를 검토하려면 각 항목 아래의 * 보기 * 링크를 선택하십시오.</block>
   <block id="116910f73246efc93a920caaa2ef1743" category="list-text">BlueXP  재해 복구 상단 메뉴에서 * 복제 계획 * 을 선택하고 * 추가 * 를 선택합니다. 또는 서비스를 사용하기 시작한 경우 대시보드에서 * 복제 계획 추가 * 를 선택합니다.</block>
-  <block id="eb77d8ecba8e316a4e630e7bf375a3a8" category="paragraph"><block ref="5e75e554f1dcac67727f8f9c18b64267" category="inline-image-macro-rx" type="image"></block></block>
   <block id="caa1e25984e775c1ab44cfd42620d720" category="inline-image-macro">연필 아이콘</block>
-  <block id="5b7027891924f15fc8ce9c7972c44183" category="list-text">그룹을 변경하려면 그룹 * 편집 * 아이콘을 클릭합니다 <block ref="8254d7ced29032ec76a59e7648759881" category="inline-image-macro-rx" type="image"></block> .</block>
   <block id="7906e2e007c3bad108fcd7ed7311a131" category="paragraph"><block ref="7906e2e007c3bad108fcd7ed7311a131" category="inline-image-macro-rx" type="image"></block></block>
   <block id="6dbc81f47f4a822cd11ce7c8403756ed" category="list-text">페일오버 매핑 탭에서 각 리소스의 오른쪽에 있는 아래쪽 화살표를 선택하고 각 리소스의 리소스를 매핑합니다.</block>
   <block id="022ab008c31f5588f9d15da4dc3439fb" category="list-text">* Compute resources *: * Compute resources * 옆에 있는 아래쪽 화살표를 선택합니다.</block>
-  <block id="5bfe17be68350c18dc777bcfabdd7a8f" category="list-text">* 가상 네트워크 *: 장애 조치 매핑 탭에서 * 가상 네트워크 * 옆에 있는 아래쪽 화살표를 선택합니다. 소스 가상 LAN 및 타겟 세그먼트를 입력하거나 선택합니다.</block>
   <block id="a358a5c755a9f869690207e2a0726737" category="list-text">* 가상 머신 *: 페일오버 매핑 탭에서 * 가상 머신 * 옆에 있는 아래쪽 화살표를 선택합니다.</block>
   <block id="909f84e264f0200a692127b28fbdbaaf" category="paragraph">적절한 세그먼트에 대한 네트워크 매핑을 선택합니다. 세그먼트는 이미 프로비저닝되어야 하므로 가상 머신을 매핑할 적절한 세그먼트를 선택하십시오.</block>
   <block id="298abc17ab4bb709de80b68dc38dde2a" category="list-text">* IP 주소 유형 *: 복제 계획의 가상 머신 섹션에서 소스 및 대상 위치 간의 네트워킹을 매핑할 때 BlueXP  재해 복구는 DHCP 또는 정적 IP의 두 가지 옵션을 제공합니다. 정적 IP의 경우 서브넷, 게이트웨이 및 DNS 서버를 구성합니다. 또한 가상 머신에 대한 자격 증명을 입력합니다.</block>
   <block id="c28e8a3b83f3f2cce376fe3daa7ad95d" category="paragraph"><block ref="64eb1ec301597178e47fa7deed0121dc" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="3512b090e0a9611bcc510311033bd346" category="list-text">* 소스 VM CPU 및 RAM *: 가상 머신 세부 정보 아래에서 선택적으로 VM CPU 및 RAM 매개 변수의 크기를 조정할 수 있습니다.</block>
-  <block id="f11e7e84949ffa34e841d9d0b17d1d5d" category="list-text">* 부팅 지연 * : 리소스 그룹에서 선택한 모든 가상 시스템의 부팅 순서를 수정할 수 있습니다. 기본적으로 리소스 그룹 선택 시 선택한 부팅 순서가 사용되지만 이 단계에서 변경할 수 있습니다. 이 필드에서는 부팅 작업의 지연 시간(분)을 조정할 수 있습니다.</block>
-  <block id="c9d8e0d238ab275582f95ccf81088af0" category="list-text">* 애플리케이션 정합성이 보장되는 복제본 생성 *: 애플리케이션 정합성이 보장되는 스냅샷 복제본을 생성할지 여부를 나타냅니다. 이 서비스는 응용 프로그램을 중지한 다음 스냅샷을 생성하여 응용 프로그램의 일관된 상태를 확보합니다.</block>
   <block id="453e68e2eb0de34242ac9895a818d82a" category="list-text">* Datastores *: Failover Mappings 탭에서 * Datastores * 옆에 있는 아래쪽 화살표를 선택합니다. 선택한 가상 머신에 따라 데이터 저장소 매핑이 자동으로 선택됩니다.</block>
   <block id="10936c8535aaede0ed75f5d8d4fa6aaf" category="list-text">* 보존 횟수 *: 보존할 스냅샷 수를 입력합니다.</block>
   <block id="b23c862689b973964a4b79af3d87b2de" category="list-text">* 소스 및 타겟 데이터 저장소 *: 볼륨에 SnapMirror 관계가 이미 설정된 경우 해당 소스 및 타겟 데이터 저장소를 선택할 수 있습니다. SnapMirror 관계가 없는 볼륨을 선택한 경우 작업 환경과 피어 SVM을 선택하여 지금 볼륨을 생성할 수 있습니다.</block>
@@ -919,33 +879,9 @@ NetApp 세일즈 담당자로부터 BlueXP 재해 복구 라이센스를 구입�
   <block id="cf1967c6d778937fae37b9e43582b1b6" category="list-text">BlueXP  재해 복구는 ONTAP 볼륨당 하나의 LUN만 지원합니다. 볼륨에 여러 개의 LUN이 있어서는 안 됩니다.</block>
   <block id="f3a37c3560d0027bc0f49abfab4ab0e3" category="list-text">모든 복제 계획의 경우 대상 ONTAP 볼륨은 보호된 VM을 호스팅하는 소스 ONTAP 볼륨과 동일한 프로토콜을 사용해야 합니다. 예를 들어, 소스에서 FC 프로토콜을 사용하는 경우 타겟도 FC를 사용해야 합니다.</block>
   <block id="3baff38a392d31950fc8d4d62ea2adc0" category="list-text">vCenter Server 를 선택합니다.</block>
-  <block id="cfb3b856fe141dd537038393a8052d33" category="list-text">복제할 VM을 선택하고 그룹을 할당합니다.</block>
   <block id="8e635b1aadad234871ba0e012309361f" category="list-text">재발을 식별하고, 게스트 호스팅 스크립트를 실행하고, 부팅 순서를 설정하고, 복구 지점 목표를 선택합니다.</block>
   <block id="1c10305a999dce53cb52dd4f6b8d89ff" category="list-text">계획을 검토합니다.</block>
   <block id="054b753af44fc4eeee43c9ba6037caaa" category="doc">재해 복구 보고서를 생성합니다</block>
-  <block id="282dfbc5927b79619ad76e7f3cbfe3c6" category="paragraph">재해 복구 보고서를 검토하면 재해 복구 대비 상태를 분석하는 데 도움이 됩니다. 사전 설계된 보고서에는 페일오버 및 페일백 요약, 모든 사이트에 대한 복제 세부 정보, 작년 작업 세부 정보가 포함됩니다. 사용자 지정 보고서를 만들 수도 있습니다.</block>
-  <block id="08efd64e87408e4769275d6a11482ddf" category="paragraph">보고서를 PDF 형식으로 다운로드할 수 있습니다.</block>
-  <block id="b775ae7fb34855ffeede56666da9a15c" category="list-text">상단 메뉴에서 * Reports * 를 선택합니다.</block>
-  <block id="44f0d43cd92781ec793d9ba50c2d422e" category="inline-image-macro">보고서 페이지</block>
-  <block id="a73757daae33bff01ded292e39f3ddaf" category="paragraph"><block ref="a73757daae33bff01ded292e39f3ddaf" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="3ccbbafbdd477e2f028bfd34e03f436b" category="list-text">보고서를 만들거나 다운로드하기 전에 * 새로 고침 * 옵션을 클릭하여 데이터를 새로 고칩니다.</block>
-  <block id="c83e2a522238e98593e337bd5a7311b5" category="list-text">준비된 * 탭에서 보고서를 선택하거나 * 사용자 정의 * 탭에서 고유한 보고서를 생성합니다.</block>
-  <block id="70db9063910acf1265d5a518168c69cd" category="list-text">다운로드 * 를 클릭하여 보고서를 다운로드하십시오.</block>
-  <block id="0656a1b7f286656b2fc85b91fe54f0dd" category="section-title">고유한 재해 복구 보고서를 생성합니다</block>
-  <block id="8eaafa07b3ff6e9aa5dbe62e7cc8c77c" category="paragraph">사이트, 복제 계획 및 데이터를 지정할 수 있는 사용자 지정 보고서를 만들 수 있습니다. 지난 연도의 페일오버 및 페일백 요약 정보, 각 복제 계획의 VM 세부 정보 및 지난 연도의 각 복제 계획에 대한 작업 세부 정보를 포함할지 여부를 지정할 수 있습니다.</block>
-  <block id="036f7e4b10d318ae312cdfbb79a225fe" category="list-text">보고서를 만들기 전에 * 새로 고침 * 옵션을 클릭하여 데이터를 새로 고칩니다.</block>
-  <block id="27c38bec0a8c0321e9a3236a8a9d4e76" category="list-text">사용자 정의 * 탭을 선택합니다.</block>
-  <block id="c3c616a8c2970d4d1156559952705700" category="list-text">새 보고서를 추가하려면 * 추가 * 를 선택하십시오.</block>
-  <block id="402199b58c216d8c9be526288150639b" category="inline-image-macro">사용자 지정 보고서 추가 대화 상자</block>
-  <block id="8224443416aacfdb9c8d006355a8489a" category="paragraph"><block ref="8224443416aacfdb9c8d006355a8489a" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="4d6c444c23609646be63340436709d5f" category="list-text">보고서를 사용자 정의하는 옵션을 선택합니다.</block>
-  <block id="f6068daa29dbb05a7ead1e3b5a48bbee" category="list-text">데이터</block>
-  <block id="478109b22c544f0e3bed80d9622cc572" category="list-text">지난 연도의 페일오버 및 장애 조치에 대한 요약입니다</block>
-  <block id="d9848020098abdd6a6adf5b664e0a02c" category="list-text">각 복제 계획에 대한 VM 세부 정보입니다</block>
-  <block id="2eac16c021d7f4e2d342be672e454649" category="list-text">지난 연도의 각 복제 계획에 대한 작업 세부 정보입니다</block>
-  <block id="65db0a5300ccaa6099d24aaf16150200" category="paragraph">사용자 정의 보고서가 사용자 정의 보고서 목록에 나타납니다.</block>
-  <block id="b7a41431aa1eee1607db390ac47d2a65" category="admonition">보고서에 포함된 모든 사이트 또는 계획을 보려면 보고서 이름 또는 계획 이름 오른쪽에 있는 번호를 클릭합니다.</block>
-  <block id="a99780537c030fe162f59c129be8e471" category="list-text">다운로드 * 를 클릭하여 사용자 지정 보고서를 다운로드하십시오.</block>
   <block id="fca90381d84b0e9a022fdeac2012d4ab" category="paragraph">BlueXP  재해 복구 일련 번호가 필요합니다. 판매 주문에서 이 번호를 찾거나 계정 팀에 문의하여 이 정보를 확인하십시오.</block>
   <block id="20efb062527877ed8fd82ba191b8951b" category="paragraph">* BlueXP  디지털 지갑에 라이센스 추가 * BlueXP  재해 복구 라이센스를 구입한 후에는 BlueXP  디지털 지갑에 라이센스를 추가해야 합니다.</block>
   <block id="61b173efd5c260fd3e3f446d9d4b37e7" category="section-title">BlueXP를 시작하십시오</block>
@@ -966,4 +902,91 @@ NetApp 세일즈 담당자로부터 BlueXP 재해 복구 라이센스를 구입�
   <block id="d4f0533448e4984685ae016d36dba83a" category="paragraph">* BlueXP  재해 복구에 어떻게 액세스합니까? * BlueXP 재해 복구에는 지원이 필요하지 않습니다. 재해 복구 옵션은 BlueXP 왼쪽 탐색에 자동으로 표시됩니다.</block>
   <block id="bc483ba843f73e5d609495aa94d035b9" category="paragraph">BlueXP 재해 복구는 재해 복구 워크플로우를 자동화하는 클라우드 기반 재해 복구 서비스입니다. BlueXP  재해 복구 서비스를 사용하면 NetApp 스토리지를 실행하는 iSCSI 및 FC용 온프레미스, NFS 기반 워크로드 및 VMware vSphere VMFS(Virtual Machine File System) 데이터 저장소를 다음 중 하나로 보호할 수 있습니다.</block>
   <block id="412e382a6d6d3bd8a3bfd94b856f9f4e" category="list-text">iSCSI 또는 FC 프로토콜을 사용하는 VMFS</block>
+  <block id="63f202b7fcd80e9277a9e585cd35c7ae" category="list-text">30일 무료 평가판을 신청하십시오.</block>
+  <block id="5ef05167488611c5bd4ff0f410595ce4" category="section-title">30일 무료 평가판</block>
+  <block id="fcb9470411433141a8e2828e6e6743a1" category="paragraph">30일 무료 평가판을 사용하여 BlueXP 재해 복구를 체험해 볼 수 있습니다.</block>
+  <block id="2653bc3ce497c58d463194da74daede0" category="paragraph">30일 평가판 사용 후에도 계속 사용하려면 클라우드 공급자로부터 PAYGO(Pay-as-you-go) 구독을 받거나 NetApp에서 BYOL 라이센스를 구입해야 합니다.</block>
+  <block id="5ea3b0a3d2edc96d5ac390dd8d481432" category="paragraph">언제든지 라이선스를 구입할 수 있으며 30일 평가판이 만료될 때까지 비용이 청구되지 않습니다.</block>
+  <block id="b22e0a0c145eff4bd34bc6c46894b2a1" category="section-title">30일 무료 평가판을 사용해 보십시오</block>
+  <block id="039ed52e082d57c29ee6dcf82a85a0e7" category="paragraph">30일 무료 평가판을 사용하여 BlueXP 재해 복구를 체험해 볼 수 있습니다.</block>
+  <block id="dd8751ceddb247aced4307ca6fddff51" category="paragraph">평가판 사용 후 계속 진행하려면 BYOL 라이선스 또는 PAYGO AWS 구독을 구입해야 합니다. 언제든지 라이선스를 받을 수 있으며 평가판이 종료될 때까지 비용이 청구되지 않습니다.</block>
+  <block id="58e6ab5634cec392e37e4f0d5f8f8db8" category="paragraph"><block ref="58e6ab5634cec392e37e4f0d5f8f8db8" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="6339437d88aaa794dbaa48ee62597c24" category="doc">BlueXP  재해 복구의 새로운 기능</block>
+  <block id="1992f2f9fa5c0cbd3b61255b9dd507bd" category="section-title">2024년 10월 30일</block>
+  <block id="51ca1579fc5d4f066bdbf640a4814d76" category="list-text">* 보고 *: 이번 릴리스에서는 이제 보고서를 생성하고 다운로드하여 지형을 분석할 수 있습니다. 사전 설계된 보고서는 페일오버와 장애 복구를 요약하고, 모든 사이트에 대한 복제 세부 정보를 표시하며, 지난 7일 동안의 작업 세부 정보를 표시합니다.</block>
+  <block id="023cf8170104660fc796a64fdad98afa" category="paragraph">을<block ref="cca93cc3cfc082fe882eefc731706487" category="inline-link-rx"></block>참조하십시오.</block>
+  <block id="978337672bd8dff65bfbecb42cf21f9d" category="list-text">* 30일 무료 평가판 *: 이 릴리스를 통해 이제 BlueXP  재해 복구 30일 무료 평가판에 등록할 수 있습니다. 이전에는 무료 평가판이 90일이었습니다.</block>
+  <block id="1cb57fbf1f1452e87f62dd668ea03759" category="paragraph">을<block ref="7585b54fad00f1219b8233730153156f" category="inline-link-rx"></block>참조하십시오.</block>
+  <block id="7c63c33c2146d3ce95c7487c1ebbe27e" category="list-text">* 복제 계획 비활성화 및 활성화 *: 이전 릴리스에는 페일오버 테스트 일정 구조에 대한 업데이트가 포함되어 있으며, 이 업데이트는 매일 및 주간 일정을 지원하는 데 필요합니다. 이 업데이트를 수행하려면 새로운 일별 및 주별 페일오버 테스트 일정을 사용할 수 있도록 모든 기존 복제 계획을 비활성화했다가 다시 활성화해야 합니다. 이는 일회성 요구 사항입니다.</block>
+  <block id="128ecd2ba12e92192724c8e3ed360ffc" category="list-text">* 폴더 매핑 *: 복제 계획을 생성하고 컴퓨팅 리소스를 매핑할 때, 이제 폴더를 매핑하여 VM이 데이터 센터, 클러스터 및 호스트에 대해 지정한 폴더에서 복구되도록 할 수 있습니다.</block>
+  <block id="b7d245c9fa7100d1b04bb8e37530f630" category="list-text">*장애 조치, 장애 복구 및 테스트 장애 조치에 사용할 수 있는 VM 세부 정보*: 장애가 발생하여 장애 조치를 시작하거나 장애 복구를 수행하거나 장애 조치를 테스트하는 경우 이제 VM 세부 정보를 보고 다시 시작하지 않은 VM을 식별할 수 있습니다.</block>
+  <block id="5b7e4b08598b495e5e802015cfda0817" category="list-text">* 순서가 지정된 부팅 시퀀스와 VM 부팅 지연 *: 복제 계획을 생성할 때 계획에 있는 각 VM에 대해 부팅 지연을 설정할 수 있습니다. 이렇게 하면 VM이 시작되도록 순서를 설정하여 이후의 우선 순위 VM이 시작되기 전에 우선 순위 VM이 모두 실행되도록 할 수 있습니다.</block>
+  <block id="6bf75b2b973c4e4b2e97cb286b4a0b22" category="list-text">* VM 운영 체제 정보 *: 복제 계획을 생성할 때 계획에 있는 각 VM의 운영 체제를 볼 수 있습니다. 이 기능은 리소스 그룹에서 VM을 그룹화하는 방법을 결정하는 데 유용합니다.</block>
+  <block id="c216ae779db45238ce5f187a4e9efc0e" category="list-text">* VM name aliasing *: 복제 계획을 생성할 때 이제 재해 복구 SIT의 VM 이름에 접두사 및 접미사를 추가할 수 있습니다. 이렇게 하면 계획에 있는 VM에 대해 보다 자세한 이름을 사용할 수 있습니다.</block>
+  <block id="0b0c4a58a22974b8eb46383cdfabf354" category="list-text">* 이전 스냅샷 정리 *: 이 릴리스에서는 지정된 보존 횟수 이상으로 더 이상 필요하지 않은 모든 스냅샷을 삭제할 수 있습니다. 스냅샷 보존 수를 낮추면 스냅샷이 시간 경과에 따라 누적될 수 있으며, 이제 스냅샷을 제거하여 공간을 확보할 수 있습니다. 요청 시 또는 복제 계획을 삭제할 때 언제든지 이 작업을 수행할 수 있습니다.</block>
+  <block id="3eddfb488d257605e7713c24d210beee" category="inline-link">사이트, 리소스 그룹, 복제 계획, 데이터 저장소 및 가상 머신 정보를 관리합니다</block>
+  <block id="310c40c0ef022c90f1370d1fe91ca720" category="paragraph">자세한 내용은 을<block ref="db7c318fcbcad8cfb9a44ac897b870b2" category="inline-link-rx"></block>참조하십시오.</block>
+  <block id="718c1087c683dccc1ea79ed6fa0fd10b" category="list-text">* 스냅샷 조정 *: 이번 릴리스에서는 소스와 타겟 간에 동기화되지 않은 스냅샷을 조정할 수 있습니다. 이 문제는 BlueXP  재해 복구 외부에 있는 타겟에서 스냅샷이 삭제된 경우에 발생할 수 있습니다. 이 서비스는 24시간마다 소스의 스냅샷을 자동으로 삭제합니다. 그러나 필요에 따라 이 작업을 수행할 수 있습니다. 이 기능을 사용하면 모든 사이트에서 스냅샷이 일관되게 유지되도록 할 수 있습니다.</block>
+  <block id="9a3a6422d384602f3e19e123263dc99f" category="paragraph">자세한 내용은 을<block ref="59c3623215c45197e971057378c86d42" category="inline-link-rx"></block>참조하십시오.</block>
+  <block id="21045c570180940ef07c18bb23d0427d" category="list-text">복제하고 그룹을 할당할 가상 머신(VM)을 선택합니다.</block>
+  <block id="220cf85b4d919dc13e0c6317aa2e2b17" category="list-text">팬아웃 아키텍처에서 1개 또는 다대입니다</block>
+  <block id="f2cdd0bbe9f89ecac35fe20b5c70e9fb" category="paragraph">다음 단계는 필요한 VM을 기능 리소스 그룹으로 그룹화하는 것입니다. 리소스 그룹을 사용하면 종속 VM 집합을 요구 사항을 충족하는 논리 그룹으로 그룹화할 수 있습니다. 예를 들어, 복구 시 실행할 수 있는 지연된 부팅 순서가 그룹에 포함될 수 있습니다.</block>
+  <block id="4d179ba15a8047d595a41bbd6175c3be" category="paragraph">복제 계획에서 애플리케이션을 선택하면 계획에 있는 각 VM의 운영 체제를 볼 수 있습니다. 이 기능은 리소스 그룹에서 VM을 그룹화하는 방법을 결정하는 데 유용합니다.</block>
+  <block id="7eb18c1801bc45dc00317e09e6cc2211" category="admonition">각 리소스 그룹에는 하나 이상의 VM이 포함될 수 있습니다. 여기에 VM을 포함하는 순서에 따라 VM의 전원이 켜집니다.</block>
+  <block id="236861b5b0d7380c86b58343dda04a42" category="list-text">필요한 경우 애플리케이션 페이지 왼쪽에서 데이터 저장소를 기준으로 VM을 필터링합니다.</block>
+  <block id="794c0f8f77c0af0e4613492580e6d7ab" category="list-text">애플리케이션 페이지의 왼쪽에서 보호하고 선택한 그룹에 할당할 VM을 선택합니다.</block>
+  <block id="87661bcc452e9da5afed70a3b9cf3e39" category="paragraph">선택한 VM이 그룹 1에 자동으로 추가되고 새 그룹 2가 시작됩니다. 마지막 그룹에 VM을 추가할 때마다 다른 그룹이 추가됩니다.</block>
+  <block id="81c61db52db9a56a1819f55910f10afa" category="paragraph"><block ref="37056fc036b85c73069e7f1371212abb" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="bcc94af8bc9c7e6ef8fd57214884e7f1" category="list-text">그룹 이름을 변경하려면 그룹 * 편집 * 아이콘을 클릭합니다<block ref="8254d7ced29032ec76a59e7648759881" category="inline-image-macro-rx" type="image"></block>.</block>
+  <block id="a218e8ce5f9879c5e643831c2aa0e36a" category="list-text">그룹에서 VM을 제거하려면 VM 옆에 있는 * X * 를 선택합니다.</block>
+  <block id="a63398300e6fbe20dc11a32121bd6bfa" category="list-text">VM을 다른 그룹으로 이동하려면 새 그룹으로 끌어다 놓습니다.</block>
+  <block id="86cbb58fb6d06cab306fbf4379c5c40e" category="paragraph">그룹 내의 각 VM은 여기서 순서를 기준으로 순서대로 시작됩니다.</block>
+  <block id="b09b7f24f5b2d0187b19263b47fb2cdf" category="paragraph">리소스 매핑 단계에서 소스 환경의 리소스가 타겟에 매핑되는 방법을 지정합니다. 복제 계획을 생성할 때 계획의 각 VM에 대해 부팅 지연 및 순서를 설정할 수 있습니다. 따라서 VM이 시작될 순서를 설정할 수 있습니다.</block>
+  <block id="da06c5c1d28e308403236438dda209dc" category="list-text">* 소스 및 타겟 데이터 센터 *</block>
+  <block id="7067fdfe055fabd950bd45a1a17e1642" category="list-text">* 대상 클러스터 *</block>
+  <block id="2c0a2cae30cf923c64bbed704e923521" category="list-text">* 대상 호스트 * (선택 사항): 클러스터를 선택한 후 이 정보를 설정할 수 있습니다.</block>
+  <block id="6d9f48430941cb04802ac18d9c695e65" category="admonition">vCenter에 클러스터의 여러 호스트를 관리하도록 구성된 DRS(Distributed Resource Scheduler)가 있는 경우 호스트를 선택할 필요가 없습니다. 호스트를 선택하면 BlueXP  재해 복구에서 모든 VM을 선택한 호스트에 배치합니다.</block>
+  <block id="999becf997185f87ea1b5bd029bf5b34" category="list-text">* 대상 VM 폴더 * (선택 사항): 선택한 VM을 저장할 새 루트 폴더를 만듭니다.</block>
+  <block id="b309697bdbe88c0e59d4f6201fe75801" category="list-text">* 가상 네트워크 *: 장애 조치 매핑 탭에서 * 가상 네트워크 * 옆에 있는 아래쪽 화살표를 선택합니다. 소스 가상 LAN 및 타겟 세그먼트를 선택합니다.</block>
+  <block id="59b1abd434d2a560773c9f089cc8679a" category="paragraph">기본 설정을 변경할 경우 자격 증명을 제공해야 합니다.</block>
+  <block id="0a8bc9b2bb8f581fa27738fc437d64b3" category="paragraph">이 섹션에는 선택에 따라 다른 필드가 표시될 수 있습니다.</block>
+  <block id="25f9829876988ad5a8f8d2b64655ff19" category="list-text">* DHCP *: VM이 DHCP 서버에서 네트워크 구성 정보를 얻도록 하려면 이 설정을 선택합니다. 이 옵션을 선택하면 VM에 대한 자격 증명만 제공합니다.</block>
+  <block id="16bd7bddefb51b87ff4fbcf4c8831a1d" category="list-text">* 정적 IP *: IP 구성 정보를 수동으로 지정하려면 이 설정을 선택합니다. 소스 VM에서 동일하거나 다른 정보를 선택할 수 있습니다. 원본과 동일한 을 선택하면 자격 증명을 입력할 필요가 없습니다. 반면 원본과 다른 정보를 사용하도록 선택한 경우 자격 증명, VM의 IP 주소, 서브넷 마스크, DNS 및 게이트웨이 정보를 제공할 수 있습니다. VM 게스트 OS 자격 증명은 글로벌 레벨 또는 각 VM 레벨에 제공해야 합니다.</block>
+  <block id="7b2b025be41dbbc4cda9601c1b5523a5" category="list-text">* 대상 VM 접두사 및 접미사 *: 가상 머신 세부 정보 아래에서 선택적으로 VM 이름에 접두사와 접미사를 추가할 수 있습니다.</block>
+  <block id="230dc85a08275a2466390ae799703f92" category="list-text">* 소스 VM CPU 및 RAM *: 가상 머신 세부 정보 아래에서 선택적으로 VM CPU 및 RAM 매개 변수의 크기를 조정할 수 있습니다.</block>
+  <block id="97bbe2658500151382594a4fae0afc57" category="paragraph"><block ref="1dcb46a6f5cf6fb93122072f061a9e9e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="77506f26f3b4a989168bfd6da6435808" category="list-text">* 부트 순서 *: 리소스 그룹에서 선택한 모든 가상 머신에 대한 대체 작동 후 부트 순서를 수정할 수 있습니다. 기본적으로 리소스 그룹 선택 시 선택한 부팅 순서가 사용되지만 이 단계에서 변경할 수 있습니다. 이는 후속 우선 순위 VM이 시작되기 전에 우선 순위 VM이 모두 실행되도록 하는 데 유용합니다.</block>
+  <block id="f4acab8352ab5ba21dd2d6ce32fc9f2a" category="paragraph">부트 순서 번호는 리소스 그룹 내에서만 적용됩니다. 한 그룹에 "2"가 있고 다른 그룹에 "2"가 있는 경우 첫 번째 그룹의 VM이 순서대로 시작되고 두 번째 그룹의 VM이 순서대로 시작됩니다.</block>
+  <block id="8cad29fca944093d9257fcd28c5a17d5" category="list-text">순차적 부팅: 할당된 순서대로 각 VM에 고유한 번호를 할당합니다(예: 1,2,3,4,5)</block>
+  <block id="8043065a3a1affdc7e75a0083d3349b1" category="list-text">동시 부팅: 모든 VM에 동일한 번호를 할당하여 동시에 부팅합니다(예: 1,1, 1,1, 2,2, 3,4, 4).</block>
+  <block id="aa54fb3621577f63cab9b508032a995d" category="list-text">* 부팅 지연 * : 부팅 작업의 지연 시간(분)을 조정합니다.</block>
+  <block id="517ed43dc67f057cadcb1c29ecbd75ef" category="admonition">부팅 순서를 기본값으로 재설정하려면 * VM 설정을 기본값으로 재설정 * 을 선택한 다음 기본값으로 다시 변경할 설정을 선택합니다.</block>
+  <block id="739e8f4c4549d6d4a7768c6850d47495" category="list-text">* 애플리케이션 정합성이 보장되는 복제본 생성 *: 애플리케이션 정합성이 보장되는 스냅샷 복제본을 생성할지 여부를 나타냅니다. 서비스는 애플리케이션을 중지한 다음 스냅샷을 생성하여 애플리케이션의 일관된 상태를 가져옵니다. 이 기능은 Windows에서 실행되는 Oracle과 Windows에서 실행되는 Linux 및 SQL Server에서 지원됩니다.</block>
+  <block id="2a4ddf396205dca12c00a6eb7e16285a" category="section-title">복제 계획을 검토합니다</block>
+  <block id="f7056dbdafc88dd1c68fb0eec6b47aac" category="paragraph">마지막으로 복제 계획을 잠시 살펴보겠습니다.</block>
+  <block id="6662bb47d30d156ce5604e1d8adf7ae1" category="list-text">계획 세부 정보, 페일오버 매핑 및 VM과 같은 각 탭의 정보를 검토합니다.</block>
+  <block id="09ae37e8df35c2c5f71701a8407cc944" category="list-text">계획으로 작업을 수행하려면 복제 계획 목록에서 계획 오른쪽의 * Actions * 옵션을 <block ref="2fddd650b01c7f9674be856867aae05d" category="inline-image-macro-rx" type="image"></block>선택하고 * Edit schedules *, * Test failover *, * Fail Over *, * Fail back *, * Migrate *, * Take snapshot now *, * Clean up old snapshots *, *, * Enable *, * 또는 Delete * 등의 옵션을 선택합니다.</block>
+  <block id="ed5712a5338a0cddb9b90afe427576e5" category="section-title">필요 시 스냅샷을 조정합니다</block>
+  <block id="1a9494ac0598f12cb8f1849630ab6e42" category="paragraph">소스와 타겟 간에 동기화되지 않은 스냅샷을 조정할 수 있습니다. 이 문제는 BlueXP  재해 복구 외부에 있는 타겟에서 스냅샷이 삭제된 경우에 발생할 수 있습니다. 이 서비스는 24시간마다 소스의 스냅샷을 자동으로 삭제합니다. 그러나 필요에 따라 이 작업을 수행할 수 있습니다. 이 기능을 사용하면 모든 사이트에서 스냅샷이 일관되게 유지되도록 할 수 있습니다.</block>
+  <block id="2cf81891cc338c800419b4136c4ad8f4" category="list-text">복제 계획 목록에서 계획 오른쪽에 있는 * Actions * 옵션을 <block ref="2fddd650b01c7f9674be856867aae05d" category="inline-image-macro-rx" type="image"></block>선택하고 * Reconcile snapshots * 를 선택합니다.</block>
+  <block id="08bb8fbd3da836cf3622737c948a4ede" category="list-text">조정 정보를 검토합니다.</block>
+  <block id="571a21bebeed1a6e73b024d56871482d" category="list-text">조정 * 을 선택합니다.</block>
+  <block id="2dcc77d52e005461a9eab86fef63c3f9" category="section-title">복제 계획을 삭제합니다</block>
+  <block id="0f6c94cfa5509a16442ca505884acf3e" category="paragraph">더 이상 필요하지 않은 복제 계획은 삭제할 수 있습니다. 복제 계획을 삭제하는 경우 계획에서 생성된 운영 스냅샷과 보조 스냅샷도 삭제할 수 있습니다.</block>
+  <block id="f9f0145001aafc948bb966c2faef499c" category="list-text">계획 오른쪽에 있는 * Actions * 옵션을 <block ref="2fddd650b01c7f9674be856867aae05d" category="inline-image-macro-rx" type="image"></block>선택하고 * Delete * 를 선택합니다.</block>
+  <block id="e28e746e68d02b24d2750571a0776bd0" category="list-text">운영 스냅샷, 보조 스냅샷 또는 계획에서 생성된 메타데이터만 삭제할 것인지 선택합니다.</block>
+  <block id="90486e8ee3ac6fe6a17dab32429bf3ee" category="list-text">"delete"를 입력하여 삭제를 확인합니다.</block>
+  <block id="0f024621e0673f1f4e657983682d6e72" category="list-text">삭제 * 를 선택합니다.</block>
+  <block id="835e92deb53775d3ce75f1bab2ff7fe5" category="list-text">복제 계획을 선택한 상태에서 Actions(작업) 메뉴를 선택하고 * Clean up old snapshots(이전 스냅숏 정리)"를 선택하여 새 보존 횟수와 일치하도록 타겟의 이전 스냅샷을 제거합니다.</block>
+  <block id="4fcb591c27b70823ff71112c0db6af4f" category="summary">재해 복구 보고서를 검토하면 재해 복구 대비 상태를 분석하는 데 도움이 됩니다. 사전 설계된 보고서에는 페일오버 및 페일백 요약, 모든 사이트에 대한 복제 세부 정보, 작년 작업 세부 정보가 포함됩니다.</block>
+  <block id="8c909df77f7b5e2e6b77ff66ee6bd3e7" category="paragraph">재해 복구 보고서를 검토하면 재해 복구 대비 상태를 분석하는 데 도움이 됩니다. 사전 설계된 보고서에는 지난 7일 동안의 계정 내 모든 사이트에 대한 테스트 페일오버 요약, 복제 계획 세부 정보 및 작업 세부 정보가 포함됩니다.</block>
+  <block id="50772b7f62153c22aff0a022f47038ef" category="paragraph">HTML 또는 JSON 형식으로 보고서를 다운로드할 수 있습니다.</block>
+  <block id="a023ebf9b7aa4bcf4be9bcca1ad988b9" category="admonition">브라우저의 옵션을 사용하여 HTML 페이지를 PDF로 변환할 수 있습니다.</block>
+  <block id="cd463f7ca5dbc8268a82ea8d8f5e4281" category="paragraph">다운로드 링크는 6시간 동안 유효합니다.</block>
+  <block id="5e521694fac83ef0acfcb6f722d2b3cf" category="list-text">BlueXP  왼쪽 탐색 메뉴에서 * 보호 * &gt; * 재해 복구 * &gt; * 복제 계획 * 을 선택합니다.</block>
+  <block id="40f8ac7caaab02ab3b9834517b54c7a4" category="list-text">페이지 맨 위에서 * 보고서 만들기 * 를 선택합니다.</block>
+  <block id="32e3f74f58555c69fe922de2e2c5a1fb" category="list-text">파일 형식 유형과 지난 7일 이내의 기간을 선택합니다.</block>
+  <block id="bf18811faac9b8e4fcaebab51afd1113" category="list-text">Create * 를 선택합니다.</block>
+  <block id="5da6bcdd6ceb1c5910fb17277177402d" category="admonition">보고서를 표시하는 데 몇 분 정도 걸릴 수 있습니다.</block>
+  <block id="ab6b0c72784c216662673e59f1357cc1" category="list-text">보고서를 다운로드하려면 * 보고서 다운로드 * 를 선택하고 관리자의 다운로드 폴더에서 선택합니다.</block>
 </blocks>

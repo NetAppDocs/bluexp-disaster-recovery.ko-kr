@@ -59,17 +59,3 @@ VMware Cloud for AWS SDDC(소프트웨어 정의 데이터 센터)를 설정합�
 https://www.vmware.com/products/vmc-on-aws.html["AWS 기반 VMware 클라우드"^] AWS 에코시스템의 VMware 기반 워크로드에 클라우드 네이티브 경험을 제공합니다. 각 VMware SDDC(소프트웨어 정의 데이터 센터)는 Amazon VPC(Virtual Private Cloud)에서 실행되며 전체 VMware 스택(vCenter Server 포함), NSX-T 소프트웨어 정의 네트워킹, vSAN 소프트웨어 정의 스토리지 및 워크로드에 컴퓨팅 및 스토리지 리소스를 제공하는 하나 이상의 ESXi 호스트를 제공합니다.
 
 AWS에서 VMC 환경을 구성하려면 다음 단계를 수행하십시오 https://docs.netapp.com/us-en/netapp-solutions/ehc/aws/aws-setup.html["링크"^]. 파일럿 라이트 클러스터는 재해 복구 목적으로도 사용할 수 있습니다.
-
-
-
-== 라이센스를 설정합니다
-
-BlueXP 재해 복구를 통해 90일 무료 평가판에 등록할 수 있습니다.
-
-다음 중 하나를 구입할 수 있습니다.
-
-* AWS Marketplace의 용량제(PAYGO) 구독
-* NLF(NetApp 라이센스 파일)인 BYOL(Bring Your Own License)
-
-
-을 link:../get-started/dr-licensing.html["BlueXP 재해 복구 라이센스 설정"]참조하십시오.

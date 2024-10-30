@@ -27,7 +27,7 @@ NetApp BlueXP 로그인 페이지가 나타납니다.
 이 서비스에 처음 로그인하는 경우 랜딩 페이지가 나타나고 무료 평가판을 등록할 수 있습니다.
 
 +
-image:draas-landing3-free-trial.png["BlueXP 재해 복구의 랜딩 페이지 스크린샷"]
+image:draas-landing4-free-trial.png["BlueXP 재해 복구의 랜딩 페이지 스크린샷"]
 
 +
 그렇지 않으면 BlueXP 재해 복구 대시보드가 나타납니다.
