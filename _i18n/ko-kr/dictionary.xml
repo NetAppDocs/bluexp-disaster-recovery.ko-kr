@@ -251,10 +251,7 @@ URL의 경우 브라우저에 다음을 입력합니다.<block ref="6db7b50bf17b
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">오픈 소스</block>
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">통지 파일은 NetApp 소프트웨어에 사용된 타사의 저작권 및 라이센스에 대한 정보를 제공합니다.</block>
   <block id="39229a488a735eac754ba7939d38eb84" category="summary">NetApp BlueXP 재해 복구 서비스는 재해 복구 워크플로우를 자동화하는 클라우드 기반 재해 복구 서비스입니다.</block>
-  <block id="d34b4bcb3837c0a762467791173875e9" category="paragraph">이 절차는 복제 관계를 해제하고 vCenter 소스 VM을 오프라인으로 전환하며 타겟 사이트에서 읽기/쓰기를 활성화합니다.</block>
-  <block id="f3fefbabf14888fe609e623e88e6d6b0" category="paragraph">페일오버를 시작하기 전에 프로세스를 테스트하여 필요할 때 성공할 수 있습니다. 테스트에서는 가상 시스템을 오프라인 상태로 두지 않습니다.</block>
   <block id="ec841432c6696238519b70833f9640bb" category="section-title">장애 조치 프로세스를 테스트합니다</block>
-  <block id="4ea0903496e6a96b4d38cbc3147c75b4" category="paragraph">실제 페일오버를 시작하기 전에 장애 조치 프로세스를 테스트해야 합니다.</block>
   <block id="41d102e0aefecc8e8cf5fb028eebff10" category="paragraph">테스트를 마치면 * Clean up test * 옵션을 사용하여 가상 머신을 재설정해야 합니다. 권장되지만 필수 사항은 아닙니다.</block>
   <block id="993fa63b963af23582ff24b97fea4894" category="list-text">BlueXP 왼쪽 NAV에서 * Protection * &gt; * Disaster Recovery * 를 선택합니다.</block>
   <block id="6fe8001389ba90ef56a7cfdc85d6ea94" category="list-text">BlueXP 재해 복구 상단 메뉴에서 * Replication plans * 를 선택합니다.</block>
@@ -333,7 +330,6 @@ URL의 경우 브라우저에 다음을 입력합니다.<block ref="6db7b50bf17b
   <block id="15be2bc9d482c70a11a63e89eada5ce4" category="list-text">리소스 매핑 페이지에서 페일오버 및 테스트 작업 모두에 동일한 매핑을 사용하려면 확인란을 선택합니다.</block>
   <block id="137f19e6e2dc1219f33553b812627bc2" category="list-text">가상 머신</block>
   <block id="eff845e03ea7f765e5646b3de0aa3188" category="list-text">데이터 저장소</block>
-  <block id="4a09c644b8fb308e15cee7a781de0061" category="list-text">테스트 환경에 대해 다른 매핑을 설정하려면 확인란을 선택 취소하고 * 테스트 매핑 * 탭을 선택합니다. 이전과 같이 각 탭을 살펴보았지만 이번에는 테스트 환경에 대해 살펴보겠습니다.</block>
   <block id="0516742190fe9dfeaffe988ba6abe786" category="admonition">나중에 전체 계획을 테스트할 수 있습니다. 현재 테스트 환경에 대한 매핑을 설정하고 있습니다.</block>
   <block id="3f015374311e085394976bb9595d4f23" category="section-title">재발을 식별합니다</block>
   <block id="709c15cd0537a2fac696156d542aebf9" category="list-text">반복 페이지에서 * 마이그레이션 * 또는 * 복제 * 를 선택합니다.</block>
@@ -432,9 +428,6 @@ URL의 경우 브라우저에 다음을 입력합니다.<block ref="6db7b50bf17b
   <block id="135b308ed83c53f1516b7c754566d1c4" category="paragraph-title">시작하기 전에</block>
   <block id="dd6963ed0ddd7c005bc031c271ee4ef9" category="paragraph">복제를 시작하기 전에 복제 계획을 생성하고 앱을 복제하도록 선택해야 합니다. 그러면 작업 메뉴에 * 복제 * 옵션이 나타납니다.</block>
   <block id="e95b50cfb71995cd2a2c4c00f88795c2" category="list-text">복제 계획을 선택합니다.</block>
-  <block id="237fc1578b6bac5b1a9df1f5a0574382" category="paragraph">재해가 발생하면 운영 온프레미스 VMware 사이트를 다른 온프레미스 VMware 사이트 또는 VMware Cloud on AWS로 페일오버합니다.</block>
-  <block id="bca7fedd313ec1ddb72ef082465dc688" category="paragraph">페일오버 중에 최신 SnapMirror Snapshot 복사본이 사용됩니다. 또는 시점 스냅샷 복사본에서 SnapMirror의 보존 정책에 따라 특정 스냅샷 복사본을 선택할 수 있습니다. 시점 옵션은 최신 복제본이 이미 손상되었거나 암호화된 랜섬웨어와 같은 손상 이벤트가 발생한 경우 유용합니다. BlueXP 재해 복구에 사용 가능한 모든 시점이 표시됩니다.</block>
-  <block id="5b1fcb2efae86b8cb653fb1d94894408" category="paragraph">페일오버 테스트 중에 가상 머신이 일시적으로 생성됩니다. BlueXP 재해 복구는 타겟 볼륨을 매핑하지 않습니다. 대신 선택한 스냅샷에서 새 FlexClone 볼륨이 생성되고 FlexClone 볼륨을 지원하는 임시 데이터 저장소가 ESXi 호스트에 매핑됩니다.</block>
   <block id="798f01bc27c71f62fd4a64e0bb155f2f" category="paragraph">이 프로세스는 온프레미스 ONTAP 스토리지 또는 AWS의 FSx for NetApp ONTAP 스토리지에서 추가 물리적 용량을 사용하지 않습니다. 원본 소스 볼륨은 수정되지 않으며 재해 복구 중에도 복제 작업을 계속할 수 있습니다.</block>
   <block id="fc3e06260a2d82cbcdc61d0edfe814f2" category="paragraph">재해가 발생하면 필요 시 운영 온프레미스 VMware 사이트를 다른 온프레미스 VMware 사이트 또는 FSx for NetApp ONTAP를 사용하는 AWS 기반 VMware Cloud로 페일오버합니다.</block>
   <block id="0e4406e2f319d2b24ab99a69613fbf47" category="list-text">복제 계획에서 캡처한 정보를 기반으로 데이터 저장소가 생성되어 VMware 또는 VMC 클러스터 또는 호스트에 마운트됩니다.</block>
@@ -465,7 +458,6 @@ URL의 경우 브라우저에 다음을 입력합니다.<block ref="6db7b50bf17b
   <block id="946772510dcd559e9d7d09458b2abd6f" category="list-text"><block ref="4c49990f7ea38fc4135c764bbfcd7786" category="inline-link-macro-rx"></block> 의 기본 사이트에서 다른 사이트로 이동합니다.</block>
   <block id="46da469bb05d1d3a2c620e2963f1531a" category="list-text"><block ref="698cc22cc758157d8f18359f8b528216" category="inline-link-macro-rx"></block> 작업 모니터링 페이지</block>
   <block id="3c47c0bca0e482b13e82a95a95df0741" category="list-text">복제 계획 이름을 입력하여 확인하고 페일백을 시작합니다.</block>
-  <block id="fd8c5ff28502522b67b13efd7595e358" category="paragraph">vCenter 사이트를 추가한 후에는 재해 복구 또는 _replication plan_을 생성할 수 있습니다. 소스 및 대상 vCenter를 선택하고 리소스 그룹을 선택한 다음 애플리케이션을 복구하고 전원을 켜는 방법을 그룹화합니다. 예를 들어, 하나의 애플리케이션에 연결된 가상 머신을 그룹화하거나 계층이 유사한 애플리케이션을 그룹화할 수 있습니다.</block>
   <block id="d813bc25d25a7f816dde51c17f6c6ba0" category="list-text">소스 환경의 리소스가 대상에 매핑되는 방식을 매핑합니다.</block>
   <block id="e1328bf0fb353d2296414458d7dbcdf0" category="paragraph">복제 계획을 생성하는 동안 다음 구성 중 하나에서 소스 볼륨과 타겟 볼륨 간의 SnapMirror 관계를 정의할 수 있습니다.</block>
   <block id="b946e483d79abae55d4acfcf242d2034" category="list-text">정합성 보장 그룹에서 다대일 수</block>
@@ -504,12 +496,6 @@ URL의 경우 브라우저에 다음을 입력합니다.<block ref="6db7b50bf17b
   <block id="0f354958858456370fa7b64c5f2a913c" category="paragraph"><block ref="929628a652068d14da23775529f8803b" category="inline-link-rx"></block>.</block>
   <block id="27469d5f3bff97989e2a320de315084a" category="inline-image-macro">복제 계획 추가 및 GT, 리소스 매핑 및 GT, 가상 머신을 보여 주는 스크린샷</block>
   <block id="13f51fa84ff64a1c633957d1dcf01637" category="paragraph">이 기능은 대규모 환경을 소규모 대상 클러스터로 복구하거나 일대일 물리적 VMware 인프라를 프로비저닝하지 않고도 재해 복구 테스트를 수행할 때 매우 유용합니다.</block>
-  <block id="4c77d41c045300d2cacb091f19b6d9a5" category="list-text">* 정합성 보장 그룹 *: 복제 계획을 생성할 때 다른 볼륨과 다른 SVM의 VM을 포함할 수 있습니다. BlueXP 재해 복구로 일관성 그룹 스냅샷이 생성됩니다.</block>
-  <block id="436f3832b32bfb2d3cb66d6298a71245" category="list-text">RPO(Recovery Point Objective)를 지정하면 서비스는 RPO를 기준으로 운영 백업을 예약하고 보조 대상을 업데이트합니다.</block>
-  <block id="db0b972911bb657f80d12b2f6b007b86" category="list-text">VM이 동일한 볼륨과 동일한 SVM에서 수행되는 경우 이 서비스는 표준 ONTAP 스냅샷을 수행하고 2차 대상을 업데이트합니다.</block>
-  <block id="e8363aaad82f774ed9651b7f7c17c5b4" category="list-text">VM이 다른 볼륨과 동일한 SVM의 경우 서비스에서 모든 볼륨을 포함하여 일관성 그룹 스냅샷을 생성하고 2차 대상을 업데이트합니다.</block>
-  <block id="d32ce27dcbfd9839065d47ddfb554762" category="list-text">VM이 다른 볼륨과 다른 SVM에서 생성된 경우, 서비스는 같거나 다른 클러스터에 있는 모든 볼륨을 포함하는 일관성 그룹 시작 단계를 수행하고 커밋 단계 스냅샷을 수행하며 2차 대상을 업데이트합니다.</block>
-  <block id="3b82d309bad3607f9368c1de90e8ea3c" category="list-text">페일오버 중에 임의의 스냅샷을 선택할 수 있습니다. 최신 스냅샷을 선택하면 주문형 백업이 생성되고 대상이 업데이트되며 해당 스냅샷이 페일오버에 사용됩니다.</block>
   <block id="d59e0b46782e48a01966e5c7ccc38d17" category="paragraph">NetApp는 지원 및 라이센스와 관련된 인증 서비스의 ID 공급자로 Microsoft Entra ID를 사용합니다.</block>
   <block id="7fda53563ff8ebfe855a3a79f568f396" category="summary">BlueXP 재해 복구를 통해 무료 평가판, 용량제 구독 또는 자체 라이센스 서비스를 비롯한 다양한 라이센스 계획을 사용할 수 있습니다.</block>
   <block id="a7193edb26a4b1bca4b7b82254e6dd4b" category="doc">BlueXP 재해 복구를 위한 라이센스 설정</block>
@@ -562,7 +548,6 @@ URL의 경우 브라우저에 다음을 입력합니다.<block ref="6db7b50bf17b
   <block id="4aca0b59a2fa7d9e86368a58f1e869c9" category="list-text">작업 * 옵션을 선택합니다 <block ref="e282bbe0f95615c6416d0f1c92efdcdd" category="inline-image-macro-rx" type="image"></block>  vCenter 이름 오른쪽에서 * Edit * 를 선택합니다.</block>
   <block id="f2461bdb5195b41a112c405c95584734" category="inline-image-macro">복제 계획 목록입니다</block>
   <block id="cfff02ce3a45ebd0c9288d1fb7097cca" category="paragraph"><block ref="cfff02ce3a45ebd0c9288d1fb7097cca" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="c68217420a685b93e20f298ae3ea72c8" category="paragraph">사후 장애 조치 프로세스로 .sh, .bat 또는 .ps1 형식의 사용자 지정 스크립트를 포함할 수 있습니다. 사용자 지정 스크립트를 사용하면 페일오버 프로세스 후에 BlueXP 재해 복구로 스크립트를 실행할 수 있습니다. 예를 들어, 페일오버가 완료된 후 사용자 지정 스크립트를 사용하여 모든 데이터베이스 트랜잭션을 재개할 수 있습니다.</block>
   <block id="8b4399d7029673ba83df4f916514230b" category="paragraph">테스트 페일오버 작업은 운영 워크로드, 테스트 사이트에 사용된 SnapMirror 관계, 계속 정상적으로 작동해야 하는 보호된 워크로드에 영향을 주지 않습니다.</block>
   <block id="22d1d4bc51673707e71b38cb5d9f8053" category="admonition">페일오버가 시작된 후 복구된 VM은 재해 복구 사이트(가상 머신, 네트워크 및 데이터 저장소)의 vCenter에서 볼 수 있습니다. 기본적으로 가상 머신은 Workload 폴더로 복구됩니다.</block>
   <block id="7133b9cf238828da0a287b89ce855ec3" category="paragraph"><block ref="7133b9cf238828da0a287b89ce855ec3" category="inline-image-macro-rx" type="image"></block></block>
@@ -572,7 +557,6 @@ URL의 경우 브라우저에 다음을 입력합니다.<block ref="6db7b50bf17b
   <block id="f1b3d2c036cfab036f34533fa19f954e" category="paragraph">복제 계획을 생성하고 규정 준수 및 테스트를 위한 일정을 편집할 수도 있습니다.</block>
   <block id="89dd75b1f79276c7e30e794e1c739f04" category="section-title">계획을 작성합니다</block>
   <block id="abe3a973462c3c328672dbc95e640218" category="paragraph">이 서비스에서 SnapMirror 관계를 생성하려면 클러스터와 SVM 피어링을 BlueXP 재해 복구 외부에서 이미 설정한 상태여야 합니다.</block>
-  <block id="d5033e157b5ff5f902d411ea87245351" category="list-text">* RPO *: 복구 지점 목표(RPO)를 입력하여 복구할 데이터의 양(시간 단위)을 표시합니다. 예를 들어 RPO를 60분으로 입력하는 경우 항상 60분보다 오래되지 않은 데이터가 복구에 있어야 합니다. 재해가 발생할 경우 최대 60분의 데이터 손실이 허용됩니다. 또한 모든 데이터 저장소에 대해 유지할 스냅샷 복사본의 수를 입력합니다.</block>
   <block id="d97200be5ae32d344d6cc35c5789517d" category="section-title">일정을 편집하여 규정 준수를 테스트하고 장애 조치 테스트가 작동하는지 확인합니다</block>
   <block id="e670d26caed2e49f16fe367f74a57f21" category="paragraph">규정 준수 및 장애 조치 테스트를 테스트하는 일정을 설정하여 필요할 때 올바르게 작동하는지 확인할 수 있습니다.</block>
   <block id="0c9133d8bb2cba28a02319fd78380fa9" category="list-text">* 규정 준수 시간 영향 *: 복제 계획이 생성되면 서비스가 기본적으로 규정 준수 일정을 생성합니다. 기본 준수 시간은 30분입니다. 이 시간을 변경하려면 복제 계획에서 스케줄 편집 을 사용할 수 있습니다.</block>
@@ -856,12 +840,8 @@ NetApp 세일즈 담당자로부터 BlueXP 재해 복구 라이센스를 구입�
   <block id="6dbc81f47f4a822cd11ce7c8403756ed" category="list-text">페일오버 매핑 탭에서 각 리소스의 오른쪽에 있는 아래쪽 화살표를 선택하고 각 리소스의 리소스를 매핑합니다.</block>
   <block id="022ab008c31f5588f9d15da4dc3439fb" category="list-text">* Compute resources *: * Compute resources * 옆에 있는 아래쪽 화살표를 선택합니다.</block>
   <block id="a358a5c755a9f869690207e2a0726737" category="list-text">* 가상 머신 *: 페일오버 매핑 탭에서 * 가상 머신 * 옆에 있는 아래쪽 화살표를 선택합니다.</block>
-  <block id="909f84e264f0200a692127b28fbdbaaf" category="paragraph">적절한 세그먼트에 대한 네트워크 매핑을 선택합니다. 세그먼트는 이미 프로비저닝되어야 하므로 가상 머신을 매핑할 적절한 세그먼트를 선택하십시오.</block>
-  <block id="298abc17ab4bb709de80b68dc38dde2a" category="list-text">* IP 주소 유형 *: 복제 계획의 가상 머신 섹션에서 소스 및 대상 위치 간의 네트워킹을 매핑할 때 BlueXP  재해 복구는 DHCP 또는 정적 IP의 두 가지 옵션을 제공합니다. 정적 IP의 경우 서브넷, 게이트웨이 및 DNS 서버를 구성합니다. 또한 가상 머신에 대한 자격 증명을 입력합니다.</block>
   <block id="c28e8a3b83f3f2cce376fe3daa7ad95d" category="paragraph"><block ref="64eb1ec301597178e47fa7deed0121dc" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="453e68e2eb0de34242ac9895a818d82a" category="list-text">* Datastores *: Failover Mappings 탭에서 * Datastores * 옆에 있는 아래쪽 화살표를 선택합니다. 선택한 가상 머신에 따라 데이터 저장소 매핑이 자동으로 선택됩니다.</block>
   <block id="10936c8535aaede0ed75f5d8d4fa6aaf" category="list-text">* 보존 횟수 *: 보존할 스냅샷 수를 입력합니다.</block>
-  <block id="b23c862689b973964a4b79af3d87b2de" category="list-text">* 소스 및 타겟 데이터 저장소 *: 볼륨에 SnapMirror 관계가 이미 설정된 경우 해당 소스 및 타겟 데이터 저장소를 선택할 수 있습니다. SnapMirror 관계가 없는 볼륨을 선택한 경우 작업 환경과 피어 SVM을 선택하여 지금 볼륨을 생성할 수 있습니다.</block>
   <block id="8772d236d3c62b688c3b57224d982ee1" category="paragraph"><block ref="8772d236d3c62b688c3b57224d982ee1" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1267d6fc2aff2a3372b02b4d25a9f397" category="list-text">페일오버 테스트를 수행합니다. 가상 머신이 일시적으로 생성됩니다. BlueXP  재해 복구는 선택한 스냅샷에서 새 FlexClone 볼륨을 만들고 FlexClone 볼륨을 지원하는 임시 데이터 저장소가 ESXi 호스트에 매핑됩니다. 이 프로세스는 온프레미스 ONTAP 스토리지 또는 AWS의 FSx for NetApp ONTAP 스토리지에서 추가 물리적 용량을 사용하지 않습니다. 원본 소스 볼륨은 수정되지 않으며 재해 복구 중에도 복제 작업을 계속할 수 있습니다.</block>
   <block id="76e4d72594030fca0b96279d0f8392dc" category="section-title">BlueXP  재해 복구에 도움이 되는 용어를 사용합니다</block>
@@ -928,12 +908,10 @@ NetApp 세일즈 담당자로부터 BlueXP 재해 복구 라이센스를 구입�
   <block id="310c40c0ef022c90f1370d1fe91ca720" category="paragraph">자세한 내용은 을<block ref="db7c318fcbcad8cfb9a44ac897b870b2" category="inline-link-rx"></block>참조하십시오.</block>
   <block id="718c1087c683dccc1ea79ed6fa0fd10b" category="list-text">* 스냅샷 조정 *: 이번 릴리스에서는 소스와 타겟 간에 동기화되지 않은 스냅샷을 조정할 수 있습니다. 이 문제는 BlueXP  재해 복구 외부에 있는 타겟에서 스냅샷이 삭제된 경우에 발생할 수 있습니다. 이 서비스는 24시간마다 소스의 스냅샷을 자동으로 삭제합니다. 그러나 필요에 따라 이 작업을 수행할 수 있습니다. 이 기능을 사용하면 모든 사이트에서 스냅샷이 일관되게 유지되도록 할 수 있습니다.</block>
   <block id="9a3a6422d384602f3e19e123263dc99f" category="paragraph">자세한 내용은 을<block ref="59c3623215c45197e971057378c86d42" category="inline-link-rx"></block>참조하십시오.</block>
-  <block id="21045c570180940ef07c18bb23d0427d" category="list-text">복제하고 그룹을 할당할 가상 머신(VM)을 선택합니다.</block>
   <block id="220cf85b4d919dc13e0c6317aa2e2b17" category="list-text">팬아웃 아키텍처에서 1개 또는 다대입니다</block>
   <block id="f2cdd0bbe9f89ecac35fe20b5c70e9fb" category="paragraph">다음 단계는 필요한 VM을 기능 리소스 그룹으로 그룹화하는 것입니다. 리소스 그룹을 사용하면 종속 VM 집합을 요구 사항을 충족하는 논리 그룹으로 그룹화할 수 있습니다. 예를 들어, 복구 시 실행할 수 있는 지연된 부팅 순서가 그룹에 포함될 수 있습니다.</block>
   <block id="4d179ba15a8047d595a41bbd6175c3be" category="paragraph">복제 계획에서 애플리케이션을 선택하면 계획에 있는 각 VM의 운영 체제를 볼 수 있습니다. 이 기능은 리소스 그룹에서 VM을 그룹화하는 방법을 결정하는 데 유용합니다.</block>
   <block id="7eb18c1801bc45dc00317e09e6cc2211" category="admonition">각 리소스 그룹에는 하나 이상의 VM이 포함될 수 있습니다. 여기에 VM을 포함하는 순서에 따라 VM의 전원이 켜집니다.</block>
-  <block id="236861b5b0d7380c86b58343dda04a42" category="list-text">필요한 경우 애플리케이션 페이지 왼쪽에서 데이터 저장소를 기준으로 VM을 필터링합니다.</block>
   <block id="794c0f8f77c0af0e4613492580e6d7ab" category="list-text">애플리케이션 페이지의 왼쪽에서 보호하고 선택한 그룹에 할당할 VM을 선택합니다.</block>
   <block id="87661bcc452e9da5afed70a3b9cf3e39" category="paragraph">선택한 VM이 그룹 1에 자동으로 추가되고 새 그룹 2가 시작됩니다. 마지막 그룹에 VM을 추가할 때마다 다른 그룹이 추가됩니다.</block>
   <block id="81c61db52db9a56a1819f55910f10afa" category="paragraph"><block ref="37056fc036b85c73069e7f1371212abb" category="inline-image-macro-rx" type="image"></block></block>
@@ -950,7 +928,6 @@ NetApp 세일즈 담당자로부터 BlueXP 재해 복구 라이센스를 구입�
   <block id="b309697bdbe88c0e59d4f6201fe75801" category="list-text">* 가상 네트워크 *: 장애 조치 매핑 탭에서 * 가상 네트워크 * 옆에 있는 아래쪽 화살표를 선택합니다. 소스 가상 LAN 및 타겟 세그먼트를 선택합니다.</block>
   <block id="59b1abd434d2a560773c9f089cc8679a" category="paragraph">기본 설정을 변경할 경우 자격 증명을 제공해야 합니다.</block>
   <block id="0a8bc9b2bb8f581fa27738fc437d64b3" category="paragraph">이 섹션에는 선택에 따라 다른 필드가 표시될 수 있습니다.</block>
-  <block id="25f9829876988ad5a8f8d2b64655ff19" category="list-text">* DHCP *: VM이 DHCP 서버에서 네트워크 구성 정보를 얻도록 하려면 이 설정을 선택합니다. 이 옵션을 선택하면 VM에 대한 자격 증명만 제공합니다.</block>
   <block id="16bd7bddefb51b87ff4fbcf4c8831a1d" category="list-text">* 정적 IP *: IP 구성 정보를 수동으로 지정하려면 이 설정을 선택합니다. 소스 VM에서 동일하거나 다른 정보를 선택할 수 있습니다. 원본과 동일한 을 선택하면 자격 증명을 입력할 필요가 없습니다. 반면 원본과 다른 정보를 사용하도록 선택한 경우 자격 증명, VM의 IP 주소, 서브넷 마스크, DNS 및 게이트웨이 정보를 제공할 수 있습니다. VM 게스트 OS 자격 증명은 글로벌 레벨 또는 각 VM 레벨에 제공해야 합니다.</block>
   <block id="7b2b025be41dbbc4cda9601c1b5523a5" category="list-text">* 대상 VM 접두사 및 접미사 *: 가상 머신 세부 정보 아래에서 선택적으로 VM 이름에 접두사와 접미사를 추가할 수 있습니다.</block>
   <block id="230dc85a08275a2466390ae799703f92" category="list-text">* 소스 VM CPU 및 RAM *: 가상 머신 세부 정보 아래에서 선택적으로 VM CPU 및 RAM 매개 변수의 크기를 조정할 수 있습니다.</block>
@@ -961,7 +938,6 @@ NetApp 세일즈 담당자로부터 BlueXP 재해 복구 라이센스를 구입�
   <block id="8043065a3a1affdc7e75a0083d3349b1" category="list-text">동시 부팅: 모든 VM에 동일한 번호를 할당하여 동시에 부팅합니다(예: 1,1, 1,1, 2,2, 3,4, 4).</block>
   <block id="aa54fb3621577f63cab9b508032a995d" category="list-text">* 부팅 지연 * : 부팅 작업의 지연 시간(분)을 조정합니다.</block>
   <block id="517ed43dc67f057cadcb1c29ecbd75ef" category="admonition">부팅 순서를 기본값으로 재설정하려면 * VM 설정을 기본값으로 재설정 * 을 선택한 다음 기본값으로 다시 변경할 설정을 선택합니다.</block>
-  <block id="739e8f4c4549d6d4a7768c6850d47495" category="list-text">* 애플리케이션 정합성이 보장되는 복제본 생성 *: 애플리케이션 정합성이 보장되는 스냅샷 복제본을 생성할지 여부를 나타냅니다. 서비스는 애플리케이션을 중지한 다음 스냅샷을 생성하여 애플리케이션의 일관된 상태를 가져옵니다. 이 기능은 Windows에서 실행되는 Oracle과 Windows에서 실행되는 Linux 및 SQL Server에서 지원됩니다.</block>
   <block id="2a4ddf396205dca12c00a6eb7e16285a" category="section-title">복제 계획을 검토합니다</block>
   <block id="f7056dbdafc88dd1c68fb0eec6b47aac" category="paragraph">마지막으로 복제 계획을 잠시 살펴보겠습니다.</block>
   <block id="6662bb47d30d156ce5604e1d8adf7ae1" category="list-text">계획 세부 정보, 페일오버 매핑 및 VM과 같은 각 탭의 정보를 검토합니다.</block>
@@ -989,4 +965,36 @@ NetApp 세일즈 담당자로부터 BlueXP 재해 복구 라이센스를 구입�
   <block id="bf18811faac9b8e4fcaebab51afd1113" category="list-text">Create * 를 선택합니다.</block>
   <block id="5da6bcdd6ceb1c5910fb17277177402d" category="admonition">보고서를 표시하는 데 몇 분 정도 걸릴 수 있습니다.</block>
   <block id="ab6b0c72784c216662673e59f1357cc1" category="list-text">보고서를 다운로드하려면 * 보고서 다운로드 * 를 선택하고 관리자의 다운로드 폴더에서 선택합니다.</block>
+  <block id="fa9f16c02f8fd7bab6992dec65c5838d" category="paragraph">vCenter 사이트를 추가한 후에는 재해 복구 또는 _replication plan_을 생성할 수 있습니다. 소스 및 대상 vCenter를 선택하고 리소스 그룹을 선택한 다음 애플리케이션을 복구하고 전원을 켜는 방법을 그룹화합니다. 예를 들어, 하나의 애플리케이션과 연결된 가상 머신(VM)을 그룹화하거나 비슷한 계층이 있는 애플리케이션을 그룹화할 수 있습니다.</block>
+  <block id="cfb3b856fe141dd537038393a8052d33" category="list-text">복제할 VM을 선택하고 그룹을 할당합니다.</block>
+  <block id="50e34508d81a64564e31500b942aef1c" category="paragraph">계획을 만들 때는 다음 지침을 따라야 합니다.</block>
+  <block id="05bbe166de3c0c72c8dde33285c35767" category="list-text">계획의 모든 VM에 대해 동일한 자격 증명을 사용합니다.</block>
+  <block id="98ce844145386e78d8c9d936d1b8591b" category="list-text">계획의 모든 VM에 대해 동일한 스크립트를 사용합니다.</block>
+  <block id="970b99aab999d5cc3afca09ebfb3ae92" category="list-text">계획의 모든 VM에 대해 동일한 서브넷, DNS 및 게이트웨이를 사용합니다.</block>
+  <block id="7168b459722d34d971b0a9d5df12edfd" category="list-text">필요한 경우 애플리케이션 페이지 왼쪽에서 데이터 저장소를 기준으로 VM을 필터링합니다. 이름으로 특정 VM을 검색할 수도 있습니다.</block>
+  <block id="279787f60e646efb226912fa8f3b8402" category="paragraph">VM의 기본값이 매핑됩니다. 매핑은 VM이 운영 환경에서 사용하는 것과 동일한 설정(동일한 IP 주소, 서브넷 마스크 및 게이트웨이)을 사용합니다.</block>
+  <block id="09c449fd502e27ce701683f14fc1207c" category="paragraph">적절한 세그먼트에 대한 네트워크 매핑을 선택합니다. 세그먼트는 이미 프로비저닝되어야 하므로 VM을 매핑할 적절한 세그먼트를 선택하십시오.</block>
+  <block id="3380eb8d26d8e7c43e790421698a18a1" category="list-text">* IP 주소 유형 *: 대상 가상 네트워크 요구 사항에 맞게 VM 구성을 재구성합니다. BlueXP  재해 복구는 DHCP 또는 고정 IP의 두 가지 옵션을 제공합니다. 정적 IP의 경우 서브넷 마스크, 게이트웨이 및 DNS 서버를 구성합니다. 또한 VM에 대한 자격 증명을 입력합니다.</block>
+  <block id="8914a354aeff1b07a47e178ccae21e27" category="list-text">* DHCP *: VM이 DHCP 서버에서 네트워크 구성 정보를 얻도록 하려면 이 설정을 선택합니다. 이 옵션을 선택하면 VM에 대한 자격 증명만 제공합니다.</block>
+  <block id="fac29f06ba242d5478f84ec94ec5b901" category="list-text">* 스크립트 *: 사후 장애 조치 프로세스로 .sh, .bat 또는 .ps1 형식의 사용자 정의 스크립트를 포함할 수 있습니다. 사용자 지정 스크립트를 사용하면 페일오버 프로세스 후에 BlueXP 재해 복구로 스크립트를 실행할 수 있습니다. 예를 들어, 페일오버가 완료된 후 사용자 지정 스크립트를 사용하여 모든 데이터베이스 트랜잭션을 재개할 수 있습니다.</block>
+  <block id="df6b8c791e4694210c8862ed040048ef" category="list-text">* 애플리케이션 정합성이 보장되는 복제본 생성 *: 애플리케이션 정합성이 보장되는 스냅샷 복제본을 생성할지 여부를 나타냅니다. 서비스는 애플리케이션을 중지한 다음 스냅샷을 생성하여 애플리케이션의 일관된 상태를 가져옵니다. 이 기능은 Windows에서 실행되는 Oracle과 Windows에서 실행되는 Linux 및 SQL Server에서 지원됩니다.</block>
+  <block id="708b68cf49e909f729ce67863a2f6de3" category="list-text">* Datastores *: * Datastores * 옆에 있는 아래쪽 화살표를 선택합니다. 선택한 VM에 따라 데이터 저장소 매핑이 자동으로 선택됩니다.</block>
+  <block id="c5bb1e7845a8d9ffe23d02cceec9e4bf" category="list-text">* RPO *: 복구 지점 목표(RPO)를 입력하여 복구할 데이터의 양(시간 단위)을 표시합니다. 예를 들어 RPO를 60분으로 입력하는 경우 항상 60분보다 오래되지 않은 데이터가 복구에 있어야 합니다. 재해가 발생할 경우 최대 60분의 데이터 손실이 허용됩니다. 또한 모든 데이터 저장소에 대해 보존할 스냅샷 복사본의 수를 입력합니다.</block>
+  <block id="27ee5986957f012b4e37ee29afe29c7f" category="list-text">* 소스 및 타겟 데이터 저장소 *: SnapMirror 관계가 여러 개 있는 경우 사용할 대상을 선택할 수 있습니다. 볼륨에 SnapMirror 관계가 이미 설정된 경우 해당 소스 및 타겟 데이터 저장소가 나타납니다. SnapMirror 관계가 없는 볼륨의 경우, 타겟 클러스터, 타겟 SVM을 선택하고 볼륨 이름을 제공하여 지금 생성할 수 있습니다. 이 서비스는 볼륨 및 SnapMirror 관계를 생성합니다.</block>
+  <block id="3c65044e501ce692cb21ad3d837dab25" category="list-text">RPO(복구 지점 목표)를 지정하면 서비스는 RPO를 기준으로 운영 백업을 예약하고 보조 대상을 업데이트합니다.</block>
+  <block id="950fa88679103c3c7c4e449423d8bfcc" category="list-text">VM이 동일한 볼륨과 동일한 SVM에서 수행되는 경우 이 서비스는 표준 ONTAP 스냅샷을 수행하고 2차 대상을 업데이트합니다.</block>
+  <block id="a47d6910008cc9bb73921a36d6609a08" category="list-text">VM이 다른 볼륨과 동일한 SVM의 경우 모든 볼륨을 포함하여 일관성 그룹 스냅샷을 생성하고 2차 대상을 업데이트합니다.</block>
+  <block id="3cc1e8e247fa51b1c7d6f2a7c029a515" category="list-text">VM이 서로 다른 볼륨 및 SVM에서 생성된 경우, 서비스는 동일한 또는 다른 클러스터에 있는 모든 볼륨을 포함하여 일관성 그룹 시작 단계와 커밋 단계 스냅샷을 수행하고 2차 대상을 업데이트합니다.</block>
+  <block id="0657f436653f92c50e703ca7f83a706d" category="list-text">페일오버 중에 스냅샷을 선택할 수 있습니다. 최신 스냅샷을 선택하면 주문형 백업이 생성되고 대상이 업데이트되며 해당 스냅샷이 페일오버에 사용됩니다.</block>
+  <block id="e829ce8109ca652cb970cd9d2014a52e" category="section-title">매핑을 테스트합니다</block>
+  <block id="a8c55ad0456d667323e1ede0b2d4845d" category="list-text">테스트 환경에 대해 다른 매핑을 설정하려면 확인란을 선택 취소하고 * 테스트 매핑 * 탭을 선택합니다.</block>
+  <block id="3d2d89948829d5041f9ae015297d638b" category="list-text">이전과 같이 각 탭을 살펴보았지만 이번에는 테스트 환경에 대해 살펴보겠습니다.</block>
+  <block id="74ba4c0b5e2da8a64b8dee1c0d8ba2eb" category="paragraph">재해가 발생하면 운영 온프레미스 VMware 사이트를 다른 온프레미스 VMware 사이트 또는 VMware Cloud on AWS로 페일오버합니다. 장애 조치 프로세스를 테스트하여 필요할 때 성공할 수 있습니다.</block>
+  <block id="0c872b5a115ced9be728f92faac40bc4" category="paragraph">페일오버 중에 최신 SnapMirror 스냅샷 복사본이 사용됩니다. 또는 SnapMirror의 보존 정책에 따라 특정 시점 스냅샷에서 특정 스냅샷을 선택할 수 있습니다. 시점 옵션은 최신 복제본이 이미 손상되었거나 암호화된 랜섬웨어와 같은 손상 이벤트가 발생한 경우 유용합니다. BlueXP 재해 복구에 사용 가능한 모든 시점이 표시됩니다.</block>
+  <block id="1770bdbefb7e2bbdf6308648d1575a65" category="paragraph">이 프로세스는 운영 사이트가 정상 상태이고 중요한 인프라 장애 이외의 이유로 재해 복구 사이트에 대한 장애 조치를 수행하고 있는지에 따라 다릅니다.</block>
+  <block id="8c071d3171ba12aa39f1703883b86a42" category="list-text">소스 vCenter 또는 ONTAP 클러스터에 액세스할 수 없는 중요한 운영 사이트 장애: BlueXP  재해 복구를 사용하면 복구할 사용 가능한 스냅샷을 선택할 수 있습니다.</block>
+  <block id="5c23500391ed1ff22df3528a468b5a9e" category="list-text">운영 환경이 정상입니다. "지금 스냅샷 생성" 또는 이전에 생성된 스냅샷을 선택할 수 있습니다.</block>
+  <block id="45412678755135d74955408e5c42d8aa" category="paragraph">이 절차는 복제 관계를 해제하고, vCenter 소스 VM을 오프라인으로 설정하고, 재해 복구 vCenter에 볼륨을 데이터 저장소로 등록하고, 계획의 페일오버 규칙을 사용하여 보호된 VM을 다시 시작하고, 타겟 사이트에서 읽기/쓰기를 활성화합니다.</block>
+  <block id="386733f1fba6df33919f466a94320062" category="paragraph">페일오버를 시작하기 전에 프로세스를 테스트할 수 있습니다. 테스트에서는 가상 시스템을 오프라인 상태로 두지 않습니다.</block>
+  <block id="fcdc7ca99a3d01f2be061a078a0a8c1b" category="paragraph">페일오버 테스트 중에 가상 머신이 일시적으로 생성됩니다. BlueXP 재해 복구는 타겟 볼륨을 매핑하지 않습니다. 대신 선택한 스냅샷에서 새 FlexClone 볼륨이 생성되고 FlexClone 볼륨을 지원하는 임시 데이터 저장소가 ESXi 호스트에 매핑됩니다.</block>
 </blocks>
