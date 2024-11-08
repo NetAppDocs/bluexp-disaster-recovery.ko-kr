@@ -401,10 +401,8 @@ URL의 경우 브라우저에 다음을 입력합니다.<block ref="6db7b50bf17b
   <block id="d2821a0bfab67d1ac8b7770287a7e5fa" category="paragraph"><block ref="5e6f535f5269a2222938cba2b978dc6c" category="inline-link-rx"></block>.</block>
   <block id="0d2ad64b559232943585fd7b1d8a6a97" category="section-title">2023년 9월 27일</block>
   <block id="0c31e0b40d23036cf9c9e0c4345b96d6" category="paragraph">이 BlueXP 재해 복구 사전 공개 릴리즈에는 다음 업데이트가 포함되어 있습니다.</block>
-  <block id="83c8a47ea17763c3093bdee6c91d4c7c" category="list-text">* 대시보드 업데이트 * : 이제 대시보드의 옵션을 클릭하여 정보를 빠르게 검토할 수 있습니다. 또한 이제 대시보드에 페일오버 및 마이그레이션 상태가 표시됩니다.</block>
   <block id="be74a2f8b73ed15a46d21c202566b3bb" category="inline-link">대시보드에서 재해 복구 계획의 상태를 확인합니다</block>
   <block id="d1181cbae4acc0d9feb9f608b3ee586f" category="paragraph">을 참조하십시오<block ref="cdc1638a4873b7c2cfc1c5962a5d03ab" category="inline-link-rx"></block>.</block>
-  <block id="6285873a780e650e27e2cde2a54a7c13" category="list-text">* 복제 계획 업데이트 *:</block>
   <block id="056f6fba19f65e991a1c38d676e1c20d" category="list-text">* RPO *: 이제 Replication Plan의 Datastores 섹션에 RPO(복구 지점 목표) 및 보존 카운트를 입력할 수 있습니다. 설정된 시간보다 오래되지 않은 존재해야 하는 데이터의 양을 나타냅니다. 예를 들어, 5분으로 설정할 경우 비즈니스 크리티컬 요구사항에 영향을 주지 않는 재해 발생 시 시스템에서 최대 5분의 데이터가 손실될 수 있습니다.</block>
   <block id="6b4866d6790f0b6c044df7d2894f1313" category="paragraph">을 참조하십시오<block ref="5cf2140f2775e5f1ccc24bb836a069a3" category="inline-link-rx"></block>.</block>
   <block id="ff7e9f26eed12684568d409b38d71bcc" category="list-text">* 네트워킹 개선 사항 *: 복제 계획의 가상 머신 섹션에서 소스 및 대상 위치 간의 네트워킹을 매핑할 때 BlueXP 재해 복구는 이제 DHCP 또는 고정 IP의 두 가지 옵션을 제공합니다. 이전에는 DHCP만 지원되었습니다. 정적 IP의 경우 서브넷, 게이트웨이 및 DNS 서버를 구성합니다. 또한 이제 가상 머신에 대한 자격 증명을 입력할 수 있습니다.</block>
@@ -418,10 +416,6 @@ URL의 경우 브라우저에 다음을 입력합니다.<block ref="6db7b50bf17b
   <block id="f84b964a31258c14e682925c71bbbd80" category="list-text">다대다</block>
   <block id="b1026ebb435e887031ec24334255046b" category="paragraph">BlueXP 재해 복구 사전 공개는 재해 복구 워크플로우를 자동화하는 클라우드 기반 재해 복구 서비스입니다. 처음에는 BlueXP 재해 복구 미리보기를 통해 Amazon FSx for ONTAP를 통해 NetApp 스토리지를 실행하는 온프레미스 NFS 기반 VMware 워크로드를 AWS의 VMware Cloud(VMC)로 보호할 수 있습니다.</block>
   <block id="8f34806925352860a20b553ca661087f" category="paragraph">이 릴리스에는 다음 업데이트가 포함됩니다.</block>
-  <block id="3c588cce706af28ae858573fe547adee" category="list-text">* 부트 순서를 위한 리소스 그룹 업데이트 *: 재해 복구 또는 복제 계획을 작성할 때 가상 컴퓨터를 기능 리소스 그룹에 추가할 수 있습니다. 리소스 그룹을 사용하면 요구 사항을 충족하는 논리적 그룹에 종속 가상 머신 세트를 배치할 수 있습니다. 예를 들어, 복구 시 실행할 수 있는 부팅 순서가 그룹에 포함될 수 있습니다. 이 릴리즈에서는 각 리소스 그룹에 하나 이상의 가상 머신을 포함할 수 있습니다. 가상 머신은 계획에 가상 머신을 포함하는 순서에 따라 전원이 켜집니다. 을 참조하십시오<block ref="290954acdd6fc55b493b2726d4197a5a" category="inline-link-rx"></block>.</block>
-  <block id="df189cdccc86fb97d3dabac525f1ea4a" category="list-text">* 복제 검증 *: 재해 복구 또는 복제 계획을 생성한 후 마법사에서 재발을 식별하고 재해 복구 사이트로의 복제를 시작하면 BlueXP 재해 복구에서는 30분마다 계획이 실제로 이루어지고 있는지 확인합니다. 작업 모니터 페이지에서 진행 상황을 모니터링할 수 있습니다. 을 참조하십시오 <block ref="e2d34ab7e7f8a76fb6ba2dcd38a58bb2" category="inline-link-rx"></block>.</block>
-  <block id="8b2ef00da71b5ca9de3b177a60a87cf4" category="list-text">* 복제 계획에는 복구 지점 목표(RPO) 전송 일정이 표시됩니다. *: 재해 복구 또는 복제 계획을 생성할 때 VM을 선택합니다. 이 릴리즈에서는 이제 데이터 저장소 또는 VM과 연결된 각 볼륨과 연결된 SnapMirror를 볼 수 있습니다. SnapMirror 일정과 연결된 RPO 전송 일정을 확인할 수도 있습니다. RPO는 백업 일정이 재해 발생 후 복구하기에 충분한지 여부를 확인하는 데 도움이 됩니다. 을 참조하십시오<block ref="5cf2140f2775e5f1ccc24bb836a069a3" category="inline-link-rx"></block>.</block>
-  <block id="7a1d90df184c04b8d0dc0ca260e46e67" category="list-text">* 작업 모니터 업데이트 *: 작업 모니터 페이지에는 작업의 최신 상태를 확인할 수 있도록 새로 고침 옵션이 포함되어 있습니다. 을 참조하십시오 <block ref="701085704c7bdf4268d7fbe3111fe8b9" category="inline-link-rx"></block>.</block>
   <block id="25d037b5df7f2e04a4d6a1a3bc33caa7" category="paragraph">BlueXP 재해 복구는 재해 복구 워크플로우를 자동화하는 클라우드 기반 재해 복구 서비스입니다. 처음에는 BlueXP 재해 복구 미리보기를 통해 Amazon FSx for ONTAP를 통해 NetApp 스토리지를 실행하는 온프레미스 NFS 기반 VMware 워크로드를 AWS의 VMware Cloud(VMC)로 보호할 수 있습니다.</block>
   <block id="06ac9795c624b3d11d868c539799e690" category="summary">BlueXP 재해 복구를 사용하면 SnapMirror 복제를 사용하여 소스 사이트의 VMware 앱을 클라우드의 재해 복구 원격 사이트로 복제할 수 있습니다.</block>
   <block id="45f720a21ddc7fdf66bae8fdaea1d53e" category="admonition">재해 복구 계획을 생성한 후 마법사에서 반복을 식별하고 재해 복구 사이트로의 복제를 시작하면 BlueXP 재해 복구 30분마다 계획에 따라 복제가 실제로 수행되는지 확인합니다. 작업 모니터 페이지에서 진행 상황을 모니터링할 수 있습니다.</block>
@@ -481,16 +475,10 @@ URL의 경우 브라우저에 다음을 입력합니다.<block ref="6db7b50bf17b
   <block id="ad80d6168dc288f4361413eeca80dc5f" category="sidebar">다른 사이트로 마이그레이션</block>
   <block id="610937dc327c640656a75f6464a91433" category="summary">BlueXP 재해 복구는 재해 복구 워크플로우를 자동화하는 클라우드 기반 재해 복구 서비스입니다. VMware용 BlueXP 재해 복구를 사용하면 NetApp 클라우드 스토리지를 사용하여 ONTAP 스토리지를 실행하는 온프레미스 VMware 워크로드를 퍼블릭 클라우드의 VMware 소프트웨어 정의 데이터 센터로 복제하여 재해 복구 사이트로 복제할 수 있습니다.</block>
   <block id="578e9059da07f7d858d4746bbf9af55a" category="section-title">2024년 2월 1일</block>
-  <block id="c61970ed6417395a368e95032dbce932" category="list-text">* 네트워크 향상 * : 이 릴리스에서는 이제 VM CPU 및 RAM 값의 크기를 조정할 수 있습니다. 이제 VM에 대한 네트워크 DHCP 또는 정적 IP 주소를 선택할 수도 있습니다.</block>
   <block id="bb3e5e687ab316872aaebfbeeb4a6605" category="list-text">DHCP: 이 옵션을 선택하면 VM에 대한 자격 증명을 제공합니다.</block>
   <block id="302dd2d13eb7b51a95fccbe2fc1ba0b8" category="list-text">정적 IP: 소스 VM에서 동일하거나 다른 정보를 선택할 수 있습니다. 원본과 동일한 을 선택하면 자격 증명을 입력할 필요가 없습니다. 반면 원본과 다른 정보를 사용하도록 선택한 경우 자격 증명, IP 주소, 서브넷 마스크, DNS 및 게이트웨이 정보를 제공할 수 있습니다.</block>
   <block id="1a390a4e18b059462c8f07ea2ea02106" category="paragraph">자세한 내용은 을 참조하십시오<block ref="5cf2140f2775e5f1ccc24bb836a069a3" category="inline-link-rx"></block>.</block>
-  <block id="18d156337647f6bf6b3408e6bf902c50" category="list-text">* 사용자 정의 스크립트 * 는 이제 사후 장애 조치 프로세스로 포함될 수 있습니다. 사용자 지정 스크립트를 사용하면 페일오버 프로세스 후에 BlueXP 재해 복구로 스크립트를 실행할 수 있습니다. 예를 들어, 페일오버가 완료된 후 사용자 지정 스크립트를 사용하여 모든 데이터베이스 트랜잭션을 재개할 수 있습니다.</block>
   <block id="162522900f68ffca5220e53ec0e2c907" category="paragraph">자세한 내용은 을 참조하십시오<block ref="7cdfded96340b83fb1e5d3c286b13377" category="inline-link-rx"></block>.</block>
-  <block id="8d416397bb32c8298a01a75068b98f3c" category="list-text">* SnapMirror 관계 *: 이제 복제 계획을 개발하는 동안 SnapMirror 관계를 생성할 수 있습니다. 이전에는 BlueXP 재해 복구 외부에 관계를 생성해야 했습니다.</block>
-  <block id="1d73761c9dd4b9338f6974eee8d2a449" category="list-text">* 정합성 보장 그룹 *: 복제 계획을 생성할 때 다른 볼륨과 다른 SVM의 VM을 포함할 수 있습니다. BlueXP 재해 복구를 통해 모든 볼륨을 포함하여 일관성 그룹 스냅샷을 생성하고 모든 2차 위치를 업데이트합니다.</block>
-  <block id="ed38b69c5713d5b42f77e9c3ec5872a8" category="list-text">* VM 전원 공급 지연 옵션 *: 복제 계획을 생성할 때 리소스 그룹에 VM을 추가할 수 있습니다. 리소스 그룹을 사용하면 각 VM에 지연 시간을 설정하여 지연된 시퀀스에서 전원을 켤 수 있습니다.</block>
-  <block id="193634e2d37697e73e8a9d15d4dca73d" category="list-text">* 애플리케이션 정합성 보장 스냅샷 복사본 *: 애플리케이션 정합성이 보장된 스냅샷 복사본을 생성하도록 지정할 수 있습니다. 이 서비스는 응용 프로그램을 중지한 다음 스냅샷을 생성하여 응용 프로그램의 일관된 상태를 확보합니다.</block>
   <block id="17c3c89f25f7684516a883f30f10b747" category="section-title">2024년 1월 11일</block>
   <block id="77a292951e2cd7ee0d1bc7d3db0020ec" category="list-text">이 릴리즈를 사용하면 대시보드에서 다른 페이지의 정보에 더 빠르게 액세스할 수 있습니다.</block>
   <block id="0f354958858456370fa7b64c5f2a913c" category="paragraph"><block ref="929628a652068d14da23775529f8803b" category="inline-link-rx"></block>.</block>
@@ -579,11 +567,9 @@ URL의 경우 브라우저에 다음을 입력합니다.<block ref="6db7b50bf17b
   <block id="4d519f9cb24d082270f8f88ccccd42e3" category="paragraph">BlueXP 재해 복구의 새로운 기능에 대해 알아보십시오.</block>
   <block id="592997dde366d5775e7e052816854f74" category="section-title">2024년 3월 5일</block>
   <block id="23f1adcf87ca650c2ac077f4be520c97" category="paragraph">BlueXP 재해 복구의 일반 가용성 릴리즈로, 다음 업데이트가 포함됩니다.</block>
-  <block id="5751cbd481f2486866a7e6d4339df621" category="list-text">* 라이센스 업데이트 *: BlueXP 재해 복구를 사용하면 90일 무료 평가판 또는 BYOL(Bring Your Own License File)에 가입할 수 있습니다. BYOL은 NetApp 영업 담당자로부터 얻은 NetApp 라이센스 파일(NLF)입니다 라이센스 일련 번호를 사용하여 BlueXP 디지털 지갑에서 BYOL을 활성화할 수 있습니다. BlueXP 재해 복구 비용은 데이터 저장소의 프로비저닝된 용량을 기반으로 합니다.</block>
   <block id="cba500373ea886a2bb3e508440756918" category="paragraph">BlueXP 재해 복구의 라이센스 설정에 대한 자세한 내용은 을 참조하십시오<block ref="7585b54fad00f1219b8233730153156f" category="inline-link-rx"></block>.</block>
   <block id="c32aede135606fbfc51d8bd7581b4201" category="inline-link">모든 BlueXP 서비스의 라이센스 관리</block>
   <block id="4d2e644b683b6f34426a63ff3961ea9d" category="paragraph">모든 * BlueXP 서비스의 라이센스 관리에 대한 자세한 내용은 을 참조하십시오<block ref="834374a0b207d980c4d47827175a6637" category="inline-link-rx"></block>.</block>
-  <block id="5938c93734fbca9c12e3827aa5218ed8" category="list-text">* 일정 편집 * : 이번 릴리스에서는 규정 준수 및 장애 조치 테스트를 테스트하는 일정을 설정하여 필요할 때 올바르게 작동하도록 할 수 있습니다.</block>
   <block id="4b2bfa262e877a668b7102f58d207f63" category="inline-link">복제 계획을 생성합니다</block>
   <block id="976dcedce9d4c9dc14db60abc49c5867" category="paragraph">자세한 내용은 을 참조하십시오<block ref="8026234d3eaba16fdffb266108c2804b" category="inline-link-rx"></block>.</block>
   <block id="0468e5ced7eddf7112cb542d124a006f" category="paragraph">이 BlueXP 재해 복구 사전 공개 릴리즈에는 다음 업데이트가 포함되어 있습니다.</block>
@@ -617,8 +603,6 @@ URL의 경우 브라우저에 다음을 입력합니다.<block ref="6db7b50bf17b
   <block id="be976ba4e18c887ae57e14f6ebfbbab3" category="sidebar">클라우드에 대한 재해 복구는 사이트 중단 및 데이터 손상 이벤트(예: 랜섬웨어)로부터 워크로드를 보호하는 복원력과 비용 효율적인 방법입니다. VMware용 BlueXP 재해 복구를 사용하면 ONTAP 스토리지를 실행하는 온프레미스 VMware 워크로드를 퍼블릭 클라우드의 VMware 소프트웨어 정의 데이터 센터 또는 다른 온프레미스 사이트로 복제하여 재해 복구 사이트로 복제할 수 있습니다.</block>
   <block id="93716955add4f66b2af685a33bac4789" category="section-title">2024년 5월 15일</block>
   <block id="9df62cb4d6f151b560e84723841bd523" category="paragraph">이 BlueXP 재해 복구 릴리즈에는 다음 업데이트가 포함됩니다.</block>
-  <block id="7f1d1e9df7ef6953a6e373e29826ca55" category="list-text">* 온프레미스에서 온프레미스로 VMware 워크로드 복제 * 는 이제 일반적인 가용성 기능으로 출시되었습니다. 이전에는 기능이 제한된 기술 미리 보기였습니다.</block>
-  <block id="b7005516f0c1f875afae2146a2fb3617" category="list-text">* 라이센스 업데이트 *: BlueXP 재해 복구를 사용하면 90일 무료 평가판에 등록하거나, Amazon Marketplace에서 PAYGO(Pay-as-you-Go) 구독 요금을 구매하거나, NetApp 세일즈 담당자 또는 NSS(NetApp Support 사이트)로부터 얻은 NLF(NetApp 라이센스 파일)인 BYOL(Bring Your Own License File)을 받을 수 있습니다.</block>
   <block id="eb9506998f4dca4bcb82fe962448b79b" category="paragraph">BlueXP 재해 복구의 라이센스 설정에 대한 자세한 내용은 을 참조하십시오 <block ref="eaa54a57026891d12cbf928afd176564" category="inline-link-macro-rx"></block>.</block>
   <block id="8deb19747c06e3643bab5716cb645635" category="paragraph">이 서비스에 처음 로그인하는 경우 랜딩 페이지가 나타나고 무료 평가판을 등록할 수 있습니다.</block>
   <block id="dd1ef091f49695b9c14e0e34da748ab7" category="list-text">BlueXP Connector를 아직 추가하지 않았다면 Connector를 추가해야 합니다. 커넥터를 추가하려면 을 참조하십시오<block ref="d6df7dcc2fc3105e10967a9194806ce5" category="inline-link-rx"></block>.</block>
@@ -768,19 +752,12 @@ NetApp 세일즈 담당자로부터 BlueXP 재해 복구 라이센스를 구입�
   <block id="d3aa03526082ef556ffca1a6a35a1775" category="paragraph">가상 머신. Snapshot 관리: 스냅샷으로 되돌립니다</block>
   <block id="3817fbf7d76df44f4565ed3cde76a690" category="paragraph">VM을 지정된 스냅샷의 상태로 설정하는 데 사용합니다.</block>
   <block id="d8e45589bc9d86b39aed3bcde52935ac" category="section-title">2024년 7월 5일</block>
-  <block id="7ee40b46e664d0d7baaad4da422c7457" category="list-text">* AFF A-series * 지원: 이 릴리스는 NetApp AFF A-series 하드웨어 플랫폼을 지원합니다.</block>
-  <block id="a1961f9eb07acee12f93a3f0b929745e" category="list-text">* 온-프레미스 VMware VMFS 데이터 저장소 지원 *: 이 릴리스에는 온프레미스 스토리지로 보호되는 VMware vSphere VMFS(Virtual Machine File System) 데이터 저장소에 마운트된 VM에 대한 기술 미리 보기 _ 지원이 포함되어 있습니다. 이번 릴리즈에서는 VMFS 데이터 저장소가 있는 사내 VMware 환경에서 온-프레미스 VMware 워크로드를 대상으로 하는 기술 미리보기에서 재해 복구가 지원됩니다.</block>
   <block id="710abd7c1d5a2a3be1aa4c7dbff890cf" category="admonition">NetApp는 사전 검토된 워크로드 용량에 대해 비용을 청구하지 않습니다.</block>
-  <block id="a1975f713c38b2cbf1c095ed7dbadabe" category="list-text">* 복제 계획 편집 * : 이번 릴리스에서는 장애 조치 매핑 페이지가 보다 명확하게 개선되었습니다.</block>
   <block id="e9558a079e21d43034f54a99b19f2ad7" category="inline-link">계획을 관리합니다</block>
   <block id="583edef1d12ac8fcf925b864da2d76c6" category="paragraph">을<block ref="a8a4a23c947d3e2e3dc169027b7cac12" category="inline-link-rx"></block>참조하십시오.</block>
-  <block id="2343906acc207119786e118da0bbadf7" category="list-text">* VM 편집 * : 이번 릴리스에서는 계획에서 VM을 편집하는 프로세스에 약간의 UI 개선 사항이 포함되었습니다.</block>
   <block id="5f1df9fa6d6ce95c36680ae870250af7" category="inline-link">VM 관리</block>
   <block id="f7e4cafc0e54e03cc0ff738b39e333cb" category="paragraph">을<block ref="1d44a072309f2a4f38fd6e17ed7eb631" category="inline-link-rx"></block>참조하십시오.</block>
-  <block id="51c73608632a284eecfb3fce29106b26" category="list-text">* 페일오버 업데이트 * : 페일오버를 시작하기 전에 VM의 상태와 VM의 전원이 켜졌는지 여부를 확인할 수 있습니다. 이제 페일오버 프로세스를 통해 스냅샷을 지금 생성하거나 스냅샷을 선택할 수 있습니다.</block>
   <block id="ab132121a366abdd7667443cc98f3a69" category="paragraph">을<block ref="1cbf59ee3e77dd0082612a21b0900f81" category="inline-link-rx"></block>참조하십시오.</block>
-  <block id="66dacd6d538323484187ed3f8c9ef650" category="list-text">* 장애 조치 테스트 일정 * : 이제 장애 조치 테스트를 편집하고 장애 조치 테스트의 일일, 주별 및 월별 일정을 설정할 수 있습니다.</block>
-  <block id="42b40c3ce2e25adae8327795c655116d" category="list-text">*필수 구성 요소 정보 업데이트 *: BlueXP 재해 복구 사전 요구 사항 정보가 업데이트되었습니다.</block>
   <block id="8a62eb7f743049ce2523fe7eb67fb48f" category="paragraph">을<block ref="dfd63f4ad4adb15a66b44e212e2488b7" category="inline-link-rx"></block>참조하십시오.</block>
   <block id="8020af4fa709c3156161baa6bf00e88a" category="inline-image-macro">복제 계획, 리소스 매핑 탭</block>
   <block id="210dfd955522333f74e13d0843ab02ff" category="paragraph">이 섹션은 선택에 따라 활성화 또는 비활성화될 수 있습니다.</block>
@@ -804,12 +781,10 @@ NetApp 세일즈 담당자로부터 BlueXP 재해 복구 라이센스를 구입�
   <block id="63d5049791d9d79d86e9a108b0a999ca" category="sidebar">참조하십시오</block>
   <block id="b80f9ccd1ed052ae2d1a95c50bd37d8b" category="sidebar">BlueXP 재해 복구에 필요한 vCenter 권한</block>
   <block id="f4c84d2d214fb7f3e3cae921398c8e4a" category="section-title">2024년 7월 17일</block>
-  <block id="e96e73e43a84335e9de1d02f80f7d655" category="list-text">* 장애 조치 테스트 일정 *: 이 릴리스에는 매일 및 매주 일정을 지원하는 데 필요한 장애 조치 테스트 일정 구조에 대한 업데이트가 포함되어 있습니다. 이 업데이트를 수행하려면 새로운 일별 및 주별 페일오버 테스트 일정을 사용할 수 있도록 모든 기존 복제 계획을 비활성화했다가 다시 활성화해야 합니다. 이는 일회성 요구 사항입니다.</block>
   <block id="7043d4fb27c94bc9a206c106cef9d80c" category="paragraph">방법은 다음과 같습니다.</block>
   <block id="2ae04d8f24d0c8f552b0d3857c0953b3" category="list-text">계획을 선택하고 조치 아이콘을 선택하여 드롭다운 메뉴를 표시합니다.</block>
   <block id="dbf8ea65a71d9e2042b03a97a0da4095" category="list-text">비활성화 * 를 선택합니다.</block>
   <block id="9ffe587f372d96c9b0db66cfe333c0cf" category="list-text">몇 분 후 * 활성화 * 를 선택합니다.</block>
-  <block id="dc6efda4f2a86706d886df508f873039" category="list-text">* 복제 계획 업데이트 *: 이 릴리스에는 "스냅샷을 찾을 수 없음" 문제를 해결하는 복제 계획 데이터에 대한 업데이트가 포함되어 있습니다. 이렇게 하려면 모든 복제 계획의 보존 수를 1로 변경하고 필요 시 스냅샷을 시작해야 합니다. 이 프로세스는 새 백업을 생성하고 이전 백업을 모두 제거합니다.</block>
   <block id="3d3e2652059a9417e7a9b8801e83b99d" category="list-text">복제 계획을 선택하고 * Failover mapping * 탭을 클릭한 다음 * Edit * 연필 아이콘을 클릭합니다.</block>
   <block id="f05351f8a712da4ff1e724d342c4670b" category="list-text">Datastores * 화살표를 클릭하여 확장합니다.</block>
   <block id="ee9e0fb0a09a468f33fa6f2dabc4ff49" category="inline-image-macro">페일오버 매핑 페이지를 편집합니다</block>
@@ -823,15 +798,12 @@ NetApp 세일즈 담당자로부터 BlueXP 재해 복구 라이센스를 구입�
   <block id="2aef38b97efb9369d3e496e8d062d8fd" category="paragraph"><block ref="2aef38b97efb9369d3e496e8d062d8fd" category="inline-image-macro-rx" type="image"></block></block>
   <block id="51c600bec26d8fec2fcc4cb42728fd01" category="list-text">복제 계획에서 보존 횟수 값을 변경합니다.</block>
   <block id="895b67d31a903fc743f186c56aeecff6" category="section-title">2024년 8월 2일</block>
-  <block id="b9dbe1e85847c069664ebe888e76d35c" category="list-text">* Job cancel *: 이 릴리스로 Job Monitor UI에서 작업을 취소할 수 있습니다.</block>
   <block id="4639d0e2e2909a747265c2f704128bca" category="inline-link">작업을 모니터링합니다</block>
   <block id="5ef55533619d84d0298304b37a76eeff" category="paragraph">을<block ref="786959fe8223b685d5c08f8e62246672" category="inline-link-rx"></block>참조하십시오.</block>
-  <block id="7967654ba38c10467e0d83677de0e180" category="list-text">* 복제 계획 업데이트 * : 애플리케이션 페이지에서 데이터스토어별로 VM을 필터링하고 //를 선택하여 복제 계획을 보다 쉽게 추가할 수 있습니다 <block ref="8aa3c94c171b2c9d7252afb28ee019a7" category="inline-link-macro-rx"></block>. 을<block ref="5cf2140f2775e5f1ccc24bb836a069a3" category="inline-link-rx"></block>참조하십시오. ng 자세한 대상 정보는 리소스 매핑 페이지 를 참조하십시오.</block>
   <block id="24391a0c4e58147fa07febdb32887a1a" category="section-title">작업을 취소합니다</block>
   <block id="eead8518396b0c1b849be084fbe4f31a" category="paragraph">작업이 진행 중이거나 대기 중 상태에 있는 경우 작업을 계속하지 않으려면 작업을 취소할 수 있습니다. 작업이 동일한 상태로 고정되어 있고 대기열에서 다음 작업을 해제하려는 경우 작업을 취소할 수 있습니다. 시간이 초과되기 전에 작업을 취소해야 할 수 있습니다.</block>
   <block id="26abc41be60bda806b144bd6ecedad10" category="list-text">작업 모니터 페이지에서 취소할 작업의 ID를 기록합니다.</block>
   <block id="49e474835558193a9bed54c7dadf777e" category="paragraph">작업은 "진행 중" 또는 "대기 중" 상태여야 합니다.</block>
-  <block id="1ff3f27272f2855394e8e2cf0abfa836" category="list-text">* FC용 온-프레미스 VMware VMFS 데이터 저장소 지원 *: 이 릴리스에는 온-프레미스 스토리지로 보호되는 FC용 VMware vSphere VMFS(Virtual Machine File System) 데이터 저장소에 마운트된 VM에 대한 기술 미리 보기 _ 가 포함되어 있습니다. 이전에는 iSCSI용 VMFS 데이터 저장소를 지원하는 기술 미리 보기를 제공했습니다.</block>
   <block id="fa463eaf10ea5f2243e402c5c574ce96" category="list-text">Actions 열에서 * Cancel job * 을 선택합니다.</block>
   <block id="348a99edae23b1f4e21c5ce75d209a50" category="paragraph">세부 정보를 검토하려면 각 항목 아래의 * 보기 * 링크를 선택하십시오.</block>
   <block id="116910f73246efc93a920caaa2ef1743" category="list-text">BlueXP  재해 복구 상단 메뉴에서 * 복제 계획 * 을 선택하고 * 추가 * 를 선택합니다. 또는 서비스를 사용하기 시작한 경우 대시보드에서 * 복제 계획 추가 * 를 선택합니다.</block>
@@ -852,8 +824,6 @@ NetApp 세일즈 담당자로부터 BlueXP 재해 복구 라이센스를 구입�
   <block id="84c20a0b7ce2eb1001004d644d0ca57e" category="section-title">검색을 실행하기 전에 페일백이 완료될 때까지 기다립니다</block>
   <block id="a59aaedc864081e6c1a7bd46bcdf9813" category="paragraph">페일오버가 완료된 후에는 소스 vCenter에서 수동으로 검색을 시작하지 않습니다. 페일백이 완료될 때까지 기다린 다음 소스 vCenter에서 검색을 시작합니다.</block>
   <block id="eaecda6db64f5346d5c63bfe0094e040" category="section-title">2024년 9월 20일</block>
-  <block id="ee811bd919a27bd2eb705f65ed45e4f6" category="paragraph">이 BlueXP  재해 복구 릴리스에는 다음 업데이트가 포함되어 있습니다.</block>
-  <block id="b077aa4f9a421cc2e2782608fb5caf4f" category="list-text">* 온-프레미스 VMware VMFS 데이터 저장소 지원 *: 이 릴리스에는 온-프레미스 스토리지로 보호되는 iSCSI 및 FC용 VMware vSphere VMFS(Virtual Machine File System) 데이터 저장소에 마운트된 VM에 대한 지원이 포함됩니다. 이전에는 iSCSI 및 FC용 VMFS 데이터 저장소를 지원하는 _technology preview_를 제공했습니다.</block>
   <block id="0eb65976c0b0c5ffa90b07d4a062e509" category="paragraph">다음은 iSCSI 및 FC 프로토콜 모두에 대한 몇 가지 추가 고려 사항입니다.</block>
   <block id="d671bd2f503deef1e03581ce8d516507" category="list-text">FC는 클라이언트 프런트 엔드 프로토콜에 대한 지원이며 복제용이 아닙니다.</block>
   <block id="cf1967c6d778937fae37b9e43582b1b6" category="list-text">BlueXP  재해 복구는 ONTAP 볼륨당 하나의 LUN만 지원합니다. 볼륨에 여러 개의 LUN이 있어서는 안 됩니다.</block>
@@ -893,20 +863,10 @@ NetApp 세일즈 담당자로부터 BlueXP 재해 복구 라이센스를 구입�
   <block id="58e6ab5634cec392e37e4f0d5f8f8db8" category="paragraph"><block ref="58e6ab5634cec392e37e4f0d5f8f8db8" category="inline-image-macro-rx" type="image"></block></block>
   <block id="6339437d88aaa794dbaa48ee62597c24" category="doc">BlueXP  재해 복구의 새로운 기능</block>
   <block id="1992f2f9fa5c0cbd3b61255b9dd507bd" category="section-title">2024년 10월 30일</block>
-  <block id="51ca1579fc5d4f066bdbf640a4814d76" category="list-text">* 보고 *: 이번 릴리스에서는 이제 보고서를 생성하고 다운로드하여 지형을 분석할 수 있습니다. 사전 설계된 보고서는 페일오버와 장애 복구를 요약하고, 모든 사이트에 대한 복제 세부 정보를 표시하며, 지난 7일 동안의 작업 세부 정보를 표시합니다.</block>
   <block id="023cf8170104660fc796a64fdad98afa" category="paragraph">을<block ref="cca93cc3cfc082fe882eefc731706487" category="inline-link-rx"></block>참조하십시오.</block>
-  <block id="978337672bd8dff65bfbecb42cf21f9d" category="list-text">* 30일 무료 평가판 *: 이 릴리스를 통해 이제 BlueXP  재해 복구 30일 무료 평가판에 등록할 수 있습니다. 이전에는 무료 평가판이 90일이었습니다.</block>
   <block id="1cb57fbf1f1452e87f62dd668ea03759" category="paragraph">을<block ref="7585b54fad00f1219b8233730153156f" category="inline-link-rx"></block>참조하십시오.</block>
-  <block id="7c63c33c2146d3ce95c7487c1ebbe27e" category="list-text">* 복제 계획 비활성화 및 활성화 *: 이전 릴리스에는 페일오버 테스트 일정 구조에 대한 업데이트가 포함되어 있으며, 이 업데이트는 매일 및 주간 일정을 지원하는 데 필요합니다. 이 업데이트를 수행하려면 새로운 일별 및 주별 페일오버 테스트 일정을 사용할 수 있도록 모든 기존 복제 계획을 비활성화했다가 다시 활성화해야 합니다. 이는 일회성 요구 사항입니다.</block>
-  <block id="128ecd2ba12e92192724c8e3ed360ffc" category="list-text">* 폴더 매핑 *: 복제 계획을 생성하고 컴퓨팅 리소스를 매핑할 때, 이제 폴더를 매핑하여 VM이 데이터 센터, 클러스터 및 호스트에 대해 지정한 폴더에서 복구되도록 할 수 있습니다.</block>
-  <block id="b7d245c9fa7100d1b04bb8e37530f630" category="list-text">*장애 조치, 장애 복구 및 테스트 장애 조치에 사용할 수 있는 VM 세부 정보*: 장애가 발생하여 장애 조치를 시작하거나 장애 복구를 수행하거나 장애 조치를 테스트하는 경우 이제 VM 세부 정보를 보고 다시 시작하지 않은 VM을 식별할 수 있습니다.</block>
-  <block id="5b7e4b08598b495e5e802015cfda0817" category="list-text">* 순서가 지정된 부팅 시퀀스와 VM 부팅 지연 *: 복제 계획을 생성할 때 계획에 있는 각 VM에 대해 부팅 지연을 설정할 수 있습니다. 이렇게 하면 VM이 시작되도록 순서를 설정하여 이후의 우선 순위 VM이 시작되기 전에 우선 순위 VM이 모두 실행되도록 할 수 있습니다.</block>
-  <block id="6bf75b2b973c4e4b2e97cb286b4a0b22" category="list-text">* VM 운영 체제 정보 *: 복제 계획을 생성할 때 계획에 있는 각 VM의 운영 체제를 볼 수 있습니다. 이 기능은 리소스 그룹에서 VM을 그룹화하는 방법을 결정하는 데 유용합니다.</block>
-  <block id="c216ae779db45238ce5f187a4e9efc0e" category="list-text">* VM name aliasing *: 복제 계획을 생성할 때 이제 재해 복구 SIT의 VM 이름에 접두사 및 접미사를 추가할 수 있습니다. 이렇게 하면 계획에 있는 VM에 대해 보다 자세한 이름을 사용할 수 있습니다.</block>
-  <block id="0b0c4a58a22974b8eb46383cdfabf354" category="list-text">* 이전 스냅샷 정리 *: 이 릴리스에서는 지정된 보존 횟수 이상으로 더 이상 필요하지 않은 모든 스냅샷을 삭제할 수 있습니다. 스냅샷 보존 수를 낮추면 스냅샷이 시간 경과에 따라 누적될 수 있으며, 이제 스냅샷을 제거하여 공간을 확보할 수 있습니다. 요청 시 또는 복제 계획을 삭제할 때 언제든지 이 작업을 수행할 수 있습니다.</block>
   <block id="3eddfb488d257605e7713c24d210beee" category="inline-link">사이트, 리소스 그룹, 복제 계획, 데이터 저장소 및 가상 머신 정보를 관리합니다</block>
   <block id="310c40c0ef022c90f1370d1fe91ca720" category="paragraph">자세한 내용은 을<block ref="db7c318fcbcad8cfb9a44ac897b870b2" category="inline-link-rx"></block>참조하십시오.</block>
-  <block id="718c1087c683dccc1ea79ed6fa0fd10b" category="list-text">* 스냅샷 조정 *: 이번 릴리스에서는 소스와 타겟 간에 동기화되지 않은 스냅샷을 조정할 수 있습니다. 이 문제는 BlueXP  재해 복구 외부에 있는 타겟에서 스냅샷이 삭제된 경우에 발생할 수 있습니다. 이 서비스는 24시간마다 소스의 스냅샷을 자동으로 삭제합니다. 그러나 필요에 따라 이 작업을 수행할 수 있습니다. 이 기능을 사용하면 모든 사이트에서 스냅샷이 일관되게 유지되도록 할 수 있습니다.</block>
   <block id="9a3a6422d384602f3e19e123263dc99f" category="paragraph">자세한 내용은 을<block ref="59c3623215c45197e971057378c86d42" category="inline-link-rx"></block>참조하십시오.</block>
   <block id="220cf85b4d919dc13e0c6317aa2e2b17" category="list-text">팬아웃 아키텍처에서 1개 또는 다대입니다</block>
   <block id="f2cdd0bbe9f89ecac35fe20b5c70e9fb" category="paragraph">다음 단계는 필요한 VM을 기능 리소스 그룹으로 그룹화하는 것입니다. 리소스 그룹을 사용하면 종속 VM 집합을 요구 사항을 충족하는 논리 그룹으로 그룹화할 수 있습니다. 예를 들어, 복구 시 실행할 수 있는 지연된 부팅 순서가 그룹에 포함될 수 있습니다.</block>
@@ -997,4 +957,79 @@ NetApp 세일즈 담당자로부터 BlueXP 재해 복구 라이센스를 구입�
   <block id="45412678755135d74955408e5c42d8aa" category="paragraph">이 절차는 복제 관계를 해제하고, vCenter 소스 VM을 오프라인으로 설정하고, 재해 복구 vCenter에 볼륨을 데이터 저장소로 등록하고, 계획의 페일오버 규칙을 사용하여 보호된 VM을 다시 시작하고, 타겟 사이트에서 읽기/쓰기를 활성화합니다.</block>
   <block id="386733f1fba6df33919f466a94320062" category="paragraph">페일오버를 시작하기 전에 프로세스를 테스트할 수 있습니다. 테스트에서는 가상 시스템을 오프라인 상태로 두지 않습니다.</block>
   <block id="fcdc7ca99a3d01f2be061a078a0a8c1b" category="paragraph">페일오버 테스트 중에 가상 머신이 일시적으로 생성됩니다. BlueXP 재해 복구는 타겟 볼륨을 매핑하지 않습니다. 대신 선택한 스냅샷에서 새 FlexClone 볼륨이 생성되고 FlexClone 볼륨을 지원하는 임시 데이터 저장소가 ESXi 호스트에 매핑됩니다.</block>
+  <block id="b4f4dc0bb14114cf289b66587d52c9a4" category="doc">온프레미스부터 온프레미스 VMware VMFS 데이터 저장소용 FC 지원</block>
+  <block id="e0b7491fa7ed8915c350ab7831389ebf" category="paragraph">이 릴리즈에는 온프레미스 스토리지로 보호되는 FC용 VMware vSphere VMFS(Virtual Machine File System) 데이터 저장소에 마운트된 VM에 대한 기술 미리 보기 _ 가 포함되어 있습니다. 이전에는 iSCSI용 VMFS 데이터 저장소를 지원하는 기술 미리 보기를 제공했습니다.</block>
+  <block id="8b0a520b04093a504975b99493c33a06" category="section-title">작업 취소</block>
+  <block id="e37d535f557154a6dd6ed413e0e7782c" category="paragraph">이 릴리스에서는 작업 모니터 UI에서 작업을 취소할 수 있습니다.</block>
+  <block id="5d95f17e7ddbf703465910039fd80c35" category="doc">사내에서 온프레미스까지 VMware VMFS 데이터 저장소를 지원합니다</block>
+  <block id="089160f6b14935d2f39adf9a95c5da5a" category="paragraph">이 릴리즈에는 사내 스토리지로 보호되는 iSCSI 및 FC용 VMware vSphere VMFS(Virtual Machine File System) 데이터 저장소에 마운트된 VM에 대한 지원이 포함되어 있습니다. 이전에는 iSCSI 및 FC용 VMFS 데이터 저장소를 지원하는 _technology preview_를 제공했습니다.</block>
+  <block id="c5562ce2e22a86c247849904ecef3dc8" category="doc">보고</block>
+  <block id="5139de9c5a9b2b36569213d7e9b32f21" category="paragraph">이제 보고서를 생성하고 다운로드하여 환경 분석에 도움을 줄 수 있습니다. 사전 설계된 보고서는 페일오버와 장애 복구를 요약하고, 모든 사이트에 대한 복제 세부 정보를 표시하며, 지난 7일 동안의 작업 세부 정보를 표시합니다.</block>
+  <block id="7a9cfed0d96577c6b811d11dfc152202" category="paragraph">이제 BlueXP  재해 복구의 30일 무료 평가판에 등록할 수 있습니다. 이전에는 무료 평가판이 90일이었습니다.</block>
+  <block id="3d1d28bb2a74cb6e16888dd71e05374a" category="section-title">복제 계획 해제 및 설정</block>
+  <block id="6f963c01bb5a207fe21d3d9137892d53" category="paragraph">이전 릴리스에는 매일 및 매주 일정을 지원하는 데 필요한 페일오버 테스트 일정 구조의 업데이트가 포함되었습니다. 이 업데이트를 수행하려면 새로운 일별 및 주별 페일오버 테스트 일정을 사용할 수 있도록 모든 기존 복제 계획을 비활성화했다가 다시 활성화해야 합니다. 이는 일회성 요구 사항입니다.</block>
+  <block id="2c4b676c68e03ba0114109310daeb0bb" category="section-title">폴더 매핑</block>
+  <block id="3bdb4d4a16c6f952e581bc706b1882f1" category="paragraph">복제 계획을 생성하고 컴퓨팅 리소스를 매핑할 때 데이터 센터, 클러스터 및 호스트에 대해 지정한 폴더에서 VM이 복구되도록 폴더를 매핑할 수 있습니다.</block>
+  <block id="ddf914c371b7feb4383b7444a99b5fd7" category="section-title">장애 조치, 장애 복구 및 테스트 장애 조치에 대한 VM 세부 정보를 사용할 수 있습니다</block>
+  <block id="363712ac31c5614bfddfdcfad95b6a12" category="paragraph">장애가 발생하여 페일오버를 시작하거나, 페일백을 수행하거나, 장애 조치를 테스트하는 경우 이제 VM의 세부 정보를 보고 다시 시작하지 않은 VM을 식별할 수 있습니다.</block>
+  <block id="5f20b8908706e397cd745a0bb1264de2" category="section-title">VM 부팅 지연(부팅 순서 순서 순서 순서 지정)</block>
+  <block id="7e15dbae84fa8dee12ba906ffe20a1d1" category="paragraph">이제 복제 계획을 생성할 때 계획의 각 VM에 대해 부팅 지연을 설정할 수 있습니다. 이렇게 하면 VM이 시작되도록 순서를 설정하여 이후의 우선 순위 VM이 시작되기 전에 우선 순위 VM이 모두 실행되도록 할 수 있습니다.</block>
+  <block id="bb121112267374f0e2c29742b8091ab6" category="section-title">VM 운영 체제 정보</block>
+  <block id="1df70ff252045f8a47784f3a1371818c" category="paragraph">복제 계획을 생성하면 이제 계획의 각 VM에 대한 운영 체제를 볼 수 있습니다. 이 기능은 리소스 그룹에서 VM을 그룹화하는 방법을 결정하는 데 유용합니다.</block>
+  <block id="09a63cfb0d6c3a3392c3872099b3fba5" category="section-title">VM 이름 별칭</block>
+  <block id="dcdfd42c566ed1c481f3c772573f39e0" category="paragraph">복제 계획을 생성할 때 이제 재해 복구 SIT의 VM 이름에 접두사 및 접미사를 추가할 수 있습니다. 이렇게 하면 계획에 있는 VM에 대해 보다 자세한 이름을 사용할 수 있습니다.</block>
+  <block id="126e7b7b7fdb43e70f3e1542c1f0b51a" category="section-title">이전 스냅샷을 정리합니다</block>
+  <block id="61a7f53a93554e648fe2eb9ad8dd6468" category="paragraph">지정된 보존 횟수 이상으로 더 이상 필요하지 않은 모든 스냅샷을 삭제할 수 있습니다. 스냅샷 보존 수를 낮추면 스냅샷이 시간 경과에 따라 누적될 수 있으며, 이제 스냅샷을 제거하여 공간을 확보할 수 있습니다. 요청 시 또는 복제 계획을 삭제할 때 언제든지 이 작업을 수행할 수 있습니다.</block>
+  <block id="8cd43e146a4fc163d690bdc8bdc47fc6" category="section-title">스냅샷을 조정합니다</block>
+  <block id="4472d2b5ab8a2ba1ff5429790d72930f" category="paragraph">이제 소스와 타겟 간에 동기화되지 않은 스냅샷을 조정할 수 있습니다. 이 문제는 BlueXP  재해 복구 외부에 있는 타겟에서 스냅샷이 삭제된 경우에 발생할 수 있습니다. 이 서비스는 24시간마다 소스의 스냅샷을 자동으로 삭제합니다. 그러나 필요에 따라 이 작업을 수행할 수 있습니다. 이 기능을 사용하면 모든 사이트에서 스냅샷이 일관되게 유지되도록 할 수 있습니다.</block>
+  <block id="59f6d69ae1140104749a0349a031e880" category="section-title">페일오버 테스트 일정</block>
+  <block id="e1229c7ad0ab8ec8028a9d0383ad8106" category="paragraph">이 릴리즈에는 일별 및 주별 일정을 지원하는 데 필요한 페일오버 테스트 일정 구조의 업데이트가 포함되어 있습니다. 이 업데이트를 수행하려면 새로운 일별 및 주별 페일오버 테스트 일정을 사용할 수 있도록 모든 기존 복제 계획을 비활성화했다가 다시 활성화해야 합니다. 이는 일회성 요구 사항입니다.</block>
+  <block id="acd962f8090b530f4e4c526ecbf56b61" category="section-title">복제 계획 업데이트</block>
+  <block id="7df13e1b4ece3e3deb4fbe809d05ea7c" category="paragraph">이 릴리즈에는 "스냅샷을 찾을 수 없음" 문제를 해결하는 복제 계획 데이터에 대한 업데이트가 포함되어 있습니다. 이렇게 하려면 모든 복제 계획의 보존 수를 1로 변경하고 필요 시 스냅샷을 시작해야 합니다. 이 프로세스는 새 백업을 생성하고 이전 백업을 모두 제거합니다.</block>
+  <block id="dd201962e893b06992d33a2eaba2ffb4" category="section-title">AFF A-Series 지원</block>
+  <block id="7e074b8e5be6e37ff994dec8db0daff1" category="paragraph">이 릴리즈는 NetApp AFF A-Series 하드웨어 플랫폼을 지원합니다.</block>
+  <block id="04865156d99b396070246fd919c01f72" category="paragraph">이 릴리즈에는 온프레미스 스토리지로 보호되는 VMware vSphere VMFS(Virtual Machine File System) 데이터 저장소에 마운트된 VM에 대한 _technology preview_가 포함되어 있습니다. 이번 릴리즈에서는 VMFS 데이터 저장소가 있는 사내 VMware 환경에서 온-프레미스 VMware 워크로드를 대상으로 하는 기술 미리보기에서 재해 복구가 지원됩니다.</block>
+  <block id="0f9f40db25fcedefd723c0bb676ca1ed" category="paragraph">애플리케이션 페이지에서 데이터 저장소별로 VM을 필터링하고 리소스 매핑 페이지에서 더 많은 타겟 세부 정보를 선택하여 복제 계획을 보다 쉽게 추가할 수 있습니다. 을<block ref="5cf2140f2775e5f1ccc24bb836a069a3" category="inline-link-rx"></block>참조하십시오.</block>
+  <block id="243b4ade55314e7ac41d77333eebc25c" category="section-title">복제 계획을 편집합니다</block>
+  <block id="8fba0556e394667a98e03ac72f0425c1" category="paragraph">이번 릴리스에서는 장애 조치 매핑 페이지가 보다 명확하게 개선되었습니다.</block>
+  <block id="ef7d051518cc0e9d684615d2573a82f1" category="section-title">VM 편집</block>
+  <block id="abbe3932aad6fdc33c1f5375a61f5b50" category="paragraph">이번 릴리스에서는 계획에서 VM을 편집하는 프로세스에 몇 가지 사소한 UI 개선 사항이 포함되었습니다.</block>
+  <block id="dc1e07a914c069a9af948be662e1eee8" category="section-title">업데이트 페일오버</block>
+  <block id="30de1fbee43629f7336cc76e23ad2d9b" category="paragraph">이제 페일오버를 시작하기 전에 VM의 상태와 VM의 전원이 켜져 있는지 여부를 확인할 수 있습니다. 이제 페일오버 프로세스를 통해 스냅샷을 지금 생성하거나 스냅샷을 선택할 수 있습니다.</block>
+  <block id="7a432f13dc69203884162d5181283bdd" category="paragraph">이제 페일오버 테스트를 편집하고 페일오버 테스트에 대한 일별, 주별 및 월별 스케줄을 설정할 수 있습니다.</block>
+  <block id="9223735a44654f830630e16621e06b02" category="section-title">필수 구성 요소 정보 업데이트</block>
+  <block id="e94ad49f98ee43c3d580fe32a77e65a9" category="paragraph">BlueXP  재해 복구 사전 요구 사항 정보가 업데이트되었습니다.</block>
+  <block id="dfc3ff60c25f075fd5633bb257473951" category="section-title">온프레미스에서 온프레미스로 VMware 워크로드 복제</block>
+  <block id="675fb6431a706ae38f335d519b868c98" category="paragraph">이 기능은 일반 가용성 기능으로 릴리스되었습니다. 이전에는 기능이 제한된 기술 미리 보기였습니다.</block>
+  <block id="c03b667390566320b1f84fd433ac2cb0" category="section-title">라이선스 업데이트</block>
+  <block id="016554ecf94b4419b9d1a5bbfda0964c" category="paragraph">BlueXP  재해 복구를 사용하면 90일 무료 평가판에 등록하거나, Amazon Marketplace에서 PAYGO(Pay-as-you-Go) 구독 요금을 구매하거나, NetApp 세일즈 담당자 또는 NetApp 지원 사이트(NSS)로부터 받은 NLF(NetApp 라이센스 파일)인 BYOL(Bring Your Own License) 라이센스를 구매할 수 있습니다.</block>
+  <block id="7ef9558992630c5660225d491e47ed1b" category="paragraph">BlueXP  재해 복구를 사용하면 90일 무료 평가판 또는 BYOL(Bring Your Own License NetApp File)에 가입할 수 있습니다. BYOL(Bring Your Own License File)은 NetApp 영업 담당자가 제공합니다 라이센스 일련 번호를 사용하여 BlueXP 디지털 지갑에서 BYOL을 활성화할 수 있습니다. BlueXP 재해 복구 비용은 데이터 저장소의 프로비저닝된 용량을 기반으로 합니다.</block>
+  <block id="cc50c331ee974cc0e4de144fdea1db6b" category="section-title">일정을 편집합니다</block>
+  <block id="382435e4c4253ed5f6764c8ef821291f" category="paragraph">이 릴리즈에서는 이제 규정 준수 및 장애 조치 테스트를 테스트하는 일정을 설정하여 필요할 때 올바르게 작동하는지 확인할 수 있습니다.</block>
+  <block id="39fbd21560b88d32b617eacef07d54ae" category="section-title">네트워크 개선</block>
+  <block id="4b1f0871766c4b8679290f6038e6a351" category="paragraph">이 릴리즈에서는 이제 VM CPU 및 RAM 값의 크기를 조정할 수 있습니다. 이제 VM에 대한 네트워크 DHCP 또는 정적 IP 주소를 선택할 수도 있습니다.</block>
+  <block id="083d10ed5645a35b897f5756cc2b537c" category="section-title">사용자 정의 스크립트</block>
+  <block id="a0a21dea8ed87af2ee6cdf188106c298" category="paragraph">이제 사후 페일오버 프로세스로 포함될 수 있습니다. 사용자 지정 스크립트를 사용하면 페일오버 프로세스 후에 BlueXP 재해 복구로 스크립트를 실행할 수 있습니다. 예를 들어, 페일오버가 완료된 후 사용자 지정 스크립트를 사용하여 모든 데이터베이스 트랜잭션을 재개할 수 있습니다.</block>
+  <block id="cd6e9b8dd5b2724c597265c71ef73b68" category="section-title">SnapMirror 관계</block>
+  <block id="f0bb29238bd3d3459bd0a9cdefc9d679" category="paragraph">이제 복제 계획을 개발하는 동안 SnapMirror 관계를 생성할 수 있습니다. 이전에는 BlueXP 재해 복구 외부에 관계를 생성해야 했습니다.</block>
+  <block id="6165c4352e1504dbaeef34d0cc50c187" category="section-title">정합성 보장 그룹</block>
+  <block id="5d0728ad6fe8457d26285c7e7a96e65a" category="paragraph">복제 계획을 생성할 때 서로 다른 볼륨 및 SVM의 VM을 포함할 수 있습니다. BlueXP 재해 복구를 통해 모든 볼륨을 포함하여 일관성 그룹 스냅샷을 생성하고 모든 2차 위치를 업데이트합니다.</block>
+  <block id="b6de59b87799d5ee20b85718ecf57a7c" category="section-title">VM 전원 켜기 지연 옵션</block>
+  <block id="4accab62af20649e145108a3dc0ca194" category="paragraph">복제 계획을 생성할 때 리소스 그룹에 VM을 추가할 수 있습니다. 리소스 그룹을 사용하면 각 VM에 지연 시간을 설정하여 지연된 시퀀스에서 전원을 켤 수 있습니다.</block>
+  <block id="ae97aa8afbc54f8788161361656855d1" category="section-title">애플리케이션 정합성이 보장된 Snapshot 복사본</block>
+  <block id="e635b0ebf5a6a20310a3597c179abf59" category="paragraph">애플리케이션 정합성을 보장하는 스냅샷 복사본을 생성하도록 지정할 수 있습니다. 이 서비스는 응용 프로그램을 중지한 다음 스냅샷을 생성하여 응용 프로그램의 일관된 상태를 확보합니다.</block>
+  <block id="a19c46c941eaff1f6354bcd13c9d8e31" category="section-title">더 빠르게 대시보드</block>
+  <block id="3faa7f320285eae50e4b897f584c4219" category="section-title">온프레미스 NFS 기반 VMware 워크로드를 보호합니다</block>
+  <block id="de9bf2b4fc18ad740d18dc573f01d00d" category="section-title">대시보드 업데이트</block>
+  <block id="a50d40a404b06d36129623086efe89e7" category="paragraph">이제 대시보드의 옵션을 클릭하여 정보를 빠르게 검토할 수 있습니다. 또한 이제 대시보드에 페일오버 및 마이그레이션 상태가 표시됩니다.</block>
+  <block id="735c557824116485e58c494d903aab33" category="section-title">BlueXP  재해 복구 미리 보기</block>
+  <block id="380047022cd9a81208dbad36b7a00acb" category="section-title">부트 순서를 위한 리소스 그룹 업데이트</block>
+  <block id="d6eda1ee7ba9b0544b3abd0dd59e5711" category="paragraph">재해 복구 또는 복제 계획을 생성할 때 가상 시스템을 기능 리소스 그룹에 추가할 수 있습니다. 리소스 그룹을 사용하면 요구 사항을 충족하는 논리적 그룹에 종속 가상 머신 세트를 배치할 수 있습니다. 예를 들어, 복구 시 실행할 수 있는 부팅 순서가 그룹에 포함될 수 있습니다. 이 릴리즈에서는 각 리소스 그룹에 하나 이상의 가상 머신을 포함할 수 있습니다. 가상 머신은 계획에 가상 머신을 포함하는 순서에 따라 전원이 켜집니다. 을<block ref="290954acdd6fc55b493b2726d4197a5a" category="inline-link-rx"></block>참조하십시오.</block>
+  <block id="2eadbfcbf9d76cb330a79283e42ad557" category="section-title">복제 검증</block>
+  <block id="8ab4a0f7954dedd85afa8b9aaa936c89" category="paragraph">재해 복구 또는 복제 계획을 생성한 후 마법사에서 재발을 식별하고 재해 복구 사이트에 대한 복제를 시작하면 30분마다 BlueXP  재해 복구에서 계획에 따라 복제가 실제로 수행되는지 확인합니다. 작업 모니터 페이지에서 진행 상황을 모니터링할 수 있습니다. 을 <block ref="e2d34ab7e7f8a76fb6ba2dcd38a58bb2" category="inline-link-rx"></block>참조하십시오.</block>
+  <block id="095782ee526b72c68df8646a5900ccd1" category="section-title">복제 계획에는 RPO(복구 지점 목표) 전송 일정이 표시됩니다</block>
+  <block id="19662e7ad081cbe9f63cfc0504f0e369" category="paragraph">재해 복구 또는 복제 계획을 생성할 때 VM을 선택합니다. 이 릴리즈에서는 이제 데이터 저장소 또는 VM과 연결된 각 볼륨과 연결된 SnapMirror를 볼 수 있습니다. SnapMirror 일정과 연결된 RPO 전송 일정을 확인할 수도 있습니다. RPO는 백업 일정이 재해 발생 후 복구하기에 충분한지 여부를 확인하는 데 도움이 됩니다. 을<block ref="5cf2140f2775e5f1ccc24bb836a069a3" category="inline-link-rx"></block>참조하십시오.</block>
+  <block id="f0d8fca280d8272d1fbf03bd197dc6c6" category="section-title">작업 모니터 업데이트</block>
+  <block id="aee89117776781844e5694928335b749" category="paragraph">작업 모니터 페이지에는 작업의 최신 상태를 확인할 수 있는 새로 고침 옵션이 포함되어 있습니다. 을 <block ref="701085704c7bdf4268d7fbe3111fe8b9" category="inline-link-rx"></block>참조하십시오.</block>
+  <block id="2f2414748c5c55333b00da7bf5d583fc" category="section-title">클라우드 기반 재해 복구 서비스</block>
 </blocks>
