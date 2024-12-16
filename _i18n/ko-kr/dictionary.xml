@@ -580,7 +580,6 @@ URL의 경우 브라우저에 다음을 입력합니다.<block ref="6db7b50bf17b
   <block id="924cc6eaf82618251de609e2689ed733" category="paragraph">다음과 같은 라이센스 유형을 사용할 수 있습니다.</block>
   <block id="2caf85d76a31b7bef7132937ff28e9dc" category="list-text">BYOL(Bring Your Own License) - NetApp 영업 담당자로부터 얻은 NLF(NetApp 라이센스 파일 라이센스 일련 번호를 사용하여 BlueXP 디지털 지갑에서 BYOL을 활성화할 수 있습니다.</block>
   <block id="c809a23426c6fb72cef75816c461ade9" category="paragraph">모든 BlueXP 서비스의 라이센스는 BlueXP 디지털 지갑 서비스에서 관리합니다. BYOL을 설정하면 BlueXP 디지털 지갑에서 서비스에 대한 활성 라이센스를 확인할 수 있습니다.</block>
-  <block id="8eb586b1b79ddd3ae7c3123b39d4420e" category="admonition">BlueXP 재해 복구 비용은 복제 계획이 있는 VM이 하나 이상 있을 때 소스 사이트에 프로비저닝된 데이터 저장소 용량을 기반으로 합니다. 페일오버된 데이터 저장소의 용량이 허용 용량에 포함되지 않습니다. BYOL의 경우 데이터가 허용된 용량을 초과하는 경우, 추가 용량 라이센스를 취득하거나 BlueXP 디지털 지갑에서 라이센스를 업그레이드할 때까지 서비스 작업이 제한됩니다.</block>
   <block id="7033a5d3e074f0c7401499ee4e48f38a" category="list-text">보호할 VM에서 VMware 툴(또는 Open VM 툴)이 실행되고 있는지 확인합니다.</block>
   <block id="af77ac64a97a80925dee7dc916344004" category="list-text">Linux 운영 체제에서 실행되는 Oracle 데이터베이스에는 Oracle 데이터베이스 SYSDBA 역할에 대해 운영 체제 사용자 인증이 설정되어 있어야 합니다.</block>
   <block id="e23539b066371b4dcfdd50b7d80417d8" category="paragraph">무료 평가판이 종료되거나 라이센스가 만료된 후에도 서비스에서 다음을 수행할 수 있습니다.</block>
@@ -1040,4 +1039,5 @@ NetApp 세일즈 담당자로부터 BlueXP 재해 복구 라이센스를 구입�
   <block id="c71c9ca45b74f3ddf3435fee65f93cfc" category="paragraph">VM의 기본값이 매핑됩니다. 기본 매핑은 VM이 운영 환경에서 사용하는 것과 동일한 설정(동일한 IP 주소, 서브넷 마스크 및 게이트웨이)을 사용합니다.</block>
   <block id="a82971318b0c070daea6677a10d3473c" category="paragraph">기본 설정에서 변경한 경우 대상 IP 필드를 "원본과 다름"으로 변경해야 합니다.</block>
   <block id="04b2f4a0441b492909bf4cd55502f663" category="admonition">설정을 "소스와 다름"으로 변경하는 경우 VM 게스트 OS 자격 증명을 제공해야 합니다.</block>
+  <block id="935b6ea2b85c115a6475786fc3f54c7b" category="admonition">BlueXP  재해 복구 비용은 복제 계획이 있는 VM이 하나 이상 있을 때 소스 사이트에서 데이터 저장소의 사용된 용량을 기준으로 합니다. 페일오버된 데이터 저장소의 용량이 허용 용량에 포함되지 않습니다. BYOL의 경우 데이터가 허용된 용량을 초과하는 경우, 추가 용량 라이센스를 취득하거나 BlueXP 디지털 지갑에서 라이센스를 업그레이드할 때까지 서비스 작업이 제한됩니다.</block>
 </blocks>
