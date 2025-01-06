@@ -335,7 +335,6 @@ URL의 경우 브라우저에 다음을 입력합니다.<block ref="6db7b50bf17b
   <block id="26ff2655fb5643a3e76370d9248a31df" category="admonition">나중에 복제 계획을 해제하거나 삭제할 수 있습니다.</block>
   <block id="47324a4e5509aeccc192aa7b07cbcac7" category="list-text">계획 추가 * 를 선택합니다.</block>
   <block id="a9980df200522b9bbaa257521bc396fe" category="paragraph">계획이 계획 목록에 추가됩니다.</block>
-  <block id="a9233ff25d3c8ffa3e005e6e453381fc" category="paragraph">재해 복구 계획을 생성하려면 먼저 BlueXP에 기본 vCenter 사이트와 대상 vCenter 재해 복구 사이트를 추가해야 합니다.</block>
   <block id="9809a26603cc2fbdd8049c848bf77835" category="paragraph">추가된 BlueXP 재해 복구는 vCenter 클러스터, ESXi 호스트, 데이터 저장소, 스토리지 설치 공간, 가상 머신 세부 정보, SnapMirror 복제본 및 가상 머신 네트워크</block>
   <block id="6df4f43f22118c6a361990f481e6ed83" category="list-text">BlueXP에 로그인하고 왼쪽 탐색 메뉴에서 * 보호 * &gt; * 재해 복구 * 를 선택합니다.</block>
   <block id="2f11fab4722695438910176065d838b4" category="paragraph">BlueXP 재해 복구 대시보드 페이지로 이동합니다. 서비스를 처음 시작할 때 vCenter 정보를 추가해야 합니다. 나중에 대시보드에는 사이트 및 복제 계획에 대한 데이터가 표시됩니다.</block>
@@ -343,7 +342,6 @@ URL의 경우 브라우저에 다음을 입력합니다.<block ref="6db7b50bf17b
   <block id="5a05572673bc07b0b94f07c482a67d13" category="inline-image-macro">vCenter 서버 추가 스크린샷 </block>
   <block id="c65c0c2ea94db5e745008fb8af0f7f2e" category="paragraph"><block ref="c65c0c2ea94db5e745008fb8af0f7f2e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="0eb5074333c815ccb54d1f6917e8d217" category="list-text">사이트를 추가하고 BlueXP Connector를 선택하고 vCenter 자격 증명을 제공합니다.</block>
-  <block id="50a0d7853565af772351213d1b833aa4" category="list-text">소스 vCenter에 대해 자체 서명된 인증서를 수락하려면 확인란을 선택합니다.</block>
   <block id="1909b7ffbea69e2cc7b387ed9d255c18" category="admonition">자체 서명된 인증서는 다른 인증서만큼 안전하지 않습니다. vCenter가 CA(인증 기관) 인증서로 구성되지 않은 경우 이 확인란을 선택해야 합니다. 그렇지 않으면 vCenter에 대한 연결이 작동하지 않습니다.</block>
   <block id="fa12509cfb8e8ccded16e2a254e988c4" category="list-text">추가 * 를 선택합니다.</block>
   <block id="a0fa7543e8627767b57d6c2797fbbda9" category="paragraph">다음으로 대상 vCenter를 추가합니다.</block>
@@ -1040,4 +1038,12 @@ NetApp 세일즈 담당자로부터 BlueXP 재해 복구 라이센스를 구입�
   <block id="a82971318b0c070daea6677a10d3473c" category="paragraph">기본 설정에서 변경한 경우 대상 IP 필드를 "원본과 다름"으로 변경해야 합니다.</block>
   <block id="04b2f4a0441b492909bf4cd55502f663" category="admonition">설정을 "소스와 다름"으로 변경하는 경우 VM 게스트 OS 자격 증명을 제공해야 합니다.</block>
   <block id="935b6ea2b85c115a6475786fc3f54c7b" category="admonition">BlueXP  재해 복구 비용은 복제 계획이 있는 VM이 하나 이상 있을 때 소스 사이트에서 데이터 저장소의 사용된 용량을 기준으로 합니다. 페일오버된 데이터 저장소의 용량이 허용 용량에 포함되지 않습니다. BYOL의 경우 데이터가 허용된 용량을 초과하는 경우, 추가 용량 라이센스를 취득하거나 BlueXP 디지털 지갑에서 라이센스를 업그레이드할 때까지 서비스 작업이 제한됩니다.</block>
+  <block id="6264bc70be3baed8dcf906aafe1dfe41" category="list-text">VMware vSphere 버전 7.0 업데이트 3(7.0v3) 이상</block>
+  <block id="cbbec7a47b1589919d37bd2c9f68a2dd" category="summary">재해 복구 계획을 생성하려면 먼저 BlueXP  재해 복구에 기본 vCenter 사이트와 대상 vCenter 재해 복구 사이트를 추가해야 합니다.</block>
+  <block id="7f7acb13c0fa74ab37cf6b6545c8b18a" category="doc">사이트에 vCenter 추가</block>
+  <block id="d7004fe84ddef44ffb8f6fd482ea7b17" category="paragraph">재해 복구 계획을 생성하려면 먼저 BlueXP 의 사이트와 대상 vCenter 재해 복구 사이트에 기본 vCenter 서버를 추가해야 합니다.</block>
+  <block id="1a575de6e97bed53905ae3b55c22dd29" category="admonition">추가하는 사이트의 유형에 따라 다른 필드가 나타납니다.</block>
+  <block id="7dbf01d6d33098287eb82c71ea10ea1e" category="list-text">(온-프레미스 사이트에만 적용) 소스 vCenter에 대해 자체 서명된 인증서를 수락하려면 확인란을 선택합니다.</block>
+  <block id="c2a573f83674b01d424b4f0c10fdc5f1" category="list-text">(클라우드 사이트에만 적용) * API 토큰 *: API 토큰을 입력하여 조직에 대한 서비스 액세스를 승인합니다. 특정 조직 및 서비스 역할을 제공하여 API 토큰을 생성합니다.</block>
+  <block id="92d0331e97c92cd07178f7a7c2ab56da" category="list-text">(클라우드 사이트에만 적용) * 긴 조직 ID *: 조직의 고유 ID를 입력하십시오. BlueXP  콘솔의 계정 섹션에서 사용자 이름을 클릭하여 이 ID를 식별할 수 있습니다.</block>
 </blocks>

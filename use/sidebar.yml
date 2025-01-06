@@ -6,7 +6,7 @@ entries:
   url: "/use/use-overview.html"
 - title: 대시보드에서 재해 복구 계획의 상태를 확인합니다
   url: "/use/dashboard-view.html"
-- title: vCenter 사이트를 추가합니다
+- title: 사이트에 vCenter 추가
   url: "/use/sites-add.html"
 - title: 복제 계획을 생성합니다
   url: "/use/drplan-create.html"

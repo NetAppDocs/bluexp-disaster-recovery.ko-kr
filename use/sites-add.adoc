@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: use/sites-add.html 
 keywords: disaster recovery, bluexp disaster recovery, failover, failback, replicate, fail over, fail back, vmware, vcenter 
-summary: NetApp BlueXP 재해 복구 서비스는 재해 복구 워크플로우를 자동화하는 클라우드 기반 재해 복구 서비스입니다. 
+summary: 재해 복구 계획을 생성하려면 먼저 BlueXP  재해 복구에 기본 vCenter 사이트와 대상 vCenter 재해 복구 사이트를 추가해야 합니다. 
 ---
-= vCenter 사이트를 추가합니다
+= 사이트에 vCenter 추가
 :hardbreaks:
 :allow-uri-read: 
 :icons: font
@@ -12,7 +12,7 @@ summary: NetApp BlueXP 재해 복구 서비스는 재해 복구 워크플로우�
 
 
 [role="lead"]
-재해 복구 계획을 생성하려면 먼저 BlueXP에 기본 vCenter 사이트와 대상 vCenter 재해 복구 사이트를 추가해야 합니다.
+재해 복구 계획을 생성하려면 먼저 BlueXP 의 사이트와 대상 vCenter 재해 복구 사이트에 기본 vCenter 서버를 추가해야 합니다.
 
 추가된 BlueXP 재해 복구는 vCenter 클러스터, ESXi 호스트, 데이터 저장소, 스토리지 설치 공간, 가상 머신 세부 정보, SnapMirror 복제본 및 가상 머신 네트워크
 
@@ -20,6 +20,10 @@ summary: NetApp BlueXP 재해 복구 서비스는 재해 복구 워크플로우�
 . BlueXP에 로그인하고 왼쪽 탐색 메뉴에서 * 보호 * > * 재해 복구 * 를 선택합니다.
 +
 BlueXP 재해 복구 대시보드 페이지로 이동합니다. 서비스를 처음 시작할 때 vCenter 정보를 추가해야 합니다. 나중에 대시보드에는 사이트 및 복제 계획에 대한 데이터가 표시됩니다.
+
++
+
+NOTE: 추가하는 사이트의 유형에 따라 다른 필드가 나타납니다.
 
 . * 소스 *: * vCenter 서버 검색 * 을 선택하여 소스 vCenter 사이트에 대한 정보를 입력합니다.
 +
@@ -30,17 +34,19 @@ TIP: 일부 vCenter 사이트가 이미 있고 더 추가하려면 상단 메뉴
 image:vcenter-add.png["vCenter 서버 추가 스크린샷 "]
 
 +
-.. 사이트를 추가하고 BlueXP Connector를 선택하고 vCenter 자격 증명을 제공합니다.
-.. 소스 vCenter에 대해 자체 서명된 인증서를 수락하려면 확인란을 선택합니다.
+** 사이트를 추가하고 BlueXP Connector를 선택하고 vCenter 자격 증명을 제공합니다.
+** (온-프레미스 사이트에만 적용) 소스 vCenter에 대해 자체 서명된 인증서를 수락하려면 확인란을 선택합니다.
 +
 
 NOTE: 자체 서명된 인증서는 다른 인증서만큼 안전하지 않습니다. vCenter가 CA(인증 기관) 인증서로 구성되지 않은 경우 이 확인란을 선택해야 합니다. 그렇지 않으면 vCenter에 대한 연결이 작동하지 않습니다.
 
-.. 추가 * 를 선택합니다.
+** (클라우드 사이트에만 적용) * API 토큰 *: API 토큰을 입력하여 조직에 대한 서비스 액세스를 승인합니다. 특정 조직 및 서비스 역할을 제공하여 API 토큰을 생성합니다.
+** (클라우드 사이트에만 적용) * 긴 조직 ID *: 조직의 고유 ID를 입력하십시오. BlueXP  콘솔의 계정 섹션에서 사용자 이름을 클릭하여 이 ID를 식별할 수 있습니다.
+
+
+. 추가 * 를 선택합니다.
 +
 다음으로 대상 vCenter를 추가합니다.
-
-
 
 . * 대상 *:
 +

@@ -47,6 +47,7 @@ NOTE: 대상 SVM 또는 SVM에서 재해 복구 볼륨을 미리 생성하면 �
 ** iSCSI 또는 FC 프로토콜을 사용하는 VMFS
 
 
+* VMware vSphere 버전 7.0 업데이트 3(7.0v3) 이상
 * VMware Cloud SDDC를 사용하는 경우 다음과 같은 사전 요구 사항이 적용됩니다.
 +
 ** VMware Cloud Console에서 Administrator 및 NSX Cloud Administrator의 서비스 역할을 사용합니다. 조직 역할에도 조직 소유자를 사용합니다. 을 https://docs.aws.amazon.com/fsx/latest/ONTAPGuide/vmware-cloud-ontap.html["VMware Cloud Foundations와 AWS FSx for NetApp ONTAP 설명서 사용"^]참조하십시오.

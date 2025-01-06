@@ -24,7 +24,7 @@ indexpage:
       url: "/get-started/dr-faq.html"
   - title: BlueXP 재해 복구 사용
     links:
-    - title: vCenter 사이트를 추가합니다
+    - title: 사이트에 vCenter 추가
       url: "/use/sites-add.html"
     - title: 재해 복구 계획을 수립합니다
       url: "/use/drplan-create.html"
