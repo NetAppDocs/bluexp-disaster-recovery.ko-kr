@@ -100,7 +100,7 @@ BlueXP 재해 복구의 라이센스 설정에 대한 자세한 내용은 을 �
 
 BlueXP 재해 복구를 통해 온프레미스 사이트에서 Amazon FSx for ONTAP 또는 다른 온프레미스 사이트로 복제된 워크로드를 복구할 수 있습니다. 이 서비스는 SnapMirror 레벨에서 VMC(Virtual Machine Cloud)에 대한 가상 머신 등록을 통해, VMware 네트워크 가상화 및 보안 플랫폼 NSX-T에 대한 네트워크 매핑을 통해 복구를 자동화합니다 이 기능은 모든 Virtual Machine Cloud 환경에 포함되어 있습니다.
 
-BlueXP 재해 복구는 ONTAP SnapMirror 기술을 사용하여 매우 효율적인 복제를 제공하고 ONTAP 영구 증분 스냅샷 효율성을 유지합니다. SnapMirror 복제를 통해 애플리케이션 정합성이 보장된 Snapshot 복사본이 항상 동기화되고 페일오버 후 즉시 데이터를 사용할 수 있습니다.
+BlueXP  재해 복구는 매우 효율적인 복제를 제공하고 ONTAP 영구 스냅샷 효율성을 유지하는 ONTAP SnapMirror 기술을 사용합니다. SnapMirror 복제를 통해 애플리케이션 정합성이 보장된 스냅샷 복사본이 항상 동기화되고 페일오버 후 즉시 데이터를 사용할 수 있습니다.
 
 image:dr-architecture-diagram-70-2.png["VMware 서비스 인프라에 대한 BlueXP 재해 복구 아키텍처를 보여 주는 다이어그램"]
 
