@@ -14,8 +14,9 @@ summary: NetApp BlueXP 재해 복구 기능은 재해 복구 워크플로우를 
 [role="lead"]
 BlueXP 재해 복구를 사용하면 다음과 같은 목표를 달성할 수 있습니다.
 
-* link:../use/dashboard-view.html["재해 복구 계획의 상태를 확인합니다"]
+* link:../use/dashboard-view.html["재해 복구 계획의 상태를 확인합니다"]..
 * link:../use/sites-add.html["vCenter 사이트를 추가합니다"].
+* link:../use/resource-group.html["리소스 그룹을 생성하여 VM을 함께 구성합니다"]
 * link:../use/drplan-create.html["재해 복구 계획을 수립합니다"].
 * link:../use/replicate.html["VMware 애플리케이션 복제"] SnapMirror 복제를 사용하여 클라우드의 재해 복구 원격 사이트에 연결합니다.
 * link:../use/migrate.html["VMware 애플리케이션을 마이그레이션하십시오"] 의 기본 사이트에서 다른 사이트로 이동합니다.

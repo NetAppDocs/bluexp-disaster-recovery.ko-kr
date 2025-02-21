@@ -435,7 +435,6 @@ URL의 경우 브라우저에 다음을 입력합니다.<block ref="6db7b50bf17b
   <block id="c7e296ab461bd699a5d9cbf0801b389c" category="paragraph">마이그레이션을 시작하기 전에 복제 계획을 생성하고 앱을 마이그레이션하도록 선택해야 합니다. 그런 다음 작업 메뉴에 * migrate * 옵션이 나타납니다.</block>
   <block id="4b832a5ef0d288f92d7b413054dc905f" category="list-text">오른쪽에서 * Actions * 옵션을 선택합니다 <block ref="2fddd650b01c7f9674be856867aae05d" category="inline-image-macro-rx" type="image"></block> 마이그레이션 * 을 선택합니다.</block>
   <block id="9d8650f8b712e42ae65b817a2d362674" category="inline-link-macro">재해 복구 계획의 상태를 확인합니다</block>
-  <block id="baed892bed9a88570cd5a5931581b00c" category="list-text"><block ref="baed892bed9a88570cd5a5931581b00c" category="inline-link-macro-rx"></block></block>
   <block id="15d1e8fd5353c6a7e30202b501b639c3" category="inline-link-macro">VMware 애플리케이션을 마이그레이션하십시오</block>
   <block id="946772510dcd559e9d7d09458b2abd6f" category="list-text"><block ref="4c49990f7ea38fc4135c764bbfcd7786" category="inline-link-macro-rx"></block> 의 기본 사이트에서 다른 사이트로 이동합니다.</block>
   <block id="46da469bb05d1d3a2c620e2963f1531a" category="list-text"><block ref="698cc22cc758157d8f18359f8b528216" category="inline-link-macro-rx"></block> 작업 모니터링 페이지</block>
@@ -1035,4 +1034,44 @@ URL의 경우 브라우저에 다음을 입력합니다.<block ref="6db7b50bf17b
   <block id="e2a36029181f04d6208811edf66b0c62" category="paragraph"><block ref="039fd09b60dad6f86188402eac2ef738" category="inline-link-rx"></block>..</block>
   <block id="5d3579189b9441a8b42010228d169cbc" category="inline-link">디지털 지갑으로 라이선스를 업데이트하는 방법에 대해 알아봅니다</block>
   <block id="597c7a7ee6e647859f8aa98b20be3cb0" category="paragraph"><block ref="1180f9bbf40cd0c05f379b347ef1d8f9" category="inline-link-rx"></block>..</block>
+  <block id="4f65b71af0098f41a96bfdb343f2f325" category="doc">VM을 함께 구성할 리소스 그룹을 생성합니다</block>
+  <block id="37c560d4a7e5a6e37f98651719bd2745" category="paragraph">vCenter 사이트를 추가한 후에는 VM을 함께 그룹화하는 리소스 그룹을 생성할 수 있습니다. 리소스 그룹을 사용하면 종속 VM의 집합을 요구 사항을 충족하는 논리 그룹으로 구성할 수 있습니다. 예를 들어, 하나의 애플리케이션에 연결된 VM을 그룹화하거나 유사한 계층이 있는 애플리케이션을 그룹화할 수 있습니다. 또 다른 예로 그룹은 복구 시 실행할 수 있는 지연된 부팅 순서를 포함할 수 있습니다.</block>
+  <block id="142aa3cf2c56c4cee9658fbb7fa95634" category="paragraph">다음 방법을 사용하여 리소스 그룹을 만들 수 있습니다.</block>
+  <block id="ad2f31d93207199cb75dd53824344fab" category="list-text">자원 그룹 탭에서</block>
+  <block id="0d87bb4775c6c24807b2e814da0b9ca1" category="list-text">재해 복구 또는 _ 복제 계획을 생성하는 동안 _. 소스 vCenter 클러스터에서 호스팅하는 VM이 많은 경우 복제 계획을 생성하는 동안 리소스 그룹을 생성하는 것이 더 쉬울 수 있습니다. 복제 계획을 생성하는 동안 리소스 그룹을 생성하는 방법에 대한 지침은 을 참조하십시오<block ref="ea54fcb5e693965efa13773dde42c832" category="inline-link-macro-rx"></block>.</block>
+  <block id="47debb7f83ae8dcccb80828c89238e3a" category="admonition">각 리소스 그룹에는 하나 이상의 VM이 포함될 수 있습니다. VM은 복제 계획에 VM을 포함하는 순서에 따라 전원이 켜집니다. VM을 리소스 그룹 목록에서 위 또는 아래로 끌어 순서를 변경할 수 있습니다.</block>
+  <block id="ae21aa75d137aec3ba200318a51f9166" category="paragraph-title">자원 그룹 정보</block>
+  <block id="f957d687562e057bff825e71ab7e802e" category="paragraph">리소스 그룹을 사용하면 운영 측면에서 관련된 VM을 결합하여 단일 유닛으로 보호해야 합니다.</block>
+  <block id="b945eb631601c78c15db23da09ea1c09" category="paragraph">예를 들어 POS 애플리케이션은 여러 VM 호스팅 데이터베이스, 비즈니스 논리 규칙 관리를 호스팅하는 여러 VM, 웹 서버 기반 스토어프론트 역할을 하는 여러 VM으로 구성될 수 있습니다. 이러한 VM을 단일 리소스 그룹에 배치하여 단일 보호 프로세스로 전체 애플리케이션의 가용성을 관리하는 것이 유용할 수 있습니다.</block>
+  <block id="97f2b89685ef06c98b9ff744b4147e33" category="paragraph">리소스 그룹을 설정하면 적절한 VM 시작 순서, 네트워크 연결 등에 대한 복제 계획 규칙을 적용하여 애플리케이션에 필요한 모든 VM을 적절하게 복구할 수 있습니다.</block>
+  <block id="359f9e79e746fa9f684e5cda9e60ca2e" category="paragraph-title">그러한 목표가 제대로 달성될까요?</block>
+  <block id="99cdeb2169c5824046ba94f263a554c7" category="paragraph">BlueXP  재해 복구 기능은 리소스 그룹에서 VM을 호스팅하는 기본 ONTAP 볼륨 및 LUN을 복제하여 VM을 보호합니다. 이를 위해 시스템은 리소스 그룹에서 VM을 호스팅하는 각 데이터 저장소의 이름을 vCenter에 쿼리합니다. 그런 다음 BlueXP  재해 복구를 통해 소스 ONTAP 볼륨 또는 해당 데이터 저장소를 호스팅하는 LUN을 식별합니다. 모든 보호는 ONTAP 볼륨 레벨에서 SnapMirror 복제를 사용하여 수행됩니다.</block>
+  <block id="6004bd2544cbcf534e33d76e01ce9721" category="paragraph">리소스 그룹의 VM이 서로 다른 데이터 저장소에 호스팅되는 경우 BlueXP  재해 복구에서는 다음 방법 중 하나를 사용하여 ONTAP 볼륨 또는 LUN의 데이터 정합성이 보장되는 스냅샷을 생성합니다.</block>
+  <block id="4c97b19bdb39e81e1e7c0c1a8b6222c5" category="cell">FlexVol 볼륨의 상대적 위치</block>
+  <block id="ddbeb84a2d597ac93e26f8e4ccfed259" category="cell">스냅샷 복제 프로세스입니다</block>
+  <block id="6d01f51b0e5a556d95395c7f71ed087e" category="cell">여러 데이터 저장소 - FlexVol 볼륨이 * 동일한 SVM * 에 있습니다</block>
+  <block id="1431ebf6966cf7875d79c646755a0ac4" category="list-text">ONTAP 정합성 보장 그룹이 생성되었습니다</block>
+  <block id="244e1723989c81e9a2ce04f721a2db41" category="list-text">생성된 정합성 보장 그룹의 스냅샷입니다</block>
+  <block id="b73116544f9b4e58ae13b79847ef2c41" category="list-text">볼륨 범위 SnapMirror 복제가 수행되었습니다</block>
+  <block id="afb49150087c45237455b2d82f867be8" category="cell">여러 데이터 저장소 - 여러 SVM * 의 FlexVol 볼륨</block>
+  <block id="669001397154a9e2d2d9e8a107cb041d" category="list-text">ONTAP API<block ref="b5ab07cdecf9303ff94db49578282528" prefix=" " category="inline-code"></block>: 스냅샷을 생성할 수 있도록 모든 볼륨을 종료하고 모든 리소스 그룹 볼륨의 볼륨 범위 스냅샷을 시작합니다.</block>
+  <block id="87f2c3aeec6e1ba638ce1869ba610ea4" category="list-text">ONTAP API<block ref="393c6bdee070ba1b7e80e63101108f36" prefix=" " category="inline-code"></block>: 모든 볼륨에서 입출력을 재개하고 스냅샷이 생성된 후 볼륨 범위 SnapMirror 복제를 활성화합니다.</block>
+  <block id="8633fcc27ccd2122fe46b210f44553cf" category="paragraph">자원 그룹을 만들 때는 다음 문제를 고려하십시오.</block>
+  <block id="8892a1b3251335ec20c65f05270cae24" category="list-text">단일 데이터 저장소는 둘 이상의 복제 계획으로 보호되는 VM을 호스팅해서는 안 됩니다.</block>
+  <block id="85d8f006f7e8ceeb46f30e2eba810828" category="list-text">보호된 VM과 보호되지 않은 VM을 동일한 데이터 저장소에 호스팅하지 마십시오. 보호된 VM과 보호되지 않는 VM이 동일한 데이터 저장소에 호스팅되는 경우 다음과 같은 문제가 발생할 수 있습니다.</block>
+  <block id="01c88b8825d68ac74c4f3a900e529850" category="list-text">BlueXP  재해 복구는 SnapMirror를 사용하고 시스템은 전체 ONTAP 볼륨을 복제하므로 해당 볼륨의 사용된 용량이 라이센스 고려 사항에 사용됩니다. 이 경우 보호된 VM과 보호되지 않은 VM 모두에서 사용되는 볼륨 공간이 이 계산에 포함됩니다.</block>
+  <block id="fd30c9137bf3e65eb4cbb0b3b65c45d8" category="list-text">리소스 그룹 및 관련 데이터 저장소를 재해 복구 사이트로 페일오버해야 하는 경우 보호되지 않는 VM(리소스 그룹에 속하지 않지만 ONTAP 볼륨에서 호스팅)이 페일오버 프로세스에서 소스 사이트에 더 이상 존재하지 않아 소스 사이트에서 보호되지 않는 VM에 장애가 발생합니다. 또한 BlueXP  재해 복구는 페일오버 vCenter 사이트에서 보호되지 않는 VM을 시작하지 않습니다.</block>
+  <block id="8a63c65b056310ba2a8c9f7b25cb1011" category="list-text">VM을 보호하려면 VM을 리소스 그룹에 포함해야 합니다.</block>
+  <block id="4314245dac1433ba0b4e2677f01da1cf" category="paragraph">* 모범 사례 *: BlueXP  재해 복구를 배포하기 전에 VM을 구성하여 "데이터 저장소 스프롤"을 최소화합니다. 보호가 필요한 VM을 데이터 저장소의 하위 집합에 배치하고 보호되지 않는 VM을 데이터 저장소의 다른 하위 집합에 배치합니다. 지정된 데이터 저장소의 VM이 서로 다른 복제 계획에 의해 보호되지 않는지 확인합니다.</block>
+  <block id="b0111a1bb823a7c75cdcdc06c66703ca" category="list-text">BlueXP  재해 복구 메뉴에서 * 리소스 그룹 * 을 선택합니다.</block>
+  <block id="fa4d1c967d467deb12174bc6b1b3355b" category="list-text">자원 그룹의 이름을 입력합니다.</block>
+  <block id="23a0cad5b0151418367a15f201a54ad3" category="list-text">VM이 있는 소스 vCenter 클러스터를 선택합니다.</block>
+  <block id="dca4029f87bca2c081e4f75bba3b9b28" category="list-text">리소스 그룹 추가 페이지의 왼쪽에서 보호할 VM을 선택합니다.</block>
+  <block id="38b6edfcfacd5ae9860834f850083003" category="inline-image-macro">리소스 그룹 추가 페이지를 보여 주는 스크린샷</block>
+  <block id="1a4be911d3882d1b3762fb71915599c8" category="paragraph"><block ref="1a4be911d3882d1b3762fb71915599c8" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c021ba8d319c1c5278738c67a531bc28" category="list-text">필요에 따라 각 VM을 목록에서 위 또는 아래로 끌어 오른쪽에서 VM 순서를 변경합니다. VM은 VM을 포함하는 순서에 따라 전원이 켜집니다.</block>
+  <block id="ee3e1a92f28abbcd26a1a39655c0465a" category="list-text"><block ref="baed892bed9a88570cd5a5931581b00c" category="inline-link-macro-rx"></block>..</block>
+  <block id="1b98100fdedab345bec758f9fe534c9b" category="inline-link-macro">리소스 그룹을 생성하여 VM을 함께 구성합니다</block>
+  <block id="7d1ee868f80080dd430c4c762c071750" category="list-text"><block ref="7d1ee868f80080dd430c4c762c071750" category="inline-link-macro-rx"></block></block>
+  <block id="548b49f4267cb06525a994818f01fc03" category="sidebar">리소스 그룹을 만듭니다</block>
 </blocks>
