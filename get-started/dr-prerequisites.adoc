@@ -99,6 +99,7 @@ TIP: 온프레미스에서 온프레미스까지 BlueXP 온프레미스 커넥�
 +
 을 https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html["사내 ONTAP 클러스터에 대해 알아보십시오"^]참조하십시오.
 
+* BlueXP  재해 복구를 위한 지능형 프록시 설정에 대한 자세한 내용은 을 참조하십시오link:../get-started/dr-setup.html["BlueXP 재해 복구를 위한 인프라 설정"].
 
 
 

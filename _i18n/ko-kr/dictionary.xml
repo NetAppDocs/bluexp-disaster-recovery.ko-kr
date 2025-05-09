@@ -1067,7 +1067,6 @@ URL의 경우 브라우저에 다음을 입력합니다.<block ref="6db7b50bf17b
   <block id="70fdbb4fe1ac448b07e3ab48c5bd8bb1" category="list-text">모든 데이터를 삭제하려면 * 무료 평가판 종료 후 즉시 데이터 삭제 * 를 선택합니다.</block>
   <block id="ba1769c41cb5cf97045fc108e9213d38" category="admonition">무료 평가판을 종료하면 에서 데이터 삭제를 요청하지 않고 라이선스 또는 구독을 구입하지 않은 경우 BlueXP  재해 복구는 무료 평가판이 종료된 후 60일 후에 모든 데이터를 삭제합니다.</block>
   <block id="801c0fa0d304ca22d8afec06189bcf93" category="section-title">2025년 4월 16일</block>
-  <block id="e1b61136672bccd13e6828fe7987e4f6" category="paragraph">버전 4.3</block>
   <block id="61e45ffabe7cc2e3542ca9a55a1a53bf" category="paragraph">복제 계획이 다음 상태 중 하나일 경우에만 VM을 보호할 수 있습니다.</block>
   <block id="e7d31fc0602fb2ede144d18cdffd816b" category="list-text">새로운</block>
   <block id="eca4b06cc957b067c25916bf563bfcb1" category="list-text">페일백이 커밋되었습니다</block>
@@ -1124,4 +1123,18 @@ URL의 경우 브라우저에 다음을 입력합니다.<block ref="6db7b50bf17b
   <block id="c2104ad12897a5730ad3b288494cdd97" category="paragraph">언제든지 수동으로 검색을 새로 고칠 수 있습니다. VM을 추가 또는 제거하고 BlueXP  재해 복구의 정보를 업데이트하려는 경우에 유용합니다.</block>
   <block id="5196afaaa8fb34fc7153a30daf14514e" category="list-text">새로 고칠 사이트를 선택합니다.</block>
   <block id="c87fc74cb4f8f9196e191287a96f80dd" category="list-text">오른쪽에 있는 작업 <block ref="145ad72607e9a3c177918d31007a191e" category="inline-image-macro-rx" type="image"></block> 아이콘을 선택하고 * 새로 고침 * 을 선택합니다.</block>
+  <block id="78e5de64c036a105265b3f447a5fbbca" category="doc">지능형 프록시 지원</block>
+  <block id="12430fc7d9e2c156fb2dc1af2bf60126" category="paragraph">BlueXP  커넥터는 지능형 프록시를 지원합니다. 지능형 프록시는 온프레미스 환경을 BlueXP  서비스에 연결하는 가볍고 안전하며 효율적인 방법입니다. VPN 또는 직접 인터넷 액세스 없이도 사용자 환경과 BlueXP  서비스 간에 보안 연결을 제공합니다. 이렇게 최적화된 프록시 구현은 로컬 네트워크 내에서 API 트래픽을 오프로드합니다.</block>
+  <block id="2baae43f4fa62104c66585e956c51e1e" category="paragraph">프록시가 구성된 경우 BlueXP  재해 복구는 VMware 또는 ONTAP와 직접 통신을 시도하고 직접 통신이 실패할 경우 구성된 프록시를 사용합니다.</block>
+  <block id="a115e6ab8acfcda534f22a18d1d6940d" category="paragraph">BlueXP  재해 복구 프록시를 구현하려면 HTTPS 프로토콜을 사용하여 커넥터와 vCenter Server 및 ONTAP 어레이 간에 포트 443 통신이 필요합니다. 커넥터 내의 BlueXP  재해 복구 에이전트는 작업을 수행할 때 VMware vSphere, VC 또는 ONTAP와 직접 통신합니다.</block>
+  <block id="a7a0475144b255eccfff4d2ee3e7a5c4" category="paragraph">BlueXP  재해 복구용 지능형 프록시에 대한 자세한 내용은 을 참조하십시오<block ref="bf1bf7a536149f2406a2eab17db3a297" category="inline-link-rx"></block>.</block>
+  <block id="146adb7944757e88795676b780c31811" category="inline-link">프록시 서버를 사용하도록 Connector를 구성합니다</block>
+  <block id="635abfb2f80497d39998f2a81dfecd7e" category="paragraph">BlueXP 에서 설정하는 일반 프록시에 대한 자세한 내용은 을 참조하십시오<block ref="4d83a369cd8d5456206d71335578eaaa" category="inline-link-rx"></block>.</block>
+  <block id="7469dc0d82ce9411c03b852f2163d515" category="section-title">무료 평가판을 언제든지 종료합니다</block>
+  <block id="38567a6024618c3687de90b3e2cff86e" category="paragraph">당신은 어떤 갈래 또는 당신은 그것이 만료될 때까지 기다릴 수 무료 평가판을 중지할 수 있습니다.</block>
+  <block id="b618f30aeca114d464120de119b19ced" category="paragraph">을<block ref="5f37f8bd4230e4b629c60b7dc23a5850" category="inline-link-rx"></block>참조하십시오.</block>
+  <block id="74027f9fc959ea61e0fe4228f42245b9" category="list-text">BlueXP  재해 복구를 위한 지능형 프록시 설정에 대한 자세한 내용은 을 참조하십시오<block ref="b42f106c81bf8d9365b4d08b31fa2987" category="inline-link-macro-rx"></block>.</block>
+  <block id="848964f0743e2416b5d061a5e088ca73" category="paragraph">버전 4.2.2</block>
+  <block id="f070435ef55d6c7cc1db59f0a41a4609" category="section-title">2025년 3월 10일</block>
+  <block id="ae493f6fb938d3c8c6db8b5a9e623794" category="paragraph">버전 4.2.1</block>
 </blocks>
