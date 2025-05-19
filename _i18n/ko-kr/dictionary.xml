@@ -731,8 +731,6 @@ URL의 경우 브라우저에 다음을 입력합니다.<block ref="6db7b50bf17b
   <block id="caa1e25984e775c1ab44cfd42620d720" category="inline-image-macro">연필 아이콘</block>
   <block id="7906e2e007c3bad108fcd7ed7311a131" category="paragraph"><block ref="7906e2e007c3bad108fcd7ed7311a131" category="inline-image-macro-rx" type="image"></block></block>
   <block id="6dbc81f47f4a822cd11ce7c8403756ed" category="list-text">페일오버 매핑 탭에서 각 리소스의 오른쪽에 있는 아래쪽 화살표를 선택하고 각 리소스의 리소스를 매핑합니다.</block>
-  <block id="022ab008c31f5588f9d15da4dc3439fb" category="list-text">* Compute resources *: * Compute resources * 옆에 있는 아래쪽 화살표를 선택합니다.</block>
-  <block id="a358a5c755a9f869690207e2a0726737" category="list-text">* 가상 머신 *: 페일오버 매핑 탭에서 * 가상 머신 * 옆에 있는 아래쪽 화살표를 선택합니다.</block>
   <block id="c28e8a3b83f3f2cce376fe3daa7ad95d" category="paragraph"><block ref="64eb1ec301597178e47fa7deed0121dc" category="inline-image-macro-rx" type="image"></block></block>
   <block id="10936c8535aaede0ed75f5d8d4fa6aaf" category="list-text">* 보존 횟수 *: 보존할 스냅샷 수를 입력합니다.</block>
   <block id="76e4d72594030fca0b96279d0f8392dc" category="section-title">BlueXP  재해 복구에 도움이 되는 용어를 사용합니다</block>
@@ -790,8 +788,6 @@ URL의 경우 브라우저에 다음을 입력합니다.<block ref="6db7b50bf17b
   <block id="da06c5c1d28e308403236438dda209dc" category="list-text">* 소스 및 타겟 데이터 센터 *</block>
   <block id="7067fdfe055fabd950bd45a1a17e1642" category="list-text">* 대상 클러스터 *</block>
   <block id="2c0a2cae30cf923c64bbed704e923521" category="list-text">* 대상 호스트 * (선택 사항): 클러스터를 선택한 후 이 정보를 설정할 수 있습니다.</block>
-  <block id="6d9f48430941cb04802ac18d9c695e65" category="admonition">vCenter에 클러스터의 여러 호스트를 관리하도록 구성된 DRS(Distributed Resource Scheduler)가 있는 경우 호스트를 선택할 필요가 없습니다. 호스트를 선택하면 BlueXP  재해 복구에서 모든 VM을 선택한 호스트에 배치합니다.</block>
-  <block id="999becf997185f87ea1b5bd029bf5b34" category="list-text">* 대상 VM 폴더 * (선택 사항): 선택한 VM을 저장할 새 루트 폴더를 만듭니다.</block>
   <block id="0a8bc9b2bb8f581fa27738fc437d64b3" category="paragraph">이 섹션에는 선택에 따라 다른 필드가 표시될 수 있습니다.</block>
   <block id="7b2b025be41dbbc4cda9601c1b5523a5" category="list-text">* 대상 VM 접두사 및 접미사 *: 가상 머신 세부 정보 아래에서 선택적으로 VM 이름에 접두사와 접미사를 추가할 수 있습니다.</block>
   <block id="230dc85a08275a2466390ae799703f92" category="list-text">* 소스 VM CPU 및 RAM *: 가상 머신 세부 정보 아래에서 선택적으로 VM CPU 및 RAM 매개 변수의 크기를 조정할 수 있습니다.</block>
@@ -832,8 +828,6 @@ URL의 경우 브라우저에 다음을 입력합니다.<block ref="6db7b50bf17b
   <block id="8914a354aeff1b07a47e178ccae21e27" category="list-text">* DHCP *: VM이 DHCP 서버에서 네트워크 구성 정보를 얻도록 하려면 이 설정을 선택합니다. 이 옵션을 선택하면 VM에 대한 자격 증명만 제공합니다.</block>
   <block id="fac29f06ba242d5478f84ec94ec5b901" category="list-text">* 스크립트 *: 사후 장애 조치 프로세스로 .sh, .bat 또는 .ps1 형식의 사용자 정의 스크립트를 포함할 수 있습니다. 사용자 지정 스크립트를 사용하면 페일오버 프로세스 후에 BlueXP 재해 복구로 스크립트를 실행할 수 있습니다. 예를 들어, 페일오버가 완료된 후 사용자 지정 스크립트를 사용하여 모든 데이터베이스 트랜잭션을 재개할 수 있습니다.</block>
   <block id="df6b8c791e4694210c8862ed040048ef" category="list-text">* 애플리케이션 정합성이 보장되는 복제본 생성 *: 애플리케이션 정합성이 보장되는 스냅샷 복제본을 생성할지 여부를 나타냅니다. 서비스는 애플리케이션을 중지한 다음 스냅샷을 생성하여 애플리케이션의 일관된 상태를 가져옵니다. 이 기능은 Windows에서 실행되는 Oracle과 Windows에서 실행되는 Linux 및 SQL Server에서 지원됩니다.</block>
-  <block id="708b68cf49e909f729ce67863a2f6de3" category="list-text">* Datastores *: * Datastores * 옆에 있는 아래쪽 화살표를 선택합니다. 선택한 VM에 따라 데이터 저장소 매핑이 자동으로 선택됩니다.</block>
-  <block id="27ee5986957f012b4e37ee29afe29c7f" category="list-text">* 소스 및 타겟 데이터 저장소 *: SnapMirror 관계가 여러 개 있는 경우 사용할 대상을 선택할 수 있습니다. 볼륨에 SnapMirror 관계가 이미 설정된 경우 해당 소스 및 타겟 데이터 저장소가 나타납니다. SnapMirror 관계가 없는 볼륨의 경우, 타겟 클러스터, 타겟 SVM을 선택하고 볼륨 이름을 제공하여 지금 생성할 수 있습니다. 이 서비스는 볼륨 및 SnapMirror 관계를 생성합니다.</block>
   <block id="950fa88679103c3c7c4e449423d8bfcc" category="list-text">VM이 동일한 볼륨과 동일한 SVM에서 수행되는 경우 이 서비스는 표준 ONTAP 스냅샷을 수행하고 2차 대상을 업데이트합니다.</block>
   <block id="a47d6910008cc9bb73921a36d6609a08" category="list-text">VM이 다른 볼륨과 동일한 SVM의 경우 모든 볼륨을 포함하여 일관성 그룹 스냅샷을 생성하고 2차 대상을 업데이트합니다.</block>
   <block id="3cc1e8e247fa51b1c7d6f2a7c029a515" category="list-text">VM이 서로 다른 볼륨 및 SVM에서 생성된 경우, 서비스는 동일한 또는 다른 클러스터에 있는 모든 볼륨을 포함하여 일관성 그룹 시작 단계와 커밋 단계 스냅샷을 수행하고 2차 대상을 업데이트합니다.</block>
@@ -949,7 +943,6 @@ URL의 경우 브라우저에 다음을 입력합니다.<block ref="6db7b50bf17b
   <block id="07b0eade4402d209b5dbe587a8ad3f6f" category="inline-link">AWS에서 가상화 환경을 구축하고 구성합니다</block>
   <block id="2eccc2b2612ae991619a18b34919d843" category="paragraph">AWS에서 VMware Cloud 환경을 구성하려면 의 단계를<block ref="0faddedbfeb6e9d451b742468dbfc158" category="inline-link-rx"></block> 따르십시오. 재해 복구 목적으로 파일럿 라이트 클러스터를 사용할 수도 있습니다.</block>
   <block id="8c587749bc8bd978d85704d9a142b7a6" category="paragraph">여러 데이터 저장소에 있는 여러 VM을 보호할 수 있습니다. BlueXP  재해 복구에서는 보호된 VM 데이터 저장소를 호스팅하는 모든 ONTAP 볼륨에 대해 ONTAP 정합성 보장 그룹을 생성합니다.</block>
-  <block id="345f26a72f023b2055826859eb701ceb" category="list-text">* 가상 네트워크 *: 장애 조치 매핑 탭에서 * 가상 네트워크 * 옆에 있는 아래쪽 화살표를 선택합니다. 소스 가상 LAN과 대상 가상 LAN을 선택합니다.</block>
   <block id="02453bc953d0b6e10f85235da7a8cca7" category="paragraph">적절한 가상 LAN에 대한 네트워크 매핑을 선택합니다. 가상 LAN은 이미 프로비저닝되어야 하므로 적절한 가상 LAN을 선택하여 VM을 매핑합니다.</block>
   <block id="c71c9ca45b74f3ddf3435fee65f93cfc" category="paragraph">VM의 기본값이 매핑됩니다. 기본 매핑은 VM이 운영 환경에서 사용하는 것과 동일한 설정(동일한 IP 주소, 서브넷 마스크 및 게이트웨이)을 사용합니다.</block>
   <block id="a82971318b0c070daea6677a10d3473c" category="paragraph">기본 설정에서 변경한 경우 대상 IP 필드를 "원본과 다름"으로 변경해야 합니다.</block>
@@ -1170,7 +1163,6 @@ URL의 경우 브라우저에 다음을 입력합니다.<block ref="6db7b50bf17b
   <block id="807059f044473e420c53e102505d49cf" category="list-text">vCenter Server를 추가하고 리소스 그룹 또는 애플리케이션을 선택하고 매핑을 완료함으로써 일반적인 방법으로 필드를 완성합니다.</block>
   <block id="6a1727ba4109844c2f1bf48438eb19f5" category="list-text">Replication plan &gt; Resource mapping 페이지에서 * Virtual Machines * 섹션을 선택합니다.</block>
   <block id="b743f75136ce51e05e36623ebf8d0373" category="inline-image-macro">서브넷 매핑 선택 스크린샷</block>
-  <block id="d56562607152896b0efda703821ab816" category="paragraph"><block ref="d56562607152896b0efda703821ab816" category="inline-image-macro-rx" type="image"></block></block>
   <block id="a60af3ebe60a5e3cebadd89e2c407a9c" category="list-text">대상 IP * 필드의 드롭다운 목록에서 * 서브넷 매핑 사용 * 을 선택합니다.</block>
   <block id="88497a7ce9c844d7b07cc838ad7754d6" category="list-text">복제 계획 생성을 계속합니다.</block>
   <block id="e28871dd1f9f31bb54d653e42ab61487" category="paragraph">사이트에서 서브넷 매핑을 포함하는 방법에 대한 자세한 내용은 을<block ref="54555db921feb31b73553520fa282341" category="inline-link-rx"></block>참조하십시오.</block>
@@ -1182,4 +1174,21 @@ URL의 경우 브라우저에 다음을 입력합니다.<block ref="6db7b50bf17b
   <block id="c14eff79606049ee3db744788f842d7d" category="list-text">AWS(Amazon Web Services) 마켓플레이스를 통해 * NetApp 지능형 서비스 * 의 PAYGO(용량제) 구독을 구매하십시오.</block>
   <block id="cbb303696e69ece252e4279cf7e650f4" category="paragraph">무료 평가판이 종료되면 NetApp에서 라이센스를 구입하거나 AWS Marketplace를 통해 * NetApp 지능형 서비스 * 에 가입할 수 있습니다. 이 절차에서는 AWS Marketplace에서 직접 구독하는 방법에 대한 간략한 개요를 제공합니다.</block>
   <block id="05d7d2c6dcb40b2ad3598ed40596c890" category="list-text">AWS Marketplace를 사용하여 * NetApp 지능형 서비스 * 및 * BlueXP  재해 복구 * 에 가입하십시오.</block>
+  <block id="ddbdc0fdada8e6466e651115cefbafee" category="section-title">리소스 매핑 &gt; 리소스 컴퓨팅 섹션을 참조하십시오</block>
+  <block id="c74f8b35838f9f38552c33a8c05ad01a" category="paragraph">Compute resources * 옆에 있는 아래쪽 화살표를 선택합니다.</block>
+  <block id="5044b19178ff5f8de4c9c0246fe12b78" category="admonition">vCenter에 클러스터의 여러 호스트를 관리하도록 구성된 DRS(Distributed Resource Scheduler)가 있는 경우 호스트를 선택할 필요가 없습니다. 호스트를 선택하면 BlueXP  재해 복구에서 모든 VM을 선택한 호스트에 배치합니다. * 대상 VM 폴더 * (선택 사항): 선택한 VM을 저장할 새 루트 폴더를 만듭니다.</block>
+  <block id="74b0088eeb9a4fc43afd0ad0e9f1ef57" category="section-title">리소스 &gt; 가상 네트워크 섹션을 매핑합니다</block>
+  <block id="21538d8465027f7c4a2d65593552875c" category="paragraph">페일오버 매핑 탭에서 * 가상 네트워크 * 옆에 있는 아래쪽 화살표를 선택합니다. 소스 가상 LAN과 대상 가상 LAN을 선택합니다.</block>
+  <block id="d43d5aee258367a26705d2e855068453" category="section-title">리소스 &gt; 가상 머신 섹션을 매핑합니다</block>
+  <block id="27d300eb526c12800753bbfacfc390b6" category="paragraph">페일오버 매핑 탭에서 * 가상 머신 * 옆에 있는 아래쪽 화살표를 선택합니다.</block>
+  <block id="64a2a2b78e563e79f2c42c8e9d160e0e" category="section-title">리소스 &gt; 데이터 저장소 섹션을 매핑합니다</block>
+  <block id="923805befcdde4aa8fa4752b9e9a277f" category="paragraph">Datastores * 옆에 있는 아래쪽 화살표를 선택합니다. 선택한 VM에 따라 데이터 저장소 매핑이 자동으로 선택됩니다.</block>
+  <block id="c4c09b507b4da4a281d7ce6c068b6a88" category="inline-image-macro">복제 계획 추가 및 GT, 리소스 매핑 및 GT, 데이터 저장소를 보여 주는 스크린샷</block>
+  <block id="7b6735057ec599457ce14b0629d098bf" category="paragraph"><block ref="383fd741f178abe8be4920d498113a6c" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="63882377431b20b814641f0190aa1986" category="list-text">* 소스 및 타겟 데이터 저장소 *: SnapMirror 관계가 여러 개 있는 경우 사용할 대상을 선택할 수 있습니다. 볼륨에 SnapMirror 관계가 이미 설정된 경우 해당 소스 및 타겟 데이터 저장소가 나타납니다. SnapMirror 관계가 없는 볼륨의 경우 타겟 클러스터를 선택하고 타겟 SVM을 선택한 후 볼륨 이름을 제공하여 지금 볼륨을 생성할 수 있습니다. 이 서비스는 볼륨 및 SnapMirror 관계를 생성합니다.</block>
+  <block id="d3d01ba34a902e9e5d7cb703c2b96a65" category="inline-image-macro">서브넷 메뉴 스크린 샷을 추가합니다</block>
+  <block id="6f7c69118d430fce089e3f0f18aba2c5" category="paragraph"><block ref="6f7c69118d430fce089e3f0f18aba2c5" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="e7be7bda88531d046e21401efd5bd9d5" category="paragraph">Configure subnet 페이지가 나타납니다.</block>
+  <block id="aaaeb2ea35c55b4a37b25b328a34587c" category="paragraph"><block ref="aaaeb2ea35c55b4a37b25b328a34587c" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="58091bb6c8793ca7ad7178167e36010f" category="admonition">VM이 2개 있는 경우(예: 하나는 Linux이고 다른 하나는 Windows인 경우) Windows에 대해서만 자격 증명이 필요합니다.</block>
 </blocks>
