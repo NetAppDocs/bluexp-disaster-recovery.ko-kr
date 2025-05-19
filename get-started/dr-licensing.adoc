@@ -17,7 +17,7 @@ BlueXP 재해 복구를 통해 무료 평가판, 용량제 구독 또는 자체 
 다음과 같은 라이센스 유형을 사용할 수 있습니다.
 
 * 30일 무료 평가판을 신청하십시오.
-* AWS(Amazon Web Services) Marketplace에서 용량제(PAYGO) 구독을 구매합니다.
+* AWS(Amazon Web Services) 마켓플레이스를 통해 * NetApp 지능형 서비스 * 의 PAYGO(용량제) 구독을 구매하십시오.
 * BYOL(Bring Your Own License) - NetApp 영업 담당자로부터 얻은 NLF(NetApp 라이센스 파일 라이센스 일련 번호를 사용하여 BlueXP 디지털 지갑에서 BYOL을 활성화할 수 있습니다.
 
 
@@ -71,12 +71,12 @@ image:draas-landing2.png["BlueXP 재해 복구의 랜딩 페이지 스크린샷"
 
 == 평가판이 끝난 후 AWS Marketplace를 통해 구독하십시오
 
-무료 평가판이 끝난 후 NetApp에서 라이센스를 구입하거나 AWS Marketplace를 통해 구독할 수 있습니다. 이 절차에서는 AWS Marketplace에서 직접 구독하는 방법에 대한 간략한 개요를 제공합니다.
+무료 평가판이 종료되면 NetApp에서 라이센스를 구입하거나 AWS Marketplace를 통해 * NetApp 지능형 서비스 * 에 가입할 수 있습니다. 이 절차에서는 AWS Marketplace에서 직접 구독하는 방법에 대한 간략한 개요를 제공합니다.
 
 .단계
 . BlueXP 재해 복구에서 무료 평가판이 만료된다는 메시지가 표시됩니다. 메시지에서 * 가입 또는 라이센스 구매 * 를 선택합니다.
 . AWS Marketplace * 에서 구독 을 선택합니다.
-. AWS Marketplace에서 * 구매 옵션 보기 * 를 선택합니다. AWS Marketplace를 사용하여 BlueXP 재해 복구를 구독하십시오.
+. AWS Marketplace를 사용하여 * NetApp 지능형 서비스 * 및 * BlueXP  재해 복구 * 에 가입하십시오.
 . BlueXP 재해 복구로 돌아가면 구독 중이라는 메시지가 표시됩니다.
 +
 BlueXP  디지털 지갑에서 구독 세부 정보를 볼 수 있습니다. link:https://docs.netapp.com/us-en/bluexp-digital-wallet/task-homepage.html["디지털 지갑으로 구독 관리 에 대해 자세히 알아보십시오"^]..
