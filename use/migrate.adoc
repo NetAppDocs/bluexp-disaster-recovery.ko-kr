@@ -4,7 +4,7 @@ permalink: use/migrate.html
 keywords: disaster recovery, bluexp disaster recovery, migrate, vmware, vcenter 
 summary: BlueXP 재해 복구를 사용하여 소스 사이트의 VMware 애플리케이션을 다른 사이트로 마이그레이션할 수 있습니다. 
 ---
-= 애플리케이션을 다른 사이트로 마이그레이션
+= BlueXP 재해 복구를 사용하여 애플리케이션을 다른 사이트로 마이그레이션
 :hardbreaks:
 :allow-uri-read: 
 :icons: font

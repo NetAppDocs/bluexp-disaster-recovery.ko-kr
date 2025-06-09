@@ -263,7 +263,6 @@ URL의 경우 브라우저에 다음을 입력합니다.<block ref="6db7b50bf17b
   <block id="c1942c862f0687fdf3f5a7564e0eadfa" category="list-text">SnapMirror 관계가 타겟에서 소스 가상 머신으로 반전됩니다.</block>
   <block id="d0d1a7100fd604152ac7b93eb1abc016" category="list-text">오른쪽에서 * Actions * 옵션을 선택합니다 <block ref="2fddd650b01c7f9674be856867aae05d" category="inline-image-macro-rx" type="image"></block> 를 선택하고 * Fail Over * 를 선택합니다.</block>
   <block id="0362f1f30abcc40f31c3c6618b1a15c3" category="list-text">진행 상태를 확인하려면 상단 메뉴에서 * Job monitoring * 을 선택합니다.</block>
-  <block id="ceeed92bd86d67dc2a2a6016ed40a571" category="paragraph">모든 재해 복구 리소스를 한 눈에 보거나 각 리소스를 자세히 살펴볼 수 있습니다.</block>
   <block id="3faa64303d5f5bcd043bb88f6768e603" category="list-text">사이트</block>
   <block id="a8fc43ecd23ee9eb5e9efa5c60cb20b9" category="list-text">복제 계획</block>
   <block id="769b718779fbe38c65b122b69e0271a3" category="list-text">자원 그룹</block>
@@ -295,7 +294,6 @@ URL의 경우 브라우저에 다음을 입력합니다.<block ref="6db7b50bf17b
   <block id="fb64cb9f2eb5e660830a8f202d12f794" category="list-text">자원 그룹을 추가하려면 * 그룹 추가 * 를 선택합니다.</block>
   <block id="c292b94d404e989038191db88d347fc7" category="list-text">자원 그룹에 대한 작업을 수행하려면 * 작업 * 옵션을 선택합니다 <block ref="2fddd650b01c7f9674be856867aae05d" category="inline-image-macro-rx" type="image"></block>  오른쪽에서 * 자원 그룹 편집 * 또는 * 자원 그룹 삭제 * 와 같은 옵션을 선택합니다.</block>
   <block id="d88f9a7fc239e91ef7446fdd0e2c26a4" category="list-text">오른쪽에서 * Actions * 옵션을 선택합니다 <block ref="2fddd650b01c7f9674be856867aae05d" category="inline-image-macro-rx" type="image"></block> 복제 * 를 선택합니다.</block>
-  <block id="4e76033871d8eb52e7a46330cc531bd8" category="doc">애플리케이션을 원래 소스로 페일백합니다</block>
   <block id="95c065ae2a71de38942ceb973d97399b" category="paragraph">이 워크플로우에서 BlueXP 재해 복구는 복제 방향을 바꾸기 전에 모든 변경 사항을 원래 소스 가상 머신에 복제(재동기화)합니다. 이 프로세스는 대상에 대한 장애 조치를 완료한 관계에서 시작하며 다음 단계를 포함합니다.</block>
   <block id="c6e71b0dcb6847124e49e97ed111f902" category="list-text">타겟 사이트에서 가상 시스템의 전원이 꺼지고 등록이 취소되며 볼륨이 마운트 해제됩니다.</block>
   <block id="187b70ae9883d244642e7af4f1b374c6" category="list-text">원래 소스에서 SnapMirror 관계가 끊어져 읽기/쓰기가 가능해집니다.</block>
@@ -332,7 +330,6 @@ URL의 경우 브라우저에 다음을 입력합니다.<block ref="6db7b50bf17b
   <block id="95a18472ce7b663d2c8fc430738919b9" category="list-text">대상 사이트 및 위치를 선택합니다. 타겟이 클라우드인 경우 * AWS * 를 선택합니다.</block>
   <block id="df06aa418d44ef8725ac68927671ed66" category="paragraph">소스 및 타겟 vCenter가 사이트 목록에 나타납니다.</block>
   <block id="70536defad0e93353b2ee45a9eba84b0" category="list-text">작업 진행 상황을 보려면 상단 메뉴에서 * 작업 모니터링 * 을 선택합니다.</block>
-  <block id="239ed7a0645094a000a5d286f3b2ccf2" category="paragraph">모든 재해 복구 작업을 모니터링하고 진행 상황을 확인할 수 있습니다.</block>
   <block id="957efce312dc74d9f2981b256c11180c" category="list-text">상단 메뉴에서 * 작업 모니터링 * 을 선택합니다.</block>
   <block id="a658e38fe05c1b71ade8529d73e083db" category="list-text">작업과 관련된 모든 작업을 탐색하고 해당 타임스탬프와 상태를 검토합니다.</block>
   <block id="a2628e207373ba02728e8a48a677eca6" category="list-text">특정 작업의 세부 정보를 보려면 해당 행을 선택합니다.</block>
@@ -419,7 +416,6 @@ URL의 경우 브라우저에 다음을 입력합니다.<block ref="6db7b50bf17b
   <block id="2ce874f5717134aa8a63e219f05d39f9" category="list-text">페일오버, 테스트 페일오버 및 마이그레이션의 수입니다. 예를 들어, 두 개의 플랜을 생성하여 대상으로 마이그레이션한 경우 마이그레이션 횟수는 "2"로 표시됩니다.</block>
   <block id="d26cf1f0512a50b32d5a10b931f5fbe0" category="list-text">활동 창의 모든 작업을 검토합니다. 작업 모니터에서 모든 작업을 보려면 * 모든 작업 보기 * 를 선택합니다.</block>
   <block id="6bc8dd7bb67f1165364943cf065cadcf" category="summary">BlueXP 재해 복구를 사용하여 소스 사이트의 VMware 애플리케이션을 다른 사이트로 마이그레이션할 수 있습니다.</block>
-  <block id="37fca13c16336a96bde58435050fff09" category="doc">애플리케이션을 다른 사이트로 마이그레이션</block>
   <block id="ef5012739ecaf46323c1ba893541dc15" category="admonition">복제 계획을 생성한 후 마법사에서 반복을 식별하고 마이그레이션을 시작하면 BlueXP 재해 복구에서 30분마다 계획이 따라 실제로 마이그레이션되는지 확인합니다. 작업 모니터 페이지에서 진행 상황을 모니터링할 수 있습니다.</block>
   <block id="c7e296ab461bd699a5d9cbf0801b389c" category="paragraph">마이그레이션을 시작하기 전에 복제 계획을 생성하고 앱을 마이그레이션하도록 선택해야 합니다. 그런 다음 작업 메뉴에 * migrate * 옵션이 나타납니다.</block>
   <block id="4b832a5ef0d288f92d7b413054dc905f" category="list-text">오른쪽에서 * Actions * 옵션을 선택합니다 <block ref="2fddd650b01c7f9674be856867aae05d" category="inline-image-macro-rx" type="image"></block> 마이그레이션 * 을 선택합니다.</block>
@@ -564,7 +560,6 @@ URL의 경우 브라우저에 다음을 입력합니다.<block ref="6db7b50bf17b
   <block id="d66d706cd022ab39ed6479a713135515" category="paragraph"><block ref="d66d706cd022ab39ed6479a713135515" category="inline-image-macro-rx" type="image"></block></block>
   <block id="991e816286764c3a5ea9b023c35e1d77" category="paragraph"><block ref="991e816286764c3a5ea9b023c35e1d77" category="inline-image-macro-rx" type="image"></block></block>
   <block id="b45dfe874eaba6a97e58e0436eba2402" category="sidebar">주문형 BlueXP 재해 복구 as a Service Lab을 시작하기</block>
-  <block id="d5368fed025a9875e8a424b419508bef" category="admonition">이번 릴리즈에서는 VMware vSphere VMFS(Virtual Machine File System) 데이터 저장소를 사용하는 온프레미스 VMware 환경에서 온프레미스 VMware 워크로드를 대상으로 하는 기술 미리보기에서 재해 복구가 지원됩니다. NetApp는 사전 검토된 워크로드 용량에 대해 비용을 청구하지 않습니다.</block>
   <block id="0dc4a26bb39078be4974284a72d54f64" category="paragraph">BlueXP 재해 복구 서비스는 NetApp 라이센스 또는 Amazon Web Services를 통한 연간 구독 기반 계획과 함께 사용할 수 있습니다.</block>
   <block id="66a7384fcc7d6c71e8da6dc152b82593" category="admonition">일부 릴리스에는 기술 미리 보기가 포함되어 있습니다. NetApp는 사전 검토된 워크로드 용량에 대해 비용을 청구하지 않습니다. 최신 기술 미리 보기에 대한 자세한 내용은 을 <block ref="431ce6b88c6d5399033553c1891688aa" category="inline-link-macro-rx"></block> 참조하십시오.</block>
   <block id="82dea2c8434a1770d46c03eb8b4c2389" category="summary">BlueXP 재해 복구를 사용하기 전에 사용자 환경이 ONTAP 스토리지, VMware vCenter 클러스터 및 BlueXP 요구사항을 충족하는지 확인해야 합니다.</block>
@@ -690,7 +685,6 @@ URL의 경우 브라우저에 다음을 입력합니다.<block ref="6db7b50bf17b
   <block id="544bb990c26b075198ab3593eb235cab" category="list-text">상자에 "failover"를 입력합니다.</block>
   <block id="d3c41fabd7d85897eb0f306101f87e33" category="list-text">Fail Over * 를 선택합니다.</block>
   <block id="9aaabae265e2785e58b6618d73b8e267" category="summary">모든 BlueXP 재해 복구 리소스를 한눈에 파악하고 vCenter 사이트, 리소스 그룹 및 복제 계획을 관리할 수 있습니다.</block>
-  <block id="592189bb19e09b41686c42842ae7f60a" category="doc">사이트, 리소스 그룹, 복제 계획, 데이터 저장소 및 가상 머신 정보를 관리합니다</block>
   <block id="88947748ef8b3b00cf2cf0c3999a702e" category="paragraph">복제 계획을 해제, 설정 및 삭제할 수 있습니다. 일정을 변경할 수 있습니다.</block>
   <block id="fa62d17ad222d305b611f8c161aab288" category="list-text">가상 머신을 추가하거나 편집하려면 * 가상 머신 * 탭을 선택하고 * VM 추가 * 옵션 또는 * 편집 * 아이콘을 선택합니다.</block>
   <block id="714c8620cd504e0c90291fad7b5c119f" category="list-text">테스트 대체 작동 일정을 설정 또는 변경하거나 준수 빈도 확인을 설정하려면 계획 오른쪽에 있는 * Actions * 옵션을 <block ref="2fddd650b01c7f9674be856867aae05d" category="inline-image-macro-rx" type="image"></block> 선택하고 * Edit schedules * 를 선택합니다.</block>
@@ -731,7 +725,6 @@ URL의 경우 브라우저에 다음을 입력합니다.<block ref="6db7b50bf17b
   <block id="caa1e25984e775c1ab44cfd42620d720" category="inline-image-macro">연필 아이콘</block>
   <block id="7906e2e007c3bad108fcd7ed7311a131" category="paragraph"><block ref="7906e2e007c3bad108fcd7ed7311a131" category="inline-image-macro-rx" type="image"></block></block>
   <block id="6dbc81f47f4a822cd11ce7c8403756ed" category="list-text">페일오버 매핑 탭에서 각 리소스의 오른쪽에 있는 아래쪽 화살표를 선택하고 각 리소스의 리소스를 매핑합니다.</block>
-  <block id="c28e8a3b83f3f2cce376fe3daa7ad95d" category="paragraph"><block ref="64eb1ec301597178e47fa7deed0121dc" category="inline-image-macro-rx" type="image"></block></block>
   <block id="10936c8535aaede0ed75f5d8d4fa6aaf" category="list-text">* 보존 횟수 *: 보존할 스냅샷 수를 입력합니다.</block>
   <block id="76e4d72594030fca0b96279d0f8392dc" category="section-title">BlueXP  재해 복구에 도움이 되는 용어를 사용합니다</block>
   <block id="b7b26d16c3d1d84d3872afa1f04c92d6" category="paragraph">재해 복구와 관련된 몇 가지 용어를 이해하면 도움이 될 수 있습니다.</block>
@@ -811,7 +804,6 @@ URL의 경우 브라우저에 다음을 입력합니다.<block ref="6db7b50bf17b
   <block id="0f024621e0673f1f4e657983682d6e72" category="list-text">삭제 * 를 선택합니다.</block>
   <block id="835e92deb53775d3ce75f1bab2ff7fe5" category="list-text">복제 계획을 선택한 상태에서 Actions(작업) 메뉴를 선택하고 * Clean up old snapshots(이전 스냅숏 정리)"를 선택하여 새 보존 횟수와 일치하도록 타겟의 이전 스냅샷을 제거합니다.</block>
   <block id="4fcb591c27b70823ff71112c0db6af4f" category="summary">재해 복구 보고서를 검토하면 재해 복구 대비 상태를 분석하는 데 도움이 됩니다. 사전 설계된 보고서에는 페일오버 및 페일백 요약, 모든 사이트에 대한 복제 세부 정보, 작년 작업 세부 정보가 포함됩니다.</block>
-  <block id="8c909df77f7b5e2e6b77ff66ee6bd3e7" category="paragraph">재해 복구 보고서를 검토하면 재해 복구 대비 상태를 분석하는 데 도움이 됩니다. 사전 설계된 보고서에는 지난 7일 동안의 계정 내 모든 사이트에 대한 테스트 페일오버 요약, 복제 계획 세부 정보 및 작업 세부 정보가 포함됩니다.</block>
   <block id="cd463f7ca5dbc8268a82ea8d8f5e4281" category="paragraph">다운로드 링크는 6시간 동안 유효합니다.</block>
   <block id="5e521694fac83ef0acfcb6f722d2b3cf" category="list-text">BlueXP  왼쪽 탐색 메뉴에서 * 보호 * &gt; * 재해 복구 * &gt; * 복제 계획 * 을 선택합니다.</block>
   <block id="40f8ac7caaab02ab3b9834517b54c7a4" category="list-text">페이지 맨 위에서 * 보고서 만들기 * 를 선택합니다.</block>
@@ -984,7 +976,6 @@ URL의 경우 브라우저에 다음을 입력합니다.<block ref="6db7b50bf17b
   <block id="e2a36029181f04d6208811edf66b0c62" category="paragraph"><block ref="039fd09b60dad6f86188402eac2ef738" category="inline-link-rx"></block>..</block>
   <block id="5d3579189b9441a8b42010228d169cbc" category="inline-link">디지털 지갑으로 라이선스를 업데이트하는 방법에 대해 알아봅니다</block>
   <block id="597c7a7ee6e647859f8aa98b20be3cb0" category="paragraph"><block ref="1180f9bbf40cd0c05f379b347ef1d8f9" category="inline-link-rx"></block>..</block>
-  <block id="4f65b71af0098f41a96bfdb343f2f325" category="doc">VM을 함께 구성할 리소스 그룹을 생성합니다</block>
   <block id="142aa3cf2c56c4cee9658fbb7fa95634" category="paragraph">다음 방법을 사용하여 리소스 그룹을 만들 수 있습니다.</block>
   <block id="ad2f31d93207199cb75dd53824344fab" category="list-text">자원 그룹 탭에서</block>
   <block id="ae21aa75d137aec3ba200318a51f9166" category="paragraph-title">자원 그룹 정보</block>
@@ -1191,4 +1182,33 @@ URL의 경우 브라우저에 다음을 입력합니다.<block ref="6db7b50bf17b
   <block id="e7be7bda88531d046e21401efd5bd9d5" category="paragraph">Configure subnet 페이지가 나타납니다.</block>
   <block id="aaaeb2ea35c55b4a37b25b328a34587c" category="paragraph"><block ref="aaaeb2ea35c55b4a37b25b328a34587c" category="inline-image-macro-rx" type="image"></block></block>
   <block id="58091bb6c8793ca7ad7178167e36010f" category="admonition">VM이 2개 있는 경우(예: 하나는 Linux이고 다른 하나는 Windows인 경우) Windows에 대해서만 자격 증명이 필요합니다.</block>
+  <block id="97d3a415f1d32e0fd7045cf243744acd" category="doc">Windows 로컬 관리자 암호 솔루션(LAPS) 지원</block>
+  <block id="016381830d7dd927c4b8504121b26175" category="paragraph">Windows 로컬 관리자 암호 솔루션(Windows LAPS)은 Active Directory의 로컬 관리자 계정의 암호를 자동으로 관리하고 백업하는 Windows 기능입니다.</block>
+  <block id="33e3d20ad0d71e75d746da0b85431750" category="paragraph">이제 도메인 컨트롤러 정보를 제공하여 서브넷 매핑 옵션을 선택하고 LAPS 옵션을 선택할 수 있습니다. 이 옵션을 사용하면 각 가상 머신에 비밀번호를 입력할 필요가 없습니다.</block>
+  <block id="6988ffa358e4fb05fdfdb5afcd9633db" category="list-text">소스 및 대상 vCenter가 모두 동일한 BlueXP 커넥터를 사용하는지 확인하세요.</block>
+  <block id="45d6a7a8d814b0580c86b35537ead34e" category="doc">BlueXP 재해 복구의 한계</block>
+  <block id="f27f1ce6df3e2ec2518f77e8e1a4a531" category="section-title">2025년 6월 9일</block>
+  <block id="a5b3547213084a11aef815f04f636f42" category="paragraph">버전 4.2.4</block>
+  <block id="ae028f4b0907152c734ed4a90acbc64b" category="doc">대시보드에서 BlueXP 재해 복구 계획의 상태를 확인하세요.</block>
+  <block id="8d653efc41b18c9a1268d3e4be0f15ca" category="doc">BlueXP 재해 복구에서 복제 계획 만들기</block>
+  <block id="1883274b7afbbc2357cb15c15a1af17e" category="paragraph"><block ref="a690938170d1fae8a1d7e7ed3a6d014f" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="779cca7c4cefbaa596e10329a5e7344b" category="list-text">*대상 IP* 필드에서 다음 중 하나를 선택하세요.</block>
+  <block id="43c3d8ca0ff82c763dd8ba2587262ce7" category="list-text">*출처와 동일*</block>
+  <block id="c0906c265f059cdd05a640cb10c05397" category="list-text">*출처와 다름*</block>
+  <block id="c93cc22297f7869a2923cf4a568e3431" category="list-text">*서브넷 매핑*: 소스 서브넷을 다른 대상 서브넷에 매핑하려면 이 옵션을 선택하세요. 소스 서브넷을 선택한 후 대상 서브넷을 선택할 수 있습니다. 이 옵션은 대상 환경에서 VM의 IP 주소를 변경하려는 경우 유용합니다.</block>
+  <block id="9cdd5ce4f7751ec05ecae73c3e3d5959" category="admonition">서브넷 매핑을 사용하는 것은 선택적인 2단계 프로세스입니다. 먼저, 사이트 탭에서 각 vCenter 사이트에 대한 서브넷 매핑을 추가합니다. 둘째, 복제 계획에서 서브넷 매핑을 사용할 것임을 나타냅니다.</block>
+  <block id="6262500729b6f197aa6e4ad6b2b8e85e" category="list-text">*Windows LAPS 사용*: Windows 로컬 관리자 암호 솔루션(Windows LAPS)을 사용하는 경우 이 확인란을 선택하세요. 이 옵션은 *고정 IP* 옵션을 선택한 경우에만 사용할 수 있습니다. 이 확인란을 선택하면 각 가상 머신에 대한 암호를 입력할 필요가 없습니다. 대신 도메인 컨트롤러 세부 정보를 입력하면 됩니다.</block>
+  <block id="4fd3e179011cd215b45b25dbfb0cc8d2" category="paragraph">Windows LAPS를 사용하지 않는 경우, 해당 VM은 Windows VM이며 VM 행의 자격 증명 옵션이 활성화되어 있습니다. VM의 자격 증명을 제공할 수 있습니다.</block>
+  <block id="cf09d6f8881c452b09554e4e9dbc997e" category="doc">BlueXP 재해 복구를 사용하여 애플리케이션을 원래 소스로 다시 장애 복구합니다.</block>
+  <block id="23a9c843e7c84f7ba86dd5a99ee43340" category="doc">BlueXP 재해 복구를 통해 원격 사이트로 애플리케이션 장애 조치</block>
+  <block id="2be6295929f0fec41d6014ed55de0fcb" category="doc">BlueXP 재해 복구를 통해 사이트, 리소스 그룹, 복제 계획, 데이터 저장소 및 가상 머신 정보를 관리합니다.</block>
+  <block id="b88f2b61385be4d7b80c6f9deb44ef99" category="paragraph">BlueXP 재해 복구 리소스를 모두 빠르게 살펴보거나 각각을 자세히 살펴볼 수 있습니다.</block>
+  <block id="e823ac96d622a36a3befb2adaf78dfc7" category="doc">BlueXP 재해 복구를 사용하여 애플리케이션을 다른 사이트로 마이그레이션</block>
+  <block id="06db0057955b153079b2224fe8fe3fca" category="doc">BlueXP 재해 복구 작업 모니터링</block>
+  <block id="33364d8b01ea631f73ab5e07dbec17bc" category="paragraph">모든 BlueXP 재해 복구 작업을 모니터링하고 진행 상황을 확인할 수 있습니다.</block>
+  <block id="4c37c0f8ebfaa6ad002a3b8027540686" category="doc">BlueXP 재해 복구를 사용하여 다른 사이트에 애플리케이션 복제</block>
+  <block id="8402259962b0173d9712a8c8e6d195dd" category="doc">BlueXP 재해 복구 보고서 생성</block>
+  <block id="b12e5762638e8dca606f02345a47867a" category="paragraph">BlueXP 재해 복구 보고서를 검토하면 재해 복구 준비 상태를 분석하는 데 도움이 될 수 있습니다. 사전 설계된 보고서에는 지난 7일 동안의 계정 내 모든 사이트에 대한 테스트 페일오버 요약, 복제 계획 세부 정보 및 작업 세부 정보가 포함됩니다.</block>
+  <block id="b3d496fccdf5d0b52dd71622cd01ca4c" category="doc">BlueXP 재해 복구에서 VM을 함께 구성하기 위한 리소스 그룹을 만듭니다.</block>
+  <block id="4931eee83a268b667e0c868104ec1e32" category="doc">BlueXP 재해 복구에서 사이트에 vCenter 추가</block>
 </blocks>

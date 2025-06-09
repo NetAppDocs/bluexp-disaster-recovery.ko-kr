@@ -4,7 +4,7 @@ permalink: use/dashboard-view.html
 keywords: disaster recovery remediate, disaster recovery, failover, failback, replication 
 summary: NetApp BlueXP 재해 복구 기능은 재해 복구 워크플로우를 자동화하는 클라우드 기반 재해 복구 서비스입니다. 
 ---
-= 대시보드에서 재해 복구 계획의 상태를 확인합니다
+= 대시보드에서 BlueXP 재해 복구 계획의 상태를 확인하세요.
 :hardbreaks:
 :allow-uri-read: 
 :icons: font

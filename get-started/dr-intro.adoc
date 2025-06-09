@@ -20,9 +20,6 @@ BlueXP 재해 복구는 재해 복구 워크플로우를 자동화하는 클라�
 * ONTAP 스토리지를 갖춘 또 다른 온프레미스 NFS 기반 VMware 환경
 
 
-
-IMPORTANT: 이번 릴리즈에서는 VMware vSphere VMFS(Virtual Machine File System) 데이터 저장소를 사용하는 온프레미스 VMware 환경에서 온프레미스 VMware 워크로드를 대상으로 하는 기술 미리보기에서 재해 복구가 지원됩니다. NetApp는 사전 검토된 워크로드 용량에 대해 비용을 청구하지 않습니다.
-
 BlueXP 재해 복구는 ONTAP SnapMirror 기술을 재해 복구 사이트로 이동하는 복제 전송으로 사용합니다. 따라서 운영 사이트와 2차 사이트에서 업계 최고의 스토리지 효율성(압축 및 중복제거)을 실현할 수 있습니다.
 
 image:draas-onprem-to-cloud-onprem.png["VMware용 BlueXP 재해 복구의 구성 요소를 보여주는 다이어그램"]

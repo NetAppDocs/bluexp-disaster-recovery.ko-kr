@@ -84,6 +84,7 @@ NOTE: 대상 SVM 또는 SVM에서 재해 복구 볼륨을 미리 생성하면 �
 BlueXP Connector를 BlueXP에서 설정해야 한다. BlueXP Connector를 사용할 경우 재해 복구 서비스에 대한 적절한 기능이 여기에 포함됩니다.
 
 * BlueXP 재해 복구는 표준 모드 Connector 구축에서만 작동합니다. 을 https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-standard-mode.html["표준 모드에서 BlueXP 시작하기"^]참조하십시오.
+* 소스 및 대상 vCenter가 모두 동일한 BlueXP 커넥터를 사용하는지 확인하세요.
 * 필요한 BlueXP Connector 유형:
 +
 ** * 온프레미스 간 재해 복구 *: 재해 복구 사이트에 BlueXP 온프레미스 커넥터를 설치합니다. 을 https://docs.netapp.com/us-en/bluexp-setup-admin/task-install-connector-on-prem.html["온-프레미스에 커넥터를 설치하고 설정합니다"^]참조하십시오.

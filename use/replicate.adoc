@@ -4,7 +4,7 @@ permalink: use/replicate.html
 keywords: disaster recovery, bluexp disaster recovery, failover, failback, replicate, fail over, fail back, vmware, vcenter 
 summary: BlueXP 재해 복구를 사용하면 SnapMirror 복제를 사용하여 소스 사이트의 VMware 앱을 클라우드의 재해 복구 원격 사이트로 복제할 수 있습니다. 
 ---
-= 애플리케이션을 다른 사이트에 복제
+= BlueXP 재해 복구를 사용하여 다른 사이트에 애플리케이션 복제
 :hardbreaks:
 :allow-uri-read: 
 :icons: font

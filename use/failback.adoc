@@ -4,7 +4,7 @@ permalink: use/failback.html
 keywords: disaster recovery, bluexp disaster recovery, failover, failback, replicate, fail over, fail back, vmware, vcenter 
 summary: NetApp BlueXP 재해 복구 서비스는 재해 복구 워크플로우를 자동화하는 클라우드 기반 재해 복구 서비스입니다. 
 ---
-= 애플리케이션을 원래 소스로 페일백합니다
+= BlueXP 재해 복구를 사용하여 애플리케이션을 원래 소스로 다시 장애 복구합니다.
 :hardbreaks:
 :allow-uri-read: 
 :icons: font

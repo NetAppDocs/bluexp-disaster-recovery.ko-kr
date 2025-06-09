@@ -4,7 +4,7 @@ permalink: use/resource-group.html
 keywords: disaster recovery, bluexp disaster recovery, failover, failback, replicate, fail over, fail back, vmware, vcenter, replication plan, protection, disaster, recovery, virtual machines, vm 
 summary: NetApp BlueXP 재해 복구 서비스는 재해 복구 워크플로우를 자동화하는 클라우드 기반 재해 복구 서비스입니다. vCenter 사이트를 추가한 후에는 재해 복구 또는 복제 계획을 생성할 수 있습니다. 
 ---
-= VM을 함께 구성할 리소스 그룹을 생성합니다
+= BlueXP 재해 복구에서 VM을 함께 구성하기 위한 리소스 그룹을 만듭니다.
 :hardbreaks:
 :allow-uri-read: 
 :icons: font
