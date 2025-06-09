@@ -1,0 +1,57 @@
+---
+sidebar: sidebar 
+permalink: reference/evs-deploy-guide-enable-draas.html 
+keywords: disaster recovery, bluexp disaster recovery, failover, failback, replicate, fail over, fail back, vmware, vcenter 
+summary: Amazon EVS와 Amazon FSx for NetApp ONTAP을 활용한 BlueXP 재해 복구를 소개합니다. BlueXP 재해 복구는 라이선스 제품이므로 사용하기 전에 구매해야 합니다. 라이선스에는 여러 유형이 있으며, 구매 방법도 다양합니다. 
+---
+= Amazon EVS용 BlueXP 계정에 BlueXP 재해 복구 서비스 추가
+:allow-uri-read: 
+
+
+[role="lead"]
+BlueXP 재해 복구는 라이선스 제품으로, 사용하기 전에 구매해야 합니다. 라이선스에는 여러 유형이 있으며, 라이선스 구매 방법도 다양합니다. 라이선스를 구매하면 특정 기간 동안 특정 양의 데이터를 보호할 수 있습니다.
+
+BlueXP 재해 복구 라이선스에 대한 자세한 내용은 다음을 참조하세요. link:../get-started/dr-licensing.html["BlueXP 재해 복구를 위한 라이센스 설정"] .
+
+
+
+== 사용권 유형
+
+주요 라이센스 유형은 두 가지입니다.
+
+* NetApp은 다음을 제공합니다. link:../get-started/dr-licensing.html["30일 체험판 라이선스"] ONTAP 및 VMware 리소스를 사용하여 BlueXP 재해 복구를 평가하는 데 사용할 수 있는 라이선스입니다. 이 라이선스는 보호 용량에 제한이 없는 30일 동안 사용할 수 있습니다.
+* 30일 평가판 기간 이후에도 재해 복구(DR) 보호를 원하시면 프로덕션 라이선스를 구매하세요. 이 라이선스는 NetApp 클라우드 파트너의 마켓플레이스를 통해 구매할 수 있지만, 이 가이드에서는 Amazon AWS Marketplace를 통해 BlueXP 재해 복구용 *NetApp Intelligent Services* 라이선스를 구매하는 것을 권장합니다. Amazon Marketplace를 통한 라이선스 구매에 대한 자세한 내용은 다음을 참조하세요. link:../get-started/dr-licensing.html["AWS Marketplace를 통해 구독"] .
+
+
+
+
+== 재해 복구 용량 요구 사항 크기 조정
+
+라이선스를 구매하기 전에 보호해야 할 ONTAP 스토리지 용량을 파악해야 합니다. NetApp ONTAP 스토리지를 사용하면 NetApp에서 데이터를 저장하는 방식이 매우 효율적이라는 장점이 있습니다. VM을 호스팅하는 VMware 데이터스토어와 같이 ONTAP 볼륨에 저장된 모든 데이터는 매우 효율적인 방식으로 저장됩니다. ONTAP은 물리적 스토리지에 데이터를 쓸 때 기본적으로 압축, 중복 제거, 압축의 세 가지 유형의 스토리지 효율성을 사용합니다. 결과적으로 저장되는 데이터 유형에 따라 1.5:1에서 4:1 사이의 스토리지 효율성을 제공합니다. 실제로 NetApp은  https://www.netapp.com/media/79014-ng-937-Efficiency-Guarantee-Customer-Flyer.pdf["스토리지 효율성 보장"^] 특정 작업 부하에 대해서.
+
+BlueXP 재해 복구는 모든 ONTAP 스토리지 효율성이 적용된 후 라이선스 목적으로 용량을 계산하기 때문에 이점이 있습니다. 예를 들어, 서비스를 사용하여 보호하려는 100개의 VM을 호스팅하기 위해 vCenter 내에 100테라바이트(TiB) NFS 데이터스토어를 프로비저닝했다고 가정해 보겠습니다 또한, 데이터가 ONTAP 볼륨에 기록될 때 자동으로 적용되는 스토리지 효율성 기법 덕분에 해당 VM이 33TiB(3:1 스토리지 효율성)만 사용한다고 가정해 보겠습니다. BlueXP 재해 복구는 100TiB가 아닌 33TiB에 대해서만 라이선스를 취득하면 됩니다. 이는 다른 재해 복구 솔루션과 비교했을 때 재해 복구 솔루션의 총소유비용(TCO)을 크게 절감하는 데 도움이 될 수 있습니다.
+
+.단계
+. 보호할 VMware 데이터스토어를 호스팅하는 각 볼륨에서 얼마나 많은 데이터가 소모되는지 확인하려면 각 볼륨에 대해 ONTAP CLI 명령을 실행하여 디스크 용량 소모량을 확인하세요.  `volume show-space -volume < _volume name_ > -vserver < _SVM name_ >` .
++
+예를 들면 다음과 같습니다.
+
++
+[listing]
+----
+cluster1::> volume show-space
+Vserver : vm-nfs-ds1
+Volume  : vol0
+Feature                                Used      Used%
+-----------------------------      --------     ------
+User Data                           163.4MB         3%
+Filesystem Metadata                   172KB         0%
+Inodes                               2.93MB         0%
+Snapshot Reserve                    292.9MB         5%
+Total Metadata                        185KB         0%
+Total Used                          459.4MB         8%
+Total Physical Used                 166.4MB         3%
+
+----
+. 각 볼륨의 *총 물리적 사용 용량* 값을 확인하세요. 이는 BlueXP 재해 복구에서 보호해야 하는 데이터 양이며, 라이선스가 필요한 용량을 결정하는 데 사용되는 값입니다.
+

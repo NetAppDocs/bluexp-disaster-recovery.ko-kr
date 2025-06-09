@@ -1,0 +1,20 @@
+---
+sidebar: sidebar 
+permalink: reference/evs-deploy-guide-install-connector.html 
+keywords: disaster recovery, bluexp disaster recovery, failover, failback, replicate, fail over, fail back, vmware, vcenter 
+summary: Amazon EVS 및 Amazon FSx for NetApp ONTAP을 활용한 BlueXP 재해 복구를 소개합니다. 커넥터는 네트워크 어디에나 설치할 수 있지만, BlueXP 재해 복구를 위해서는 재해 복구 사이트에 설치하는 것이 좋습니다. 이렇게 하면 주 사이트에 장애가 발생하더라도 BlueXP 클라우드 기반 콘솔 UI가 커넥터와 계속 연결되어 해당 재해 복구 사이트 내에서 복구 프로세스를 조정할 수 있습니다. 
+---
+= BlueXP 재해 복구를 위해 BlueXP 커넥터를 설치하세요
+:allow-uri-read: 
+
+
+[role="lead"]
+BlueXP 커넥터는 클라우드 또는 온프레미스 네트워크에서 실행되는 NetApp 소프트웨어입니다. BlueXP가 데이터 인프라를 관리하는 데 필요한 작업을 실행합니다. 커넥터는 필요한 모든 작업을 위해 BlueXP 재해 복구 소프트웨어(SaaS) 계층을 지속적으로 폴링합니다.
+
+BlueXP 재해 복구 서비스의 경우, 수행되는 작업은 각 서비스의 기본 API를 사용하여 VMware vCenter 클러스터와 ONTAP 스토리지 인스턴스를 조정하여 온프레미스 위치에서 실행되는 운영 VM을 보호합니다. 커넥터는 모든 네트워크 위치에 설치할 수 있지만, BlueXP 재해 복구의 경우 재해 복구 사이트에 커넥터를 설치하는 것이 좋습니다. 이렇게 하면 기본 사이트에 장애가 발생하더라도 BlueXP 클라우드 기반 콘솔 UI가 커넥터와 계속 연결되어 해당 재해 복구 사이트 내에서 복구 프로세스를 조정할 수 있습니다.
+
+서비스를 이용하려면 커넥터를 표준 모드로 설치하세요. 커넥터 설치 유형에 대한 자세한 내용은 다음 링크를 참조하세요.  https://docs.netapp.com/us-en/bluexp-setup-admin/concept-modes.html["BlueXP 배포 모드에 대해 알아보기 | NetApp 문서"^] .
+
+커넥터는 서비스 사용에 필수적이지만, 커넥터 설치 단계는 사용자의 요구 사항과 네트워크 구성에 따라 달라집니다. 이 정보에서는 구체적인 설치 지침을 제공하지 않습니다.
+
+Amazon AWS에 커넥터를 설치하는 가장 간단한 방법은 AWS Marketplace를 이용하는 것입니다. AWS Marketplace를 이용한 커넥터 설치에 대한 자세한 내용은 다음을 참조하세요.  https://docs.netapp.com/us-en/bluexp-setup-admin/task-install-connector-aws-marketplace.html["AWS Marketplace에서 커넥터 만들기 | NetApp 문서"^] .

@@ -20,9 +20,12 @@ BlueXP 재해 복구는 재해 복구 워크플로우를 자동화하는 클라�
 * ONTAP 스토리지를 갖춘 또 다른 온프레미스 NFS 기반 VMware 환경
 
 
+
+NOTE: AWS EVS에 대한 이 문서는 기술 미리보기로 제공됩니다. 이 사전 공개 오퍼링과 함께 NetApp은 일반 출시 이전에 서비스 세부 정보, 콘텐츠 및 일정을 수정할 권한을 보유합니다. 자세한 내용은 을 참조하십시오 link:../reference/evs-deploy-guide-introduction.html["Amazon Elastic VMware Service 및 Amazon FSx for NetApp ONTAP을 사용한 BlueXP 재해 복구 소개"].
+
 BlueXP 재해 복구는 ONTAP SnapMirror 기술을 재해 복구 사이트로 이동하는 복제 전송으로 사용합니다. 따라서 운영 사이트와 2차 사이트에서 업계 최고의 스토리지 효율성(압축 및 중복제거)을 실현할 수 있습니다.
 
-image:draas-onprem-to-cloud-onprem.png["VMware용 BlueXP 재해 복구의 구성 요소를 보여주는 다이어그램"]
+image:../use/evs-bluexp-architecture.png["VMware용 BlueXP 재해 복구의 구성 요소를 보여주는 다이어그램"]
 
 
 
@@ -48,6 +51,8 @@ BlueXP 재해 복구를 통해 여러 NetApp 기술을 최대한 활용하여 �
 * 재해가 발생하면 기본 사이트를 필요에 따라 Amazon FSx for NetApp ONTAP 및 AWS 기반 VMware Cloud 또는 ONTAP를 통해 온프레미스 VMware 환경과 같은 재해 복구 사이트로 페일오버합니다.
 * 재해가 해결되면 필요 시 재해 복구 사이트에서 운영 사이트로 장애 복구를 수행합니다. * 효율적인 관리를 위해 VM 또는 데이터 저장소를 논리적 리소스 그룹으로 묶습니다.
 
+
+image:../use/evs-use-cases.png["VMware용 BlueXP 재해 복구 사용 사례를 보여주는 다이어그램"]
 
 
 NOTE: vSphere 서버 구성은 vSphere Server의 BlueXP 재해 복구 외부에서 수행됩니다.

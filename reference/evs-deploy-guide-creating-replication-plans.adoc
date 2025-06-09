@@ -1,0 +1,27 @@
+---
+sidebar: sidebar 
+permalink: reference/evs-deploy-guide-creating-replication-plans.html 
+keywords: disaster recovery, bluexp disaster recovery, failover, failback, replicate, fail over, fail back, vmware, vcenter 
+summary: 'Amazon EVS와 Amazon FSx for NetApp ONTAP을 활용한 BlueXP 재해 복구 소개. 온프레미스 사이트에서 보호할 vCenter가 있고, Amazon FSx for NetApp ONTAP을 사용하도록 구성된 Amazon EVS 사이트를 재해 복구 대상으로 사용할 수 있게 되면, 이제 온프레미스 사이트 내 vCenter 클러스터에 호스팅된 모든 VM 세트를 보호하는 복제 계획(RP)을 생성할 수 있습니다.' 
+---
+= BlueXP 재해 복구 개요에서 복제 계획 만들기
+:allow-uri-read: 
+
+
+[role="lead"]
+온프레미스 사이트에서 보호할 vCenter가 있고, DR 대상으로 사용할 수 있는 Amazon FSx for NetApp ONTAP을 사용하도록 구성된 Amazon EVS 사이트가 있으면 온프레미스 사이트 내의 vCenter 클러스터에 호스팅된 모든 VM 세트를 보호하기 위한 복제 계획(RP)을 만들 수 있습니다.
+
+.복제 계획 생성 프로세스를 시작하려면:
+. BlueXP 재해 복구 화면에서 *복제 계획* 탭을 선택합니다.
++
+image:evs-create-rp-1.png["복제 계획 탭"]
+
+. 복제 계획 화면에서 *추가*를 선택합니다.
++
+image:evs-create-rp-2.png["복제 계획 화면"]
+
+
+
+복제 계획 생성 마법사가 열립니다.
+
+계속하기 link:evs-deploy-guide-create-rp-wiz-01.html["복제 계획 마법사 생성 1단계"] .
