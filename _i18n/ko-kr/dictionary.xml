@@ -1640,4 +1640,12 @@ URL의 경우 브라우저에 다음을 입력합니다.<block ref="6db7b50bf17b
   <block id="3a83143b77a0b90d82bf03cbf43e4443" category="sidebar">Amazon EVS를 위한 복제 계획 4단계 만들기</block>
   <block id="5a72de72f8b0ba4525e25ce937621889" category="sidebar">Amazon EVS에 대한 복제 계획 확인</block>
   <block id="f260d0f12b515f0ab789c0349e49a0fc" category="sidebar">복제 계획 작업 수행</block>
+  <block id="a1e044c84ca270d3adc998b256510801" category="doc">서브넷 매핑 개선</block>
+  <block id="494053c615ca0aa0debeb6eac90b3e5a" category="paragraph">이번 업데이트에서는 새로운 검색 기능을 통해 서브넷 매핑 추가 및 편집 대화 상자가 개선되었습니다. 이제 검색어를 입력하여 특정 서브넷을 빠르게 찾을 수 있으므로 서브넷 매핑 관리가 더욱 간편해졌습니다.</block>
+  <block id="dc729c135725ed28b09cd35258e2a28d" category="doc">발견 개선</block>
+  <block id="778d15d21e8eaffc6a6c8069d8fa5872" category="paragraph">이 업데이트는 검색 프로세스를 개선하여 검색에 필요한 시간을 줄여줍니다.</block>
+  <block id="b77e8ec0a3425747f32b3dbc303adecb" category="section-title">2025년 6월 30일</block>
+  <block id="f5939a7e3fd75d2d5422c1d6029f44c8" category="paragraph">버전 4.2.4P2</block>
+  <block id="1d498761d9b5afe7d166fb15809b8000" category="section-title">2025년 6월 23일</block>
+  <block id="c114a433f08237cc585990ed9e9e88d5" category="paragraph">버전 4.2.4P1</block>
 </blocks>
