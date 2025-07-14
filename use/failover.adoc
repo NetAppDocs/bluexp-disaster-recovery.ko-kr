@@ -14,6 +14,10 @@ summary: NetApp BlueXP 재해 복구 서비스는 재해 복구 워크플로우�
 [role="lead"]
 재해가 발생하면 운영 온프레미스 VMware 사이트를 다른 온프레미스 VMware 사이트 또는 VMware Cloud on AWS로 페일오버합니다. 장애 조치 프로세스를 테스트하여 필요할 때 성공할 수 있습니다.
 
+*필수 BlueXP 역할* 조직 관리자, 폴더 또는 프로젝트 관리자, 재해 복구 관리자 또는 재해 복구 장애 조치 관리자 역할.
+
+link:../reference/dr-reference-roles.html["BlueXP disaster recovery 에서 사용자 역할 및 권한에 대해 알아보세요"].. https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["모든 서비스에 대한 BlueXP 액세스 역할에 대해 알아보세요"^]..
+
 페일오버 중에 최신 SnapMirror 스냅샷 복사본이 사용됩니다. 또는 SnapMirror의 보존 정책에 따라 특정 시점 스냅샷에서 특정 스냅샷을 선택할 수 있습니다. 시점 옵션은 최신 복제본이 이미 손상되었거나 암호화된 랜섬웨어와 같은 손상 이벤트가 발생한 경우 유용합니다. BlueXP 재해 복구에 사용 가능한 모든 시점이 표시됩니다.
 
 이 프로세스는 운영 사이트가 정상 상태이고 중요한 인프라 장애 이외의 이유로 재해 복구 사이트에 대한 장애 조치를 수행하고 있는지에 따라 다릅니다.

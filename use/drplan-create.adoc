@@ -16,6 +16,10 @@ vCenter 사이트를 추가한 후에는 재해 복구 또는 _replication plan_
 
 이러한 계획은 _bluetprints_라고도 합니다.
 
+*필수 BlueXP 역할* 조직 관리자, 폴더 또는 프로젝트 관리자, 재해 복구 관리자, 재해 복구 장애 조치 관리자 또는 재해 복구 애플리케이션 관리자 역할.
+
+link:../reference/dr-reference-roles.html["BlueXP disaster recovery 에서 사용자 역할 및 권한에 대해 알아보세요"].. https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["모든 서비스에 대한 BlueXP 액세스 역할에 대해 알아보세요"^]..
+
 복제 계획을 생성하고 규정 준수 및 테스트를 위한 일정을 편집할 수도 있습니다.
 
 여러 데이터 저장소에 있는 여러 VM을 보호할 수 있습니다. BlueXP  재해 복구에서는 보호된 VM 데이터 저장소를 호스팅하는 모든 ONTAP 볼륨에 대해 ONTAP 정합성 보장 그룹을 생성합니다.

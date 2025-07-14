@@ -14,6 +14,10 @@ summary: NetApp BlueXP 재해 복구 서비스는 재해 복구 워크플로우�
 [role="lead"]
 재해가 해결된 후 재해 복구 사이트에서 소스 사이트로 페일백하여 정상 작업으로 돌아갑니다. 복구할 스냅샷을 선택할 수 있습니다.
 
+*필수 BlueXP 역할* 조직 관리자, 폴더 또는 프로젝트 관리자, 재해 복구 관리자 또는 재해 복구 장애 조치 관리자 역할.
+
+link:../reference/dr-reference-roles.html["BlueXP disaster recovery 에서 사용자 역할 및 권한에 대해 알아보세요"].. https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["모든 서비스에 대한 BlueXP 액세스 역할에 대해 알아보세요"^]..
+
 이 워크플로우에서 BlueXP 재해 복구는 복제 방향을 바꾸기 전에 모든 변경 사항을 원래 소스 가상 머신에 복제(재동기화)합니다. 이 프로세스는 대상에 대한 장애 조치를 완료한 관계에서 시작하며 다음 단계를 포함합니다.
 
 * 타겟 사이트에서 가상 시스템의 전원이 꺼지고 등록이 취소되며 볼륨이 마운트 해제됩니다.

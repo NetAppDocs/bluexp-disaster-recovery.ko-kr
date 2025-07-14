@@ -4,6 +4,8 @@ title: 참조하십시오
 entries:
 - title: BlueXP 재해 복구에 필요한 vCenter 권한
   url: "/reference/vcenter-privileges.html"
+- title: BlueXP disaster recovery 역할 및 권한
+  url: "/reference/dr-reference-roles.html"
 - title: Amazon EVS와 함께 BlueXP 재해 복구 사용
   entries:
   - title: Amazon EVS를 사용한 BlueXP 재해 복구 개요

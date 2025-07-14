@@ -19,6 +19,10 @@ TIP: 소스 및 대상 vCenter가 모두 동일한 BlueXP 커넥터를 사용하
 
 vCenter가 추가된 후 BlueXP  재해 복구는 vCenter 클러스터, ESXi 호스트, 데이터 저장소, 스토리지 풋프린트, 가상 머신 세부 정보, SnapMirror 복제본 및 가상 머신 네트워크를 비롯한 vCenter 환경을 심층적으로 검색합니다.
 
+*필수 BlueXP 역할* 조직 관리자, 폴더 또는 프로젝트 관리자, 재해 복구 관리자.
+
+link:../reference/dr-reference-roles.html["BlueXP disaster recovery 에서 사용자 역할 및 권한에 대해 알아보세요"].. https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["모든 서비스에 대한 BlueXP 액세스 역할에 대해 알아보세요"^]..
+
 이전 릴리즈에서 vCenter를 추가한 경우 검색 스케줄을 사용자 지정하려면 vCenter Server 사이트를 편집하고 스케줄을 설정해야 합니다.
 
 
