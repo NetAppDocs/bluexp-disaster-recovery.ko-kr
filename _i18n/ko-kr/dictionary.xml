@@ -1317,7 +1317,6 @@ URL의 경우 브라우저에 다음을 입력합니다.<block ref="6db7b50bf17b
   <block id="77b6a574c8fd563a40ba5d3ced2f6995" category="summary">Amazon EVS를 BlueXP 재해 복구로 계속 구성하기 전에 몇 가지 전제 조건이 충족되었는지 확인해야 합니다.</block>
   <block id="3cfd631225e4a5cd11bb7f070aa490d3" category="paragraph">구체적으로 다음을 수행하세요.</block>
   <block id="0c16cce0fa7cbfe2c47b9b35b500ef09" category="list-text">BlueXP 재해 복구에 필요한 작업을 수행하기 위해 필요한 특정 VMware 권한이 있는 vCenter 사용자 계정을 만듭니다.</block>
-  <block id="f1b035e723ce8afdf6da2bf6a610f72a" category="admonition">기본 관리자 계정인 "administrator@vsphere.com"은 사용하지 않는 것이 좋습니다. 대신, DR 프로세스에 참여할 모든 vCenter 클러스터에 BlueXP 재해 복구 전용 사용자 계정을 생성해야 합니다. 필요한 특정 권한 목록은 다음을 참조하십시오. <block ref="81359e3dc28c5def835ffa82482dcdcf" category="inline-link-macro-rx"></block> .</block>
   <block id="99c420b6898c190b219ba1e25a1f737e" category="list-text">BlueXP 재해 복구로 보호되는 VM을 호스팅할 모든 vCenter 데이터 저장소가 NetApp ONTAP 스토리지 리소스에 있는지 확인하세요.</block>
   <block id="8fc09ae0803e50a45a94b04ffd9379bf" category="paragraph">이 서비스는 NetApp ONTAP에서 Amazon FSx를 사용할 경우 iSCSI(FC는 아님)에서 NFS 및 VMFS를 지원합니다. 이 서비스는 FC를 지원하지만 Amazon FSx for NetApp ONTAP은 지원하지 않습니다.</block>
   <block id="aaa40fdffdb9b8b6db1fa18723bcd15b" category="list-text">Amazon EVS vCenter가 Amazon FSx for NetApp ONTAP 스토리지 클러스터에 연결되어 있는지 확인하세요.</block>
@@ -1727,4 +1726,5 @@ URL의 경우 브라우저에 다음을 입력합니다.<block ref="6db7b50bf17b
   <block id="bdc1d9aa4d279b8a12963cdbced8ce50" category="paragraph">*필수 BlueXP 역할* 조직 관리자, 폴더 또는 프로젝트 관리자, 재해 복구 관리자, 재해 복구 장애 조치 관리자, 재해 복구 애플리케이션 관리자 또는 재해 복구 뷰어 역할.</block>
   <block id="c63f107526be606f4a1357ceb85fa571" category="paragraph">*필수 BlueXP 역할* 조직 관리자, 폴더 또는 프로젝트 관리자, 재해 복구 관리자.</block>
   <block id="bfc307710c1f872e4dfb6ec657573e8a" category="sidebar">BlueXP disaster recovery 역할 및 권한</block>
+  <block id="0b6db37b4e08c0c7d93c7363682d4617" category="admonition">기본 관리자 계정인 "\administrator@vsphere.com"은 사용하지 않는 것이 좋습니다. 대신, DR 프로세스에 참여할 모든 vCenter 클러스터에 BlueXP 재해 복구 전용 사용자 계정을 생성해야 합니다. 필요한 특정 권한 목록은 다음을 참조하십시오. <block ref="81359e3dc28c5def835ffa82482dcdcf" category="inline-link-macro-rx"></block> .</block>
 </blocks>
