@@ -2,7 +2,6 @@
 <blocks>
   <block id="c9df4195a305212ffd7b56d24f67129d" category="summary">NetApp은 다양한 방법으로 BlueXP를 지원합니다. 기술 자료(KB) 기사 및 커뮤니티 포럼과 같은 광범위한 무료 셀프 지원 옵션이 24x7 제공됩니다. 지원 등록에는 웹 티켓팅을 통한 원격 기술 지원이 포함됩니다.</block>
   <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">도움을 받으십시오</block>
-  <block id="7c5661ab6b39ee901cea00a6e7020a49" category="paragraph">NetApp은 다양한 방법으로 BlueXP 및 클라우드 서비스를 지원합니다. 기술 자료(KB) 기사 및 커뮤니티 포럼과 같은 광범위한 무료 셀프 지원 옵션이 24x7 제공됩니다. 지원 등록에는 웹 티켓팅을 통한 원격 기술 지원이 포함됩니다.</block>
   <block id="edd15fbeb7b2dffa163336ecd4f3e80c" category="section-title">자체 지원 옵션을 사용합니다</block>
   <block id="5e4b821a1a82558dead1ef6961e90666" category="paragraph">이 옵션은 하루 24시간, 주 7일 동안 무료로 사용할 수 있습니다.</block>
   <block id="5b6cf869265c13af8566f192b4ab3d2a" category="list-text">문서화</block>
@@ -87,16 +86,12 @@
   <block id="9d06990508d25d367d9158c6558eb9c8" category="list-text"><block ref="9d06990508d25d367d9158c6558eb9c8" category="inline-link-macro-rx"></block></block>
   <block id="7450cfde7058dc5e1f7909d0280fd7ae" category="inline-link-macro">Azure NetApp Files</block>
   <block id="2e0c742f4616eb27b5b7646aa790edfe" category="list-text"><block ref="2e0c742f4616eb27b5b7646aa790edfe" category="inline-link-macro-rx"></block></block>
-  <block id="b0cee72642f5457a71ddd0b49efb6d93" category="inline-link-macro">Google Cloud용 Cloud Volumes Service</block>
-  <block id="cf14bff66a8b72d3675db8ffe0f02ee3" category="list-text"><block ref="cf14bff66a8b72d3675db8ffe0f02ee3" category="inline-link-macro-rx"></block></block>
   <block id="bf4c731c0ee7f60c8018ad8f96828dda" category="section-title">NSS 계정이 있는 기존 고객</block>
   <block id="7e177185e7eddff33dd8f3aeb7551132" category="paragraph">NSS 계정을 가지고 있는 NetApp 고객은 BlueXP를 통해 지원을 받기 위해 등록하기만 하면 됩니다.</block>
   <block id="0307a12e5749f8dd930472ee78f69d2c" category="list-text">BlueXP 콘솔의 오른쪽 상단에서 설정 아이콘을 선택하고 * 자격 증명 * 을 선택합니다.</block>
   <block id="f19ab635e6d5f884a22ee4ce067fdbfd" category="list-text">사용자 자격 증명 * 을 선택합니다.</block>
   <block id="0c788a722f31f8f0cf36539ee04615cf" category="list-text">NSS 자격 증명 추가 * 를 선택하고 NetApp Support 사이트(NSS) 인증 프롬프트를 따릅니다.</block>
   <block id="cfc5506589d5a4d055e721267d5f0732" category="list-text">등록 프로세스가 성공적으로 완료되었는지 확인하려면 도움말 아이콘을 선택하고 * 지원 * 을 선택합니다.</block>
-  <block id="10c56875db7a47f791d653e5d5bff0e9" category="inline-image-macro">계정 일련 번호와 녹색 확인란이 표시된 스크린샷 및 지원을 위해 등록된 텍스트.</block>
-  <block id="3d183819a15163ef2e2e7d9d764254a9" category="paragraph"><block ref="3d183819a15163ef2e2e7d9d764254a9" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1ff5aefce774ec72a211f2b3bb10b950" category="section-title">기존 고객이지만 NSS 계정은 없습니다</block>
   <block id="bdd862f49d428a850400bcf2f53cdaf2" category="paragraph">기존 사용권 및 제품 번호가 _NO_NSS인 기존 NetApp 고객인 경우 NSS 계정을 만들어 BlueXP 로그인과 연결해야 합니다.</block>
   <block id="5b2b7f628f804bcb786a097c7e45aa41" category="inline-link">NetApp Support 사이트 사용자 등록 양식</block>
@@ -1311,9 +1306,7 @@ URL의 경우 브라우저에 다음을 입력합니다.<block ref="6db7b50bf17b
   <block id="948fdcd481f1b60f64cd0a1415b8772c" category="inline-link-macro">Amazon EVS에 BlueXP 재해 복구 활성화</block>
   <block id="3b4041796a7d19952ce4f05d7ac1296e" category="list-text"><block ref="3b4041796a7d19952ce4f05d7ac1296e" category="inline-link-macro-rx"></block></block>
   <block id="48640808aa8de0e397783c9f0bf7d38c" category="inline-link-macro">BlueXP 재해 복구에 vCenter 사이트 추가</block>
-  <block id="b1a91a36f01e2b398842c4fafba5b827" category="list-text"><block ref="b1a91a36f01e2b398842c4fafba5b827" category="inline-link-macro-rx"></block></block>
   <block id="4870ca95287127b763711668002ae46a" category="inline-link-macro">BlueXP 재해 복구에 vCenter 클러스터 추가</block>
-  <block id="b58a5282def19b2cfa0d6a21a2fb1873" category="list-text"><block ref="b58a5282def19b2cfa0d6a21a2fb1873" category="inline-link-macro-rx"></block></block>
   <block id="77b6a574c8fd563a40ba5d3ced2f6995" category="summary">Amazon EVS를 BlueXP 재해 복구로 계속 구성하기 전에 몇 가지 전제 조건이 충족되었는지 확인해야 합니다.</block>
   <block id="3cfd631225e4a5cd11bb7f070aa490d3" category="paragraph">구체적으로 다음을 수행하세요.</block>
   <block id="0c16cce0fa7cbfe2c47b9b35b500ef09" category="list-text">BlueXP 재해 복구에 필요한 작업을 수행하기 위해 필요한 특정 VMware 권한이 있는 vCenter 사용자 계정을 만듭니다.</block>
@@ -1628,7 +1621,6 @@ URL의 경우 브라우저에 다음을 입력합니다.<block ref="6db7b50bf17b
   <block id="28312bff8dd6c634a03c918b3596d5f7" category="sidebar">BlueXP 커넥터를 설치합니다</block>
   <block id="c56bd649320b98b22e1f05d40935c0f6" category="sidebar">Amazon EVS에 대한 BlueXP 재해 복구 구성</block>
   <block id="4f94a228aaf45b495bf1d0a2993b0783" category="sidebar">Amazon EVS의 필수 구성 요소</block>
-  <block id="d1b981f857dccafd90e2d47d3dd9b84c" category="sidebar">Amazon EVS에 대한 어레이 추가</block>
   <block id="429e79e40c66df3fe31a40b9087107f5" category="sidebar">Amazon EVS에 BlueXP 재해 복구 추가</block>
   <block id="456d07ca1e92ff93932f43241f478198" category="sidebar">Amazon EVS에 vCenter 클러스터 추가</block>
   <block id="ad115bee9be4ef501777f6719a0fe513" category="sidebar">Amazon EVS에 대한 복제 계획 생성</block>
@@ -1727,4 +1719,12 @@ URL의 경우 브라우저에 다음을 입력합니다.<block ref="6db7b50bf17b
   <block id="c63f107526be606f4a1357ceb85fa571" category="paragraph">*필수 BlueXP 역할* 조직 관리자, 폴더 또는 프로젝트 관리자, 재해 복구 관리자.</block>
   <block id="bfc307710c1f872e4dfb6ec657573e8a" category="sidebar">BlueXP disaster recovery 역할 및 권한</block>
   <block id="0b6db37b4e08c0c7d93c7363682d4617" category="admonition">기본 관리자 계정인 "\administrator@vsphere.com"은 사용하지 않는 것이 좋습니다. 대신, DR 프로세스에 참여할 모든 vCenter 클러스터에 BlueXP 재해 복구 전용 사용자 계정을 생성해야 합니다. 필요한 특정 권한 목록은 다음을 참조하십시오. <block ref="81359e3dc28c5def835ffa82482dcdcf" category="inline-link-macro-rx"></block> .</block>
+  <block id="ba2befc5eb2af5c1c7f9d7cdbe007c3f" category="list-text"><block ref="ba2befc5eb2af5c1c7f9d7cdbe007c3f" category="inline-link-macro-rx"></block></block>
+  <block id="1ab0b0508e3ee0ed9909c87545358ccc" category="list-text"><block ref="1ab0b0508e3ee0ed9909c87545358ccc" category="inline-link-macro-rx"></block></block>
+  <block id="bbbc9b55f08bfe80f146b5207bdb7728" category="paragraph">NetApp BlueXP 와 클라우드 서비스에 대한 다양한 지원을 제공합니다. 지식 베이스(KB) 문서 및 커뮤니티 포럼 등 다양한 무료 셀프 지원 옵션을 연중무휴 24시간 이용하실 수 있습니다. 지원 등록 시 웹 티켓팅을 통한 원격 기술 지원이 제공됩니다.</block>
+  <block id="1215f8190533dfdf63d2224a6d88266f" category="inline-link-macro">Google Cloud NetApp Volumes</block>
+  <block id="cb4bf32603c89d08cad17e7e7dd302f2" category="list-text"><block ref="cb4bf32603c89d08cad17e7e7dd302f2" category="inline-link-macro-rx"></block></block>
+  <block id="759d32287efdf88cd8ac71dccc0ecf8d" category="inline-image-macro">계정 일련번호, 녹색 확인란, 지원 등록이라는 텍스트가 표시된 스크린샷입니다.</block>
+  <block id="4c441b388bebcddf8c08fb782095b864" category="paragraph"><block ref="4c441b388bebcddf8c08fb782095b864" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="b48bf926273d62cab06e1bce2eeec67f" category="sidebar">Amazon EVS에 ONTAP 스토리지 어레이 추가</block>
 </blocks>

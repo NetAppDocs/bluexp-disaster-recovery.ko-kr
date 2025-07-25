@@ -20,7 +20,7 @@ entries:
       url: "/reference/evs-deploy-guide-config-draas.html"
     - title: Amazon EVS의 필수 구성 요소
       url: "/reference/evs-deploy-guide-config-prereqs.html"
-    - title: Amazon EVS에 대한 어레이 추가
+    - title: Amazon EVS에 ONTAP 스토리지 어레이 추가
       url: "/reference/evs-deploy-guide-config-add-arrays.html"
     - title: Amazon EVS에 BlueXP 재해 복구 추가
       url: "/reference/evs-deploy-guide-enable-draas.html"

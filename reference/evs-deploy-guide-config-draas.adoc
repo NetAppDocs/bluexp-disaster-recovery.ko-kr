@@ -14,6 +14,6 @@ BlueXP Connector를 설치한 후에는 재해 복구 프로세스에 참여할 
 * link:evs-deploy-guide-config-prereqs.html["BlueXP 재해 복구를 지원하는 Amazon EVS의 전제 조건"]
 * link:evs-deploy-guide-config-add-arrays.html["BlueXP 재해 복구에 ONTAP 스토리지 어레이 추가"]
 * link:evs-deploy-guide-enable-draas.html["Amazon EVS에 BlueXP 재해 복구 활성화"]
-* link:evs-deploy-guide-config-add-sites.html["BlueXP 재해 복구에 vCenter 사이트 추가"]
-* link:evs-deploy-guide-config-add-vcenters.html["BlueXP 재해 복구에 vCenter 클러스터 추가"]
+* link:evs-deploy-guide-config-add-arrays.html["BlueXP 재해 복구에 vCenter 사이트 추가"]
+* link:evs-deploy-guide-add-vcenters.html["BlueXP 재해 복구에 vCenter 클러스터 추가"]
 
