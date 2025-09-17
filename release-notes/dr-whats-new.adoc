@@ -16,6 +16,51 @@ BlueXP 재해 복구의 새로운 기능에 대해 알아보십시오.
 
 
 
+== 2025년 9월 15일
+
+버전 4.3.5P3
+
+
+
+=== 테스트 장애 조치를 위한 스크립트 구성
+
+이 릴리스를 사용하면 테스트 장애 조치 프로세스 중에 VM의 전원을 켠 후 스크립트를 실행할 수 있습니다.  이를 통해 스크립트를 테스트하고 검증할 수 있습니다.  예를 들어, NFS 마운트를 새로운 대상 서버를 가리키도록 업데이트하여 게스트 애플리케이션이 완전히 온라인 상태가 되고 복구 프로세스를 종단 간에 테스트할 수 있습니다.
+
+장애 조치 프로세스에 대한 자세한 내용은 다음을 참조하세요.link:https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/failover.html["애플리케이션을 원격 사이트로 페일오버합니다"] .
+
+
+
+=== 개선된 장애 복구 프로세스
+
+장애 조치 중에는 검색이 완료될 때까지 장애 복구 프로세스가 비활성화됩니다.  이를 통해 장애 복구를 시작하기 전에 모든 구성이 올바르게 식별되고 설명되며 오류 위험이 줄어듭니다.
+
+장애 복구 프로세스에 대한 자세한 내용은 다음을 참조하세요.link:https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/failback.html["원래 소스로 애플리케이션을 다시 장애 조치합니다."] .
+
+
+
+== 2025년 8월 4일
+
+버전 4.2.5P2
+
+
+
+=== BlueXP disaster recovery 업데이트
+
+이 릴리스에는 다음 업데이트가 포함됩니다.
+
+* 여러 스토리지 가상 머신에서 제공되는 동일한 LUN을 처리하기 위해 VMFS 지원이 개선되었습니다.
+* 이미 마운트 해제되거나 삭제된 데이터 저장소를 처리하기 위해 테스트 해체 정리를 개선했습니다.
+* 제공된 네트워크 내에 입력된 게이트웨이가 포함되어 있는지 확인할 수 있도록 서브넷 매핑이 개선되었습니다.
+* VM 이름에 ".com"이 포함되어 있는 경우 복제 계획이 실패할 수 있는 문제를 수정했습니다.
+* 복제 계획 생성의 일부로 볼륨을 생성할 때 대상 볼륨이 소스 볼륨과 동일하지 않도록 하는 제한이 제거되었습니다.
+* Azure Marketplace에서 NetApp Intelligent Services에 대한 PAYGO(종량제) 구독 지원을 추가하고 무료 평가판 대화 상자에 Azure Marketplace에 대한 링크를 추가했습니다.
++
+자세한 내용은 다음을 참조하세요. https://docs.netapp.com/us-en/bluexp-disaster-recovery/get-started/dr-intro.html#licensing["BlueXP disaster recovery 라이선스"] 그리고 https://docs.netapp.com/us-en/bluexp-disaster-recovery/get-started/dr-licensing.html["BlueXP 재해 복구를 위한 라이센스 설정"] .
+
+
+
+
+
 == 2025년 7월 14일
 
 버전 4.2.5

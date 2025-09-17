@@ -75,7 +75,7 @@ IMPORTANT: 일부 릴리스에는 기술 미리 보기가 포함되어 있습니
 다음과 같은 라이센스 유형을 사용할 수 있습니다.
 
 * 30일 무료 평가판을 신청하십시오.
-* AWS(Amazon Web Services) 마켓플레이스에서 * NetApp 지능형 서비스 * 의 PAYGO(용량제) 구독을 구매하십시오.
+* Amazon Web Services(AWS) Marketplace와 Microsoft Azure Marketplace에서 * NetApp Intelligent Services*에 대한 종량제(PAYGO) 구독을 구매하세요.
 * BYOL(Bring Your Own License) - NetApp 영업 담당자로부터 얻은 NLF(NetApp 라이센스 파일 라이센스 일련 번호를 사용하여 BlueXP 디지털 지갑에서 BYOL을 활성화할 수 있습니다.
 
 
