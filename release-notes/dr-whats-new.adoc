@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: release-notes/dr-whats-new.html 
-keywords: disaster recovery, bluexp, disaster recovery, vmware, vcenter, draas, disaster 
+keywords: disaster recovery, bluexp, disaster recovery, vmware, vcenter, draas, disaster,console, virtual machine 
 summary: BlueXP 재해 복구는 재해 복구 워크플로우를 자동화하는 클라우드 기반 재해 복구 서비스입니다. VMware용 BlueXP 재해 복구를 사용하면 NetApp 클라우드 스토리지를 사용하여 ONTAP 스토리지를 실행하는 온프레미스 VMware 워크로드를 퍼블릭 클라우드의 VMware 소프트웨어 정의 데이터 센터로 복제하여 재해 복구 사이트로 복제할 수 있습니다. 
 ---
 = BlueXP  재해 복구의 새로운 기능
